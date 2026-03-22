@@ -11,21 +11,17 @@
 | China blockade/invasion of Taiwan before 2030 | **22%** | 14–32% |
 | UK CPI below 2.0% before Jan 2027 | **28%** | 18–42% |
 | Spider-Man: Brand New Day >$1.5B worldwide | **72%** | 62–82% |
+| OpenAI + Anthropic combined ARR >$70B by end 2026 | **68%** | 52–82% |
+| UK average growth >1.5% across 2030s | **58%** | 42–72% |
 
 ## Key Takeaways
 
-**AGI 2030 vs 2035 spread (18% to 62%):** The 44pp gap implies most probability mass for AGI sits in the 2030-2035 window, consistent with Metaculus forecasts (50% by 2033). Reflects compounding algorithmic efficiency and inference-time scaling, tempered by causal reasoning gaps and definitional ambiguity.
+**AI revenue (68%):** Combined $44B ARR today needs ~60% growth to clear $70B by December. OpenAI guidance (2.2x → $55B) plus Anthropic's $20-26B target range can combine to exceed threshold, but visible deceleration in monthly growth rates creates real uncertainty. Essentially testing whether Leopold's doubling thesis holds even at 50%.
 
-**Consultancy disruption (8%):** Very low. 33% decline is historically unprecedented for professional services over 5 years. Industry growing and repositioning as AI implementers.
+**UK 2030s growth (58%):** Almost a coin flip. The 1.5% line sits exactly at the OBR baseline, so the question reduces to whether AI productivity gains (~0.7pp optimistic) outweigh demographic drag (~0.5pp) and Brexit friction (~0.35pp). Net balance is modestly positive but highly sensitive to AI adoption speed in UK firms.
 
-**Labour largest party (28%):** Historic polling lows (~18%) vs Reform at ~27%. Wide CI reflects FPTP uncertainty and whether tactical voting consolidates. 3.75-year recovery window is meaningful.
-
-**China-Taiwan (22%):** Anchored on expert consensus and March 2026 US intelligence removing 2027 as planned invasion window. Blockade inclusion adds ~10pp over invasion-only.
-
-**UK CPI (28%):** Energy geopolitics dominate. April cap relief is most plausible sub-2% path, but July cap increase and sticky services inflation (4.4%) create headwinds.
-
-**Spider-Man (72%):** Highest confidence. Record trailer (718M views), proven franchise. Main risks: no multiverse novelty, MCU fatigue, China uncertainty.
+**Internal consistency note:** The AGI 2030→2035 spread (18%→62%) and the AI revenue forecast (68%) tell a coherent story — AI capability and commercial traction are both more likely than not to accelerate significantly, but near-term AGI remains unlikely. The UK growth question connects these AI trends to real-economy outcomes with a substantial lag.
 
 ## Movements
 
-All seven are initial forecasts — no prior data to compare against.
+All nine are initial forecasts — no prior data to compare against.
