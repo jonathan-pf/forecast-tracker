@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2026-03-22",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 18,
+    "ci_lower": 8,
+    "ci_upper": 32,
+    "key_change": "Initial forecast"
+  },
+  {
+    "date": "2026-03-22",
+    "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
+    "central": 8,
+    "ci_lower": 3,
+    "ci_upper": 18,
+    "key_change": "Initial forecast"
+  },
+  {
+    "date": "2026-03-22",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 28,
+    "ci_lower": 15,
+    "ci_upper": 45,
+    "key_change": "Initial forecast"
+  }
+]
