@@ -1,23 +1,31 @@
-# Forecast Update — 2026-03-22
+# Forecast Summary — 2026-03-22
 
-## Current Estimates
+## Headline Numbers
 
-| Question | Central | 80% CI | Change |
-|---|---|---|---|
-| Will AGI be developed before 1 January 2030? | 19% | 9% – 33% | +1pp |
-| Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | 9% | 3% – 19% | +1pp |
-| Will Labour be largest party at next UK General Election? | 23% | 11% – 40% | -5pp |
+| Question | Central | 80% CI |
+|----------|---------|--------|
+| AGI before 2030 | **18%** | 8–32% |
+| AGI before 2035 | **62%** | 42–78% |
+| Consultancy >=33% decline by 2030 (AI) | **8%** | 3–18% |
+| Labour largest party at next GE | **28%** | 15–45% |
+| China blockade/invasion of Taiwan before 2030 | **22%** | 14–32% |
+| UK CPI below 2.0% before Jan 2027 | **28%** | 18–42% |
+| Spider-Man: Brand New Day >$1.5B worldwide | **72%** | 62–82% |
 
 ## Key Takeaways
 
-**AGI by 2030 (19%):** AI lab CEOs are increasingly bullish — Altman says OpenAI "knows how to build AGI," Amodei cites "2-3 years," and Hassabis says "3-5 years." However, Metaculus community timelines have slightly lengthened over the past year, and historical over-optimism from lab leadership warrants continued skepticism. Superforecaster groups (Samotsvety) estimated ~28% as of 2023; our estimate remains below that, reflecting the gap between announced confidence and demonstrated capability.
+**AGI 2030 vs 2035 spread (18% to 62%):** The 44pp gap implies most probability mass for AGI sits in the 2030-2035 window, consistent with Metaculus forecasts (50% by 2033). Reflects compounding algorithmic efficiency and inference-time scaling, tempered by causal reasoning gaps and definitional ambiguity.
 
-**Consultancy decline ≥33% (9%):** McKinsey has cut over 10% of headcount in 18 months — its largest reduction in history — and Big Four firms have slashed graduate hiring by 6-30%. However, overall consulting revenue is still growing (2-3% in 2025), and the AI consulting market itself is expanding rapidly. The 33% threshold remains very high; the industry is restructuring around AI rather than collapsing. Job losses at the junior level are real but a full one-third decline by 2030 would require an unprecedented acceleration.
+**Consultancy disruption (8%):** Very low. 33% decline is historically unprecedented for professional services over 5 years. Industry growing and repositioning as AI implementers.
 
-**Labour largest party (23%):** The UK political landscape has shifted dramatically. Reform UK leads polls at 28-31%, with MRP models projecting 335-381 seats. Labour has collapsed to 17-21% in vote share and could fall as low as 6th in seat projections. The combined Lab-Con vote share (38.2%) reflects a structural shift to multi-party politics. However, the next election is up to 3+ years away, and Reform faces significant questions about organisational capacity and governing readiness. Labour's position is poor but not irreversible over this timeframe.
+**Labour largest party (28%):** Historic polling lows (~18%) vs Reform at ~27%. Wide CI reflects FPTP uncertainty and whether tactical voting consolidates. 3.75-year recovery window is meaningful.
+
+**China-Taiwan (22%):** Anchored on expert consensus and March 2026 US intelligence removing 2027 as planned invasion window. Blockade inclusion adds ~10pp over invasion-only.
+
+**UK CPI (28%):** Energy geopolitics dominate. April cap relief is most plausible sub-2% path, but July cap increase and sticky services inflation (4.4%) create headwinds.
+
+**Spider-Man (72%):** Highest confidence. Record trailer (718M views), proven franchise. Main risks: no multiverse novelty, MCU fatigue, China uncertainty.
 
 ## Movements
 
-- **AGI**: +1pp (18% → 19%). Driver: growing lab CEO confidence partially offset by Metaculus timeline extension.
-- **Consultancy**: +1pp (8% → 9%). Driver: McKinsey's historic layoffs and Big Four hiring freezes signal accelerating AI impact on the sector.
-- **Labour**: -5pp (28% → 23%). Driver: Reform UK now leads decisively in polls and MRP seat projections; Labour's collapse from 2024 landslide continues to deepen.
+All seven are initial forecasts — no prior data to compare against.
