@@ -9,7 +9,7 @@
   },
   {
     "date": "2026-03-22",
-    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
     "central": 8,
     "ci_lower": 3,
     "ci_upper": 18,
@@ -25,26 +25,34 @@
   },
   {
     "date": "2026-03-22",
-    "question": "Will AGI be developed before 1 January 2030?",
-    "central": 19,
-    "ci_lower": 9,
-    "ci_upper": 33,
-    "key_change": "Lab CEO confidence growing (Altman, Amodei, Hassabis all bullish) but Metaculus timelines slightly lengthened; net +1pp"
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 62,
+    "ci_lower": 42,
+    "ci_upper": 78,
+    "key_change": "Initial forecast"
   },
   {
     "date": "2026-03-22",
-    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
-    "central": 9,
-    "ci_lower": 3,
-    "ci_upper": 19,
-    "key_change": "McKinsey historic 10%+ headcount cut and Big Four slashing grad intake 6-30%, but sector revenue still growing 2-3%; net +1pp"
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 22,
+    "ci_lower": 14,
+    "ci_upper": 32,
+    "key_change": "Initial forecast"
   },
   {
     "date": "2026-03-22",
-    "question": "Will Labour be largest party at next UK General Election?",
-    "central": 23,
-    "ci_lower": 11,
-    "ci_upper": 40,
-    "key_change": "Reform leads polls at 28-31%; MRP projects Reform 335-381 seats, Labour as low as 6th; structural multi-party shift; net -5pp"
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 28,
+    "ci_lower": 18,
+    "ci_upper": 42,
+    "key_change": "Initial forecast"
+  },
+  {
+    "date": "2026-03-22",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 72,
+    "ci_lower": 62,
+    "ci_upper": 82,
+    "key_change": "Initial forecast"
   }
 ]
