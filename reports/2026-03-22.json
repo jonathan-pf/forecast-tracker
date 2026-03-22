@@ -9,15 +9,43 @@
       "key_change": "Initial forecast",
       "base_rate": "Expert surveys (e.g. Metaculus, AI Impacts) cluster around 20-30% for AGI-level systems by 2030, though estimates vary enormously depending on definition. Adjusted down from expert median due to definitional ambiguity and historical over-optimism in AI timelines.",
       "factors_up": [
-        {"factor": "Rapid capability gains in frontier models", "impact": "+5-8pp", "detail": "GPT-4, Claude 3.5, Gemini Ultra show steep year-on-year improvements across reasoning benchmarks. If scaling laws hold, 2028-2029 models could be substantially more capable."},
-        {"factor": "Massive investment acceleration", "impact": "+3-5pp", "detail": "Estimated $100B+ annual AI investment across major labs. Dedicated AGI programmes at OpenAI, DeepMind, and Anthropic with explicit timelines."},
-        {"factor": "Architectural breakthroughs possible", "impact": "+2-4pp", "detail": "Novel architectures (state-space models, mixture-of-experts at scale, neurosymbolic approaches) could yield discontinuous capability jumps."}
+        {
+          "factor": "Rapid capability gains in frontier models",
+          "impact": "+5-8pp",
+          "detail": "GPT-4, Claude 3.5, Gemini Ultra show steep year-on-year improvements across reasoning benchmarks. If scaling laws hold, 2028-2029 models could be substantially more capable."
+        },
+        {
+          "factor": "Massive investment acceleration",
+          "impact": "+3-5pp",
+          "detail": "Estimated $100B+ annual AI investment across major labs. Dedicated AGI programmes at OpenAI, DeepMind, and Anthropic with explicit timelines."
+        },
+        {
+          "factor": "Architectural breakthroughs possible",
+          "impact": "+2-4pp",
+          "detail": "Novel architectures (state-space models, mixture-of-experts at scale, neurosymbolic approaches) could yield discontinuous capability jumps."
+        }
       ],
       "factors_down": [
-        {"factor": "No consensus AGI definition", "impact": "-8-12pp", "detail": "Resolution requires a credible lab announcing AGI or 3+ researchers agreeing it's been achieved. Without agreed criteria, even very capable systems may not trigger resolution."},
-        {"factor": "Diminishing scaling returns", "impact": "-5-8pp", "detail": "Evidence of diminishing returns on pure scaling. Data exhaustion for internet-scale text. Synthetic data quality uncertain."},
-        {"factor": "Historical over-optimism", "impact": "-3-5pp", "detail": "AI community has consistently overestimated proximity to AGI for decades. Base rate for transformative tech predictions arriving on schedule is low (~15-25%)."},
-        {"factor": "Regulatory drag", "impact": "-2-3pp", "detail": "EU AI Act, potential US regulation, compute export controls could slow frontier development."}
+        {
+          "factor": "No consensus AGI definition",
+          "impact": "-8-12pp",
+          "detail": "Resolution requires a credible lab announcing AGI or 3+ researchers agreeing it's been achieved. Without agreed criteria, even very capable systems may not trigger resolution."
+        },
+        {
+          "factor": "Diminishing scaling returns",
+          "impact": "-5-8pp",
+          "detail": "Evidence of diminishing returns on pure scaling. Data exhaustion for internet-scale text. Synthetic data quality uncertain."
+        },
+        {
+          "factor": "Historical over-optimism",
+          "impact": "-3-5pp",
+          "detail": "AI community has consistently overestimated proximity to AGI for decades. Base rate for transformative tech predictions arriving on schedule is low (~15-25%)."
+        },
+        {
+          "factor": "Regulatory drag",
+          "impact": "-2-3pp",
+          "detail": "EU AI Act, potential US regulation, compute export controls could slow frontier development."
+        }
       ],
       "key_uncertainties": [
         "Whether current architectures can achieve AGI-level generality or whether fundamentally new approaches are needed",
@@ -46,16 +74,48 @@
       "key_change": "Initial forecast",
       "base_rate": "No professional services sector has experienced a >=33% decline in value or employment within a 5-year window in modern economic history. The closest analogues (travel agencies post-internet, print journalism post-digital) took 10-15 years to see declines of that magnitude. Management consultancy revenue has grown 4-6% annually through 2024-2025.",
       "factors_up": [
-        {"factor": "AI tools already automating core tasks", "impact": "+3-5pp", "detail": "LLMs can now perform market sizing, data analysis, report drafting, and slide creation — tasks that constitute a significant portion of junior consultant workload. If clients in-source these capabilities, demand for outsourced consultancy falls."},
-        {"factor": "Client AI adoption accelerating", "impact": "+2-4pp", "detail": "Large corporates are building internal AI teams. If these teams can replicate the analytical work consultancies provide, the addressable market shrinks."},
-        {"factor": "Cost pressure on consultancy fees", "impact": "+1-3pp", "detail": "Even if total revenue doesn't fall 33%, AI-driven efficiency could compress margins and reduce headcount as firms do more with fewer people."}
+        {
+          "factor": "AI tools already automating core tasks",
+          "impact": "+3-5pp",
+          "detail": "LLMs can now perform market sizing, data analysis, report drafting, and slide creation — tasks that constitute a significant portion of junior consultant workload. If clients in-source these capabilities, demand for outsourced consultancy falls."
+        },
+        {
+          "factor": "Client AI adoption accelerating",
+          "impact": "+2-4pp",
+          "detail": "Large corporates are building internal AI teams. If these teams can replicate the analytical work consultancies provide, the addressable market shrinks."
+        },
+        {
+          "factor": "Cost pressure on consultancy fees",
+          "impact": "+1-3pp",
+          "detail": "Even if total revenue doesn't fall 33%, AI-driven efficiency could compress margins and reduce headcount as firms do more with fewer people."
+        }
       ],
       "factors_down": [
-        {"factor": "Consultancy is relationship-driven", "impact": "-8-10pp", "detail": "Senior consultancy work is about trusted advisor relationships, navigating organisational politics, and providing external credibility for internal decisions. These are highly resistant to AI substitution."},
-        {"factor": "Industry currently growing", "impact": "-5-7pp", "detail": "Global management consultancy market growing 4-6% per year. A 33% decline from a growing baseline requires an even larger absolute drop."},
-        {"factor": "Firms repositioning as AI implementers", "impact": "-4-6pp", "detail": "McKinsey, BCG, Deloitte are investing heavily in AI practices. They're selling AI transformation services, not being displaced by them."},
-        {"factor": "33% is an extremely high bar", "impact": "-3-5pp", "detail": "Even aggressive estimates of AI impact on professional services suggest 10-20% productivity gains, which historically lead to market expansion not contraction."},
-        {"factor": "Attribution requirement", "impact": "-2-3pp", "detail": "Resolution requires the decline to be 'primarily attributable to AI' per two credible analyses. Even if a decline occurred, attributing it specifically to AI vs. recession, structural change, etc. would be contested."}
+        {
+          "factor": "Consultancy is relationship-driven",
+          "impact": "-8-10pp",
+          "detail": "Senior consultancy work is about trusted advisor relationships, navigating organisational politics, and providing external credibility for internal decisions. These are highly resistant to AI substitution."
+        },
+        {
+          "factor": "Industry currently growing",
+          "impact": "-5-7pp",
+          "detail": "Global management consultancy market growing 4-6% per year. A 33% decline from a growing baseline requires an even larger absolute drop."
+        },
+        {
+          "factor": "Firms repositioning as AI implementers",
+          "impact": "-4-6pp",
+          "detail": "McKinsey, BCG, Deloitte are investing heavily in AI practices. They're selling AI transformation services, not being displaced by them."
+        },
+        {
+          "factor": "33% is an extremely high bar",
+          "impact": "-3-5pp",
+          "detail": "Even aggressive estimates of AI impact on professional services suggest 10-20% productivity gains, which historically lead to market expansion not contraction."
+        },
+        {
+          "factor": "Attribution requirement",
+          "impact": "-2-3pp",
+          "detail": "Resolution requires the decline to be 'primarily attributable to AI' per two credible analyses. Even if a decline occurred, attributing it specifically to AI vs. recession, structural change, etc. would be contested."
+        }
       ],
       "key_uncertainties": [
         "Whether AI tools will primarily augment consultants (expanding the market) or substitute for them (shrinking it)",
@@ -84,18 +144,58 @@
       "key_change": "Initial forecast",
       "base_rate": "Since 1945, roughly 35-40% of post-war UK governments have remained the largest party at the following election. However, governments polling at ~18% at mid-term have very limited historical precedent. The 2024 Conservative collapse from ~24% polling did translate to losing largest-party status. Adjusted base rate for Labour's specific position: 20-30%.",
       "factors_up": [
-        {"factor": "Time horizon advantage", "impact": "+8-12pp", "detail": "3.75 years until the next election is substantial recovery time. Mid-term polling is a poor predictor of election outcomes at this distance. Volatility is high."},
-        {"factor": "Tactical voting consolidation", "impact": "+5-8pp", "detail": "Strong evidence that anti-Reform tactical voting is already organising. If Reform remains the primary threat, centre-left and centre-right voters may consolidate behind Labour to prevent Reform breakthrough. Could drive Labour from 18% to 25-28%."},
-        {"factor": "Leadership renewal possible", "impact": "+4-6pp", "detail": "Starmer could be replaced with a more popular leader. New leadership can reset the narrative — as Blair did in the mid-1990s."},
-        {"factor": "Economic recovery", "impact": "+3-5pp", "detail": "If inflation falls, real wages recover, and NHS performance improves, Labour could recover 4-6 percentage points on current baseline."},
-        {"factor": "Incumbent advantage", "impact": "+2-3pp", "detail": "Even unpopular incumbents retain machinery, ground game, and ministerial visibility that helps at election time."}
+        {
+          "factor": "Time horizon advantage",
+          "impact": "+8-12pp",
+          "detail": "3.75 years until the next election is substantial recovery time. Mid-term polling is a poor predictor of election outcomes at this distance. Volatility is high."
+        },
+        {
+          "factor": "Tactical voting consolidation",
+          "impact": "+5-8pp",
+          "detail": "Strong evidence that anti-Reform tactical voting is already organising. If Reform remains the primary threat, centre-left and centre-right voters may consolidate behind Labour to prevent Reform breakthrough. Could drive Labour from 18% to 25-28%."
+        },
+        {
+          "factor": "Leadership renewal possible",
+          "impact": "+4-6pp",
+          "detail": "Starmer could be replaced with a more popular leader. New leadership can reset the narrative — as Blair did in the mid-1990s."
+        },
+        {
+          "factor": "Economic recovery",
+          "impact": "+3-5pp",
+          "detail": "If inflation falls, real wages recover, and NHS performance improves, Labour could recover 4-6 percentage points on current baseline."
+        },
+        {
+          "factor": "Incumbent advantage",
+          "impact": "+2-3pp",
+          "detail": "Even unpopular incumbents retain machinery, ground game, and ministerial visibility that helps at election time."
+        }
       ],
       "factors_down": [
-        {"factor": "Historic polling collapse", "impact": "-15-20pp", "detail": "Labour at 18% is the 2nd-largest fall in postwar British history. Collapses of this magnitude rarely recover to win most seats."},
-        {"factor": "Reform structural lock-in", "impact": "-8-12pp", "detail": "Unlike UKIP (protest vote vulnerable to Conservative recovery), Reform UK has broadened its coalition. If Reform consolidates above 25% nationally, they could win 200+ seats under FPTP."},
-        {"factor": "Vote fragmentation", "impact": "-5-8pp", "detail": "Multi-party politics splitting the vote. Even at 25%, Labour could lose seats to Lib Dems and Greens in Labour-friendly areas, reducing seat efficiency."},
-        {"factor": "Incumbent penalty", "impact": "-4-6pp", "detail": "Mid-term 'cost of ruling' penalty. 3.75 years not long enough to fully erase blame for economic management failures."},
-        {"factor": "Conservative recovery potential", "impact": "-3-5pp", "detail": "Conservatives at 18% could recover to 22-25% as the 'least worst' alternative, splitting the anti-Reform vote."}
+        {
+          "factor": "Historic polling collapse",
+          "impact": "-15-20pp",
+          "detail": "Labour at 18% is the 2nd-largest fall in postwar British history. Collapses of this magnitude rarely recover to win most seats."
+        },
+        {
+          "factor": "Reform structural lock-in",
+          "impact": "-8-12pp",
+          "detail": "Unlike UKIP (protest vote vulnerable to Conservative recovery), Reform UK has broadened its coalition. If Reform consolidates above 25% nationally, they could win 200+ seats under FPTP."
+        },
+        {
+          "factor": "Vote fragmentation",
+          "impact": "-5-8pp",
+          "detail": "Multi-party politics splitting the vote. Even at 25%, Labour could lose seats to Lib Dems and Greens in Labour-friendly areas, reducing seat efficiency."
+        },
+        {
+          "factor": "Incumbent penalty",
+          "impact": "-4-6pp",
+          "detail": "Mid-term 'cost of ruling' penalty. 3.75 years not long enough to fully erase blame for economic management failures."
+        },
+        {
+          "factor": "Conservative recovery potential",
+          "impact": "-3-5pp",
+          "detail": "Conservatives at 18% could recover to 22-25% as the 'least worst' alternative, splitting the anti-Reform vote."
+        }
       ],
       "key_uncertainties": [
         "Whether Reform's 27% polling translates to 200+ seats under FPTP or only 80-120 seats (geographic concentration is the key unknown)",
@@ -116,6 +216,291 @@
           "Labour falls further below 18%",
           "Conservatives surge above 22%",
           "By-elections show failed tactical voting coordination"
+        ]
+      }
+    },
+    {
+      "question": "Will AGI be developed before 1 January 2035?",
+      "central": 62,
+      "ci_lower": 42,
+      "ci_upper": 78,
+      "key_change": "Initial forecast",
+      "base_rate": "As of February 2026, Metaculus community forecasters aggregate 50% probability of AGI by 2033 and approximately 62% by 2035. Samotsvety superforecasters estimated ~28% by 2030 in 2023. The reference class reflects informed forecasters across prediction markets, AI safety researchers, and institutional timelines. Longer horizon than the 2030 question allows for architectural breakthroughs and compounding algorithmic efficiency gains.",
+      "factors_up": [
+        {
+          "factor": "Inference-time compute scaling breakthrough",
+          "impact": "+8pp",
+          "detail": "OpenAI's o1 and similar models demonstrate a new scaling dimension (test-time compute) orthogonal to model size and data. This creates a novel path to capability improvement, potentially accelerating progress beyond traditional scaling law predictions."
+        },
+        {
+          "factor": "Accelerating algorithmic efficiency",
+          "impact": "+10pp",
+          "detail": "Algorithmic progress is doubling roughly every 8-9 months for large language models, meaning compute required for a given capability level drops by ~3x annually. This compounding efficiency gain was not fully anticipated in older base rates."
+        },
+        {
+          "factor": "High-confidence CEO and leader statements",
+          "impact": "+6pp",
+          "detail": "Anthropic CEO Dario Amodei expressed confidence in 2-3 year timelines for human-level-surpassing workplace systems; DeepMind CEO Demis Hassabis cited 5-10 years. These leaders have strong reputational and strategic incentives toward accuracy."
+        },
+        {
+          "factor": "Rapid progress on reasoning benchmarks",
+          "impact": "+5pp",
+          "detail": "GPT-5 achieved 57% on a 10-capability AGI framework vs. GPT-4's 27%. Recent work shows advances in deductive, inductive, abductive, and analogical reasoning. Visual perception bottlenecks are empirically narrowing."
+        }
+      ],
+      "factors_down": [
+        {
+          "factor": "Persistent common-sense and causal reasoning deficits",
+          "impact": "-8pp",
+          "detail": "Current AI systems struggle significantly with autonomous causal reasoning and intuitive common-sense reasoning, described as requiring deep architectural breakthroughs beyond scaling."
+        },
+        {
+          "factor": "AGI definition ambiguity and moving goalposts",
+          "impact": "-6pp",
+          "detail": "AGI definitions range from 'competent' to 'superhuman' performance. Even as systems approach human-level capability, labs may resist formal AGI declarations due to definition disputes."
+        },
+        {
+          "factor": "Potential compute scaling constraints",
+          "impact": "-4pp",
+          "detail": "Frontier model training may require ~1000x GPT-4's compute by the late 2020s/early 2030s. Physical, economic, or energy constraints could slow progress."
+        },
+        {
+          "factor": "Empirical unpredictability of frontier capabilities",
+          "impact": "-3pp",
+          "detail": "Predicting downstream capabilities of frontier models with scale has remained elusive. Unknown unknowns and emergent failures could delay progress unexpectedly."
+        }
+      ],
+      "key_uncertainties": [
+        "Will a leading lab formally declare a system AGI once it meets stated criteria, or will definition creep prevent a clear announcement?",
+        "Do current scaling approaches (transformers + inference scaling) suffice for robust causal and common-sense reasoning, or is a new architecture required?",
+        "How quickly will labs reach consensus on AGI achievement once superhuman performance is demonstrated across broad benchmarks?"
+      ],
+      "update_triggers": {
+        "revise_up": [
+          "A credible lab announces a model scoring >80% on comprehensive AGI-aligned benchmarks",
+          "Breakthrough in causal reasoning demonstrated empirically (e.g. >90% on ARC-AGI-2)",
+          "An independent panel of 3+ leading AI researchers publicly endorses AGI achievement"
+        ],
+        "revise_down": [
+          "Key capability benchmarks plateau despite continued compute increases by 2027-2028",
+          "Labs systematically raise AGI definition thresholds (definition creep)",
+          "Compute scaling slows markedly due to energy, semiconductor, or economic constraints"
+        ]
+      }
+    },
+    {
+      "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+      "central": 22,
+      "ci_lower": 14,
+      "ci_upper": 32,
+      "key_change": "Initial forecast",
+      "base_rate": "Multiple forecasting sources (Manifold Markets, Global Guardian, prediction markets) converge on 20-37% probability of cross-strait military conflict by end of 2029. Expert surveys find only 8% assess invasion as 'likely' in next decade, though 63% say it's 'possible.' Recent US intelligence (March 2026) explicitly assesses China has no fixed timeline and does not currently plan 2027 invasion. Base rate reflects both invasion (~5-10% alone) and blockade (~15-25% separately).",
+      "factors_up": [
+        {
+          "factor": "PLA military modernization and high operational tempo",
+          "impact": "+5pp",
+          "detail": "China's defense budget has nearly doubled since 2012, with 700 warheads projected by 2027 and 1,000+ by 2030. PLA conducted 5,317 sorties around Taiwan in 2025, normalizing high-intensity operations."
+        },
+        {
+          "factor": "Xi's 2027 PLA centennial and legacy pressure",
+          "impact": "+4pp",
+          "detail": "2027 PLA centennial creates symbolic political pressure. Taiwan's divided government (DPP executive vs. KMT legislature) may appear to Beijing as exploitable weakness."
+        },
+        {
+          "factor": "Blockade as lower-cost option in resolution criteria",
+          "impact": "+2pp",
+          "detail": "Resolution includes blockade lasting >72 hours, which is operationally simpler and more reversible than invasion. Multiple experts estimate ~60% probability of 'some kind of limited conflict' by 2030."
+        }
+      ],
+      "factors_down": [
+        {
+          "factor": "US intelligence explicitly removes 2027 invasion window",
+          "impact": "-7pp",
+          "detail": "March 2026 US intelligence assessment states 'Chinese leaders do not currently plan to execute an invasion of Taiwan in 2027' and lack fixed unification timeline. Record US arms sales ($11B+) and Taiwan's defense budget increase to 5% GDP strengthen deterrence."
+        },
+        {
+          "factor": "Enormous military and economic costs",
+          "impact": "-6pp",
+          "detail": "RAND and Stimson Center analysis emphasize amphibious invasion is 'among the most complex and dangerous military operations in history.' Semiconductor supply chain disruption costs in trillions. China lacks sufficient amphibious lift capacity for full-scale invasion by 2029."
+        },
+        {
+          "factor": "Taiwan population opposes unification",
+          "impact": "-4pp",
+          "detail": "Minimal unification support in Taiwan. Majority status-quo preference suggests high civilian resolve against invasion."
+        },
+        {
+          "factor": "PLA institutional disruption",
+          "impact": "-3pp",
+          "detail": "Recent purges within Chinese military reflect deep-seated corruption and structural problems. Prioritization of internal stability above all else suggests reduced appetite for high-risk military adventures."
+        }
+      ],
+      "key_uncertainties": [
+        "US credibility and commitment to Taiwan defense — shifts in policy ambiguity could materially alter China's cost-benefit calculation",
+        "Taiwan's political trajectory 2026-2029 — KMT electoral victory or accommodation shift would change dynamics",
+        "Catalyst events: Taiwan presidential election (2028), US election (2028), or regional conflicts could trigger miscalculation",
+        "Gap between PLA stated capability and actual operational readiness"
+      ],
+      "update_triggers": {
+        "revise_up": [
+          "US signals reduced commitment to Taiwan defense or suggests 'neutrality'",
+          "Taiwan elects pro-accommodation president in 2028",
+          "China formally announces specific Taiwan unification deadline",
+          "Major US-China military incident in Taiwan Strait"
+        ],
+        "revise_down": [
+          "US and allies conduct joint military exercises explicitly defending Taiwan",
+          "China de-emphasizes Taiwan in strategic rhetoric",
+          "China experiences severe economic downturn forcing military postponement",
+          "Major cross-strait trade normalization"
+        ]
+      }
+    },
+    {
+      "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+      "central": 28,
+      "ci_lower": 18,
+      "ci_upper": 42,
+      "key_change": "Initial forecast",
+      "base_rate": "The February 2026 BoE forecast predicted 2.1% in Q2 2026, and NIESR predicted below 2% by April 2026 before the March geopolitical shock. However, March 2026 energy price revisions added ~0.5pp to inflation forecasts, and NIESR now forecasts 3-4% for H2 2026. Thin reference class given the rarity of sub-2% outcomes in recent years.",
+      "factors_up": [
+        {
+          "factor": "Energy price cap relief (April 2026)",
+          "impact": "+7pp",
+          "detail": "April price cap brings announced savings of £117/year for dual-fuel households. This direct relief will lower CPI in the April-June window, with April having the clearest effect."
+        },
+        {
+          "factor": "Favourable base effects from 2025 energy shocks",
+          "impact": "+6pp",
+          "detail": "Energy prices peaked in mid-2025; by Q3-Q4 2026, the 12-month comparison window will begin to exclude the highest 2025 prices, creating mathematical disinflation."
+        },
+        {
+          "factor": "Bank of England rate-hiking cycle effects",
+          "impact": "+4pp",
+          "detail": "Policy tightening from 2022-2025 works with 12-18 month lags. By mid-2026, cumulative demand destruction should be visible in slower growth and moderating prices."
+        },
+        {
+          "factor": "Historical pull toward 2% target",
+          "impact": "+2pp",
+          "detail": "Central bank credibility and anchored expectations create persistent downward pressure on inflation trajectories over medium horizons."
+        }
+      ],
+      "factors_down": [
+        {
+          "factor": "Geopolitical energy price shock (Iran/Middle East)",
+          "impact": "-18pp",
+          "detail": "March 2026 BoE revision added ~0.5pp due to energy price spikes from geopolitical tensions. If tensions persist or intensify, sub-2% inflation becomes implausible. This is the dominant downside risk."
+        },
+        {
+          "factor": "July 2026 energy price cap increase (forecast 20% rise)",
+          "impact": "-10pp",
+          "detail": "July price cap forecast to rise ~£331 (~20%) to £1,972 annually. July CPI data will reflect this increase, pushing inflation back up precisely when it might otherwise dip below 2%."
+        },
+        {
+          "factor": "Sticky services inflation (4.4% in January 2026)",
+          "impact": "-7pp",
+          "detail": "Services inflation remains elevated and responds slowly to demand destruction. Even if energy inflation declines, services creates a floor preventing overall CPI from reaching 2%."
+        },
+        {
+          "factor": "NIESR forecast of 3-4% for H2 2026",
+          "impact": "-11pp",
+          "detail": "NIESR explicitly forecasts inflation of 3-4% for second half of 2026. If accurate, sub-2% becomes a tail outcome."
+        },
+        {
+          "factor": "Compounding uncertainty and interaction effects",
+          "impact": "-4pp",
+          "detail": "Energy shocks + sticky wage growth could push inflation higher than any single factor suggests. Non-linearity of energy price impacts adds tail risk."
+        }
+      ],
+      "key_uncertainties": [
+        "Energy price trajectory: sharp fall (ceasefire) pushes probability to 45%+; persistent elevation keeps it at 15-20%",
+        "Precise timing and magnitude of energy price cap changes in April and July",
+        "Wage growth passthrough to services inflation",
+        "Actual CPI outcomes for March-May 2026 will either confirm or contradict current forecasts"
+      ],
+      "update_triggers": {
+        "revise_up": [
+          "Global oil prices fall below $60/bbl and stabilise for 2+ weeks",
+          "BoE or OBR publishes forecast predicting sub-2.0% in a near-term month",
+          "Actual CPI for Feb or Mar 2026 comes in at 2.3% or below",
+          "Wage growth data shows surprise weakness"
+        ],
+        "revise_down": [
+          "Oil prices spike above $85/bbl on geopolitical escalation",
+          "BoE revises forecast pushing inflation above 3% for Q3",
+          "July energy cap increase is larger than £331 estimate",
+          "Actual CPI for April or May comes in at 2.8% or above"
+        ]
+      }
+    },
+    {
+      "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+      "central": 72,
+      "ci_lower": 62,
+      "ci_upper": 82,
+      "key_change": "Initial forecast",
+      "base_rate": "75% base rate from reference class of 8 recent superhero summer blockbusters. 6 of 8 exceeded $1.5B worldwide. However, class conflates No Way Home's exceptional $1.92B (multiverse novelty) with performers clustering around $1.2-1.4B. Tom Holland's trilogy averaged $1.37B. Brand New Day lacks the multiverse crossover hook that boosted No Way Home by ~$400M.",
+      "factors_up": [
+        {
+          "factor": "Exceptional trailer momentum",
+          "impact": "+10pp",
+          "detail": "718.6M views in 24 hours is the all-time record, breaking GTA VI (475M) and No Way Home (355.5M). Exceptional audience engagement historically correlates with strong opening weekends and sustained interest."
+        },
+        {
+          "factor": "Proven franchise strength and star power",
+          "impact": "+7pp",
+          "detail": "Tom Holland's Spider-Man trilogy averaged $1.37B globally. Both Homecoming ($880M) and Far From Home ($1.13B) exceeded $1B. Holland is one of the most bankable international stars."
+        },
+        {
+          "factor": "Favourable release timing",
+          "impact": "+4pp",
+          "detail": "July 31 release avoids late-summer fatigue and positions the film for 5 months of legs through year-end for international holdovers."
+        }
+      ],
+      "factors_down": [
+        {
+          "factor": "Loss of multiverse novelty",
+          "impact": "-12pp",
+          "detail": "No Way Home's $1.92B was substantially driven by multiverse crossover and prior Spider-Men cameos. This novelty was likely responsible for $400M+ of excess. Brand New Day repositions closer to Far From Home baseline ($1.13B)."
+        },
+        {
+          "factor": "MCU fatigue and inconsistent 2024-2025 performance",
+          "impact": "-9pp",
+          "detail": "Recent MCU releases (Fantastic Four, Thunderbolts) underperformed. While Spider-Man has some franchise insulation, MCU-wide sentiment has softened."
+        },
+        {
+          "factor": "High threshold relative to post-pandemic norms",
+          "impact": "-8pp",
+          "detail": "Only 3 films have exceeded $1.5B in the past 5 years. Most summer tentpoles plateau at $1.2-1.4B. $1.5B is significantly above median."
+        },
+        {
+          "factor": "China box office uncertainty",
+          "impact": "-6pp",
+          "detail": "MCU performance in China is volatile. A 15-20% underperformance versus No Way Home's $224M China result would subtract ~$30-45M, materially reducing the path to $1.5B."
+        },
+        {
+          "factor": "Crowded summer 2026 marketplace",
+          "impact": "-5pp",
+          "detail": "Toy Story 5, Minions 3, Moana live-action, and Avengers: Doomsday create a crowded marketplace that will fragment international box office."
+        }
+      ],
+      "key_uncertainties": [
+        "China appetite for non-Avengers MCU content — strong ($250M+) or weak ($140M) result moves forecast by ±8-10pp",
+        "Opening weekend DOM and whether the film achieves 2.8-3.0x multiplier needed for $1.5B",
+        "Critical reception and word-of-mouth post-release, especially given MCU fatigue",
+        "International exchange rates could swing total by $30-80M"
+      ],
+      "update_triggers": {
+        "revise_up": [
+          "Opening weekend DOM exceeds $180M",
+          "China pre-sales tracking shows $280M+ potential",
+          "Critical reception 80%+ on Rotten Tomatoes with strong audience scores",
+          "Avengers: Doomsday underperforms (<$1.8B), freeing audience mindshare"
+        ],
+        "revise_down": [
+          "Opening weekend DOM below $140M",
+          "China tracking below $180M",
+          "Marketing reception cools; audience sentiment turns negative",
+          "Further MCU underperformance signals broader franchise fatigue"
         ]
       }
     }
