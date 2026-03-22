@@ -15,90 +15,74 @@
     padding: 2rem;
     min-height: 100vh;
   }
-  h1 {
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin-bottom: 0.3rem;
-    color: #fff;
-  }
-  .subtitle {
-    color: #888;
-    font-size: 0.9rem;
-    margin-bottom: 2rem;
-  }
-  .summary-bar {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    flex-wrap: wrap;
-  }
+  h1 { font-size: 1.6rem; font-weight: 600; margin-bottom: 0.3rem; color: #fff; }
+  .subtitle { color: #888; font-size: 0.9rem; margin-bottom: 2rem; }
+  .summary-bar { display: flex; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
   .summary-card {
-    background: #1a1d27;
-    border: 1px solid #2a2d3a;
-    border-radius: 10px;
-    padding: 1.2rem 1.5rem;
-    flex: 1;
-    min-width: 250px;
+    background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px;
+    padding: 1.2rem 1.5rem; flex: 1; min-width: 250px;
   }
-  .summary-card .q-label {
-    font-size: 0.78rem;
-    color: #888;
-    margin-bottom: 0.5rem;
-    line-height: 1.3;
-  }
-  .summary-card .estimate {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #fff;
-  }
-  .summary-card .ci {
-    font-size: 0.82rem;
-    color: #666;
-    margin-top: 0.2rem;
-  }
-  .summary-card .change {
-    font-size: 0.78rem;
-    margin-top: 0.5rem;
-    padding: 0.25rem 0.6rem;
-    border-radius: 4px;
-    display: inline-block;
-  }
+  .summary-card .q-label { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; line-height: 1.3; }
+  .summary-card .estimate { font-size: 2rem; font-weight: 700; color: #fff; }
+  .summary-card .ci { font-size: 0.82rem; color: #666; margin-top: 0.2rem; }
+  .summary-card .change { font-size: 0.78rem; margin-top: 0.5rem; padding: 0.25rem 0.6rem; border-radius: 4px; display: inline-block; }
   .change-initial { background: #1e293b; color: #64748b; }
   .change-up { background: #14532d; color: #4ade80; }
   .change-down { background: #451a1a; color: #f87171; }
   .change-flat { background: #1e293b; color: #94a3b8; }
   .chart-container {
-    background: #1a1d27;
-    border: 1px solid #2a2d3a;
-    border-radius: 10px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
+    background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px;
+    padding: 1.5rem; margin-bottom: 1.5rem;
   }
-  .chart-container h2 {
-    font-size: 0.95rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-    color: #ccc;
+  .chart-container h2 { font-size: 0.95rem; font-weight: 500; margin-bottom: 1rem; color: #ccc; }
+  .chart-wrapper { position: relative; height: 280px; }
+  .no-trend { display: flex; align-items: center; justify-content: center; height: 200px; color: #555; font-size: 0.9rem; }
+
+  /* Reports section */
+  .section-heading { font-size: 1.2rem; font-weight: 600; color: #fff; margin: 2.5rem 0 1rem; }
+  .report-date-tab {
+    display: inline-block; padding: 0.5rem 1.2rem; margin-right: 0.5rem; margin-bottom: 1rem;
+    background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 6px;
+    color: #888; font-size: 0.85rem; cursor: pointer; transition: all 0.15s;
   }
-  .chart-wrapper {
-    position: relative;
-    height: 280px;
+  .report-date-tab:hover { border-color: #4a4d5a; color: #ccc; }
+  .report-date-tab.active { background: #252836; border-color: #6366f1; color: #fff; }
+  .report-panel { display: none; }
+  .report-panel.active { display: block; }
+  .forecast-card {
+    background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px;
+    margin-bottom: 1rem; overflow: hidden;
   }
-  .no-trend {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    color: #555;
-    font-size: 0.9rem;
+  .forecast-header {
+    padding: 1rem 1.5rem; cursor: pointer; display: flex; justify-content: space-between;
+    align-items: center; transition: background 0.15s;
   }
+  .forecast-header:hover { background: #1e2130; }
+  .forecast-header .q-title { font-size: 0.9rem; color: #ccc; font-weight: 500; }
+  .forecast-header .q-est { font-size: 0.9rem; font-weight: 700; color: #fff; }
+  .forecast-header .arrow { color: #555; transition: transform 0.2s; font-size: 0.8rem; }
+  .forecast-header .arrow.open { transform: rotate(90deg); }
+  .forecast-body { display: none; padding: 0 1.5rem 1.2rem; }
+  .forecast-body.open { display: block; }
+  .forecast-body h4 { font-size: 0.8rem; color: #6366f1; margin: 1rem 0 0.4rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  .forecast-body p, .forecast-body li { font-size: 0.85rem; color: #aaa; line-height: 1.6; }
+  .forecast-body ul { list-style: none; padding: 0; }
+  .forecast-body li { padding: 0.3rem 0; padding-left: 1rem; position: relative; }
+  .forecast-body li::before { content: ''; position: absolute; left: 0; top: 0.7rem; width: 5px; height: 5px; border-radius: 50%; }
+  .factor-up li::before { background: #4ade80; }
+  .factor-down li::before { background: #f87171; }
+  .factor-neutral li::before { background: #94a3b8; }
+  .impact-tag { font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-left: 0.4rem; font-weight: 600; }
+  .impact-up { background: #14532d; color: #4ade80; }
+  .impact-down { background: #451a1a; color: #f87171; }
+  .trigger-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 0.5rem; }
+  .trigger-col h5 { font-size: 0.75rem; color: #666; margin-bottom: 0.3rem; text-transform: uppercase; }
+  .trigger-col li { font-size: 0.8rem; color: #888; padding: 0.2rem 0; }
+  .loading-reports { color: #555; font-size: 0.9rem; padding: 2rem; text-align: center; }
+
   .footer {
-    text-align: center;
-    color: #444;
-    font-size: 0.75rem;
-    margin-top: 2rem;
-    padding-top: 1rem;
-    border-top: 1px solid #1e2130;
+    text-align: center; color: #444; font-size: 0.75rem;
+    margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #1e2130;
   }
   .color-0 { border-left: 3px solid #6366f1; }
   .color-1 { border-left: 3px solid #f59e0b; }
@@ -112,6 +96,10 @@
 
 <div class="summary-bar" id="summary-bar"></div>
 <div id="charts"></div>
+
+<h2 class="section-heading">Forecast Reports</h2>
+<div id="report-tabs"></div>
+<div id="report-panels"><div class="loading-reports">Loading reports...</div></div>
 
 <div class="footer">
   Generated by Cowork scheduled task &middot; Methodology: reference class reasoning + inside view adjustment + 80% CI
@@ -136,7 +124,7 @@ const DATA = [
   },
   {
     "date": "2026-03-22",
-    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
     "central": 8,
     "ci_lower": 3,
     "ci_upper": 18,
@@ -149,80 +137,48 @@ const DATA = [
     "ci_lower": 15,
     "ci_upper": 45,
     "key_change": "Initial forecast"
-  },
-  {
-    "date": "2026-03-22",
-    "question": "Will AGI be developed before 1 January 2030?",
-    "central": 19,
-    "ci_lower": 9,
-    "ci_upper": 33,
-    "key_change": "Lab CEO confidence growing (Altman, Amodei, Hassabis all bullish) but Metaculus timelines slightly lengthened; net +1pp"
-  },
-  {
-    "date": "2026-03-22",
-    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
-    "central": 9,
-    "ci_lower": 3,
-    "ci_upper": 19,
-    "key_change": "McKinsey historic 10%+ headcount cut and Big Four slashing grad intake 6-30%, but sector revenue still growing 2-3%; net +1pp"
-  },
-  {
-    "date": "2026-03-22",
-    "question": "Will Labour be largest party at next UK General Election?",
-    "central": 23,
-    "ci_lower": 11,
-    "ci_upper": 40,
-    "key_change": "Reform leads polls at 28-31%; MRP projects Reform 335-381 seats, Labour as low as 6th; structural multi-party shift; net -5pp"
   }
 ];
 // DATA_INJECT_END
 
-// Group by question, preserving insertion order
+// MANIFEST_INJECT_START
+const MANIFEST = ["2026-03-22"];
+// MANIFEST_INJECT_END
+
+/* ── Summary cards & charts (same as before) ── */
 const questions = [];
 const grouped = {};
 DATA.forEach(d => {
-  if (!grouped[d.question]) {
-    grouped[d.question] = [];
-    questions.push(d.question);
-  }
+  if (!grouped[d.question]) { grouped[d.question] = []; questions.push(d.question); }
   grouped[d.question].push(d);
 });
 
-// Summary cards
 const summaryBar = document.getElementById('summary-bar');
 questions.forEach((q, i) => {
   const entries = grouped[q];
   const latest = entries[entries.length - 1];
   const prev = entries.length > 1 ? entries[entries.length - 2] : null;
-
-  let changeClass = 'change-initial';
-  let changeText = latest.key_change;
+  let changeClass = 'change-initial', changeText = latest.key_change;
   if (prev) {
     const diff = latest.central - prev.central;
-    if (diff > 0) changeClass = 'change-up';
-    else if (diff < 0) changeClass = 'change-down';
-    else changeClass = 'change-flat';
+    changeClass = diff > 0 ? 'change-up' : diff < 0 ? 'change-down' : 'change-flat';
   }
-
   const card = document.createElement('div');
   card.className = `summary-card color-${i}`;
   card.innerHTML = `
     <div class="q-label">${q}</div>
     <div class="estimate">${latest.central}%</div>
     <div class="ci">80% CI: ${latest.ci_lower}% &ndash; ${latest.ci_upper}%</div>
-    <div class="change ${changeClass}">${changeText}</div>
-  `;
+    <div class="change ${changeClass}">${changeText}</div>`;
   summaryBar.appendChild(card);
 });
 
-// Charts
 const chartsDiv = document.getElementById('charts');
 questions.forEach((q, i) => {
   const entries = grouped[q];
   const container = document.createElement('div');
   container.className = 'chart-container';
   container.innerHTML = `<h2>${q}</h2>`;
-
   if (entries.length < 2) {
     container.innerHTML += `<div class="no-trend">Trend chart will appear after 2+ data points. Current estimate: <strong style="color:#fff;margin-left:6px">${entries[0].central}%</strong></div>`;
   } else {
@@ -231,91 +187,121 @@ questions.forEach((q, i) => {
     const canvas = document.createElement('canvas');
     wrapper.appendChild(canvas);
     container.appendChild(wrapper);
-
     const dates = entries.map(e => e.date);
-    const centrals = entries.map(e => e.central);
-    const lowers = entries.map(e => e.ci_lower);
-    const uppers = entries.map(e => e.ci_upper);
-    const changes = entries.map(e => e.key_change);
-
     new Chart(canvas, {
       type: 'line',
       data: {
         labels: dates,
         datasets: [
-          {
-            label: 'CI Upper',
-            data: uppers,
-            borderColor: 'transparent',
-            backgroundColor: COLORS[i].fill,
-            fill: '+1',
-            pointRadius: 0,
-            tension: 0.3
-          },
-          {
-            label: 'CI Lower',
-            data: lowers,
-            borderColor: 'transparent',
-            backgroundColor: 'transparent',
-            fill: false,
-            pointRadius: 0,
-            tension: 0.3
-          },
-          {
-            label: 'Central Estimate',
-            data: centrals,
-            borderColor: COLORS[i].line,
-            backgroundColor: COLORS[i].line,
-            borderWidth: 2.5,
-            pointRadius: 4,
-            pointHoverRadius: 6,
-            fill: false,
-            tension: 0.3
-          }
+          { label: 'CI Upper', data: entries.map(e => e.ci_upper), borderColor: 'transparent', backgroundColor: COLORS[i].fill, fill: '+1', pointRadius: 0, tension: 0.3 },
+          { label: 'CI Lower', data: entries.map(e => e.ci_lower), borderColor: 'transparent', backgroundColor: 'transparent', fill: false, pointRadius: 0, tension: 0.3 },
+          { label: 'Central Estimate', data: entries.map(e => e.central), borderColor: COLORS[i].line, backgroundColor: COLORS[i].line, borderWidth: 2.5, pointRadius: 4, pointHoverRadius: 6, fill: false, tension: 0.3 }
         ]
       },
       options: {
-        responsive: true,
-        maintainAspectRatio: false,
+        responsive: true, maintainAspectRatio: false,
         interaction: { mode: 'index', intersect: false },
         plugins: {
           legend: { display: false },
-          tooltip: {
-            backgroundColor: '#1a1d27',
-            borderColor: '#2a2d3a',
-            borderWidth: 1,
-            titleColor: '#fff',
-            bodyColor: '#ccc',
-            callbacks: {
-              afterBody: function(items) {
-                const idx = items[0].dataIndex;
-                return changes[idx] ? '\n' + changes[idx] : '';
-              }
-            }
+          tooltip: { backgroundColor: '#1a1d27', borderColor: '#2a2d3a', borderWidth: 1, titleColor: '#fff', bodyColor: '#ccc',
+            callbacks: { afterBody: items => { const c = entries[items[0].dataIndex].key_change; return c ? '\n' + c : ''; } }
           }
         },
         scales: {
-          x: {
-            type: 'category',
-            grid: { color: '#1e2130' },
-            ticks: { color: '#666' }
-          },
-          y: {
-            min: 0,
-            max: 100,
-            grid: { color: '#1e2130' },
-            ticks: {
-              color: '#666',
-              callback: v => v + '%'
-            }
-          }
+          x: { type: 'category', grid: { color: '#1e2130' }, ticks: { color: '#666' } },
+          y: { min: 0, max: 100, grid: { color: '#1e2130' }, ticks: { color: '#666', callback: v => v + '%' } }
         }
       }
     });
   }
-
   chartsDiv.appendChild(container);
 });
+
+/* ── Report viewer: load last 3 dated reports ── */
+const reportTabs = document.getElementById('report-tabs');
+const reportPanels = document.getElementById('report-panels');
+
+function renderForecastCard(f, idx) {
+  const impactTag = (txt, dir) => `<span class="impact-tag impact-${dir}">${txt}</span>`;
+  const factorList = (factors, dir) => factors.map(f =>
+    `<li>${f.detail} ${impactTag(f.impact, dir)}</li>`
+  ).join('');
+
+  return `
+  <div class="forecast-card">
+    <div class="forecast-header" onclick="this.querySelector('.arrow').classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+      <span class="q-title">${f.question}</span>
+      <span><span class="q-est">${f.central}%</span> <span class="arrow">&#9654;</span></span>
+    </div>
+    <div class="forecast-body">
+      <h4>Base Rate</h4>
+      <p>${f.base_rate}</p>
+      <h4>Factors Pushing Up</h4>
+      <ul class="factor-up">${factorList(f.factors_up, 'up')}</ul>
+      <h4>Factors Pushing Down</h4>
+      <ul class="factor-down">${factorList(f.factors_down, 'down')}</ul>
+      <h4>Key Uncertainties</h4>
+      <ul class="factor-neutral">${f.key_uncertainties.map(u => `<li>${u}</li>`).join('')}</ul>
+      <h4>Update Triggers</h4>
+      <div class="trigger-grid">
+        <div class="trigger-col">
+          <h5>Revise Up If...</h5>
+          <ul class="factor-up">${f.update_triggers.revise_up.map(t => `<li>${t}</li>`).join('')}</ul>
+        </div>
+        <div class="trigger-col">
+          <h5>Revise Down If...</h5>
+          <ul class="factor-down">${f.update_triggers.revise_down.map(t => `<li>${t}</li>`).join('')}</ul>
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function renderReport(report, panelId) {
+  return `<div class="report-panel" id="${panelId}">
+    ${report.forecasts.map((f, i) => renderForecastCard(f, i)).join('')}
+  </div>`;
+}
+
+function selectTab(date) {
+  document.querySelectorAll('.report-date-tab').forEach(t => t.classList.toggle('active', t.dataset.date === date));
+  document.querySelectorAll('.report-panel').forEach(p => p.classList.toggle('active', p.id === 'panel-' + date));
+}
+
+// REPORTS_INJECT_START
+const REPORTS = {};
+// REPORTS_INJECT_END
+
+async function loadReports() {
+  const recentDates = MANIFEST.slice(-3).reverse();
+  reportPanels.innerHTML = '';
+
+  for (const date of recentDates) {
+    // Try injected data first, then fetch
+    let report = REPORTS[date];
+    if (!report) {
+      try {
+        const resp = await fetch(`reports/${date}.json`);
+        if (resp.ok) report = await resp.json();
+      } catch(e) {}
+    }
+    if (!report) continue;
+
+    const tab = document.createElement('span');
+    tab.className = 'report-date-tab';
+    tab.dataset.date = date;
+    tab.textContent = date;
+    tab.onclick = () => selectTab(date);
+    reportTabs.appendChild(tab);
+
+    reportPanels.innerHTML += renderReport(report, 'panel-' + date);
+  }
+
+  // Auto-select the most recent
+  if (recentDates.length > 0) selectTab(recentDates[0]);
+}
+
+loadReports();
 </script>
 </body>
 </html>
