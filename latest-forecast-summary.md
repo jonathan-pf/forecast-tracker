@@ -1,27 +1,44 @@
-# Forecast Summary — 2026-03-22
+# Forecast Update — 2026-03-23
 
-## Headline Numbers
+Daily probabilistic forecast update using superforecaster methodology (reference class reasoning + inside view adjustment + 80% CI).
 
-| Question | Central | 80% CI |
-|----------|---------|--------|
-| AGI before 2030 | **18%** | 8–32% |
-| AGI before 2035 | **62%** | 42–78% |
-| Consultancy >=33% decline by 2030 (AI) | **8%** | 3–18% |
-| Labour largest party at next GE | **28%** | 15–45% |
-| China blockade/invasion of Taiwan before 2030 | **22%** | 14–32% |
-| UK CPI below 2.0% before Jan 2027 | **28%** | 18–42% |
-| Spider-Man: Brand New Day >$1.5B worldwide | **72%** | 62–82% |
-| OpenAI + Anthropic combined ARR >$70B by end 2026 | **68%** | 52–82% |
-| UK average growth >1.5% across 2030s | **58%** | 42–72% |
+## Summary Table
 
-## Key Takeaways
+| Question | 2026-03-22 | 2026-03-23 | Change | 80% CI |
+|---|---|---|---|---|
+| Will AGI be developed before 1 January 2030? | 18% | **22%** | ↑ +4pp | 10–36% |
+| Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | 8% | **9%** | ↑ +1pp | 3–20% |
+| Will Labour be largest party at next UK General Election? | 28% | **15%** | ↓ −13pp | 7–28% |
+| Will AGI be developed before 1 January 2035? | 62% | **65%** | ↑ +3pp | 45–80% |
+| Will China initiate a military blockade or invasion of Taiwan before 1 January 2030? | 22% | **17%** | ↓ −5pp | 9–28% |
+| Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027? | 28% | **24%** | ↓ −4pp | 14–38% |
+| Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | 72% | **79%** | ↑ +7pp | 68–88% |
+| Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026? | 68% | **70%** | ↑ +2pp | 54–83% |
+| Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)? | 58% | **52%** | ↓ −6pp | 36–68% |
 
-**AI revenue (68%):** Combined $44B ARR today needs ~60% growth to clear $70B by December. OpenAI guidance (2.2x → $55B) plus Anthropic's $20-26B target range can combine to exceed threshold, but visible deceleration in monthly growth rates creates real uncertainty. Essentially testing whether Leopold's doubling thesis holds even at 50%.
+## Key Movements
 
-**UK 2030s growth (58%):** Almost a coin flip. The 1.5% line sits exactly at the OBR baseline, so the question reduces to whether AI productivity gains (~0.7pp optimistic) outweigh demographic drag (~0.5pp) and Brexit friction (~0.35pp). Net balance is modestly positive but highly sensitive to AI adoption speed in UK firms.
+### Biggest mover: Labour at next UK GE — down 13pp to 15%
+The most significant revision of the day. New polling data shows Labour at just 18–19% vs Reform UK at 27%, with Electoral Calculus projecting only ~79 Labour seats if an election were held today. This is a historically unusual collapse for a governing party. FPTP dynamics and time remaining (election due by mid-2029) prevent a more severe revision, but this is now the most uncertain near-term political question in the tracker.
 
-**Internal consistency note:** The AGI 2030→2035 spread (18%→62%) and the AI revenue forecast (68%) tell a coherent story — AI capability and commercial traction are both more likely than not to accelerate significantly, but near-term AGI remains unlikely. The UK growth question connects these AI trends to real-economy outcomes with a substantial lag.
+### Spider-Man: Brand New Day — up 7pp to 79%
+The trailer for the July 31 release shattered all-time records with 718.6 million views in 24 hours (vs the previous record of 365M for Deadpool & Wolverine). Combined with Tom Holland and Zendaya returning, and the franchise's No Way Home comparable ($1.9B), this significantly increases confidence in a $1.5B+ result. Main residual risk: China theatrical access and MCU audience fatigue.
 
-## Movements
+### AGI by 2030 — up 4pp to 22%
+Metaculus aggregate has shifted to ~25% by 2029. Kalshi prediction market sits at ~40% by 2030. AI leaders continue making aggressive public predictions (Hassabis: 3–5 years; Altman, Amodei: could be 2026–2027). Revised up from initial estimate that anchored too conservatively vs the emerging expert consensus.
 
-All nine are initial forecasts — no prior data to compare against.
+### China/Taiwan — down 5pp to 17%
+Fresh US intelligence assessment (March 19) explicitly states China is not committed to a 2027 invasion timeline and that an imminent attack is unlikely. PLA military purges continue to reduce operational coherence. Despite rehearsal drills in late 2025, the strategic calculus favours continued grey-zone coercion over overt military action before 2030.
+
+### UK GDP 2030s — down 6pp to 52%
+OBR's March 2026 Economic and Fiscal Outlook (published this month) forecasts average UK real GDP growth of approximately 1.4% over the medium term — below the 1.5% resolution threshold. This is the first hard institutional forecast extending into the relevant period and is the primary driver of the downward revision.
+
+## Calibration Notes
+
+- The Labour question has the widest uncertainty band (7–28%) relative to central estimate, reflecting genuine multi-year political volatility.
+- The Spider-Man estimate is comparatively well-anchored by the strong franchise comparable ($1.9B for NWH) and record trailer data.
+- AGI questions carry the highest structural uncertainty; confidence intervals remain very wide. These estimates should be treated as especially provisional.
+- The UK CPI question resolves in under 9 months; the narrow window limits recovery probability even if energy prices fall.
+
+---
+*Generated by Cowork scheduled task · Methodology: reference class reasoning + inside view adjustment + 80% CI*
