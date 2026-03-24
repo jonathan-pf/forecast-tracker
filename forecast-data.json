@@ -142,5 +142,77 @@
     "ci_lower": 36,
     "ci_upper": 68,
     "key_change": "↓ OBR March 2026 EFO forecasts avg 1.4% medium-term; below threshold"
+  },
+  {
+    "date": "2026-03-24",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 22,
+    "ci_lower": 10,
+    "ci_upper": 36,
+    "key_change": "→ Stable; Metaculus median steady at mid-2028; no new signals today"
+  },
+  {
+    "date": "2026-03-24",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 10,
+    "ci_lower": 4,
+    "ci_upper": 21,
+    "key_change": "↑ McKinsey plans 10% workforce cut over 18-24 months; 65% of enterprises say traditional consulting losing value"
+  },
+  {
+    "date": "2026-03-24",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 14,
+    "ci_lower": 6,
+    "ci_upper": 26,
+    "key_change": "↓ Reform lead steady at 7-8pts; multi-party fragmentation deepens with Greens at 17%"
+  },
+  {
+    "date": "2026-03-24",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 65,
+    "ci_lower": 45,
+    "ci_upper": 80,
+    "key_change": "→ Stable; Metaculus 50% by 2033 consensus holds; 8.75 years is long horizon"
+  },
+  {
+    "date": "2026-03-24",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 16,
+    "ci_lower": 8,
+    "ci_upper": 27,
+    "key_change": "↓ PLAAF incursions at lowest levels since early 2020s; US intel reaffirms attack unlikely"
+  },
+  {
+    "date": "2026-03-24",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 25,
+    "ci_lower": 15,
+    "ci_upper": 39,
+    "key_change": "↑ BoE Feb report forecasts CPI falling to 2.1% in Q2; Ofgem cap cut to £1,616 in April creates downside risk"
+  },
+  {
+    "date": "2026-03-24",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 79,
+    "ci_lower": 68,
+    "ci_upper": 88,
+    "key_change": "→ Stable; 4+ months to release; record 718M trailer views; no new tracking data"
+  },
+  {
+    "date": "2026-03-24",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 72,
+    "ci_lower": 56,
+    "ci_upper": 85,
+    "key_change": "↑ Anthropic hits $19B ARR (Mar); OpenAI at $25B (Feb); combined $44B with 9 months to go"
+  },
+  {
+    "date": "2026-03-24",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 52,
+    "ci_lower": 36,
+    "ci_upper": 68,
+    "key_change": "→ Stable; OBR medium-term forecasts remain at 1.4-1.6% range; right at threshold"
   }
 ]
