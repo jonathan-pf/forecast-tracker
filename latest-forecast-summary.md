@@ -1,44 +1,31 @@
-# Forecast Update — 2026-03-23
+# Forecast Update — 2026-03-24
 
-Daily probabilistic forecast update using superforecaster methodology (reference class reasoning + inside view adjustment + 80% CI).
+| Question | Previous | Current | Change | 80% CI |
+|----------|----------|---------|--------|--------|
+| Will AGI be developed before 1 January 2030? | 22% | 22% | → 0pp | 10–36% |
+| Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | 9% | 10% | ↑ 1pp | 4–21% |
+| Will Labour be largest party at next UK General Election? | 15% | 14% | ↓ 1pp | 6–26% |
+| Will AGI be developed before 1 January 2035? | 65% | 65% | → 0pp | 45–80% |
+| Will China initiate a military blockade or invasion of Taiwan before 1 January 2030? | 17% | 16% | ↓ 1pp | 8–27% |
+| Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027? | 24% | 25% | ↑ 1pp | 15–39% |
+| Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | 79% | 79% | → 0pp | 68–88% |
+| Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026? | 70% | 72% | ↑ 2pp | 56–85% |
+| Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)? | 52% | 52% | → 0pp | 36–68% |
 
-## Summary Table
+## Key Takeaways
 
-| Question | 2026-03-22 | 2026-03-23 | Change | 80% CI |
-|---|---|---|---|---|
-| Will AGI be developed before 1 January 2030? | 18% | **22%** | ↑ +4pp | 10–36% |
-| Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | 8% | **9%** | ↑ +1pp | 3–20% |
-| Will Labour be largest party at next UK General Election? | 28% | **15%** | ↓ −13pp | 7–28% |
-| Will AGI be developed before 1 January 2035? | 62% | **65%** | ↑ +3pp | 45–80% |
-| Will China initiate a military blockade or invasion of Taiwan before 1 January 2030? | 22% | **17%** | ↓ −5pp | 9–28% |
-| Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027? | 28% | **24%** | ↓ −4pp | 14–38% |
-| Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | 72% | **79%** | ↑ +7pp | 68–88% |
-| Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026? | 68% | **70%** | ↑ +2pp | 54–83% |
-| Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)? | 58% | **52%** | ↓ −6pp | 36–68% |
+- **OpenAI + Anthropic ARR**: Combined ARR now ~$44B (Anthropic $19B, OpenAI $25B). Anthropic grew $10B in 3 months. Forecast nudged up to 72%.
+- **UK Inflation**: BoE forecasts CPI falling to 2.1% in Q2 2026 with Ofgem cap cut in April. Close to threshold but central forecasts remain above 2.0%. Nudged up to 25%.
+- **Consultancy AI disruption**: McKinsey planning 10% workforce cuts; industry restructuring accelerating but 33% decline by 2030 remains a very high bar. Up to 10%.
+- **China-Taiwan**: PLAAF activity near Taiwan at lowest levels in years; US intel reaffirms attack unlikely. Down to 16%.
+- **Labour**: Reform UK maintains 7-8pt lead; Greens surging to 17% further fragments progressive vote. Down to 14%.
+- **Other forecasts**: AGI questions, Spider-Man, and UK GDP growth all stable with no significant new signals.
 
-## Key Movements
 
-### Biggest mover: Labour at next UK GE — down 13pp to 15%
-The most significant revision of the day. New polling data shows Labour at just 18–19% vs Reform UK at 27%, with Electoral Calculus projecting only ~79 Labour seats if an election were held today. This is a historically unusual collapse for a governing party. FPTP dynamics and time remaining (election due by mid-2029) prevent a more severe revision, but this is now the most uncertain near-term political question in the tracker.
+## Movements Summary
 
-### Spider-Man: Brand New Day — up 7pp to 79%
-The trailer for the July 31 release shattered all-time records with 718.6 million views in 24 hours (vs the previous record of 365M for Deadpool & Wolverine). Combined with Tom Holland and Zendaya returning, and the franchise's No Way Home comparable ($1.9B), this significantly increases confidence in a $1.5B+ result. Main residual risk: China theatrical access and MCU audience fatigue.
-
-### AGI by 2030 — up 4pp to 22%
-Metaculus aggregate has shifted to ~25% by 2029. Kalshi prediction market sits at ~40% by 2030. AI leaders continue making aggressive public predictions (Hassabis: 3–5 years; Altman, Amodei: could be 2026–2027). Revised up from initial estimate that anchored too conservatively vs the emerging expert consensus.
-
-### China/Taiwan — down 5pp to 17%
-Fresh US intelligence assessment (March 19) explicitly states China is not committed to a 2027 invasion timeline and that an imminent attack is unlikely. PLA military purges continue to reduce operational coherence. Despite rehearsal drills in late 2025, the strategic calculus favours continued grey-zone coercion over overt military action before 2030.
-
-### UK GDP 2030s — down 6pp to 52%
-OBR's March 2026 Economic and Fiscal Outlook (published this month) forecasts average UK real GDP growth of approximately 1.4% over the medium term — below the 1.5% resolution threshold. This is the first hard institutional forecast extending into the relevant period and is the primary driver of the downward revision.
-
-## Calibration Notes
-
-- The Labour question has the widest uncertainty band (7–28%) relative to central estimate, reflecting genuine multi-year political volatility.
-- The Spider-Man estimate is comparatively well-anchored by the strong franchise comparable ($1.9B for NWH) and record trailer data.
-- AGI questions carry the highest structural uncertainty; confidence intervals remain very wide. These estimates should be treated as especially provisional.
-- The UK CPI question resolves in under 9 months; the narrow window limits recovery probability even if energy prices fall.
-
----
-*Generated by Cowork scheduled task · Methodology: reference class reasoning + inside view adjustment + 80% CI*
+- Will OpenAI and Anthropic have a combined ARR exce... ↑ 2pp
+- Will economic consultancy lose ≥33% value/jobs by ... ↑ 1pp
+- Will Labour be largest party at next UK General El... ↓ 1pp
+- Will China initiate a military blockade or invasio... ↓ 1pp
+- Will UK annual CPI inflation fall below 2.0% for a... ↑ 1pp
