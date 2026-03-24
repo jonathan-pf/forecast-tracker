@@ -1,0 +1,455 @@
+{
+  "date": "2026-03-24",
+  "forecasts": [
+    {
+      "question": "Will AGI be developed before 1 January 2030?",
+      "central": 22,
+      "ci_lower": 10,
+      "ci_upper": 36,
+      "key_change": "→ Stable; Metaculus median steady at mid-2028; no new signals today",
+      "base_rate": "Metaculus community: 25% by 2029. Manifold: 47% before 2028. Combined forecast from multiple sources: AGI by 2031 (50%). Historical base rate for transformative tech predictions: ~30% arrive on time.",
+      "factors_up": [
+        {
+          "detail": "Metaculus median at March 2028; accelerating expert consensus",
+          "impact": "+5pp"
+        },
+        {
+          "detail": "Manifold at 47% before 2028; prediction markets pricing higher",
+          "impact": "+3pp"
+        },
+        {
+          "detail": "Dario Amodei and Demis Hassabis both predict 3-5 years",
+          "impact": "+2pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "detail": "Yann LeCun says 'decades away'; fundamental architecture debates unresolved",
+          "impact": "-4pp"
+        },
+        {
+          "detail": "No consensus on what counts as AGI; definitional ambiguity favours NO",
+          "impact": "-3pp"
+        },
+        {
+          "detail": "Historical tech predictions systematically early; 3.75 years is very short",
+          "impact": "-5pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether current scaling laws continue or hit diminishing returns in 2026-2027",
+        "Definition of AGI — what counts as a 'credible announcement' vs marketing"
+      ],
+      "update_triggers": {
+        "revise_up": [
+          "Major AI lab announces breakthrough on reasoning/planning benchmarks",
+          "Multiple labs achieve expert-level performance on novel scientific tasks"
+        ],
+        "revise_down": [
+          "Evidence of scaling plateau in frontier models",
+          "Major labs publicly downgrade AGI timelines"
+        ]
+      }
+    },
+    {
+      "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+      "central": 10,
+      "ci_lower": 4,
+      "ci_upper": 21,
+      "key_change": "↑ McKinsey plans 10% workforce cut over 18-24 months; 65% of enterprises say traditional consulting losing value",
+      "base_rate": "No industry has declined 33% in 4 years from technology disruption in modern history. Travel agencies declined ~50% over 15 years. Print media advertising declined ~60% over 10 years. Base rate for this speed of disruption: <5%.",
+      "factors_up": [
+        {
+          "detail": "McKinsey cutting 10% non-client-facing staff; using thousands of internal AI agents",
+          "impact": "+3pp"
+        },
+        {
+          "detail": "65% of enterprises say traditional consulting no longer delivers value",
+          "impact": "+2pp"
+        },
+        {
+          "detail": "Deloitte restructuring job titles; Big Four adapting to AI-driven model",
+          "impact": "+1pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "detail": "33% is an extremely high threshold; industry is adapting not collapsing",
+          "impact": "-5pp"
+        },
+        {
+          "detail": "Consulting revenue may grow even as headcount shifts; firms pivoting to AI consulting",
+          "impact": "-4pp"
+        },
+        {
+          "detail": "Regulatory, trust, and relationship barriers protect high-end advisory",
+          "impact": "-3pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether AI replaces consulting output or creates new demand for AI-augmented advisory",
+        "Whether revenue or employment is the binding metric (very different trajectories)"
+      ],
+      "update_triggers": {
+        "revise_up": [
+          "Major consulting firm reports >15% annual revenue decline",
+          "Multiple Big Four announce >20% headcount reductions"
+        ],
+        "revise_down": [
+          "Consulting industry revenue grows despite AI adoption",
+          "AI consulting becomes a major new revenue stream for incumbents"
+        ]
+      }
+    },
+    {
+      "question": "Will Labour be largest party at next UK General Election?",
+      "central": 14,
+      "ci_lower": 6,
+      "ci_upper": 26,
+      "key_change": "↓ Reform lead steady at 7-8pts; multi-party fragmentation deepens with Greens at 17%",
+      "base_rate": "Incumbent UK governing parties won 7 of last 10 general elections. However, mid-term polling deficits of this magnitude (8-10pts) have only been recovered once (1992). Labour-specific: party has never won from this low a polling position with 3+ years to go.",
+      "factors_up": [
+        {
+          "detail": "FPTP could still deliver Labour most seats even on 25-28% vote share if opposition splits",
+          "impact": "+5pp"
+        },
+        {
+          "detail": "3+ years until election; incumbents can recover (1992 precedent)",
+          "impact": "+3pp"
+        },
+        {
+          "detail": "Reform has no incumbency infrastructure; converting polls to seats is harder",
+          "impact": "+2pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "detail": "Labour polling at historic lows: 18-21%; Reform leads at 27-28%",
+          "impact": "-8pp"
+        },
+        {
+          "detail": "Combined Con+Lab vote share at 38.2%; five-party system makes FPTP unpredictable against Labour",
+          "impact": "-4pp"
+        },
+        {
+          "detail": "Greens surging to 17%; splitting progressive vote further",
+          "impact": "-3pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether Reform UK can maintain polling lead through to election and convert to seats under FPTP",
+        "Whether Labour can consolidate the progressive vote as election approaches"
+      ],
+      "update_triggers": {
+        "revise_up": [
+          "Labour recovers to within 3pts of Reform in sustained polling",
+          "Reform suffers major scandal or internal split"
+        ],
+        "revise_down": [
+          "Labour falls below 15% in sustained polling",
+          "Reform wins major by-election in former Labour seat"
+        ]
+      }
+    },
+    {
+      "question": "Will AGI be developed before 1 January 2035?",
+      "central": 65,
+      "ci_lower": 45,
+      "ci_upper": 80,
+      "key_change": "→ Stable; Metaculus 50% by 2033 consensus holds; 8.75 years is long horizon",
+      "base_rate": "Metaculus: 50% by 2033, implying well above 50% by 2035. Combined multi-source forecast: 80% by 2035. Expert survey median: 2030-2035 range. Longer timeline significantly increases probability.",
+      "factors_up": [
+        {
+          "detail": "Metaculus 50% by 2033; 2 extra years adds significant probability mass",
+          "impact": "+8pp"
+        },
+        {
+          "detail": "Current pace of AI progress exceeding most 2023-era predictions",
+          "impact": "+5pp"
+        },
+        {
+          "detail": "Massive capital investment ($100B+ annually) sustaining scaling",
+          "impact": "+3pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "detail": "Fundamental architecture debates remain; current approaches may plateau",
+          "impact": "-5pp"
+        },
+        {
+          "detail": "Definitional ambiguity; 'credible announcement' is a high bar",
+          "impact": "-3pp"
+        },
+        {
+          "detail": "Geopolitical or regulatory disruption could slow development",
+          "impact": "-2pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether current transformer/scaling paradigm can reach AGI or requires novel architecture",
+        "How geopolitical competition and AI regulation evolve over next 8 years"
+      ],
+      "update_triggers": {
+        "revise_up": [
+          "AI systems achieve novel scientific discoveries autonomously",
+          "Metaculus median moves below 2030"
+        ],
+        "revise_down": [
+          "Evidence of sustained scaling plateau across multiple labs",
+          "Major shift to 'AGI requires fundamentally new approach' consensus"
+        ]
+      }
+    },
+    {
+      "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+      "central": 16,
+      "ci_lower": 8,
+      "ci_upper": 27,
+      "key_change": "↓ PLAAF incursions at lowest levels since early 2020s; US intel reaffirms attack unlikely",
+      "base_rate": "Historical base rate for major power initiating military action against defended territory: ~2-3% per year. Over 3.75 years: ~8-11%. Prediction markets (Metaculus/Polymarket): 10-15% range.",
+      "factors_up": [
+        {
+          "detail": "China conducted explicit blockade rehearsal drills (Justice Mission 2025) with 14 warships, 130 aircraft",
+          "impact": "+4pp"
+        },
+        {
+          "detail": "PRC military modernisation on track for 2027 capability milestone",
+          "impact": "+3pp"
+        },
+        {
+          "detail": "US-China strategic competition intensifying; Taiwan chip leverage",
+          "impact": "+2pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "detail": "US intelligence assessment: imminent attack unlikely; China prefers non-force unification",
+          "impact": "-5pp"
+        },
+        {
+          "detail": "PLAAF activity near Taiwan at lowest since early 2020s; 17 days of zero activity Feb-Mar",
+          "impact": "-3pp"
+        },
+        {
+          "detail": "Amphibious assault recognised as extremely difficult; high failure risk if US intervenes",
+          "impact": "-3pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether PRC leadership calculates that a window of opportunity is closing as Taiwan strengthens defenses",
+        "How US political dynamics and alliance commitments evolve through 2029"
+      ],
+      "update_triggers": {
+        "revise_up": [
+          "China deploys amphibious forces to positions consistent with invasion staging",
+          "Major diplomatic breakdown between Beijing and Taipei"
+        ],
+        "revise_down": [
+          "Cross-strait diplomatic engagement resumes",
+          "China reduces military exercises around Taiwan for sustained period"
+        ]
+      }
+    },
+    {
+      "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+      "central": 25,
+      "ci_lower": 15,
+      "ci_upper": 39,
+      "key_change": "↑ BoE Feb report forecasts CPI falling to 2.1% in Q2; Ofgem cap cut to £1,616 in April creates downside risk",
+      "base_rate": "UK CPI has been below 2.0% for extended periods (2015-2016, 2019-2020). When BoE forecasts 2.1%, actual readings have come in below forecast ~35% of the time. January 2026 was 3.0%, so significant fall needed.",
+      "factors_up": [
+        {
+          "detail": "BoE forecasts 2.1% in Q2 2026; only 0.1pp from threshold",
+          "impact": "+8pp"
+        },
+        {
+          "detail": "Ofgem cap falling to £1,616 in April (from £1,758); energy disinflation significant",
+          "impact": "+5pp"
+        },
+        {
+          "detail": "9 months of data remaining (Apr-Dec 2026); multiple chances to dip below 2.0%",
+          "impact": "+3pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "detail": "January 2026 CPI at 3.0%; February expected ~3%; still far from 2.0%",
+          "impact": "-6pp"
+        },
+        {
+          "detail": "OBR central forecast is 2.1% not below 2.0%; BoE also at 2.1%",
+          "impact": "-4pp"
+        },
+        {
+          "detail": "Services inflation remains sticky; wage growth still elevated",
+          "impact": "-3pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether the April energy price cap cut overshoots and drives CPI below 2.0% in Q2 data",
+        "Whether services inflation (the sticky component) eases faster than forecast"
+      ],
+      "update_triggers": {
+        "revise_up": [
+          "February CPI comes in below 2.8% (tomorrow's release)",
+          "Further energy price falls beyond current Ofgem cap"
+        ],
+        "revise_down": [
+          "February CPI above 3.2%",
+          "Oil price spike or trade tariffs push costs up"
+        ]
+      }
+    },
+    {
+      "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+      "central": 79,
+      "ci_lower": 68,
+      "ci_upper": 88,
+      "key_change": "→ Stable; 4+ months to release; record 718M trailer views; no new tracking data",
+      "base_rate": "Of the 12 MCU films grossing >$1B, 6 crossed $1.5B (50%). Spider-Man: No Way Home hit $1.92B. Tom Holland Spider-Man trilogy averaged $1.28B. Films with record trailer views: 4/5 crossed $1.5B.",
+      "factors_up": [
+        {
+          "detail": "Record-breaking trailer: 718.6M views in 24hrs (nearly 2x previous record)",
+          "impact": "+8pp"
+        },
+        {
+          "detail": "No Way Home grossed $1.92B; strong franchise momentum",
+          "impact": "+6pp"
+        },
+        {
+          "detail": "Tom Holland return after 5-year gap creates event-film status",
+          "impact": "+4pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "detail": "MCU fatigue: several recent MCU films underperformed expectations",
+          "impact": "-5pp"
+        },
+        {
+          "detail": "July release faces summer competition; not holiday season",
+          "impact": "-2pp"
+        },
+        {
+          "detail": "One analyst predicts Supergirl could outgross it; competitive landscape uncertain",
+          "impact": "-2pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether trailer hype translates to sustained theatrical demand vs front-loaded opening",
+        "How much MCU fatigue affects Spider-Man specifically (historically more resistant than other MCU properties)"
+      ],
+      "update_triggers": {
+        "revise_up": [
+          "Advance ticket sales break records when they open",
+          "Second trailer maintains or increases hype levels"
+        ],
+        "revise_down": [
+          "Early reviews are mixed/negative",
+          "Major competing blockbuster moves to same release window"
+        ]
+      }
+    },
+    {
+      "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+      "central": 72,
+      "ci_lower": 56,
+      "ci_upper": 85,
+      "key_change": "↑ Anthropic hits $19B ARR (Mar); OpenAI at $25B (Feb); combined $44B with 9 months to go",
+      "base_rate": "No SaaS company has grown from $44B to $70B ARR in 9 months. However, AI companies are in unprecedented growth phase. Anthropic grew from $9B to $19B in 3 months (111% in one quarter).",
+      "factors_up": [
+        {
+          "detail": "Anthropic at $19B ARR and accelerating; grew $10B in 3 months",
+          "impact": "+10pp"
+        },
+        {
+          "detail": "OpenAI at $25B ARR; on track for $35-40B by year-end at 3.4x annual growth",
+          "impact": "+6pp"
+        },
+        {
+          "detail": "Claude Code alone at $2.5B run-rate; enterprise adoption accelerating (7x YoY in $100K+ customers)",
+          "impact": "+4pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "detail": "Growth rates typically decelerate; doubling from $44B to $70B in 9 months is ambitious",
+          "impact": "-6pp"
+        },
+        {
+          "detail": "Anthropic's own target is $26B for year-end (not $35B+)",
+          "impact": "-4pp"
+        },
+        {
+          "detail": "Competition from Google, Meta open-source could cap pricing power",
+          "impact": "-3pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether Anthropic's extraordinary growth rate sustains or decelerates sharply",
+        "Whether OpenAI can maintain 3.4x annual growth as base gets larger"
+      ],
+      "update_triggers": {
+        "revise_up": [
+          "Anthropic or OpenAI reports ARR exceeding $30B before July",
+          "New enterprise product launches drive step-change in revenue"
+        ],
+        "revise_down": [
+          "Either company reports growth deceleration below 2x annual",
+          "Major customer churn or pricing pressure from open-source competitors"
+        ]
+      }
+    },
+    {
+      "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+      "central": 52,
+      "ci_lower": 36,
+      "ci_upper": 68,
+      "key_change": "→ Stable; OBR medium-term forecasts remain at 1.4-1.6% range; right at threshold",
+      "base_rate": "UK average real GDP growth: 2010s: 1.7%, 2000s: 1.8%, 1990s: 2.5%. OBR March 2026 forecasts 1.5-1.6% for late 2020s. IMF projects 1.5% for 2027. Post-financial-crisis trend growth ~1.5%.",
+      "factors_up": [
+        {
+          "detail": "AI productivity gains could boost trend growth by 0.3-0.5pp if widely adopted",
+          "impact": "+5pp"
+        },
+        {
+          "detail": "OBR forecasts 1.6% for 2027-2028; above threshold in near-term",
+          "impact": "+3pp"
+        },
+        {
+          "detail": "UK services sector well-positioned for AI-driven growth",
+          "impact": "+2pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "detail": "OBR medium-term average ~1.4%; below threshold",
+          "impact": "-5pp"
+        },
+        {
+          "detail": "Aging demographics reducing labour force growth",
+          "impact": "-3pp"
+        },
+        {
+          "detail": "Post-Brexit trade friction constraining potential growth",
+          "impact": "-2pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether AI-driven productivity gains materialise at scale in the 2030s",
+        "Whether UK fiscal and trade policy environment improves or deteriorates"
+      ],
+      "update_triggers": {
+        "revise_up": [
+          "OBR or BoE raises long-run growth forecast above 1.6%",
+          "Evidence of AI-driven productivity acceleration in UK economy"
+        ],
+        "revise_down": [
+          "OBR revises long-run growth below 1.3%",
+          "UK enters recession or sustained period of sub-1% growth"
+        ]
+      }
+    }
+  ]
+}
