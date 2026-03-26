@@ -125,7 +125,7 @@ const COLORS = [
 ];
 
 // DATA_INJECT_START
-const DATA = [
+const forecastData = [
   {
     "date": "2026-03-22",
     "question": "Will AGI be developed before 1 January 2030?",
@@ -341,12 +341,84 @@ const DATA = [
     "ci_lower": 36,
     "ci_upper": 68,
     "key_change": "→ Stable; OBR medium-term forecasts remain at 1.4-1.6% range; right at threshold"
+  },
+  {
+    "date": "2026-03-26",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 22,
+    "ci_lower": 10,
+    "ci_upper": 36,
+    "key_change": "→ Stable; prediction markets steady ~25%; no new capability announcements"
+  },
+  {
+    "date": "2026-03-26",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 10,
+    "ci_lower": 4,
+    "ci_upper": 21,
+    "key_change": "→ Stable; McKinsey cuts signal trend but aggregate 33% decline by 2030 remains unlikely"
+  },
+  {
+    "date": "2026-03-26",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 15,
+    "ci_lower": 7,
+    "ci_upper": 27,
+    "key_change": "↑ Labour polling recovery underway; Reform gap narrows to 7-8pts; third-place MRP risk persists"
+  },
+  {
+    "date": "2026-03-26",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 65,
+    "ci_lower": 45,
+    "ci_upper": 80,
+    "key_change": "→ Stable; Metaculus 50% by 2033 consensus intact; no new threshold breached"
+  },
+  {
+    "date": "2026-03-26",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 16,
+    "ci_lower": 8,
+    "ci_upper": 27,
+    "key_change": "→ Stable; Mar 19 US intel reaffirms no fixed invasion timeline; PLA purges continue to suppress capability"
+  },
+  {
+    "date": "2026-03-26",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 72,
+    "ci_lower": 55,
+    "ci_upper": 85,
+    "key_change": "↑↑ NIESR projects CPI ~1.2% in April 2026 via base effects; Ofgem cap 11% lower YoY confirmed"
+  },
+  {
+    "date": "2026-03-26",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 83,
+    "ci_lower": 73,
+    "ci_upper": 91,
+    "key_change": "↑ Trailer becomes first ever to cross 1 billion views; No Way Home precedent $1.9B; release July 31"
+  },
+  {
+    "date": "2026-03-26",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 74,
+    "ci_lower": 58,
+    "ci_upper": 86,
+    "key_change": "↑ Epoch AI: Anthropic on pace to surpass OpenAI at ~$43B ARR each by August; trajectory points above $70B"
+  },
+  {
+    "date": "2026-03-26",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 50,
+    "ci_lower": 34,
+    "ci_upper": 66,
+    "key_change": "↓ OBR March 2026 EFO cuts 2026 growth to 1.1%; productivity weakness persists below threshold"
   }
 ];
 // DATA_INJECT_END
 
 // MANIFEST_INJECT_START
-const MANIFEST = ["2026-03-22", "2026-03-23", "2026-03-24"];
+const reportManifest = ["2026-03-22", "2026-03-23", "2026-03-24", "2026-03-26"];
 // MANIFEST_INJECT_END
 
 /* ── Summary cards & charts (same as before) ── */
