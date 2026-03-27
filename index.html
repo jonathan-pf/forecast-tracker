@@ -490,7 +490,7 @@ const DATA = [
 // DATA_INJECT_END
 
 // MANIFEST_INJECT_START
-const reportManifest = ["2026-03-22", "2026-03-23", "2026-03-24", "2026-03-26", "2026-03-27"];
+const MANIFEST = ["2026-03-22", "2026-03-23", "2026-03-24", "2026-03-26", "2026-03-27"];
 // MANIFEST_INJECT_END
 
 /* ── Summary cards & charts (same as before) ── */
@@ -572,7 +572,7 @@ const reportPanels = document.getElementById('report-panels');
 function renderForecastCard(f, idx) {
   const impactTag = (txt, dir) => `<span class="impact-tag impact-${dir}">${txt}</span>`;
   const factorList = (factors, dir) => factors.map(f =>
-    `<li>${f.detail} ${impactTag(f.impact, dir)}</li>`
+    `<li>${f.factor || f.detail} ${impactTag(f.impact, dir)}</li>`
   ).join('');
 
   return `
@@ -591,16 +591,18 @@ function renderForecastCard(f, idx) {
       <h4>Key Uncertainties</h4>
       <ul class="factor-neutral">${f.key_uncertainties.map(u => `<li>${u}</li>`).join('')}</ul>
       <h4>Update Triggers</h4>
-      <div class="trigger-grid">
+      ${Array.isArray(f.update_triggers) ?
+        `<ul class="factor-neutral">${f.update_triggers.map(t => '<li>'+t+'</li>').join('')}</ul>` :
+        `<div class="trigger-grid">
         <div class="trigger-col">
           <h5>Revise Up If...</h5>
-          <ul class="factor-up">${f.update_triggers.revise_up.map(t => `<li>${t}</li>`).join('')}</ul>
+          <ul class="factor-up">${(f.update_triggers.revise_up || [f.update_triggers.up]).map(t => '<li>'+t+'</li>').join('')}</ul>
         </div>
         <div class="trigger-col">
           <h5>Revise Down If...</h5>
-          <ul class="factor-down">${f.update_triggers.revise_down.map(t => `<li>${t}</li>`).join('')}</ul>
+          <ul class="factor-down">${(f.update_triggers.revise_down || [f.update_triggers.down]).map(t => '<li>'+t+'</li>').join('')}</ul>
         </div>
-      </div>
+      </div>`}
     </div>
   </div>`;
 }
