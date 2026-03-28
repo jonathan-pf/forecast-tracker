@@ -9,7 +9,7 @@
   },
   {
     "date": "2026-03-22",
-    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
     "central": 8,
     "ci_lower": 3,
     "ci_upper": 18,
@@ -77,15 +77,15 @@
     "central": 22,
     "ci_lower": 10,
     "ci_upper": 36,
-    "key_change": "↑ Expert consensus shifted up; Metaculus at 25%, Kalshi at 40%"
+    "key_change": "\u2191 Expert consensus shifted up; Metaculus at 25%, Kalshi at 40%"
   },
   {
     "date": "2026-03-23",
-    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
     "central": 9,
     "ci_lower": 3,
     "ci_upper": 20,
-    "key_change": "↑ Entry-level cuts accelerating; core billing models still unchanged"
+    "key_change": "\u2191 Entry-level cuts accelerating; core billing models still unchanged"
   },
   {
     "date": "2026-03-23",
@@ -93,7 +93,7 @@
     "central": 15,
     "ci_lower": 7,
     "ci_upper": 28,
-    "key_change": "↓ Labour polling collapsed to 18-19%; Reform UK leads at 27%"
+    "key_change": "\u2193 Labour polling collapsed to 18-19%; Reform UK leads at 27%"
   },
   {
     "date": "2026-03-23",
@@ -101,7 +101,7 @@
     "central": 65,
     "ci_lower": 45,
     "ci_upper": 80,
-    "key_change": "↑ Metaculus 50% by 2033; AI acceleration continues in Q1 2026"
+    "key_change": "\u2191 Metaculus 50% by 2033; AI acceleration continues in Q1 2026"
   },
   {
     "date": "2026-03-23",
@@ -109,7 +109,7 @@
     "central": 17,
     "ci_lower": 9,
     "ci_upper": 28,
-    "key_change": "↓ US intel: China not committed to 2027; military purges reduce capability"
+    "key_change": "\u2193 US intel: China not committed to 2027; military purges reduce capability"
   },
   {
     "date": "2026-03-23",
@@ -117,7 +117,7 @@
     "central": 24,
     "ci_lower": 14,
     "ci_upper": 38,
-    "key_change": "↓ OBR March 2026 forecasts 2.1% in Q2; target reached only from 2027"
+    "key_change": "\u2193 OBR March 2026 forecasts 2.1% in Q2; target reached only from 2027"
   },
   {
     "date": "2026-03-23",
@@ -125,7 +125,7 @@
     "central": 79,
     "ci_lower": 68,
     "ci_upper": 88,
-    "key_change": "↑ Record-breaking trailer: 718.6M views in 24hrs; franchise history strong"
+    "key_change": "\u2191 Record-breaking trailer: 718.6M views in 24hrs; franchise history strong"
   },
   {
     "date": "2026-03-23",
@@ -133,7 +133,7 @@
     "central": 70,
     "ci_lower": 54,
     "ci_upper": 83,
-    "key_change": "↑ Combined ARR ~$44B in March; Anthropic hit $19B and growing fast"
+    "key_change": "\u2191 Combined ARR ~$44B in March; Anthropic hit $19B and growing fast"
   },
   {
     "date": "2026-03-23",
@@ -141,7 +141,7 @@
     "central": 52,
     "ci_lower": 36,
     "ci_upper": 68,
-    "key_change": "↓ OBR March 2026 EFO forecasts avg 1.4% medium-term; below threshold"
+    "key_change": "\u2193 OBR March 2026 EFO forecasts avg 1.4% medium-term; below threshold"
   },
   {
     "date": "2026-03-24",
@@ -149,15 +149,15 @@
     "central": 22,
     "ci_lower": 10,
     "ci_upper": 36,
-    "key_change": "→ Stable; Metaculus median steady at mid-2028; no new signals today"
+    "key_change": "\u2192 Stable; Metaculus median steady at mid-2028; no new signals today"
   },
   {
     "date": "2026-03-24",
-    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
     "central": 10,
     "ci_lower": 4,
     "ci_upper": 21,
-    "key_change": "↑ McKinsey plans 10% workforce cut over 18-24 months; 65% of enterprises say traditional consulting losing value"
+    "key_change": "\u2191 McKinsey plans 10% workforce cut over 18-24 months; 65% of enterprises say traditional consulting losing value"
   },
   {
     "date": "2026-03-24",
@@ -165,7 +165,7 @@
     "central": 14,
     "ci_lower": 6,
     "ci_upper": 26,
-    "key_change": "↓ Reform lead steady at 7-8pts; multi-party fragmentation deepens with Greens at 17%"
+    "key_change": "\u2193 Reform lead steady at 7-8pts; multi-party fragmentation deepens with Greens at 17%"
   },
   {
     "date": "2026-03-24",
@@ -173,7 +173,7 @@
     "central": 65,
     "ci_lower": 45,
     "ci_upper": 80,
-    "key_change": "→ Stable; Metaculus 50% by 2033 consensus holds; 8.75 years is long horizon"
+    "key_change": "\u2192 Stable; Metaculus 50% by 2033 consensus holds; 8.75 years is long horizon"
   },
   {
     "date": "2026-03-24",
@@ -181,7 +181,7 @@
     "central": 16,
     "ci_lower": 8,
     "ci_upper": 27,
-    "key_change": "↓ PLAAF incursions at lowest levels since early 2020s; US intel reaffirms attack unlikely"
+    "key_change": "\u2193 PLAAF incursions at lowest levels since early 2020s; US intel reaffirms attack unlikely"
   },
   {
     "date": "2026-03-24",
@@ -189,7 +189,7 @@
     "central": 25,
     "ci_lower": 15,
     "ci_upper": 39,
-    "key_change": "↑ BoE Feb report forecasts CPI falling to 2.1% in Q2; Ofgem cap cut to £1,616 in April creates downside risk"
+    "key_change": "\u2191 BoE Feb report forecasts CPI falling to 2.1% in Q2; Ofgem cap cut to \u00a31,616 in April creates downside risk"
   },
   {
     "date": "2026-03-24",
@@ -197,7 +197,7 @@
     "central": 79,
     "ci_lower": 68,
     "ci_upper": 88,
-    "key_change": "→ Stable; 4+ months to release; record 718M trailer views; no new tracking data"
+    "key_change": "\u2192 Stable; 4+ months to release; record 718M trailer views; no new tracking data"
   },
   {
     "date": "2026-03-24",
@@ -205,7 +205,7 @@
     "central": 72,
     "ci_lower": 56,
     "ci_upper": 85,
-    "key_change": "↑ Anthropic hits $19B ARR (Mar); OpenAI at $25B (Feb); combined $44B with 9 months to go"
+    "key_change": "\u2191 Anthropic hits $19B ARR (Mar); OpenAI at $25B (Feb); combined $44B with 9 months to go"
   },
   {
     "date": "2026-03-24",
@@ -213,7 +213,7 @@
     "central": 52,
     "ci_lower": 36,
     "ci_upper": 68,
-    "key_change": "→ Stable; OBR medium-term forecasts remain at 1.4-1.6% range; right at threshold"
+    "key_change": "\u2192 Stable; OBR medium-term forecasts remain at 1.4-1.6% range; right at threshold"
   },
   {
     "date": "2026-03-26",
@@ -221,15 +221,15 @@
     "central": 22,
     "ci_lower": 10,
     "ci_upper": 36,
-    "key_change": "→ Stable; prediction markets steady ~25%; no new capability announcements"
+    "key_change": "\u2192 Stable; prediction markets steady ~25%; no new capability announcements"
   },
   {
     "date": "2026-03-26",
-    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
     "central": 10,
     "ci_lower": 4,
     "ci_upper": 21,
-    "key_change": "→ Stable; McKinsey cuts signal trend but aggregate 33% decline by 2030 remains unlikely"
+    "key_change": "\u2192 Stable; McKinsey cuts signal trend but aggregate 33% decline by 2030 remains unlikely"
   },
   {
     "date": "2026-03-26",
@@ -237,7 +237,7 @@
     "central": 15,
     "ci_lower": 7,
     "ci_upper": 27,
-    "key_change": "↑ Labour polling recovery underway; Reform gap narrows to 7-8pts; third-place MRP risk persists"
+    "key_change": "\u2191 Labour polling recovery underway; Reform gap narrows to 7-8pts; third-place MRP risk persists"
   },
   {
     "date": "2026-03-26",
@@ -245,7 +245,7 @@
     "central": 65,
     "ci_lower": 45,
     "ci_upper": 80,
-    "key_change": "→ Stable; Metaculus 50% by 2033 consensus intact; no new threshold breached"
+    "key_change": "\u2192 Stable; Metaculus 50% by 2033 consensus intact; no new threshold breached"
   },
   {
     "date": "2026-03-26",
@@ -253,7 +253,7 @@
     "central": 16,
     "ci_lower": 8,
     "ci_upper": 27,
-    "key_change": "→ Stable; Mar 19 US intel reaffirms no fixed invasion timeline; PLA purges continue to suppress capability"
+    "key_change": "\u2192 Stable; Mar 19 US intel reaffirms no fixed invasion timeline; PLA purges continue to suppress capability"
   },
   {
     "date": "2026-03-26",
@@ -261,7 +261,7 @@
     "central": 72,
     "ci_lower": 55,
     "ci_upper": 85,
-    "key_change": "↑↑ NIESR projects CPI ~1.2% in April 2026 via base effects; Ofgem cap 11% lower YoY confirmed"
+    "key_change": "\u2191\u2191 NIESR projects CPI ~1.2% in April 2026 via base effects; Ofgem cap 11% lower YoY confirmed"
   },
   {
     "date": "2026-03-26",
@@ -269,7 +269,7 @@
     "central": 83,
     "ci_lower": 73,
     "ci_upper": 91,
-    "key_change": "↑ Trailer becomes first ever to cross 1 billion views; No Way Home precedent $1.9B; release July 31"
+    "key_change": "\u2191 Trailer becomes first ever to cross 1 billion views; No Way Home precedent $1.9B; release July 31"
   },
   {
     "date": "2026-03-26",
@@ -277,7 +277,7 @@
     "central": 74,
     "ci_lower": 58,
     "ci_upper": 86,
-    "key_change": "↑ Epoch AI: Anthropic on pace to surpass OpenAI at ~$43B ARR each by August; trajectory points above $70B"
+    "key_change": "\u2191 Epoch AI: Anthropic on pace to surpass OpenAI at ~$43B ARR each by August; trajectory points above $70B"
   },
   {
     "date": "2026-03-26",
@@ -285,7 +285,7 @@
     "central": 50,
     "ci_lower": 34,
     "ci_upper": 66,
-    "key_change": "↓ OBR March 2026 EFO cuts 2026 growth to 1.1%; productivity weakness persists below threshold"
+    "key_change": "\u2193 OBR March 2026 EFO cuts 2026 growth to 1.1%; productivity weakness persists below threshold"
   },
   {
     "date": "2026-03-27",
@@ -293,15 +293,15 @@
     "central": 23,
     "ci_lower": 11,
     "ci_upper": 37,
-    "key_change": "→ Stable; Metaculus ~25% by 2029; Kalshi 40%; Samotsvety 28%; no material shift"
+    "key_change": "\u2192 Stable; Metaculus ~25% by 2029; Kalshi 40%; Samotsvety 28%; no material shift"
   },
   {
     "date": "2026-03-27",
-    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
     "central": 10,
     "ci_lower": 4,
     "ci_upper": 21,
-    "key_change": "→ Stable; AI productivity paradox documented; billable-hours model slows aggregate decline; 33% by 2030 still unlikely"
+    "key_change": "\u2192 Stable; AI productivity paradox documented; billable-hours model slows aggregate decline; 33% by 2030 still unlikely"
   },
   {
     "date": "2026-03-27",
@@ -309,7 +309,7 @@
     "central": 14,
     "ci_lower": 6,
     "ci_upper": 26,
-    "key_change": "↓ Reform holds 8pt lead (30% vs 22% Labour, Ipsos Jan); MRP projects Reform 335-seat majority; May 2026 locals loom"
+    "key_change": "\u2193 Reform holds 8pt lead (30% vs 22% Labour, Ipsos Jan); MRP projects Reform 335-seat majority; May 2026 locals loom"
   },
   {
     "date": "2026-03-27",
@@ -317,7 +317,7 @@
     "central": 65,
     "ci_lower": 45,
     "ci_upper": 80,
-    "key_change": "→ Stable; Metaculus median 2033 implies ~65% by 2035; combined forecast dashboard median 2031"
+    "key_change": "\u2192 Stable; Metaculus median 2033 implies ~65% by 2035; combined forecast dashboard median 2031"
   },
   {
     "date": "2026-03-27",
@@ -325,7 +325,7 @@
     "central": 16,
     "ci_lower": 8,
     "ci_upper": 27,
-    "key_change": "→ Stable; PLA purges limit capability 2+ yrs; US intel reaffirms non-military preference; no new escalation"
+    "key_change": "\u2192 Stable; PLA purges limit capability 2+ yrs; US intel reaffirms non-military preference; no new escalation"
   },
   {
     "date": "2026-03-27",
@@ -333,7 +333,7 @@
     "central": 45,
     "ci_lower": 28,
     "ci_upper": 62,
-    "key_change": "↓↓ Feb CPI at 3.0%; BoE Q2 forecast only 2.1%; Capital Economics sub-2% in April is outlier; revising sharply from 72%"
+    "key_change": "\u2193\u2193 Feb CPI at 3.0%; BoE Q2 forecast only 2.1%; Capital Economics sub-2% in April is outlier; revising sharply from 72%"
   },
   {
     "date": "2026-03-27",
@@ -341,7 +341,7 @@
     "central": 84,
     "ci_lower": 73,
     "ci_upper": 92,
-    "key_change": "→ Stable; trailer hits 1.1B views (all-time record); No Way Home $1.9B precedent; July 31 release"
+    "key_change": "\u2192 Stable; trailer hits 1.1B views (all-time record); No Way Home $1.9B precedent; July 31 release"
   },
   {
     "date": "2026-03-27",
@@ -349,7 +349,7 @@
     "central": 77,
     "ci_lower": 61,
     "ci_upper": 88,
-    "key_change": "↑ Combined ARR ~$44B (OpenAI $25B + Anthropic $19B); Anthropic 10x/yr growth; crossover projected Aug at ~$43B each"
+    "key_change": "\u2191 Combined ARR ~$44B (OpenAI $25B + Anthropic $19B); Anthropic 10x/yr growth; crossover projected Aug at ~$43B each"
   },
   {
     "date": "2026-03-27",
@@ -357,6 +357,78 @@
     "central": 50,
     "ci_lower": 34,
     "ci_upper": 66,
-    "key_change": "→ Stable; OBR March 2026 forecasts 1.5% avg over medium-term; AI productivity upside vs structural weakness"
+    "key_change": "\u2192 Stable; OBR March 2026 forecasts 1.5% avg over medium-term; AI productivity upside vs structural weakness"
+  },
+  {
+    "question": "Will AGI be developed before 1 January 2030?",
+    "date": "2026-03-28",
+    "central": 24,
+    "ci_lower": 12,
+    "ci_upper": 39,
+    "key_change": "\u2192 Stable; multiple labs approaching thresholds but no new breakthroughs; Polymarket at 18% for OpenAI AGI by 2027"
+  },
+  {
+    "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
+    "date": "2026-03-28",
+    "central": 12,
+    "ci_lower": 5,
+    "ci_upper": 24,
+    "key_change": "\u2191 McKinsey 10% workforce cuts; Big Four graduate intakes down 6-30%; but firms generating billions in new AI advisory revenue"
+  },
+  {
+    "question": "Will Labour be largest party at next UK General Election?",
+    "date": "2026-03-28",
+    "central": 15,
+    "ci_lower": 7,
+    "ci_upper": 27,
+    "key_change": "\u2192 Stable; Reform lead steady at 5-10pts; Labour at 18-21% but FPTP mechanics still provide some path"
+  },
+  {
+    "question": "Will AGI be developed before 1 January 2035?",
+    "date": "2026-03-28",
+    "central": 63,
+    "ci_lower": 43,
+    "ci_upper": 79,
+    "key_change": "\u2192 Stable; no new breakthroughs; Metaculus median March 2028; 8-year window still accommodates most timelines"
+  },
+  {
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "date": "2026-03-28",
+    "central": 14,
+    "ci_lower": 7,
+    "ci_upper": 25,
+    "key_change": "\u2193 US ODNI assessment (Mar 18) China unlikely to invade 2027; PLAAF incursions at historic lows; Trump-Xi talks scheduled Mar 31"
+  },
+  {
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "date": "2026-03-28",
+    "central": 38,
+    "ci_lower": 22,
+    "ci_upper": 56,
+    "key_change": "\u2193 Middle East conflict worsened energy outlook; BoE revised Q2/Q3 CPI to 3-3.5%; but April dip to ~1.8% still possible per ING"
+  },
+  {
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "date": "2026-03-28",
+    "central": 85,
+    "ci_lower": 74,
+    "ci_upper": 92,
+    "key_change": "\u2191 Trailer hit 1.1B views total; 718.6M in 24hrs (2x previous record); July release captures summer season"
+  },
+  {
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "date": "2026-03-28",
+    "central": 82,
+    "ci_lower": 67,
+    "ci_upper": 91,
+    "key_change": "\u2191 Combined ARR now ~$44B (OpenAI $25B Feb, Anthropic $19B Mar); need 59% growth over 9 months; strong but moderated from agent estimate"
+  },
+  {
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "date": "2026-03-28",
+    "central": 51,
+    "ci_lower": 35,
+    "ci_upper": 67,
+    "key_change": "\u2192 Stable; OBR medium-term potential at 1.5% (threshold level); AI upside offset by structural constraints"
   }
 ]
