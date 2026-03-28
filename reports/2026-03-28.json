@@ -1,0 +1,319 @@
+{
+  "date": "2026-03-28",
+  "generated_by": "probabilistic-forecast-skill",
+  "forecasts": [
+    {
+      "question": "Will AGI be developed before 1 January 2030?",
+      "central": 24,
+      "ci_lower": 12,
+      "ci_upper": 39,
+      "previous": 23,
+      "movement": "+1pp",
+      "key_change": "Stable; multiple labs approaching thresholds but no new breakthroughs",
+      "base_rate": "Expert surveys ~25% median for AGI by early 2030s; Samotsvety 28%",
+      "factors_up": [
+        "OpenAI GPT-5.4 with autonomous task execution",
+        "Amodei predicts AGI-level by 2026-2027",
+        "Hassabis ~50% by 2030"
+      ],
+      "factors_down": [
+        "No lab has announced AGI despite predictions",
+        "Polymarket only 18% for OpenAI/2027",
+        "Definition disputes persist"
+      ],
+      "key_uncertainties": [
+        "AGI definition alignment with resolution criteria",
+        "Whether labs will claim AGI vs 'powerful AI'"
+      ],
+      "update_triggers": {
+        "up": [
+          "Lab announces AGI",
+          "3+ researchers publicly state AGI achieved"
+        ],
+        "down": [
+          "2027 passes without announcements",
+          "Capability growth slows"
+        ]
+      }
+    },
+    {
+      "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
+      "central": 12,
+      "ci_lower": 5,
+      "ci_upper": 24,
+      "previous": 10,
+      "movement": "+2pp",
+      "key_change": "McKinsey 10% cuts; graduate hiring down; but AI advisory revenue growing",
+      "base_rate": "Industry disruptions rarely cause >33% job losses within 6 years",
+      "factors_up": [
+        "McKinsey 10% headcount reduction",
+        "Entry-level jobs dropped 41%\u219226%",
+        "Accenture cutting 11k roles"
+      ],
+      "factors_down": [
+        "BCG $2.7B from AI services",
+        "McKinsey hiring 12% more in 2026",
+        "Industry margins stable"
+      ],
+      "key_uncertainties": [
+        "Whether AI productivity gains accelerate post-2027",
+        "Client willingness to pay for AI-augmented consulting"
+      ],
+      "update_triggers": {
+        "up": [
+          "15%+ headcount cuts at major firms",
+          "Revenue decline >10% YoY"
+        ],
+        "down": [
+          "Net hiring resumes 2027",
+          "Revenue growth >5% despite cuts"
+        ]
+      }
+    },
+    {
+      "question": "Will Labour be largest party at next UK General Election?",
+      "central": 15,
+      "ci_lower": 7,
+      "ci_upper": 27,
+      "previous": 14,
+      "movement": "+1pp",
+      "key_change": "Reform lead steady; Labour at 18-21% but FPTP provides some path",
+      "base_rate": "Incumbent Labour at 18-21% after 15 months; Reform leads at 23-28%",
+      "factors_up": [
+        "FPTP vote-to-seat conversion",
+        "3+ years until deadline",
+        "Tactical voting possible"
+      ],
+      "factors_down": [
+        "Reform lead 5-10pts",
+        "Electoral Calculus forecasts Labour wipeout",
+        "Multi-party fragmentation"
+      ],
+      "key_uncertainties": [
+        "FPTP seat conversion in fragmented race",
+        "Labour recovery trajectory",
+        "Election timing"
+      ],
+      "update_triggers": {
+        "up": [
+          "Labour polls above 25%",
+          "Reform scandal"
+        ],
+        "down": [
+          "Labour below 15%",
+          "Reform consolidates above 35%"
+        ]
+      }
+    },
+    {
+      "question": "Will AGI be developed before 1 January 2035?",
+      "central": 63,
+      "ci_lower": 43,
+      "ci_upper": 79,
+      "previous": 65,
+      "movement": "-2pp",
+      "key_change": "No new breakthroughs; time decay; Metaculus 50% by 2033",
+      "base_rate": "Metaculus aggregate: 25% by 2029, 50% by 2033",
+      "factors_up": [
+        "8-year window covers most forecasts",
+        "Multiple resolution paths",
+        "Rapid capability improvements"
+      ],
+      "factors_down": [
+        "Polymarket 18% for OpenAI/2027",
+        "Definition ambiguity",
+        "Measurement standards still developing"
+      ],
+      "key_uncertainties": [
+        "Definition alignment",
+        "Industry terminology choices",
+        "Pace of development 2027-2034"
+      ],
+      "update_triggers": {
+        "up": [
+          "Lab announces AGI",
+          "Metaculus >50% by 2030"
+        ],
+        "down": [
+          "2028 passes without claims",
+          "Capability growth slows"
+        ]
+      }
+    },
+    {
+      "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+      "central": 14,
+      "ci_lower": 7,
+      "ci_upper": 25,
+      "previous": 16,
+      "movement": "-2pp",
+      "key_change": "US ODNI: China unlikely to invade 2027; PLAAF at historic lows; Trump-Xi talks scheduled",
+      "base_rate": "Taiwan Strait crises ~once per decade; direct invasion unprecedented post-1950",
+      "factors_up": [
+        "7% defense budget increase",
+        "Blockade-simulating drills",
+        "Xi's 2027 centennial goals"
+      ],
+      "factors_down": [
+        "US ODNI assessment against 2027 invasion",
+        "PLAAF incursions at historic lows",
+        "Diplomatic engagement continuing"
+      ],
+      "key_uncertainties": [
+        "US intelligence reliability",
+        "Taiwan political trajectory",
+        "Miscalculation risk"
+      ],
+      "update_triggers": {
+        "up": [
+          "Sharp PLAAF increase",
+          "PLA staging movements"
+        ],
+        "down": [
+          "Successful diplomatic de-escalation",
+          "Extended activity pause"
+        ]
+      }
+    },
+    {
+      "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+      "central": 38,
+      "ci_lower": 22,
+      "ci_upper": 56,
+      "previous": 45,
+      "movement": "-7pp",
+      "key_change": "Middle East conflict worsened energy outlook; BoE revised to 3-3.5%; April dip still possible",
+      "base_rate": "UK CPI breaches 2% ~40-50% of the time historically",
+      "factors_up": [
+        "Energy cap falls April (\u00a31,641)",
+        "Base effects Feb-Apr",
+        "ING forecasts April ~1.8%"
+      ],
+      "factors_down": [
+        "Middle East conflict raised energy risks",
+        "BoE revised Q2/Q3 to 3-3.5%",
+        "OECD warns 4% average"
+      ],
+      "key_uncertainties": [
+        "Middle East conflict duration",
+        "April CPI outcome",
+        "BoE policy response"
+      ],
+      "update_triggers": {
+        "up": [
+          "April CPI <2.0%",
+          "Energy prices decline sharply"
+        ],
+        "down": [
+          "April CPI \u22652.2%",
+          "Conflict escalates"
+        ]
+      }
+    },
+    {
+      "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+      "central": 85,
+      "ci_lower": 74,
+      "ci_upper": 92,
+      "previous": 84,
+      "movement": "+1pp",
+      "key_change": "1.1B trailer views total; 718.6M in 24hrs (2x record); July summer release",
+      "base_rate": "No Way Home $1.921B; MCU films above $1.5B increasingly common",
+      "factors_up": [
+        "Record trailer views",
+        "Tom Holland franchise strength",
+        "Summer release window"
+      ],
+      "factors_down": [
+        "No Way Home was pandemic anomaly",
+        "MCU fatigue risk",
+        "No pre-sale data yet"
+      ],
+      "key_uncertainties": [
+        "Trailer-to-box-office conversion",
+        "China/India performance",
+        "Critical reception"
+      ],
+      "update_triggers": {
+        "up": [
+          "Pre-sales exceed comparables by 30%+",
+          "RT 80s+"
+        ],
+        "down": [
+          "Opening <$100M domestic",
+          "RT <60"
+        ]
+      }
+    },
+    {
+      "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+      "central": 82,
+      "ci_lower": 67,
+      "ci_upper": 91,
+      "previous": 77,
+      "movement": "+5pp",
+      "key_change": "Combined ARR ~$44B (OpenAI $25B, Anthropic $19B); need 59% growth over 9 months",
+      "base_rate": "Unprecedented scaling speed; both growing >100% YoY",
+      "factors_up": [
+        "$44B combined baseline",
+        "OpenAI 25% growth in 2 months",
+        "Anthropic 7x YoY",
+        "9M paying business users"
+      ],
+      "factors_down": [
+        "Competitive saturation risk",
+        "OpenAI $14B annual losses",
+        "Market saturation possible"
+      ],
+      "key_uncertainties": [
+        "Q2-Q4 growth rate sustainability",
+        "Enterprise spend cycles",
+        "Macro environment"
+      ],
+      "update_triggers": {
+        "up": [
+          "Combined >$50B midyear",
+          "Major enterprise wins"
+        ],
+        "down": [
+          "Growth <15% QoQ",
+          "Major customer churn"
+        ]
+      }
+    },
+    {
+      "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+      "central": 51,
+      "ci_lower": 35,
+      "ci_upper": 67,
+      "previous": 50,
+      "movement": "+1pp",
+      "key_change": "OBR potential at 1.5% (threshold); AI upside offset by structural constraints",
+      "base_rate": "UK long-term potential output growth: 1.5% (OBR); 2010s average ~1.5%",
+      "factors_up": [
+        "AI productivity gains 0.5-1.5% annually",
+        "PwC: AI fuels 43% of UK growth by 2032"
+      ],
+      "factors_down": [
+        "OBR potential exactly at threshold",
+        "60% of businesses expect no AI impact",
+        "IMF forecasts 1.4%"
+      ],
+      "key_uncertainties": [
+        "AI productivity realization pace",
+        "Labour supply headwinds",
+        "Global conditions"
+      ],
+      "update_triggers": {
+        "up": [
+          "OBR raises potential above 1.5%",
+          "AI surveys show majority positive"
+        ],
+        "down": [
+          "OBR lowers below 1.5%",
+          "2027-28 growth <1.3%"
+        ]
+      }
+    }
+  ]
+}
