@@ -1,0 +1,191 @@
+{
+  "date": "2026-03-29",
+  "forecasts": [
+    {
+      "question": "Will AGI be developed before 1 January 2030?",
+      "central": 24,
+      "ci_lower": 12,
+      "ci_upper": 39,
+      "previous": 24,
+      "change_direction": "stable",
+      "key_change": "\u2192 Stable; Metaculus 25% by 2029 unchanged; Iran war does not materially affect AI timelines",
+      "reference_class": "Metaculus community median 2028; 25% probability by 2029. Kalshi ~40%.",
+      "factors_up": [
+        {"factor": "Mustafa Suleyman predicts human-level on most professional tasks in 12-18 months", "impact": "+3pp"},
+        {"factor": "Rapid scaling of compute and model capabilities continues in Q1 2026", "impact": "+2pp"}
+      ],
+      "factors_down": [
+        {"factor": "Definition ambiguity \u2014 no consensus on what counts as AGI", "impact": "-3pp"},
+        {"factor": "Iran war could divert policy attention and energy from AI development", "impact": "-1pp"},
+        {"factor": "Only 3.75 years remain; diminishing time window", "impact": "-2pp"}
+      ],
+      "key_uncertainties": ["Whether current scaling laws continue to yield capability jumps", "Whether any lab achieves a genuine breakthrough vs incremental progress"],
+      "update_triggers": {"up": "Major lab demonstrates robust general reasoning across novel domains", "down": "Scaling returns plateau; major labs acknowledge longer timelines"}
+    },
+    {
+      "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
+      "central": 12,
+      "ci_lower": 5,
+      "ci_upper": 24,
+      "previous": 12,
+      "change_direction": "stable",
+      "key_change": "\u2192 Stable; McKinsey 10% cuts and 12K-20K AI agents deployed, but 33% threshold remains very high",
+      "reference_class": "Historical industry disruptions rarely exceed 20% decline in 5 years. McKinsey has cut ~12% since 2022 peak.",
+      "factors_up": [
+        {"factor": "McKinsey deploying 12,000-20,000 AI agents replacing junior work", "impact": "+2pp"},
+        {"factor": "65% of enterprises say traditional consulting losing value", "impact": "+2pp"}
+      ],
+      "factors_down": [
+        {"factor": "Consultancies adapting \u2014 pivoting to AI implementation services", "impact": "-3pp"},
+        {"factor": "33% threshold is extremely steep; current cuts are ~10-12%", "impact": "-4pp"}
+      ],
+      "key_uncertainties": ["Speed of AI capability improvement for complex strategic reasoning", "Whether revenue shifts to AI services offset traditional consulting decline"],
+      "update_triggers": {"up": "Major firm announces 20%+ headcount reduction", "down": "Consulting revenue grows; AI becomes additive rather than substitutive"}
+    },
+    {
+      "question": "Will Labour be largest party at next UK General Election?",
+      "central": 14,
+      "ci_lower": 7,
+      "ci_upper": 26,
+      "previous": 15,
+      "change_direction": "down",
+      "key_change": "\u2193 Labour slips to 17% in latest YouGov (4th place); Greens surge to 19-21%",
+      "reference_class": "Governing parties recovering from mid-term lows: ~40% of UK governments since 1945 lost subsequent election.",
+      "factors_up": [
+        {"factor": "FPTP system rewards geographic concentration; Labour has structural seat advantage", "impact": "+5pp"},
+        {"factor": "3+ years to next election; time for recovery", "impact": "+3pp"},
+        {"factor": "Iran war could rally around government/reset political dynamics", "impact": "+2pp"}
+      ],
+      "factors_down": [
+        {"factor": "Labour polling 17%, in 4th place behind Reform, Greens, and Conservatives", "impact": "-8pp"},
+        {"factor": "Green surge to 19-21% directly cannibalises Labour vote", "impact": "-3pp"},
+        {"factor": "Reform lead of 6-7pts appears structural, not transient", "impact": "-4pp"}
+      ],
+      "key_uncertainties": ["Whether FPTP translates Reform's lead into seats given geographic spread", "Whether Starmer can consolidate centre-left vote before election"],
+      "update_triggers": {"up": "Labour recovers to 25%+; Green surge fades", "down": "Labour falls below 15%; defections accelerate"}
+    },
+    {
+      "question": "Will AGI be developed before 1 January 2035?",
+      "central": 63,
+      "ci_lower": 43,
+      "ci_upper": 79,
+      "previous": 63,
+      "change_direction": "stable",
+      "key_change": "\u2192 Stable; Metaculus 50% by 2033 consensus holds; 8.75-year horizon provides ample runway",
+      "reference_class": "Metaculus median 2031 (80% CI 2027-2045). Expert surveys converging on early 2030s.",
+      "factors_up": [
+        {"factor": "Expert consensus accelerating: median estimates now 2031-2033", "impact": "+5pp"},
+        {"factor": "OpenAI projecting $280B revenue by 2030 implies massive capability growth", "impact": "+2pp"}
+      ],
+      "factors_down": [
+        {"factor": "Definition ambiguity persists; moving goalposts problem", "impact": "-3pp"},
+        {"factor": "Iran war and geopolitical instability could slow investment/cooperation", "impact": "-1pp"}
+      ],
+      "key_uncertainties": ["Whether scaling laws hold for another 8+ years", "Whether geopolitical fragmentation slows international AI cooperation"],
+      "update_triggers": {"up": "Breakthrough in reasoning/planning capabilities", "down": "Scaling plateau; major compute constraints; regulatory moratoria"}
+    },
+    {
+      "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+      "central": 15,
+      "ci_lower": 8,
+      "ci_upper": 26,
+      "previous": 14,
+      "change_direction": "up",
+      "key_change": "\u2191 Iran war creates US strategic distraction; PRC defence budget up 7%; more bellicose Two Sessions language",
+      "reference_class": "US intel: China does not plan invasion in 2027, no fixed timeline. Base rate of major cross-strait military action: <5% per year.",
+      "factors_up": [
+        {"factor": "US military distracted by Iran conflict; reduced Pacific deterrence credibility", "impact": "+3pp"},
+        {"factor": "PRC 2026 defence budget up 7% to $278B; more bellicose language at Two Sessions", "impact": "+2pp"},
+        {"factor": "Justice Mission 2025 exercises explicitly practised blockade", "impact": "+1pp"}
+      ],
+      "factors_down": [
+        {"factor": "US intel assesses China has no 2027 invasion plan and no fixed timeline", "impact": "-5pp"},
+        {"factor": "Economic costs of blockade enormous for China's export-dependent economy", "impact": "-3pp"}
+      ],
+      "key_uncertainties": ["Whether Iran war emboldens or cautions China", "Whether Taiwan legislature approves defence spending increase"],
+      "update_triggers": {"up": "China positions forces beyond exercise levels; US withdraws Pacific assets", "down": "US-China diplomatic engagement increases; exercises normalise"}
+    },
+    {
+      "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+      "central": 5,
+      "ci_lower": 2,
+      "ci_upper": 12,
+      "previous": 38,
+      "change_direction": "down",
+      "key_change": "\u2193\u2193 Iran war energy shock transforms outlook; oil +20%, gas +50%; OECD forecasts 4% UK inflation; sub-2% essentially ruled out",
+      "reference_class": "CPI at 3.0% in Feb 2026. Post-Iran-war, OECD forecasts 4% for 2026. BoE pre-war forecast was 2.1% in Q2.",
+      "factors_up": [
+        {"factor": "Ofgem cap cut to \u00a31,616 in April provides some downward pressure", "impact": "+1pp"},
+        {"factor": "Small chance of ceasefire and rapid energy price normalisation", "impact": "+2pp"}
+      ],
+      "factors_down": [
+        {"factor": "Iran war: oil +20%, gas +50%; Strait of Hormuz disrupted", "impact": "-20pp"},
+        {"factor": "OECD revised UK inflation from 2.5% to 4% for 2026", "impact": "-10pp"},
+        {"factor": "Core CPI rising (3.2% in Feb); services inflation sticky at 4.3%", "impact": "-5pp"}
+      ],
+      "key_uncertainties": ["Duration and intensity of Iran conflict", "Whether UK government intervenes with energy price caps"],
+      "update_triggers": {"up": "Rapid ceasefire; Strait of Hormuz reopens; oil falls below $80", "down": "Conflict escalates; UK energy prices surge further"}
+    },
+    {
+      "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+      "central": 83,
+      "ci_lower": 72,
+      "ci_upper": 90,
+      "previous": 85,
+      "change_direction": "down",
+      "key_change": "\u2193 Iran war economic headwinds could dampen global box office; but record 1B trailer views maintain strong base case",
+      "reference_class": "No Way Home grossed $1.92B. MCU tent-poles average $1.2B. Trailer hit 1B views in 4 days \u2014 unprecedented.",
+      "factors_up": [
+        {"factor": "First movie trailer to cross 1 billion views", "impact": "+5pp"},
+        {"factor": "No Way Home grossed $1.92B; franchise momentum strong", "impact": "+5pp"}
+      ],
+      "factors_down": [
+        {"factor": "Iran war creating economic uncertainty; higher energy costs reduce discretionary spending", "impact": "-3pp"},
+        {"factor": "Potential inflation-driven recession in key markets", "impact": "-2pp"}
+      ],
+      "key_uncertainties": ["Whether Iran war materially impacts global consumer spending by July", "Film quality and critical reception"],
+      "update_triggers": {"up": "Early tracking shows $300M+ opening weekend", "down": "Recession materialises; negative reviews; delays"}
+    },
+    {
+      "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+      "central": 82,
+      "ci_lower": 67,
+      "ci_upper": 91,
+      "previous": 82,
+      "change_direction": "stable",
+      "key_change": "\u2192 Stable; OpenAI $25B + Anthropic $19B = $44B combined; growth projections comfortably exceed $70B target",
+      "reference_class": "OpenAI ARR $25B (Feb), projecting 2.3x. Anthropic $19B ARR, projecting 4x. Combined projections: ~$85B by year-end.",
+      "factors_up": [
+        {"factor": "Company projections sum to ~$85B by year-end", "impact": "+8pp"},
+        {"factor": "Enterprise AI adoption accelerating; 9M+ paying business users at OpenAI", "impact": "+3pp"}
+      ],
+      "factors_down": [
+        {"factor": "Anthropic gross vs net revenue reporting may inflate apparent ARR", "impact": "-3pp"},
+        {"factor": "Growth may slow as bases get larger", "impact": "-2pp"}
+      ],
+      "key_uncertainties": ["Whether Anthropic's reported revenue includes hyperscaler commissions", "Whether enterprise spending sustains through potential recession"],
+      "update_triggers": {"up": "Q2 reports show combined ARR above $55B", "down": "Growth deceleration; major enterprise deals delayed"}
+    },
+    {
+      "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+      "central": 47,
+      "ci_lower": 31,
+      "ci_upper": 63,
+      "previous": 51,
+      "change_direction": "down",
+      "key_change": "\u2193 Iran war energy shock damages near-term growth; OECD warns UK more vulnerable than peers; structural damage may persist into 2030s",
+      "reference_class": "OBR March 2026: 1.1% in 2026, rising to 1.5-1.6% in 2028-2030. IMF: 1.3% in 2026.",
+      "factors_up": [
+        {"factor": "AI productivity gains could lift trend growth in 2030s", "impact": "+5pp"},
+        {"factor": "OBR medium-term forecasts of 1.5-1.6% are right at the threshold", "impact": "+3pp"}
+      ],
+      "factors_down": [
+        {"factor": "Iran war energy shock: UK more vulnerable due to import dependence", "impact": "-5pp"},
+        {"factor": "OECD revised UK inflation to 4%; stagflation risk", "impact": "-3pp"},
+        {"factor": "Public debt near 97% GDP limits fiscal space", "impact": "-2pp"}
+      ],
+      "key_uncertainties": ["Duration and long-term impact of Iran conflict", "Whether AI adoption genuinely lifts UK productivity in the 2030s"],
+      "update_triggers": {"up": "Iran ceasefire; UK productivity growth accelerates; AI investment surge", "down": "Prolonged energy crisis; UK enters recession; debt spiral"}
+    }
+  ]
+}
