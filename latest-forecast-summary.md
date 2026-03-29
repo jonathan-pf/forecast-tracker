@@ -1,29 +1,37 @@
-# Forecast Update — 2026-03-28
+# Forecast Update — 29 March 2026
+
+## Summary Table
 
 | # | Question | Previous | Current | Δ | Direction |
 |---|----------|----------|---------|---|-----------|
-| 1 | Will AGI be developed before 1 January 2030? | 23% | 24% | +1pp | ↑ |
-| 2 | Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | 10% | 12% | +2pp | ↑ |
-| 3 | Will Labour be largest party at next UK General Election? | 14% | 15% | +1pp | ↑ |
-| 4 | Will AGI be developed before 1 January 2035? | 65% | 63% | -2pp | ↓ |
-| 5 | Will China initiate a military blockade or invasion of Taiwan before 1 January 2030? | 16% | 14% | -2pp | ↓ |
-| 6 | Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027? | 45% | 38% | -7pp | ↓ |
-| 7 | Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | 84% | 85% | +1pp | ↑ |
-| 8 | Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026? | 77% | 82% | +5pp | ↑ |
-| 9 | Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)? | 50% | 51% | +1pp | ↑ |
+| 1 | AGI before 2030? | 24% | 24% | 0 | → Stable |
+| 2 | Consultancy lose ≥33% by 2030? | 12% | 12% | 0 | → Stable |
+| 3 | Labour largest party at next GE? | 15% | 14% | -1 | ↓ Small |
+| 4 | AGI before 2035? | 63% | 63% | 0 | → Stable |
+| 5 | China blockade/invade Taiwan before 2030? | 14% | 15% | +1 | ↑ Small |
+| 6 | UK CPI below 2% before Jan 2027? | 38% | 5% | -33 | ↓↓ Major |
+| 7 | Spider-Man: Brand New Day >$1.5B? | 85% | 83% | -2 | ↓ Small |
+| 8 | OpenAI + Anthropic >$70B ARR by end 2026? | 82% | 82% | 0 | → Stable |
+| 9 | UK GDP growth >1.5% across 2030s? | 51% | 47% | -4 | ↓ Moderate |
 
-## Key Movements
+## Key Takeaways
 
-- **Will UK annual CPI inflation fall below 2.0% for at least on...** (-7pp): ↓ Middle East conflict worsened energy outlook; BoE revised Q2/Q3 CPI to 3-3.5%; but April dip to ~1.8% still possible per ING
-- **Will OpenAI and Anthropic have a combined ARR exceeding $70B...** (+5pp): ↑ Combined ARR now ~$44B (OpenAI $25B Feb, Anthropic $19B Mar); need 59% growth over 9 months; strong but moderated from agent estimate
-- **Will economic consultancy lose ≥33% value/jobs by end 2030 d...** (+2pp): ↑ McKinsey 10% workforce cuts; Big Four graduate intakes down 6-30%; but firms generating billions in new AI advisory revenue
+### Iran War Dominates This Update
+The US-Israel military campaign against Iran (started 28 Feb 2026) is the single most consequential development since tracking began. The Strait of Hormuz disruption has sent oil prices up ~20% and gas prices up ~50%, with cascading effects across multiple questions.
 
-## Takeaways
+### Biggest Mover: UK CPI Inflation (38% → 5%)
+The Iran war energy shock has effectively killed any chance of UK CPI falling below 2.0% before January 2027. With CPI at 3.0% in February and the OECD now forecasting 4% for 2026, the pre-war BoE forecast of 2.1% in Q2 is obsolete. Only a rapid ceasefire and energy price normalisation could revive this question.
 
-1. **UK CPI** saw the largest move (-7pp) driven by Middle East conflict worsening energy outlook, though April dip remains possible.
-2. **OpenAI/Anthropic ARR** rose +5pp as combined ARR reached ~$44B, needing 59% growth over 9 months to hit $70B.
-3. **China-Taiwan** fell -2pp on fresh US ODNI assessment and historically low PLAAF activity.
-4. **AGI questions** remained broadly stable; no new breakthroughs or setbacks.
+### Moderate Movers
+- **UK GDP growth 2030s** (-4pp): The energy shock damages near-term growth prospects and the OECD warns the UK is more vulnerable than peers due to import dependence and limited gas storage. Structural damage could persist.
+- **Spider-Man: Brand New Day** (-2pp): Economic headwinds from the war could reduce discretionary spending, though the record-breaking 1 billion trailer views in 4 days suggest the film will still likely clear $1.5B.
+- **China-Taiwan** (+1pp): US strategic distraction in the Middle East marginally increases the window of opportunity, though US intelligence still assesses no fixed Chinese invasion timeline.
+- **Labour largest party** (-1pp): Continued polling deterioration with Labour now at 17% (4th place) and Greens surging to 19-21%.
 
-*Dashboard: https://jonathan-pf.github.io/forecast-tracker/*
-*Generated: 2026-03-28*
+### Stable Questions
+AGI timelines (both 2030 and 2035), consultancy disruption, and OpenAI+Anthropic combined revenue all remain stable. The Iran war does not materially affect AI development or enterprise AI spending trajectories.
+
+## Methodology Notes
+- All forecasts use superforecaster methodology with web-searched base rates
+- Previous values from 2026-03-28 update
+- Iran war context sourced from CNBC, OECD, OBR, and NIESR reporting
