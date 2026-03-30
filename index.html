@@ -640,7 +640,7 @@ const reportManifest = ["2026-03-22", "2026-03-23", "2026-03-24", "2026-03-26", 
 /* ── Summary cards & charts (same as before) ── */
 const questions = [];
 const grouped = {};
-DATA.forEach(d => {
+forecastData.forEach(d => {
   if (!grouped[d.question]) { grouped[d.question] = []; questions.push(d.question); }
   grouped[d.question].push(d);
 });
@@ -767,7 +767,7 @@ const REPORTS = {};
 // REPORTS_INJECT_END
 
 async function loadReports() {
-  const recentDates = MANIFEST.slice(-3).reverse();
+  const recentDates = reportManifest.slice(-3).reverse();
   reportPanels.innerHTML = '';
 
   for (const date of recentDates) {
