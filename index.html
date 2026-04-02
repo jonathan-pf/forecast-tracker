@@ -125,7 +125,7 @@ const COLORS = [
 ];
 
 // DATA_INJECT_START
-const forecastData = [
+        const forecastData = [
   {
     "date": "2026-03-22",
     "question": "Will AGI be developed before 1 January 2030?",
@@ -773,13 +773,85 @@ const forecastData = [
     "ci_lower": 27,
     "ci_upper": 58,
     "key_change": "Down 2pp: OECD cut 2026 UK forecast from 1.2% to 0.7%; Middle East conflict worsening outlook"
+  },
+  {
+    "date": "2026-04-02",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 22,
+    "ci_lower": 10,
+    "ci_upper": 36,
+    "key_change": "\u2193 ARC-AGI-3 benchmark (frontier models <1%) reveals larger remaining gap; April Fools' joke signals caution"
+  },
+  {
+    "date": "2026-04-02",
+    "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
+    "central": 14,
+    "ci_lower": 6,
+    "ci_upper": 25,
+    "key_change": "\u2192 Stable; McKinsey 30% work-hour automation projection offset by industry growth and AI services pivot"
+  },
+  {
+    "date": "2026-04-02",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 15,
+    "ci_lower": 8,
+    "ci_upper": 28,
+    "key_change": "\u2191 Restore Britain split fragments right-wing vote; betting markets briefly show Labour as favourite"
+  },
+  {
+    "date": "2026-04-02",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 65,
+    "ci_lower": 44,
+    "ci_upper": 81,
+    "key_change": "\u2191 +3pp from reasoning model breakthroughs; ARC-AGI generalization gaps persist but longer horizon allows resolution"
+  },
+  {
+    "date": "2026-04-02",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 11,
+    "ci_lower": 5,
+    "ci_upper": 20,
+    "key_change": "\u2192 Stable; US intel downgrade to 2027 offset by PLA blockade rehearsals and rhetoric escalation"
+  },
+  {
+    "date": "2026-04-02",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 3,
+    "ci_lower": 1,
+    "ci_upper": 7,
+    "key_change": "\u2193 BoE revisions show inflation stickier; Feb 2026 at 3.0%, Q3 expected 3.5%; consensus 2.1-2.2% at best"
+  },
+  {
+    "date": "2026-04-02",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 91,
+    "ci_lower": 85,
+    "ci_upper": 95,
+    "key_change": "\u2191 Record 1B+ trailer views confirmed; conservative projections at $2.31B well above threshold"
+  },
+  {
+    "date": "2026-04-02",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 74,
+    "ci_lower": 60,
+    "ci_upper": 85,
+    "key_change": "\u2192 Slight decrease; growth moderation risk despite strong $44B combined current trajectory"
+  },
+  {
+    "date": "2026-04-02",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 44,
+    "ci_lower": 30,
+    "ci_upper": 58,
+    "key_change": "\u2192 Minimal change; OBR medium-term potential at 1.5% but productivity revisions down offset by AI potential"
   }
 ];
-// DATA_INJECT_END
+        // DATA_INJECT_END
 
 // MANIFEST_INJECT_START
-const reportManifest = ["2026-03-22", "2026-03-23", "2026-03-24", "2026-03-26", "2026-03-27", "2026-03-28", "2026-03-30", "2026-03-31", "2026-04-01"];
-// MANIFEST_INJECT_END
+        const reportManifest = ["2026-03-22", "2026-03-23", "2026-03-24", "2026-03-26", "2026-03-27", "2026-03-28", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02"];
+        // MANIFEST_INJECT_END
 
 /* ── Summary cards & charts (same as before) ── */
 const questions = [];
@@ -907,7 +979,7 @@ function selectTab(date) {
 }
 
 // REPORTS_INJECT_START
-const reportData = {
+        const reportData = {
   "2026-04-01": {
     "date": "2026-04-01",
     "forecasts": [
@@ -1313,9 +1385,298 @@ const reportData = {
         }
       }
     ]
-  }
+  },
+  "2026-04-02": [
+    {
+      "date": "2026-04-02",
+      "question": "Will AGI be developed before 1 January 2030?",
+      "central": 22,
+      "ci_lower": 10,
+      "ci_upper": 36,
+      "key_change": "\u2193 ARC-AGI-3 benchmark (frontier models <1%) reveals larger remaining gap; April Fools' joke signals caution",
+      "base_rate": "Metaculus forecasters as of Feb 2026: 25% by 2029",
+      "factors_up": [
+        "Expert consensus shift: Hassabis 50% by 2030, Altman targeting 2028-2029",
+        "Continued scaling: Anthropic 1M TPUs, OpenAI 30GW infrastructure",
+        "Historical AI underestimation: past predictions consistently conservative"
+      ],
+      "factors_down": [
+        "ARC-AGI-3: frontier models <1% on interactive reasoning: -6pp",
+        "April Fools' joke reveals reluctance to claim AGI: -3pp",
+        "Polymarket skepticism: only 17.5% on 2027 announcement"
+      ],
+      "key_uncertainties": [
+        "Definition of AGI may shift interpretations",
+        "Speed of reasoning breakthroughs vs scaling alone",
+        "Whether labs will claim AGI even if thresholds met"
+      ],
+      "update_triggers_up": [
+        "Major reasoning benchmark breakthrough",
+        "Credible lab AGI announcement"
+      ],
+      "update_triggers_down": [
+        "Evidence scaling insufficient for AGI capabilities",
+        "Expert timelines shift post-2030"
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
+      "central": 14,
+      "ci_lower": 6,
+      "ci_upper": 25,
+      "key_change": "\u2192 Stable; McKinsey 30% work-hour automation projection offset by industry growth and AI services pivot",
+      "base_rate": "Professional services disruption: ~8-15% historical precedent for 33%+ decline over 6 years",
+      "factors_up": [
+        "McKinsey 30% work-hour automation by 2030: +4pp",
+        "AI-attributed layoffs at major firms (5K-11K): +3pp",
+        "Gartner 50% cost-to-value gap reduction by 2027: +2pp"
+      ],
+      "factors_down": [
+        "Global consulting revenue still growing ($1.32T): -3pp",
+        "AI consulting services market growing to $72.8B by 2030: -3pp",
+        "Industry adapting via AI services offsets decline: -3pp"
+      ],
+      "key_uncertainties": [
+        "Will 30% work-hour automation translate to 33%+ revenue decline?",
+        "Can firms transition to AI consulting services?",
+        "Attribution: will 2+ credible sources make explicit AI causal claims?"
+      ],
+      "update_triggers_up": [
+        "Major firm reports >20% YoY revenue decline attributed to AI",
+        "Industry employment falls >15% attributed to AI"
+      ],
+      "update_triggers_down": [
+        "Revenue growth accelerates >2% CAGR",
+        "Firms grow AI consulting revenue offsetting traditional decline"
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "question": "Will Labour be largest party at next UK General Election?",
+      "central": 15,
+      "ci_lower": 8,
+      "ci_upper": 28,
+      "key_change": "\u2191 Restore Britain split fragments right-wing vote; betting markets briefly show Labour as favourite",
+      "base_rate": "Incumbent retention after 14-month approval collapse: <5% historical precedent",
+      "factors_up": [
+        "Restore Britain split fragments Reform vote: +3-5pp",
+        "Tactical voting: 33% Labour voters willing to vote Con to block Reform: +2-3pp",
+        "Betting market shift: Labour briefly 13/8 favourite: +2pp"
+      ],
+      "factors_down": [
+        "Reform maintains 26% core support, 381 projected seats: -8pp",
+        "Labour at 19% vote share, projected 85 seats: -6pp",
+        "Starmer approval lowest in 50 years: -4pp"
+      ],
+      "key_uncertainties": [
+        "Will Restore Britain sustain support and field candidates?",
+        "Election timing: earlier vs 2029 changes dynamics",
+        "Tactical voting coordination effectiveness"
+      ],
+      "update_triggers_up": [
+        "Labour polling rises above 25%",
+        "Starmer approval recovers above -20 net"
+      ],
+      "update_triggers_down": [
+        "Labour falls below 15%",
+        "Reform consolidates above 30%"
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "question": "Will AGI be developed before 1 January 2035?",
+      "central": 65,
+      "ci_lower": 44,
+      "ci_upper": 81,
+      "key_change": "\u2191 +3pp from reasoning model breakthroughs; ARC-AGI generalization gaps persist but longer horizon allows resolution",
+      "base_rate": "Metaculus community ~70% by 2035 (extrapolated from 50% by 2033)",
+      "factors_up": [
+        "o3 reasoning breakthrough with 20% error reduction: +5pp",
+        "Claude Opus 4.5 at 80.9% SWE-bench: +2pp",
+        "Three-axis scaling still progressing: +2pp"
+      ],
+      "factors_down": [
+        "ARC-AGI generalization gaps persist: -3pp",
+        "Announcement requirement may lag capability: -2pp",
+        "Safety concerns may slow deployment: -1pp"
+      ],
+      "key_uncertainties": [
+        "Will inference-time scaling continue or plateau?",
+        "How will AGI be recognized if capabilities emerge gradually?",
+        "Geopolitical/safety delays on disclosure?"
+      ],
+      "update_triggers_up": [
+        "Major lab announces AGI or imminent AGI",
+        "Frontier model crosses 50% ARC-AGI-2"
+      ],
+      "update_triggers_down": [
+        "Generalization plateau across benchmarks",
+        "Major safety incident causing regulatory slowdown"
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+      "central": 11,
+      "ci_lower": 5,
+      "ci_upper": 20,
+      "key_change": "\u2192 Stable; US intel downgrade to 2027 offset by PLA blockade rehearsals and rhetoric escalation",
+      "base_rate": "Taiwan Strait crisis ~1 per decade; <1% annual kinetic action rate; 83% experts reject 2027 invasion",
+      "factors_up": [
+        "PLA explicit blockade rehearsals April 2026: +2pp",
+        "Escalated rhetoric shift to 'crack down': +1pp",
+        "Trump uncertainty on Taiwan commitment: +1pp"
+      ],
+      "factors_down": [
+        "US intel March 2026: no 2027 invasion plan: -2pp",
+        "Expert consensus 83% reject near-term action: -1pp",
+        "Intel consensus: 2030s as primary risk window: -2pp"
+      ],
+      "key_uncertainties": [
+        "Whether rehearsals transition to actual blockade",
+        "Trump admin actual Taiwan defense commitment",
+        "Miscalculation risk in crowded Taiwan Strait"
+      ],
+      "update_triggers_up": [
+        "Actual blockade >72 hours",
+        "Major US arms sale reduction to Taiwan"
+      ],
+      "update_triggers_down": [
+        "US intel further downgrade",
+        "Diplomatic breakthrough on Taiwan"
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+      "central": 3,
+      "ci_lower": 1,
+      "ci_upper": 7,
+      "key_change": "\u2193 BoE revisions show inflation stickier; Feb 2026 at 3.0%, Q3 expected 3.5%; consensus 2.1-2.2% at best",
+      "base_rate": "BoE forecast 2.1% Q2 2026; Treasury survey 2.2% Q4 2026; neither below 2.0%",
+      "factors_up": [
+        "April energy cap reduction provides temporary relief: +0.5pp",
+        "Base effects from 2025 provide some downward pressure: +0.5pp"
+      ],
+      "factors_down": [
+        "Feb 2026 CPI at 3.0%, far above target: -2pp",
+        "BoE revised up to 3.5% for Q3 2026: -2pp",
+        "Consensus forecasts cluster at 2.1-2.2%, above threshold: -1pp"
+      ],
+      "key_uncertainties": [
+        "March data (releasing 22 April) could surprise",
+        "Geopolitical energy shocks could push inflation higher",
+        "Timing of July price cap increase"
+      ],
+      "update_triggers_up": [
+        "March CPI data below 2.0%",
+        "Energy prices fall sharply"
+      ],
+      "update_triggers_down": [
+        "March CPI above 3.2%",
+        "July price cap larger than expected"
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+      "central": 91,
+      "ci_lower": 85,
+      "ci_upper": 95,
+      "key_change": "\u2191 Record 1B+ trailer views confirmed; conservative projections at $2.31B well above threshold",
+      "base_rate": "MCU $1.5B+ threshold met by 75% of major releases; No Way Home $1.9B",
+      "factors_up": [
+        "Trailer 2x No Way Home 24hr record: +5pp",
+        "First ever 1B view trailer: +3pp",
+        "Conservative projection $2.31B vs $1.5B target: +2pp"
+      ],
+      "factors_down": [
+        "Lacks multiverse/3-Spider-Men nostalgia: -2pp",
+        "4 months to release, execution risk: -1pp",
+        "International competition unknown: -1pp"
+      ],
+      "key_uncertainties": [
+        "Opening weekend performance vs projections",
+        "Critical reception",
+        "Competitive releases July-Dec 2026"
+      ],
+      "update_triggers_up": [
+        "Opening weekend tracking >$150M domestic",
+        "RT score >85%"
+      ],
+      "update_triggers_down": [
+        "Opening tracking <$100M domestic",
+        "Critical consensus below 65%"
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+      "central": 74,
+      "ci_lower": 60,
+      "ci_upper": 85,
+      "key_change": "\u2192 Slight decrease; growth moderation risk despite strong $44B combined current trajectory",
+      "base_rate": "Corporate software high-growth forecasting: 70-75% accuracy for 8-9 month projections",
+      "factors_up": [
+        "Anthropic enterprise share surge to 80%: +3pp",
+        "Claude Code $2.5B ARR milestone: +2pp",
+        "OpenAI approaching $50B target: +3pp"
+      ],
+      "factors_down": [
+        "Growth moderation as bases grow: -3pp",
+        "Anthropic 10x growth unsustainable: -2pp",
+        "Macro headwinds in Q4: -1pp"
+      ],
+      "key_uncertainties": [
+        "ARR definition (run-rate vs contracted)",
+        "Anthropic H2 growth trajectory",
+        "OpenAI enterprise scaling beyond 40% penetration"
+      ],
+      "update_triggers_up": [
+        "Either company >50% quarterly growth in Q2/Q3",
+        "Major enterprise wins"
+      ],
+      "update_triggers_down": [
+        "Combined growth slows below 20% QoQ",
+        "Either company revises down projections"
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+      "central": 44,
+      "ci_lower": 30,
+      "ci_upper": 58,
+      "key_change": "\u2192 Minimal change; OBR medium-term potential at 1.5% but productivity revisions down offset by AI potential",
+      "base_rate": "OBR medium-term potential output growth: 1.5%; recent 2026-2030 forecasts averaging 1.5%",
+      "factors_up": [
+        "Industrial Strategy 8 high-growth sectors: +2pp",
+        "Energy cost support and tax relief: +1pp",
+        "AI productivity potential if adoption gap closes: +3pp"
+      ],
+      "factors_down": [
+        "TFP revised down to 0.8%: -3pp",
+        "2026 at 1.1% pulls decade average down: -2pp",
+        "Demographic labour supply constraints: -2pp"
+      ],
+      "key_uncertainties": [
+        "Whether AI productivity gap closes in 2030s",
+        "Migration policy and net migration assumptions",
+        "Global economic shocks"
+      ],
+      "update_triggers_up": [
+        "OBR upgrades TFP above 1.0%",
+        "Quarterly GDP consistently above 0.2%"
+      ],
+      "update_triggers_down": [
+        "OBR further reduces potential output",
+        "UK enters technical recession"
+      ]
+    }
+  ]
 };
-// REPORTS_INJECT_END
+        // REPORTS_INJECT_END
 
 async function loadReports() {
   const recentDates = reportManifest.slice(-3).reverse();
