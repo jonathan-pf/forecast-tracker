@@ -720,75 +720,75 @@
     "key_change": "\u2192 Minimal change; OBR medium-term potential at 1.5% but productivity revisions down offset by AI potential"
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-04",
     "question": "Will AGI be developed before 1 January 2030?",
     "central": 22,
     "ci_lower": 10,
     "ci_upper": 36,
-    "key_change": "Jensen Huang claims AGI achieved but narrow definition; Microsoft CEO disagrees; no consensus shift"
+    "key_change": "No significant change; consensus still sceptical of near-term AGI despite Musk claims. Shane Legg gives 50% by 2028; community predictions ~10% for 2026."
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-04",
     "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
-    "central": 14,
-    "ci_lower": 6,
-    "ci_upper": 25,
-    "key_change": "UK consulting industry projected to grow 5.7% in 2026; AI driving demand rather than destroying it"
-  },
-  {
-    "date": "2026-04-03",
-    "question": "Will Labour be largest party at next UK General Election?",
     "central": 15,
-    "ci_lower": 8,
-    "ci_upper": 28,
-    "key_change": "Polls stable with Reform leading; Labour at 18% vs Reform 26%; MRP projects catastrophic Labour seat losses"
+    "ci_lower": 7,
+    "ci_upper": 26,
+    "key_change": "Slight uptick (+1pp): McKinsey planning 10% layoffs, industry-wide cuts accelerating. But 33% threshold remains very high for 4.5 years."
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-04",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 12,
+    "ci_lower": 5,
+    "ci_upper": 24,
+    "key_change": "Down 3pp. Electoral Calculus places Labour 5th in seats. Reform leads at 266 seats. Labour at 18% vote share, behind Reform (26%), with Greens taking 68 Labour seats."
+  },
+  {
+    "date": "2026-04-04",
     "question": "Will AGI be developed before 1 January 2035?",
     "central": 65,
     "ci_lower": 44,
     "ci_upper": 81,
-    "key_change": "Huang AGI claim sparks debate but no consensus; capability gains continue on trajectory"
+    "key_change": "Stable. Longer timeline absorbs near-term uncertainty. Expert median estimates clustering around 2030-2035 range."
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-04",
     "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
-    "central": 12,
+    "central": 11,
     "ci_lower": 5,
-    "ci_upper": 22,
-    "key_change": "PLA drone flew through Taiwan's Pratas Island airspace (Jan 17) \u2014 possible first territorial airspace violation in decades"
+    "ci_upper": 20,
+    "key_change": "Stable. PLA conducted two-day exercises in early April with hypersonic missiles, but ASPI assesses 2026 is not the year. Gray zone preferred over kinetic action."
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-04",
     "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
     "central": 3,
     "ci_lower": 1,
     "ci_upper": 7,
-    "key_change": "CPI at 3.0% in Feb; BoE expects ~3.5% in March due to Middle East conflict energy price impacts"
+    "key_change": "Stable. CPI stuck at 3.0% for Jan and Feb 2026. Only ~8 monthly readings remain. Would need 1pp+ drop \u2014 extremely unlikely without major deflationary shock."
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-04",
     "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
-    "central": 91,
-    "ci_lower": 85,
-    "ci_upper": 95,
-    "key_change": "Trailer hits 1B views \u2014 first ever; projected $2.54B worldwide; release July 31"
+    "central": 93,
+    "ci_lower": 87,
+    "ci_upper": 97,
+    "key_change": "Up 2pp. Trailer became first ever to hit 1B views in 4 days. Industry projections at $2.5B worldwide. Opening expected to rival Endgame."
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-04",
     "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
     "central": 72,
-    "ci_lower": 55,
+    "ci_lower": 58,
     "ci_upper": 84,
-    "key_change": "Combined current ARR ~$44B (OpenAI ~$25B + Anthropic ~$19B); Anthropic growth accelerating but $70B needs strong H2"
+    "key_change": "Down 2pp. Combined ARR now $44B (OpenAI $25B + Anthropic $19B). Need $26B more in ~9 months. Growth rates expected to slow. Anthropic ARR includes gross cloud billings."
   },
   {
-    "date": "2026-04-03",
+    "date": "2026-04-04",
     "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
     "central": 44,
     "ci_lower": 30,
     "ci_upper": 58,
-    "key_change": "OBR March 2026 forecast averages 1.6% medium-term; but OECD cut 2026 forecast to 0.7%"
+    "key_change": "Stable. OBR March 2026 forecasts growth averaging 1.6% from 2027, just above threshold. Structural headwinds from ageing population and high debt persist."
   }
 ]
