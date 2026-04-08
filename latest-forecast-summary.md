@@ -1,33 +1,31 @@
-# Forecast Update — 2026-04-07
+# Forecast Update — 2026-04-08
 
-## Summary Table
-
-| # | Question | Previous | Current | Δ | 80% CI |
-|---|----------|----------|---------|---|--------|
-| 1 | AGI before 2030? | 22% | 22% | → | 10–38% |
-| 2 | Consultancy loses ≥33% by 2030? | 15% | 15% | → | 6–28% |
-| 3 | Labour largest party at next GE? | 12% | 11% | ↓1 | 4–22% |
-| 4 | AGI before 2035? | 65% | 65% | → | 45–82% |
-| 5 | China blockade/invade Taiwan before 2030? | 11% | 11% | → | 4–22% |
-| 6 | UK CPI below 2.0% before Jan 2027? | 3% | 3% | → | 1–8% |
-| 7 | Spider-Man >$1.5B worldwide? | 93% | 93% | → | 85–97% |
-| 8 | OpenAI + Anthropic ARR >$70B by Dec 2026? | 72% | 78% | ↑6 | 62–90% |
-| 9 | UK real GDP growth >1.5% across 2030s? | 44% | 43% | ↓1 | 25–62% |
+| Question | Previous | Current | Δ | 80% CI |
+|---|---|---|---|---|
+| Will AGI be developed before 1 January 2030? | 22% | 22% | → | 10–38% |
+| Will economic consultancy lose ≥33% value/jobs by end 2030 d... | 15% | 15% | → | 6–28% |
+| Will Labour be largest party at next UK General Election? | 11% | 10% | ↓ 1pp | 4–20% |
+| Will AGI be developed before 1 January 2035? | 65% | 65% | → | 45–82% |
+| Will China initiate a military blockade or invasion of Taiwa... | 11% | 12% | ↑ 1pp | 5–23% |
+| Will UK annual CPI inflation fall below 2.0% for at least on... | 3% | 2% | ↓ 1pp | 0.5–6% |
+| Will Spider-Man: Brand New Day gross over $1.5B worldwide by... | 93% | 92% | ↓ 1pp | 84–97% |
+| Will OpenAI and Anthropic have a combined ARR exceeding $70B... | 78% | 82% | ↑ 4pp | 68–92% |
+| Will UK average annual real GDP growth exceed 1.5% across th... | 43% | 42% | ↓ 1pp | 24–61% |
 
 ## Key Movements
 
-**OpenAI + Anthropic ARR (↑6pp to 78%):** Anthropic reportedly hit $30B ARR in April 2026, up from $14B in February — extraordinary growth. Combined with OpenAI's $25B, the pair are at ~$55B with 8 months remaining to reach $70B. Revenue accounting differences (Anthropic reports gross through cloud channels) temper confidence somewhat, but trajectory is strong.
+- **Will Labour be largest party at next UK General El...**: ↓ 1pp — ↓ Labour now 4th in vote share at 17%; three-way tie for 1st between Reform, Greens, Conservatives at 21%
+- **Will China initiate a military blockade or invasio...**: ↑ 1pp — ↑ China's 'Justice Mission' drills fired 27 rockets into Taiwan's contiguous zone; blockade rehearsal escalation
+- **Will UK annual CPI inflation fall below 2.0% for a...**: ↓ 1pp — ↓ BoE March update: CPI now expected 3-3.5% in Q2-Q3 2026 due to Middle East energy shock; pre-shock path to 2% obliterated
+- **Will Spider-Man: Brand New Day gross over $1.5B wo...**: ↓ 1pp — ↓ Conservative tracking estimate at $1.12B worldwide creates modest downside; but high-end projections at $2.54B
+- **Will OpenAI and Anthropic have a combined ARR exce...**: ↑ 4pp — ↑ Anthropic hits $30B ARR in April, surpassing OpenAI ($24-25B); combined ~$55B with 8 months to grow $15B more
+- **Will UK average annual real GDP growth exceed 1.5%...**: ↓ 1pp — ↓ OBR revises medium-term TFP growth down to 0.8%; potential output growth reaching only 1.5% by 2030 — right at threshold
 
-**Labour largest party (↓1pp to 11%):** April Electoral Calculus projection shows Labour collapsing to just 63 seats, with Reform at 266. Labour polling at 19%, behind Reform (26%) and barely ahead of Conservatives (18%). Political fragmentation continues to deepen.
+## Takeaways
 
-**UK GDP growth 2030s (↓1pp to 43%):** OBR March 2026 forecast lowered TFP growth assumption to 0.8% from 1.1%. Medium-term growth forecast averages 1.5% — right at the question threshold. Trade policy risks elevated.
+- **OpenAI + Anthropic ARR**: Strongest upward mover (+4pp to 82%). Anthropic's $30B ARR (surpassing OpenAI) makes combined $70B by year-end increasingly likely.
+- **UK CPI below 2%**: Continued decline (-1pp to 2%). Middle East energy shock has pushed BoE's CPI forecast to 3-3.5% through Q3 2026, making sub-2% reading before January 2027 near-impossible.
+- **Labour largest party**: Down 1pp to 10%. Now 4th in vote share behind Reform, Greens, and Conservatives in latest polling.
+- **China-Taiwan**: Up 1pp to 12%. December 2025 'Justice Mission' drills with 27 rockets fired into Taiwan's contiguous zone represent a new escalation threshold, though still interpreted as grey-zone coercion.
 
-## Stable Forecasts
-
-Most questions saw no movement, reflecting a quiet 3-day window since the last update. AGI timelines, China-Taiwan risks, UK inflation, Spider-Man box office, and consulting disruption all remain at prior levels with no material new evidence.
-
-## Data Notes
-
-- Previous update: 2026-04-04
-- Total forecast history entries: 108
-- Dashboard: https://jonathan-pf.github.io/forecast-tracker/
+*Dashboard: https://jonathan-pf.github.io/forecast-tracker/*
