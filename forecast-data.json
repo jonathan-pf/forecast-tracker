@@ -934,5 +934,77 @@
     "ci_lower": 24,
     "ci_upper": 61,
     "key_change": "\u2193 OBR revises medium-term TFP growth down to 0.8%; potential output growth reaching only 1.5% by 2030 \u2014 right at threshold"
+  },
+  {
+    "date": "2026-04-09",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 22,
+    "ci_lower": 10,
+    "ci_upper": 38,
+    "key_change": "\u2192 Stable; Metaculus median at Feb 2028 but wide uncertainty; no new capability announcements"
+  },
+  {
+    "date": "2026-04-09",
+    "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
+    "central": 15,
+    "ci_lower": 6,
+    "ci_upper": 28,
+    "key_change": "\u2192 Stable; McKinsey/Accenture cuts continue but revenue still growing at top firms"
+  },
+  {
+    "date": "2026-04-09",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 9,
+    "ci_lower": 3,
+    "ci_upper": 19,
+    "key_change": "\u2193 YouGov 6-7 Apr: Lab 16%, projected just 63 seats; Green surge eating into Labour base"
+  },
+  {
+    "date": "2026-04-09",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 65,
+    "ci_lower": 45,
+    "ci_upper": 82,
+    "key_change": "\u2192 Stable; Metaculus median ~2030-2031 for broad AGI definitions; long horizon provides buffer"
+  },
+  {
+    "date": "2026-04-09",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 12,
+    "ci_lower": 5,
+    "ci_upper": 23,
+    "key_change": "\u2192 Stable; China rehearsing blockades but US intel says no invasion planned for 2027; gray-zone continues"
+  },
+  {
+    "date": "2026-04-09",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 2,
+    "ci_lower": 0.5,
+    "ci_upper": 6,
+    "key_change": "\u2192 Effectively resolved NO; CPI at 3.0% in Feb, BoE forecasts 3-3.5% through Q3 2026"
+  },
+  {
+    "date": "2026-04-09",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 92,
+    "ci_lower": 84,
+    "ci_upper": 97,
+    "key_change": "\u2192 Stable; projections at $2.5B worldwide; 718M trailer views; release July 31"
+  },
+  {
+    "date": "2026-04-09",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 86,
+    "ci_lower": 72,
+    "ci_upper": 94,
+    "key_change": "\u2191 Anthropic hit $30B ARR (from $9B end-2025), passing OpenAI at $24-25B; combined ~$54-55B"
+  },
+  {
+    "date": "2026-04-09",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 42,
+    "ci_lower": 24,
+    "ci_upper": 61,
+    "key_change": "\u2192 Stable; OBR medium-term potential at 1.5%; threshold is right at the forecast midpoint"
   }
 ]
