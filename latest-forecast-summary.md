@@ -1,27 +1,32 @@
-# Daily Forecast Update — 2026-04-09
+# Forecast Update — 2026-04-10
 
-| Question | Previous | Current | Change | 80% CI |
-|----------|----------|---------|--------|--------|
-| Will AGI be developed before 1 January 2030? | 22% | 22% | → No change | [10%, 38%] |
-| Will economic consultancy lose ≥33% value/jobs by end 2030 d... | 15% | 15% | → No change | [6%, 28%] |
-| Will Labour be largest party at next UK General Election? | 10% | 9% | ↓ -1pp | [3%, 19%] |
-| Will AGI be developed before 1 January 2035? | 65% | 65% | → No change | [45%, 82%] |
-| Will China initiate a military blockade or invasion of Taiwa... | 12% | 12% | → No change | [5%, 23%] |
-| Will UK annual CPI inflation fall below 2.0% for at least on... | 2% | 2% | → No change | [0.5%, 6%] |
-| Will Spider-Man: Brand New Day gross over $1.5B worldwide by... | 92% | 92% | → No change | [84%, 97%] |
-| Will OpenAI and Anthropic have a combined ARR exceeding $70B... | 82% | 86% | ↑ +4pp | [72%, 94%] |
-| Will UK average annual real GDP growth exceed 1.5% across th... | 42% | 42% | → No change | [24%, 61%] |
+| Question | Central | 80% CI | Prev | Δ |
+|----------|---------|--------|------|---|
+| AGI before 2030 | 26% | 12–45% | 22% | +4 |
+| Consultancy ≥33% loss by 2030 | 18% | 7–35% | 15% | +3 |
+| Labour largest party next GE | 8% | 3–18% | 11% | −3 |
+| AGI before 2035 | 72% | 52–85% | 65% | +7 |
+| China–Taiwan blockade/invasion by 2030 | 13% | 5–25% | 11% | +2 |
+| UK CPI below 2.0% before Jan 2027 | 3% | 1–8% | 3% | 0 |
+| Spider-Man: Brand New Day >$1.5B | 94% | 87–98% | 93% | +1 |
+| OpenAI + Anthropic >$70B ARR by end 2026 | 89% | 80–95% | 78% | +11 |
+| UK GDP growth >1.5% across 2030s | 46% | 30–62% | 43% | +3 |
 
-## Key Movements
+## Key Takeaways
 
-- **Will Labour be largest party at next UK General El...**: 10% → 9% — ↓ YouGov 6-7 Apr: Lab 16%, projected just 63 seats; Green surge eating into Labour base
-- **Will OpenAI and Anthropic have a combined ARR exce...**: 82% → 86% — ↑ Anthropic hit $30B ARR (from $9B end-2025), passing OpenAI at $24-25B; combined ~$54-55B
+1. **Largest move: OpenAI + Anthropic ARR (+11pp to 89%)** — Combined ARR already at ~$55B in April 2026, needing only 27% more growth. Anthropic's explosive trajectory ($9B→$30B in 4 months) and strong enterprise adoption make the $70B target increasingly likely.
 
-## Takeaways
+2. **AGI timelines edging up** — Both 2030 (+4pp to 26%) and 2035 (+7pp to 72%) forecasts rose on continued frontier model improvements and lab leader statements. Jensen Huang's March AGI claim didn't meet resolution criteria but signals shifting discourse.
 
-- **OpenAI + Anthropic ARR**: Largest move today (+4pp to 86%). Anthropic hitting $30B ARR and passing OpenAI is a major signal; combined $54-55B with 8 months to go makes $70B increasingly likely.
-- **Labour**: Edged down 1pp to 9%. YouGov has them at 16% nationally, Electoral Calculus projects just 63 seats. Green surge continues to split the progressive vote.
-- **UK CPI**: Effectively resolved NO at 2%. BoE forecasting 3-3.5% through Q3 2026.
-- **Spider-Man**: Holding strong at 92%. Tracking projections at $2.5B worldwide, well above $1.5B threshold.
+3. **Labour continues to decline (−3pp to 8%)** — Polling now 16-18%, with Reform UK consolidating at 266+ projected seats. Electoral Calculus places Labour fifth in seat count. Recovery path narrowing significantly.
 
-*Generated automatically on 2026-04-09*
+4. **UK CPI holds at 3%** — Middle East energy shock in March 2026 pushed BoE forecasts upward; sub-2% remains very unlikely with Q4 forecast at ~2.1%.
+
+5. **Spider-Man tracking strongly (+1pp to 94%)** — Record-breaking 1B+ trailer views and $2.3-2.5B analyst projections. Film releases July 31.
+
+## Movements Summary
+
+- **Up significantly (≥5pp):** OpenAI+Anthropic ARR (+11), AGI before 2035 (+7)
+- **Up modestly (1-4pp):** AGI before 2030 (+4), Consultancy loss (+3), UK GDP 2030s (+3), China-Taiwan (+2), Spider-Man (+1)
+- **Stable:** UK CPI (0)
+- **Down:** Labour largest party (−3)
