@@ -1,32 +1,27 @@
-# Forecast Update — 2026-04-10
+# Forecast Update — 2026-04-11
 
-| Question | Central | 80% CI | Prev | Δ |
-|----------|---------|--------|------|---|
-| AGI before 2030 | 26% | 12–45% | 22% | +4 |
-| Consultancy ≥33% loss by 2030 | 18% | 7–35% | 15% | +3 |
-| Labour largest party next GE | 8% | 3–18% | 11% | −3 |
-| AGI before 2035 | 72% | 52–85% | 65% | +7 |
-| China–Taiwan blockade/invasion by 2030 | 13% | 5–25% | 11% | +2 |
-| UK CPI below 2.0% before Jan 2027 | 3% | 1–8% | 3% | 0 |
-| Spider-Man: Brand New Day >$1.5B | 94% | 87–98% | 93% | +1 |
-| OpenAI + Anthropic >$70B ARR by end 2026 | 89% | 80–95% | 78% | +11 |
-| UK GDP growth >1.5% across 2030s | 46% | 30–62% | 43% | +3 |
+## Summary Table
+
+| # | Question | Central | 80% CI | Prev | Δ |
+|---|----------|---------|--------|------|---|
+| 1 | Will AGI be developed before 1 January 2030? | 26% | 12–44% | 26% | 0 |
+| 2 | Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | 19% | 8–36% | 18% | +1 |
+| 3 | Will Labour be largest party at next UK General Election? | 7% | 2–16% | 8% | −1 |
+| 4 | Will AGI be developed before 1 January 2035? | 73% | 53–86% | 72% | +1 |
+| 5 | Will China initiate a military blockade or invasion of Taiwan before 1 January 2030? | 12% | 5–24% | 13% | −1 |
+| 6 | Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027? | 2% | 1–6% | 3% | −1 |
+| 7 | Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | 95% | 88–98% | 94% | +1 |
+| 8 | Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026? | 91% | 82–96% | 89% | +2 |
+| 9 | Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)? | 45% | 29–61% | 46% | −1 |
 
 ## Key Takeaways
 
-1. **Largest move: OpenAI + Anthropic ARR (+11pp to 89%)** — Combined ARR already at ~$55B in April 2026, needing only 27% more growth. Anthropic's explosive trajectory ($9B→$30B in 4 months) and strong enterprise adoption make the $70B target increasingly likely.
+- **Biggest mover**: OpenAI/Anthropic ARR (+2pp to 91%). Combined ARR now ~$54B in April 2026 (Anthropic $30B, OpenAI $24B). Anthropic's explosive growth from $9B to $30B in 4 months makes the $70B target increasingly likely.
+- **Spider-Man** ticks up to 95% after the trailer became the first ever to reach 1 billion views; industry projections cluster around $2.3–2.5B worldwide.
+- **UK CPI** drops to 2% — Bank of England revised inflation UP to 3.0–3.5% for Q2–Q3 2026 due to Middle East energy shock. Sub-2% is now near-impossible in remaining 8 months.
+- **Labour** dips to 7% — April 2026 Electoral Calculus projects Labour in FIFTH place (69 seats), behind Reform (266), Conservatives, Greens, and LibDems.
+- **AGI questions** essentially stable; rapid capability gains offset by increasing emphasis on evaluation over hype.
 
-2. **AGI timelines edging up** — Both 2030 (+4pp to 26%) and 2035 (+7pp to 72%) forecasts rose on continued frontier model improvements and lab leader statements. Jensen Huang's March AGI claim didn't meet resolution criteria but signals shifting discourse.
+## Movements Since Last Update (2026-04-10)
 
-3. **Labour continues to decline (−3pp to 8%)** — Polling now 16-18%, with Reform UK consolidating at 266+ projected seats. Electoral Calculus places Labour fifth in seat count. Recovery path narrowing significantly.
-
-4. **UK CPI holds at 3%** — Middle East energy shock in March 2026 pushed BoE forecasts upward; sub-2% remains very unlikely with Q4 forecast at ~2.1%.
-
-5. **Spider-Man tracking strongly (+1pp to 94%)** — Record-breaking 1B+ trailer views and $2.3-2.5B analyst projections. Film releases July 31.
-
-## Movements Summary
-
-- **Up significantly (≥5pp):** OpenAI+Anthropic ARR (+11), AGI before 2035 (+7)
-- **Up modestly (1-4pp):** AGI before 2030 (+4), Consultancy loss (+3), UK GDP 2030s (+3), China-Taiwan (+2), Spider-Man (+1)
-- **Stable:** UK CPI (0)
-- **Down:** Labour largest party (−3)
+Most questions saw only marginal movement (±1pp), reflecting an incremental news day. The OpenAI/Anthropic revenue question saw the largest shift, driven by Anthropic's newly reported $30B ARR milestone.
