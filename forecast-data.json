@@ -1150,5 +1150,77 @@
     "ci_lower": 25,
     "ci_upper": 62,
     "key_change": "OBR forecasts 1.1% for 2026; IFS expects 1.4% average; AI productivity could help but structural headwinds persist"
+  },
+  {
+    "date": "2026-04-15",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 25,
+    "ci_lower": 10,
+    "ci_upper": 42,
+    "key_change": "Metaculus median for 'first general AI' remains Feb 2028; AI Frontiers gives 50% by 2028. No major capability jumps since last update. Holding steady."
+  },
+  {
+    "date": "2026-04-15",
+    "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
+    "central": 17,
+    "ci_lower": 7,
+    "ci_upper": 30,
+    "key_change": "McKinsey revenue flat at $15-16B but AI consulting booming. Entry-level disruption real but overall industry adapting rather than contracting. Big 4 investing billions in AI. Slight decrease."
+  },
+  {
+    "date": "2026-04-15",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 6,
+    "ci_lower": 2,
+    "ci_upper": 15,
+    "key_change": "Electoral Calculus now predicts Labour at just 63 seats (down from 79 in earlier polls). Reform at 266 seats. Labour polling at 17.8%, behind both Reform (26%) and Conservatives (18.4%). Green surge eating into Labour base. Slight decrease."
+  },
+  {
+    "date": "2026-04-15",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 73,
+    "ci_lower": 55,
+    "ci_upper": 88,
+    "key_change": "Metaculus median for 'general AI' is April 2033. Combined forecast puts AGI at 2030 (80% CI: 2027-2043). Expert consensus continues to pull timelines forward. Slight tick up."
+  },
+  {
+    "date": "2026-04-15",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 10,
+    "ci_lower": 4,
+    "ci_upper": 20,
+    "key_change": "US intelligence reassessing \u2014 now says imminent attack unlikely. Polymarket: 3.1% by June 2026. PLA ADIZ incursions dropped sharply in early 2026 with 13-day pause. Blockade-by-coast-guard strategy emerging as preferred coercion tool. Slight decrease."
+  },
+  {
+    "date": "2026-04-15",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 2,
+    "ci_lower": 0.5,
+    "ci_upper": 5,
+    "key_change": "CPI at 3.0% in February 2026. Bank of England projects 3-3.5% for Q2-Q3 2026. Only ~8 months remain. Would need dramatic deflationary shock to drop from 3%+ to below 2%. Holding at floor."
+  },
+  {
+    "date": "2026-04-15",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 95,
+    "ci_lower": 85,
+    "ci_upper": 99,
+    "key_change": "Trailer broke all-time record with 1 billion views. Industry projections range from $2.31B to $2.54B worldwide. Release date July 31, 2026 with 60-day theatrical window. No Way Home did $1.92B. Holding steady at high confidence."
+  },
+  {
+    "date": "2026-04-15",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 94,
+    "ci_lower": 82,
+    "ci_upper": 99,
+    "key_change": "Major update: Anthropic hit $30B ARR (up from $9B just 4 months ago). OpenAI at $24-25B. Combined ~$54-55B in April 2026. Need $70B by Q4 2026. At current growth trajectories, highly likely. Increasing from 92%."
+  },
+  {
+    "date": "2026-04-15",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 44,
+    "ci_lower": 28,
+    "ci_upper": 60,
+    "key_change": "OBR March 2026 forecasts average 1.6% over forecast period. IMF at 1.4-1.5%. Trend rate ~1.5%, right at the threshold. Question is essentially a coin flip on whether AI productivity gains push UK above trend. Holding steady."
   }
 ]
