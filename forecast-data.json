@@ -1294,5 +1294,77 @@
     "ci_lower": 28,
     "ci_upper": 60,
     "key_change": "OBR March 2026 forecast avg 1.5% across its forecast window; Nov 2025 revision took TFP from 1.1% to 0.8% medium-term. IMF still at 1.2-1.4% near-term. Question is right at the threshold; AI productivity gains remain the key swing factor. Hold at 44%."
+  },
+  {
+    "date": "2026-04-17",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 25,
+    "ci_lower": 12,
+    "ci_upper": 42,
+    "key_change": "No credible lab has declared AGI in the last 24 hours. OpenAI beefed up Codex (16 Apr) with desktop-agent powers; Anthropic's unreleased Claude Mythos Preview hits 93.9% on SWE-bench Verified but is gated under Project Glasswing. Metaculus combined forecast still pegs AGI around mid-2030 (80% CI: 2027-2043). Kalshi ~42% OpenAI-AGI-by-2030; Polymarket 9% for AGI-by-2027. Hold at 25%."
+  },
+  {
+    "date": "2026-04-17",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 18,
+    "ci_lower": 8,
+    "ci_upper": 32,
+    "key_change": "McKinsey confirmed ~10% layoffs affecting 'a few thousand' mostly non-client-facing roles over 18-24 months; headcount down from 45k+ peak to ~40k. But implementation-led firms (Accenture, Deloitte, EY) still growing 11-12% CAGR while MBB compounds 5-6%. Global consulting revenue base still expanding. No directional shift. Hold at 18%."
+  },
+  {
+    "date": "2026-04-17",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 4,
+    "ci_lower": 1,
+    "ci_upper": 10,
+    "key_change": "Latest YouGov (12-13 April) holds Reform 24%, Con 19%, Grn 18%, Lab 17%, LD 13% — Labour remains in a four-way tie for second place, 7pp behind Reform. More in Common April MRP still projects ~324 Reform seats. No bounce since last week. Hold at 4%."
+  },
+  {
+    "date": "2026-04-17",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 73,
+    "ci_lower": 55,
+    "ci_upper": 88,
+    "key_change": "Metaculus combined forecast median still mid-2030 (80% CI 2027-2043) — the central mass sits comfortably inside the 2035 deadline. Capability milestones this week (Claude Mythos 93.9% SWE-bench, OpenAI GPT-5.4-Cyber, Codex desktop agent) reinforce trajectory. Anthropic's $30B ARR gives it commercial fuel for another decade of scaling. Hold at 73%."
+  },
+  {
+    "date": "2026-04-17",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 10,
+    "ci_lower": 4,
+    "ci_upper": 20,
+    "key_change": "G7+EU joint statement (6 April) condemned PLA's early-April three-phase exercise; Penghu live-fire drills continue. But DNI assessment still reads PRC as not planning near-term invasion and Beijing appears to prefer grey-zone coercion plus coast-guard pressure. No cross-strait escalation to kinetic action. Hold at 10%."
+  },
+  {
+    "date": "2026-04-17",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 1,
+    "ci_lower": 0,
+    "ci_upper": 4,
+    "key_change": "BoE March 2026 MPR: CPI expected close to 3.5% in March and 3.0-3.5% through Q2-Q3 2026 on Middle East energy shock. CPI was 3.0% in both January and February 2026 per ONS. Only ~8 months of prints remain before 1 Jan 2027, all with base effects working against a sub-2% reading. Hold at 1% floor."
+  },
+  {
+    "date": "2026-04-17",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 96,
+    "ci_lower": 86,
+    "ci_upper": 99,
+    "key_change": "Tracking projections $2.31-2.54B WW (Variety / koimoi). Trailer sustained 1B+ views. Polymarket holds 45.5% chance of top-grossing 2026 film. Opening 31 July; presales momentum steady. No Way Home comp ($1.92B) supports upside case. Hold at 96%."
+  },
+  {
+    "date": "2026-04-17",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 96,
+    "ci_lower": 86,
+    "ci_upper": 99,
+    "key_change": "Anthropic confirmed at $30B ARR (overtook OpenAI), closed $30B Series G at $380B valuation, IPO targeted October. OpenAI ~$25B ARR. Combined ~$55B in April. With three quarters of historical 2-3x annualised growth, combined $70B by Q4 2026 remains highly likely barring a material slowdown. Hold at 96%."
+  },
+  {
+    "date": "2026-04-17",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 44,
+    "ci_lower": 28,
+    "ci_upper": 60,
+    "key_change": "OBR March 2026 forecast has real GDP per person at 1.1% a year 2026-2030 with productivity assumed to pick up to 1% medium-term and labour supply growth declining to ~0.5% by 2030. Implies trend GDP around 1.5% — right at the threshold. IMF still 1.2% (2025) / 1.4% (2026). AI productivity remains the key upside swing factor. Hold at 44%."
   }
 ]
