@@ -1366,5 +1366,77 @@
     "ci_lower": 28,
     "ci_upper": 60,
     "key_change": "OBR March 2026 forecast has real GDP per person at 1.1% a year 2026-2030 with productivity assumed to pick up to 1% medium-term and labour supply growth declining to ~0.5% by 2030. Implies trend GDP around 1.5% — right at the threshold. IMF still 1.2% (2025) / 1.4% (2026). AI productivity remains the key upside swing factor. Hold at 44%."
+  },
+  {
+    "date": "2026-04-28",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 25,
+    "ci_lower": 12,
+    "ci_upper": 42,
+    "key_change": "No credible AGI declaration since last update. Anthropic launched Claude Mythos 5 (10T params); Google's Cloud Next 2026 highlighted agentic AI tools (no AGI claim). Anthropic secured $25B Amazon + $40B Google commitments — validating commercial momentum but not capability. Metaculus combined forecast still pegs AGI mid-2030 (80% CI 2027-2043). 'ASI Finals' headlines (Meta and xAI reportedly faltering) suggest race acceleration but no near-term resolution trigger. ~32 months remaining; hold at 25%."
+  },
+  {
+    "date": "2026-04-28",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 19,
+    "ci_lower": 9,
+    "ci_upper": 33,
+    "key_change": "McKinsey announced ~10% workforce cut (~200 internal tech/support roles automated by AI). Q1 2026 saw 80,000+ tech industry layoffs with ~50% AI-attributed; 61,000+ AI-driven layoffs across all sectors. Meta and Microsoft 20K+ cuts add to AI labor disruption narrative. Anthropic CEO Amodei reiterating 'unusually painful' job disruption warnings. But 33% sector-wide decline by Dec 2030 still requires a sustained downshift. Slight uptick from 18% to 19%."
+  },
+  {
+    "date": "2026-04-28",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 3,
+    "ci_lower": 1,
+    "ci_upper": 9,
+    "key_change": "More in Common's April 2026 MRP projects Reform UK on 381 seats (112 majority); Labour collapses to 85 seats (-326 from 2024). Starmer net favourability -42 (Ipsos), 52% want him to stand down. PolitPro voting intention: Reform 25.7%, Tories 18.5%, Labour 18%, Green 16.7%. 'Your Party' fragmenting the left further benefits Reform. Slight downtick from 4% to 3%."
+  },
+  {
+    "date": "2026-04-28",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 74,
+    "ci_lower": 56,
+    "ci_upper": 88,
+    "key_change": "Funding momentum continues to support medium-term AGI thesis: Anthropic $25B Amazon + $40B Google commitments; Claude Mythos 5 at 10T params; Google's agentic stack reaching enterprise scale. Metaculus median around 2030 (well within window). 'ASI Finals' headlines suggest only 3 frontier labs remain — capital concentration plausibly accelerates timelines. Even modest probability of AGI in any single year (5-8%) compounds to >70% over 8.5 years. Slight uptick from 73% to 74%."
+  },
+  {
+    "date": "2026-04-28",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 10,
+    "ci_lower": 4,
+    "ci_upper": 20,
+    "key_change": "PLA ADIZ incursions hit a monthly low in March (121, lowest since Lai took office). Liaoning carrier transit on April 20 — first since December — and 159 aircraft + 199 vessel patrols are characterised as routine intimidation, not blockade preparation. Taiwan announced new drills to break a hypothetical energy blockade (April 12 Bloomberg). Polymarket 'blockade by June 30' market provides near-term pricing. AEI assesses PRC may be 'setting conditions' for blockade narrative but no operational mobilisation. Hold at 10%."
+  },
+  {
+    "date": "2026-04-28",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 1,
+    "ci_lower": 0,
+    "ci_upper": 4,
+    "key_change": "March 2026 CPI rose to 3.3% (from 3.0% Feb), with services inflation at 4.5% and core at 3.1%. BoE March 2026 minutes flag CPI expected at 3.0-3.5% over coming quarters due to Middle East energy shock. Bank Rate held at 3.75% with no cuts expected before Q3 2027 (Oxford Economics). With only May–Dec 2026 prints remaining and CPI running well above 3%, a sub-2.0% reading is essentially ruled out absent a severe demand shock. Hold at 1%."
+  },
+  {
+    "date": "2026-04-28",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 97,
+    "ci_lower": 88,
+    "ci_upper": 99,
+    "key_change": "Trailer crossed 1 billion views in 4 days (March 18 launch) — first movie trailer ever. 24-hour record of 718.6M views (vs. Deadpool & Wolverine's prior 365M). Logarithmic growth model implies $2.54B worldwide; conservative MCU-comparable model implies $2.31B. No Way Home grossed $1.9B with 355M-view trailer; Brand New Day's 1B trailer suggests materially higher ceiling. Release July 31 leaves 5 months of theatrical run before Dec 31. Slight uptick from 96% to 97%."
+  },
+  {
+    "date": "2026-04-28",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 98,
+    "ci_lower": 92,
+    "ci_upper": 99,
+    "key_change": "April 2026 datapoints: Anthropic $30B ARR (April 7 announcement), OpenAI $25B ARR — combined $55B already. Anthropic grew $9B→$30B in 4 months; analyst Q4 2026 projections for Anthropic alone: $80B-$100B. Wildeford raised combined Q4 estimate to $160B (from $130B). Even under OpenAI CRO's deflated accounting (Anthropic ~$22B), combined run-rate is ~$47B with 8 months of growth ahead — clearing $70B requires ~50% combined growth, vs. observed 30x in 15 months for Anthropic. Uptick from 96% to 98%."
+  },
+  {
+    "date": "2026-04-28",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 43,
+    "ci_lower": 27,
+    "ci_upper": 60,
+    "key_change": "OBR March 2026 EFO: GDP growth averages 1.6% across 2027-2030; productivity growth path to 1.0% by end of forecast. November 2025 OBR revised medium-term productivity down by 0.3pp to 1.0% (from 1.3%). Labour supply growth expected ~0.5% as ageing population weighs on participation. With productivity ~1.0% + labour supply ~0.5% ≈ 1.5% trend GDP — right on threshold. Population ageing increases health/social care share, lowering aggregate productivity. Slight downtick from 44% to 43%."
   }
 ]
