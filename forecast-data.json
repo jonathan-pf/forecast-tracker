@@ -1582,5 +1582,77 @@
     "ci_lower": 26,
     "ci_upper": 60,
     "key_change": "Trim from 43% to 42%. OBR March 2026 EFO: GDP averages 1.6% across 2027-2030; productivity growth assumed 1.0% medium-term, but TFP revised down to 0.8% (vs 1.1% prior). Upside scenario (productivity rebounds to 1.5%) lifts GDP nearer 2%; downside scenario (productivity stalls at 0.5%) drags GDP toward 1.0%. IPPR and IFS commentary highlights navigating-narrow-paths uncertainty. AI productivity dividend remains a wildcard — partly upside, partly disinflationary on labour share. Central case sits just below 1.5% threshold, hence near-coin-flip with downside skew."
+  },
+  {
+    "date": "2026-05-01",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 25,
+    "ci_lower": 12,
+    "ci_upper": 42,
+    "key_change": "Hold at 25%. May 1 2026: no new AGI declaration. Late-April backdrop unchanged—Anthropic still withholding Claude Mythos 5; Google announced up to $40B Anthropic investment (Apr 24) and unveiled new AI agents at Cloud Next; DeepMind's Hassabis reiterated AGI 'within five years' but with no specific milestone declaration. Frontier release cadence remains rapid but no credible lab has publicly claimed AGI. ~43 months to resolution; resolution criteria still hinge on a public declaration."
+  },
+  {
+    "date": "2026-05-01",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 20,
+    "ci_lower": 9,
+    "ci_upper": 34,
+    "key_change": "Hold at 20%. May 1 2026 update: McKinsey continues to absorb non-client role cuts (~5,000 roles since 2023); BCG, Bain, KPMG, Deloitte similarly trimming entry-level pyramids. Bloomberg (Apr 15) confirms ~25% of entry-level consulting/finance postings now require AI skills. Direction of travel consistent with priors but no abrupt jump in either revenue or employment metrics; ≥33% threshold still demanding given ~55 months to resolution."
+  },
+  {
+    "date": "2026-05-01",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 3,
+    "ci_lower": 1,
+    "ci_upper": 8,
+    "key_change": "Hold at 3%. May 1 2026: Electoral Calculus April MRP (23 Apr) shows Reform at 24% (down from 31% in January) but still projected as the largest party; combined Lab+Con vote share at 37.1% vs. 57.4% in 2024. Greens projected to take 74 seats with 68 from Labour, capping any Labour rebound. Labour remains in third place in headline polls. Election expected by end-2029."
+  },
+  {
+    "date": "2026-05-01",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 74,
+    "ci_lower": 56,
+    "ci_upper": 88,
+    "key_change": "Hold at 74%. May 1 2026: Hassabis 'within five years' framing (~2031) consistent with current path; Google's $40B Anthropic commitment and Cloud Next agentic launches reinforce sustained capex. Mythos 5 withholding plus rapid frontier release cadence preserve a wide path to AGI in the early 2030s. ~104 months to resolution; central estimate continues to reflect a 'more likely than not' view that some credible AGI declaration occurs by 2034."
+  },
+  {
+    "date": "2026-05-01",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 10,
+    "ci_lower": 4,
+    "ci_upper": 21,
+    "key_change": "Hold at 10%. May 1 2026: Late-April PRC posture continues coercive but sub-kinetic—~100 coast guard/naval vessels deployed around KMT leader visit, live-fire drills in Yellow Sea. Taiwan running first-of-kind cross-ministry blockade-response exercises (Apr 17). AEI updates and ASPI Strategist analyses both arguing 2026 is not the year. ~44 months to resolution; central estimate unchanged."
+  },
+  {
+    "date": "2026-05-01",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 1,
+    "ci_lower": 0,
+    "ci_upper": 3,
+    "key_change": "Hold at 1%. May 1 2026: ONS March 2026 CPI at 3.3% (released 22 Apr), up from 3.0% Feb. April 2026 CPI release scheduled 20 May 2026. Core CPI 3.1%, services 4.5%, goods 2.1%. Middle East energy uplift remains a headwind. With ~8 monthly prints to resolution and starting from 3.3%, a sub-2.0% reading requires an exceptional disinflation shock not visible in current data."
+  },
+  {
+    "date": "2026-05-01",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 97,
+    "ci_lower": 88,
+    "ci_upper": 99,
+    "key_change": "Hold at 97%. May 1 2026: Release date confirmed 31 July 2026 (~3 months out). Trailer record (1B+ views) intact; tracking remains exceptional. Marketing ramp begins late-May/early-June. With ~5 months of theatrical run to year-end and No Way Home as comp ($1.92B), the bar requires only a high but achievable opening + standard MCU legs."
+  },
+  {
+    "date": "2026-05-01",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 98,
+    "ci_lower": 92,
+    "ci_upper": 99,
+    "key_change": "Hold at 98%. May 1 2026: Anthropic crossed $30B ARR on April 7 (up from $9B in Dec 2025); OpenAI run-rate at $24-25B per April reporting. Combined ~$54-55B today. With 8 months to resolution and current sequential growth rates (Anthropic 3x in four months, OpenAI growing high-double-digits), reaching $70B combined by Dec 31 2026 requires only ~30% further combined growth. OpenAI accounting dispute about Anthropic's $30B figure is the main downside risk."
+  },
+  {
+    "date": "2026-05-01",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 42,
+    "ci_lower": 26,
+    "ci_upper": 60,
+    "key_change": "Hold at 42%. May 1 2026: Most recent OBR EFO (March 2026) projects 1.6% average GDP growth across 2027-2030 with productivity rising as output gap closes. Real GDP per person growing at 1.1% across 2026-2030. PSND settling at 95% of GDP in early 2030s constrains fiscal headroom. AI-driven productivity remains the principal upside swing factor; labour supply, fiscal drag, and energy transition costs the main downside. Long horizon means most variance unresolved."
   }
 ]
