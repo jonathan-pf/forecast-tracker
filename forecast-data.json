@@ -1654,5 +1654,77 @@
     "ci_lower": 26,
     "ci_upper": 60,
     "key_change": "Hold at 42%. May 1 2026: Most recent OBR EFO (March 2026) projects 1.6% average GDP growth across 2027-2030 with productivity rising as output gap closes. Real GDP per person growing at 1.1% across 2026-2030. PSND settling at 95% of GDP in early 2030s constrains fiscal headroom. AI-driven productivity remains the principal upside swing factor; labour supply, fiscal drag, and energy transition costs the main downside. Long horizon means most variance unresolved."
+  },
+  {
+    "date": "2026-05-02",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 25,
+    "ci_lower": 12,
+    "ci_upper": 42,
+    "key_change": "Hold at 25%. May 2 2026: no new credible AGI declaration. Backdrop: ARC-AGI-3 results (Mar 2026) show frontier models scoring <0.4% on a benchmark humans solve at 100%, reinforcing breadth-of-capability gaps. Frontier release cadence still compressing (median gap ~49 days in 2026 YTD). Hassabis and Amodei continue 'few years' AGI timelines, but no lab has formally declared AGI. Sequoia's January essay arguing 'long-horizon agents are functionally AGI' is investor commentary, not a credible-lab declaration. ~43 months to resolution."
+  },
+  {
+    "date": "2026-05-02",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 19,
+    "ci_lower": 9,
+    "ci_upper": 33,
+    "key_change": "Edge down 1pp to 19%. Latest data shows AI augmenting rather than displacing consultancy: UK consulting growth projected at 5.7% in 2026 and 7.4% in 2027 (MCA survey); 77% of UK firms have integrated AI. McKinsey's late-2025 cuts (~200 staff) targeted back-office functions, not consultant headcount; entry-level pyramids reshaping (LinkedIn: 25% of entry-level postings now require AI fluency, up from <5% two years ago) but revenue continues to grow. Global AI consulting market reached $11B in 2025 and is projected at $14B in 2026 (+26.5% CAGR), arguing for net revenue substitution toward AI-services lines rather than aggregate decline. Resolution requires ≥33% revenue or employment decline by end-2030 attributed by 2+ credible analyses primarily to AI — trend is in the wrong direction for YES."
+  },
+  {
+    "date": "2026-05-02",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 3,
+    "ci_lower": 1,
+    "ci_upper": 8,
+    "key_change": "Hold at 3%. Polling backdrop unchanged from April 30: Reform leads with a 6-point lead over Labour and Conservatives; Labour and Conservatives tied around 19% in Ipsos polling. Electoral Calculus seat projections: Reform on 266 seats, 197 ahead of Labour. May 7 2026 local elections expected to confirm severe Labour losses (forecasts of up to 74% of council seats lost). With ~3.5 years to a December-2029 deadline a recovery is mathematically possible, but every credible MRP, voting-intention and seat-projection model has Labour third or fourth in seats. Material upgrade requires either Reform implosion or Labour double-digit polling recovery — neither visible."
+  },
+  {
+    "date": "2026-05-02",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 74,
+    "ci_lower": 56,
+    "ci_upper": 88,
+    "key_change": "Hold at 74%. With ~9 years to deadline, the probability remains dominated by trend extrapolation. Release cadence is still compressing (~49-day median frontier gap in 2026 YTD vs 170 days in 2023), and capex commitments (Google-Anthropic $40B, OpenAI Stargate-scale infrastructure) project frontier-scale training runs continuing through the late 2020s. ARC-AGI-3 results show breadth-of-capability gaps remain — but the question is about 2035, not 2030, giving substantially more time for these gaps to close. Lab CEOs continue to anchor 'within a decade' as a consensus public timeline."
+  },
+  {
+    "date": "2026-05-02",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 10,
+    "ci_lower": 4,
+    "ci_upper": 21,
+    "key_change": "Hold at 10%. May 1 AEI China-Taiwan update confirms continued elevated tempo without crossing threshold: PLA Southern Theater Command surface task group exercising east of Luzon Strait (Apr 24); ~100 PRC coast guard/naval vessels deployed during KMT Chairperson Cheng's visit (up from baseline 50-60); live-fire drills in Yellow Sea; airspace restriction zone NE of Taiwan extended late-March to early-May. CSMonitor analysis (May 1) notes Beijing studying Iran's Strait of Hormuz blockade as a Taiwan playbook. Activity remains in 'pressure campaign / rehearsal' band, not a >72-hour blockade or assault. ~44 months to deadline."
+  },
+  {
+    "date": "2026-05-02",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 1,
+    "ci_lower": 0,
+    "ci_upper": 3,
+    "key_change": "Hold at 1%. Latest ONS data: CPI 3.3% YoY March 2026 (up from 3.0% in February); April 2026 release published Apr 22. PwC commentary and Bank of England April Monetary Policy Report indicate inflation persistence above target. With only 8 monthly readings remaining until the December 2026 print (last that could resolve before Jan 2027) and trajectory above 3%, falling 1.3+ percentage points to below 2.0% in a single month would be unprecedented absent a sharp recession or energy-price collapse. Effectively a tail-risk question now."
+  },
+  {
+    "date": "2026-05-02",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 97,
+    "ci_lower": 88,
+    "ci_upper": 99,
+    "key_change": "Hold at 97%. Marketing trajectory continues to be exceptional: trailer (released March 18) hit 718M views in 24 hours, surpassing Deadpool & Wolverine (365M, prior MCU record) within 8 hours and overall 24-hour record set by GTA VI. Confirmed July 31 2026 theatrical release leaves ~5 months of box office runway through Dec 31. Tom Holland Spider-Man precedent (No Way Home: $1.92B) and unprecedented trailer engagement signal demand far above the $1.5B threshold. Residual ~3% accounts for tail-risks (production setback, critical reception collapse, major exogenous event)."
+  },
+  {
+    "date": "2026-05-02",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 98,
+    "ci_lower": 92,
+    "ci_upper": 99,
+    "key_change": "Hold at 98%. Latest credible reporting (April 2026): Anthropic at ~$30B ARR (Sacra, April 7), OpenAI at $25B+ ARR (The Information, late April; from $21.4B at end-2025). Combined as-reported: ~$55B already, with 8 months of growth runway and both companies on rapid trajectories (Anthropic +1,400% YoY; OpenAI +17% over four months). Even using OpenAI's preferred net-revenue accounting (which would revise Anthropic to ~$22B), combined would be ~$47B today and likely $65-80B by Dec 2026. Resolution allows 'most recent credible reporting' to include either method, and Bloomberg/FT/The Information have published the gross figures. Risk concentrated in growth deceleration in H2 2026."
+  },
+  {
+    "date": "2026-05-02",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 42,
+    "ci_lower": 26,
+    "ci_upper": 60,
+    "key_change": "Hold at 42%. OBR March 2026 EFO continues to forecast UK real GDP growth slowing from 1.4% in 2025 to 1.1% in 2026, then averaging 1.6% over the rest of the forecast (to ~2030). Per-person growth forecast averages 1.1% pa 2026-2030. November 2025 OBR revision cut medium-term productivity growth to 1.0% (from 1.3%). The OBR forecast straddles the 1.5% threshold for the first half of the 2030s, but a 10-year arithmetic mean above 1.5% requires recovery in the second half — depends materially on whether AI productivity gains land in the UK economy. IFS October 2025 outlook flagged 'narrow paths' to growth; KPMG December 2025 outlook remained cautious. With 4-year resolution window starting in 2030, probability sits near 50-50, modestly tilted below given current trend."
   }
 ]
