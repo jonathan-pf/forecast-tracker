@@ -1942,5 +1942,77 @@
     "ci_lower": 26,
     "ci_upper": 60,
     "key_change": "Hold at 42%. OBR March 2026 EFO confirms real GDP per person growth at 1.1% average 2026–2030 with productivity (TFP) growth picking up to 1% in the medium term. Adding ~0.5% from labour-supply growth declining toward 0.5% by 2030, headline real GDP growth lands close to 1.5–1.6% over the late 2020s baseline. For the 2030–2039 mean to exceed 1.5%, productivity has to keep pace with OBR's medium-term path AND labour supply must hold up against demographic ageing. AI-led upside scenario (1.5%+ productivity) brackets the 'yes' outcome; downside scenario (0.5% productivity, post-GFC average) sits well below 1.5%. With a Reform-leaning political trajectory now likely (per May 7 polling), policy mix on planning, immigration and EU trade is uncertain — could go either way for productivity."
+  },
+  {
+    "date": "2026-05-07",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 26,
+    "ci_lower": 13,
+    "ci_upper": 43,
+    "key_change": "Up 1pp to 26% on bullish capability signals. Greg Brockman (OpenAI) publicly stated they are '~80% of the way to AGI' — strongest framing yet from a frontier-lab leader. An Anthropic co-founder recalibrated to target full recursive self-improvement around 2028 (earlier than prior public anchors). Anthropic's Claude Mythos Preview cleared the UK AISI's 32-step 'The Last Ones' corporate-network simulation (3/10 runs, 73% expert-task success); GPT-5.5 followed with 2/10 solves and 71.4% expert success three weeks later. State of AI: May 2026 (Air Street) describes the field as 'ASI Finals' with three viable labs. No formal AGI declaration yet, and the resolution window now stands at ~32 months."
+  },
+  {
+    "date": "2026-05-07",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 20,
+    "ci_lower": 10,
+    "ci_upper": 34,
+    "key_change": "Hold at 20%. McKinsey's planned 10% headcount cut (a 'few thousand' non-client roles, primarily back-office) continues to anchor the trajectory; LinkedIn Economic Graph data show ~25% of entry-level consulting/finance postings now require AI fluency (vs <5% two years ago). Junior leverage compression is visible across MBB and Big-4, with PwC, EY, KPMG, Accenture, Deloitte and Bain all having announced layoffs since 2023. 33% peak-to-trough by Dec 2030 still demands sustained sector-wide contraction — current cuts are concentrated in support functions, with client-facing teams not yet hit at scale. ~55 months to deadline."
+  },
+  {
+    "date": "2026-05-07",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 3,
+    "ci_lower": 1,
+    "ci_upper": 8,
+    "key_change": "Hold at 3% on the day of UK local elections (May 7 2026). Latest YouGov voting intention (4-5 May): Reform 25%, Labour 18%, Conservatives 17%, Greens 15%, Lib Dems 14%. Reform's national share is below its 31% January peak (partly drained by new right-flank Restore Britain party) but still leads. Pre-election projections: Reform on course to gain 1,000+ council seats and take Essex, Norfolk, Suffolk; Labour projected to lose 1,500–1,900 councillors from a 2,557 base (50–74% of defended seats); Conservatives projected to lose ~907 of 1,362 seats. ITV/Survation London poll has Labour 'under siege' even in metropolitan strongholds. Without a sharp Reform collapse and Labour recovery, Labour winning most seats at the next GE remains a very low-probability outcome."
+  },
+  {
+    "date": "2026-05-07",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 75,
+    "ci_lower": 57,
+    "ci_upper": 88,
+    "key_change": "Up 1pp to 75%. Same capability signals as the 2030 question (Brockman '80% to AGI', Anthropic 2028 RSI target, Mythos and GPT-5.5 clearing AISI 'Last Ones', explicit ASI Finals competitive structure) compound over the longer ~104-month window. Industry leader anchors continue to converge in the 2028-2035 range: Amodei 2026-27, Altman 2035, Hassabis 5-10 years, researcher median 2047. With the 2030 marker now perceived as achievable by leading labs, the 2035 deadline looks materially easier — primary residual risk is definitional (resolution criteria) rather than capability."
+  },
+  {
+    "date": "2026-05-07",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 9,
+    "ci_lower": 4,
+    "ci_upper": 19,
+    "key_change": "Hold at 9%. AEI May 1 China & Taiwan update confirms PLAN deployments in South China Sea and West Pacific timed to Balikatan 2026 (US-Philippines-Japan) — the now-familiar coercion tempo, not a step-change. KMT/TPP impeachment vote against President Lai set for May 19; Taiwan studying Middle East lessons to harden against blockade. US IC reaffirms PLA preparedness target 2027 (preparedness ≠ action). No mobilisation indicators, no crossing of declared red lines. ~44 months remain to deadline."
+  },
+  {
+    "date": "2026-05-07",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 1,
+    "ci_lower": 0,
+    "ci_upper": 3,
+    "key_change": "Hold at 1%. Bank of England April 2026 Monetary Policy Report (April 30) and exchange of letters confirm CPI at 3.3% in March 2026, projected to ease only to 3.1% in 2026 Q2 before rising back to 3.3% in Q3 — a 1.4pp upward revision from February's projection. Bank Rate held at 3.75% (April 29 8-1 vote, with one member voting to hike). Higher-for-longer energy prices (Middle East conflict feeding through) plus services-inflation persistence make a sub-2% monthly print before Dec 2026 essentially mechanically infeasible. ~8 months to deadline."
+  },
+  {
+    "date": "2026-05-07",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 98,
+    "ci_lower": 92,
+    "ci_upper": 99,
+    "key_change": "Hold at 98%. Tracking remains exceptional. Trailer (released March 17 2026) crossed 1B views in 4 days — the first ever, surpassing GTA VI — and continues to grow. Variety, Koimoi, Box Office Mojo and The Numbers all model a $2B-$2.3B worldwide finish, well clear of the $1.5B bar. Release date confirmed July 31 2026 (Phase Six MCU); stars Holland, Zendaya, Sink, Bernthal, Tillman, Mando, Ruffalo. With ~5 months from release to Dec 31, plus China access reportedly secured, only a major industry-wide shock would prevent clearing $1.5B."
+  },
+  {
+    "date": "2026-05-07",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 99,
+    "ci_lower": 96,
+    "ci_upper": 100,
+    "key_change": "Hold at 99%. Latest reporting (Sacra, Epoch AI, The Information): Anthropic ~$30B ARR April 2026 (some sources put May at $44B; Epoch AI puts mid-2026 at potentially passing OpenAI), OpenAI ~$24-25B April 2026 (CFO confirms ~$2B/month). Combined ~$54-69B (range reflects measurement disputes — OpenAI CRO disputes Anthropic's $30B figure, citing ~$22B on a comparable basis). Even on OpenAI's lower attribution, combined ARR is on track to clear $70B with seven months of compounding. Anthropic doubled February-April 2026; OpenAI growing ~20-25% per quarter."
+  },
+  {
+    "date": "2026-05-07",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 42,
+    "ci_lower": 26,
+    "ci_upper": 60,
+    "key_change": "Hold at 42%. OBR March 2026 EFO continues to anchor: real GDP per person averaging 1.1% 2026-2030, productivity (TFP) picking up to ~1% in the medium term, labour-supply growth declining toward 0.5% by 2030 (lower migration, ageing). Headline real GDP lands ~1.5-1.6% across the late 2020s baseline. For the 2030-2039 mean to exceed 1.5%, productivity must hold OBR's medium-term path AND labour supply must not collapse against demographic ageing. AI-led upside (productivity at 1.5%+) brackets the YES case; a return to the post-GFC 0.5% productivity trend brackets NO. With Reform-leaning political trajectory now likely (May 7 locals confirming the realignment), policy mix on planning, immigration, EU trade and AI uptake is uncertain in both directions."
   }
 ]
