@@ -2158,5 +2158,77 @@
     "ci_lower": 25,
     "ci_upper": 59,
     "key_change": "Hold at 41%. OBR March 2026 EFO continues to anchor 1.0% trend productivity and 0.5% trend labour-supply growth by 2030 (combined ~1.5% trend GDP). Briefing Paper No.9 (Nov 2025) flags 0.3–1.2% productivity range as plausible. May 7 local elections confirm a likely Reform/Reform-Con government from 2029 — ambiguous net effect: more aggressive deregulation and AI uptake, but lower migration, harder EU trade, fiscal volatility. Demographic ageing continues to drag labour supply. Productivity assumptions remain the crux; outcome is genuinely two-sided."
+  },
+  {
+    "date": "2026-05-10",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 25,
+    "ci_lower": 13,
+    "ci_upper": 42,
+    "key_change": "Down 1pp to 25%. CAISI announced May 5 expansion of pre-deployment evaluation agreements to Google DeepMind, Microsoft and xAI (joining 2024 OpenAI/Anthropic partners), formalising a US government early-access regime that adds disclosure friction before any unilateral AGI declaration. Anthropic's May 9 Claude Mythos Preview launch is a narrow cybersecurity tool (Project Glasswing), not an AGI claim. No new declarations from any frontier lab in past 24 hours. Resolution window now ~32 months. Time decay + heavier oversight nudges the estimate down marginally."
+  },
+  {
+    "date": "2026-05-10",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 24,
+    "ci_lower": 12,
+    "ci_upper": 38,
+    "key_change": "Up 1pp to 24%. May 6 reporting confirms OpenAI and Anthropic both rolling out consultancy-style enterprise offerings directly competing with strategy houses (Project Glasswing security advisory, GPT-5 'analyst pyramid' tier). McKinsey's December 2025 10% non-client headcount cut continues to roll through; Bloomberg April 15 piece confirmed BCG/Bain/McKinsey reshaping entry-level hiring around AI. Cumulative trajectory now closer to a 33% impairment threshold by 2030 than 30 days ago, but still requires multiple credible analyses attributing primarily to AI - which has not yet emerged in mainstream coverage."
+  },
+  {
+    "date": "2026-05-10",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 1,
+    "ci_lower": 0,
+    "ci_upper": 4,
+    "key_change": "Hold at 1%. May 7-8 local elections delivered a historic Labour wipeout: 1,496 councillors lost, control of 38 councils gone, polling near 20% - a post-war low. Reform UK won 26-27% of vote, took councils including Sunderland, Suffolk, Essex, Havering and Newcastle-under-Lyme. CNN/CBS framing: 'historic shift in British politics'. Starmer says he will not resign. Labour MPs publicly calling for resignation. The local results were already largely priced in to the 1% estimate; no reason to revise further down (already at floor). Hold."
+  },
+  {
+    "date": "2026-05-10",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 76,
+    "ci_lower": 58,
+    "ci_upper": 89,
+    "key_change": "Hold at 76%. The 2035 horizon (~9 years out) is largely insensitive to single-day declaration friction events. Same May 5 CAISI expansion + May 9 Mythos news that nudged 2030 marginally lower do not materially shift 2035 - over a decade window, capability accumulation dominates declaration timing. Most expert surveys (Metaculus, Cotra, Karnofsky) cluster 60-85% by 2035; Anthropic/OpenAI/DeepMind leadership all publicly endorse AGI within decade. Hold."
+  },
+  {
+    "date": "2026-05-10",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 8,
+    "ci_lower": 4,
+    "ci_upper": 17,
+    "key_change": "Hold at 8%. AEI May 8 update: PLAN responded to Balikatan 2026 exercises with two major South China Sea / West Pacific deployments - signalling but not escalating. Taiwan LY passed special 780B NTD defense budget May 8 despite KMT efforts to shrink it. March US intelligence assessment maintained that China is not committed to a 2027 Taiwan invasion. Polymarket implies 92.5% probability against invasion-by-2026; my central estimate covers a ~44-month window through Jan 2030. No structural change - hold."
+  },
+  {
+    "date": "2026-05-10",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 1,
+    "ci_lower": 0,
+    "ci_upper": 3,
+    "key_change": "Hold at 1%. ONS March 2026 CPI release: 3.3% YoY (up from 3.0% in February). Bank of England April MPR explicitly states inflation 'likely to be higher later this year as effects of higher energy prices pass through'; April near-term projection revised up by 1.4pp - Q3 2026 CPI now expected at 3.3%. With ~7 monthly prints remaining before deadline (April-October 2026 prints, published May-Nov), CPI would need to drop >1.3pp in a single month - implausible without a deflationary shock. Effectively at floor."
+  },
+  {
+    "date": "2026-05-10",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 98,
+    "ci_lower": 92,
+    "ci_upper": 99,
+    "key_change": "Hold at 98%. Tracking remains exceptional 12 weeks out from July 31 release: trailer surpassed 1B views in <1 week (industry record); Variety/Deadline summer preview maintains $215-220M domestic opening estimate; koimoi tracking flagged potential to surpass No Way Home's $600.8M global opening, requiring only modest legs to clear $1.5B by year-end. With ~5 months of theatrical runway after release, Holdover demand from 2024 No Way Home cohort, and no major MCU competitor in Aug-Nov window, hold near ceiling."
+  },
+  {
+    "date": "2026-05-10",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 99,
+    "ci_lower": 96,
+    "ci_upper": 100,
+    "key_change": "Hold at 99%. April 2026 disclosures: Anthropic ARR $30B (per SaaStr/Sacra/Epoch AI - 1,400% YoY growth), OpenAI ARR $24B (confirmed by company at $2B/month). Combined April-2026 baseline: $54B. To clear $70B by Q4 2026 requires combined ~30% growth across two more quarters - well below current run-rate growth (OpenAI ~10% MoM, Anthropic >20% MoM). Even if OpenAI's gross-vs-net dispute lops $8B off Anthropic's headline figure (their preferred view: ~$22B Anthropic + $24B OpenAI = $46B), trajectory still clears $70B comfortably. Hold near ceiling."
+  },
+  {
+    "date": "2026-05-10",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 41,
+    "ci_lower": 25,
+    "ci_upper": 59,
+    "key_change": "Hold at 41%. OBR March 2026 EFO maintains medium-term productivity at 0.8% (revised down from 1.1% in November 2025) plus AI-attributed productivity boost of 0.2pp by forecast horizon, giving ~1.0% productivity growth. Add labour supply growth declining from recent highs to ~0.5% by 2030 and you get headline GDP growth in the ~1.3-1.5% range - precisely on the threshold. The question hinges on whether AI productivity uplift exceeds OBR's cautious 0.2pp central case (Acemoglu 0.05pp vs Goldman 1.5pp range). Genuinely two-sided."
   }
 ]
