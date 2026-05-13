@@ -1,43 +1,37 @@
-# Daily Forecast Summary — 2026-05-12
+# Daily Forecast Summary — 2026-05-13
 
-## Snapshot
+Wednesday, 13 May 2026. Trump arrives Beijing tonight for the China state visit (talks 14–15 May), the Starmer leadership crisis remains unresolved, and Anthropic + OpenAI combined ARR is already at ~$54B in April data.
 
-| Question | Today | 80% CI | Δ vs. yesterday |
-|---|---|---|---|
-| AGI before 1 Jan 2030 | 25% | 13–42 | hold |
-| Consultancy ≥33% loss by 2030 (AI) | 25% | 12–39 | hold |
-| Labour largest party at next UK GE | 3% | 1–8 | +1pp |
-| AGI before 1 Jan 2035 | 76% | 58–89 | hold |
-| China blockade/invasion of Taiwan before 1 Jan 2030 | 7% | 3–16 | −1pp |
-| UK CPI <2% any month before 1 Jan 2027 | 1% | 0–3 | hold |
-| Spider-Man: Brand New Day >$1.5B WW by 31 Dec 2026 | 98% | 92–99 | hold |
-| OpenAI + Anthropic combined ARR >$70B by 31 Dec 2026 | 99% | 96–100 | hold |
-| UK avg real GDP growth >1.5% across 2030s | 39% | 23–57 | −1pp |
+## Headline movements
 
-## Movements
-
-- **Labour largest party (+1pp → 3%)** — On 12 May, ~70 Labour MPs publicly called on Starmer to resign or set a departure timetable; four ministerial aides quit; Cooper and Mahmood reportedly told the PM to oversee an "orderly transition" (Guardian); CNBC/Eurasia Group analysts now say Starmer is "unlikely to last the year." Imminent leadership change opens a slim recovery path (Cooper or Mahmood reset 3.5 years pre-election), nudging probability up off the floor — but the central case remains a Reform-led Parliament.
-- **China blockade/invasion of Taiwan (−1pp → 7%)** — Trump-Xi state visit confirmed for 13–15 May, talks 14–15 (i.e., starting tomorrow). Trump confirmed Taiwan arms sales on the agenda; the Trump admin has paused delivery of the December $11B arms package. CFR notes China holds the upper hand at the summit, which paradoxically reduces near-term blockade probability — Beijing prefers to extract concessions diplomatically when leverage is high. Modal outcome is dialogue, not action.
-- **UK GDP growth >1.5% across 2030s (−1pp → 39%)** — Underlying OBR March 2026 EFO unchanged (GDP +1.1% 2026, +1.6% 2027; per-person +1.1% to 2030). The Starmer leadership crisis raises the probability of a Reform or Reform-Con government with restrictive net-migration policy, which mechanically reduces growth via labour supply. Asymmetric downside.
-
-## Holds
-
-- **AGI before 2030 (25%)** and **AGI before 2035 (76%)** — OpenAI launched the OpenAI Deployment Company (11 May) and gave the EU access to GPT-5.5-Cyber; Anthropic continues to withhold Mythos preview from EU regulators; xAI's compute is folding into Anthropic. Capability and consolidation continuing, but no lab is using these moves to declare AGI. Long-window question (2035) absorbs short-term noise.
-- **Consultancy disruption (25%)** — No fresh sector-level news. McKinsey 10% reduction trajectory still nudging towards meaningful contraction but well short of the ≥33% sector-wide bar.
-- **UK CPI <2% (1%)** — At floor. April 2026 CPI release on 20 May; March was 3.3%, up from 3.0%. Implausible from current base.
-- **Spider-Man $1.5B (98%)** — Trailer at 1.1B+ views (first ever), 31 July release locked, 5 months of theatrical run before deadline. Near-ceiling.
-- **OpenAI + Anthropic ARR >$70B (99%)** — Combined gross already ~$54B (Anthropic ~$30B, OpenAI ~$24B). Comfortably reached on any reasonable trajectory.
+| # | Question | Today | Prior | Δ | 80% CI |
+|---|----------|-------|-------|----|--------|
+| 1 | Will AGI be developed before 1 January 2030? | **25%** | 25% | hold | 13–42% |
+| 2 | Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | **25%** | 25% | hold | 12–39% |
+| 3 | Will Labour be largest party at next UK General Election? | **3%** | 3% | hold | 1–8% |
+| 4 | Will AGI be developed before 1 January 2035? | **76%** | 76% | hold | 58–89% |
+| 5 | Will China initiate a military blockade or invasion of Taiwan before 1 Januar… | **6%** | 7% | -1pp | 2–14% |
+| 6 | Will UK annual CPI inflation fall below 2.0% for at least one month before 1 … | **1%** | 1% | hold | 0–3% |
+| 7 | Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | **98%** | 98% | hold | 92–99% |
+| 8 | Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2… | **99%** | 99% | hold | 96–100% |
+| 9 | Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-203… | **39%** | 39% | hold | 23–57% |
 
 ## Key takeaways
 
-1. The dominant story today is the UK political crisis: Starmer faces an open cabinet revolt that has cross-feed into both the Labour-largest forecast (slight up) and the long-run UK GDP forecast (slight down).
-2. The Trump-Xi summit starts tomorrow (13 May). The next 72 hours could materially move the China-Taiwan forecast in either direction.
-3. AI capability and revenue trajectories continue to compound (xAI compute → Anthropic; OpenAI Deployment Company; Anthropic at $30B ARR), but no lab is converting capability into a formal AGI claim — keeping the AGI-2030 forecast pinned around 25%.
-4. Inflation- and box-office-sensitive forecasts are essentially priced and waiting on data points (CPI 20 May, Spider-Man tracking late July).
+- **China–Taiwan trimmed 1pp to 6%.** Trump–Xi summit (14–15 May) opens a near-term diplomatic channel covering Taiwan, trade, Iran and AI. PLA blockade rehearsals (Justice Mission 2025) continue, but the summit absorbs immediate escalation risk.
+- **AGI by 2030 holds at 25%.** Newsflow centred on OpenAI Deployment Co. (11 May) and EU access to GPT-5.5-Cyber; no lab is using these moves to declare AGI. Metaculus weakly-general median has pushed from July 2031 to Nov 2033 — still inside the 2035 window but outside 2030.
+- **Labour as largest party holds at 3%.** ~90 MPs publicly calling for Starmer's resignation; four junior ministers (Fahnbulleh, Philips, Davies-Jones, Ahmed) resigned 12 May. Pro-Starmer counter-letter has 103 signatures. Eurasia/CNBC consensus: 'unlikely to last the year'.
+- **OpenAI + Anthropic ARR holds at 99%.** April 2026 confirmed: Anthropic $30B (1,400% YoY, passed OpenAI), OpenAI $24B ($2B/month). Combined ~$54B; need only ~30% more growth over 8 months to clear $70B.
+- **UK CPI <2% before 2027 holds at 1%.** BoE April MPR puts Q2–Q3 2026 CPI at 3.0–3.5% on Iran-war energy pass-through; April 2026 ONS print due 20 May.
+- **UK 2030s GDP growth >1.5% holds at 39%.** OBR central path lands the decade arithmetic average right on the threshold (~1% productivity + ½% labour supply); roughly 50/50 either way, leaning slightly to the downside given OBR's track record of overestimating productivity.
 
-## Update triggers to watch (next 7 days)
+## Notable change drivers
 
-- 13–15 May: Trump-Xi summit outcome (Taiwan-blockade question)
-- 12–18 May: Starmer leadership outcome — survives, replaced, or party splits (Labour, GDP)
-- 20 May: ONS April CPI release (UK CPI question)
-- Any frontier-lab AGI declaration or Q3 ARR disclosure (AGI, AI ARR)
+- **China–Taiwan (Q5)**: −1pp to 6%. Trump–Xi summit window absorbs near-term escalation; underlying long-window risk unchanged.
+
+## What to watch next 72 hours
+
+- Trump–Xi readouts from Beijing (14–15 May) — particularly Taiwan arms-sale language and any AI cooperation framework
+- Starmer cabinet stability — any further ministerial resignations or formal 81-MP threshold trigger for a leadership contest
+- ONS April 2026 CPI release (20 May, 07:00) — directly resolves Q6 prior
+- Any frontier-model capability disclosure tied to the OpenAI–Anthropic ARR / governance race
