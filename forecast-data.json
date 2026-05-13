@@ -2374,5 +2374,77 @@
     "ci_lower": 23,
     "ci_upper": 57,
     "key_change": "Down 1pp to 39%. Underlying OBR March 2026 EFO unchanged: GDP growth 1.1% (2026), 1.6% (2027); GDP per person 1.1% to 2030; productivity unchanged from November (TFP unchanged, slight uplift from investment). The fresh datapoint is the Starmer leadership crisis on 12 May (~70 MPs in revolt, four aides resigned, cabinet challenge). Whoever leads Labour into 2029, the political turbulence — and possibility of a Reform or Reform-Con government — elevates fiscal/policy uncertainty for the 2030s decade. Asymmetric: more downside than upside (a Reform government is more likely to constrain net migration, which mechanically reduces GDP growth via labour supply). Slight downgrade."
+  },
+  {
+    "date": "2026-05-13",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 25,
+    "ci_lower": 13,
+    "ci_upper": 42,
+    "key_change": "Hold at 25%. Trump arrives Beijing tonight (13 May) for the state visit; AI cooperation is reportedly on the agenda alongside trade, Taiwan and Iran, but no lab-level developments overnight. The OpenAI Deployment Co. (11 May) and OpenAI granting EU access to GPT-5.5-Cyber remain the active newsflow; Anthropic still withholding Mythos preview from EU regulators. No frontier lab has used the cyber-range demonstrations or the diplomatic backdrop to declare AGI. Resolution window now ~31.5 months. Underlying drivers unchanged — hold."
+  },
+  {
+    "date": "2026-05-13",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 25,
+    "ci_lower": 12,
+    "ci_upper": 39,
+    "key_change": "Hold at 25%. No fresh sector-level news in past 24 hours. Latest tracking still anchored to McKinsey's ~10% non-client headcount plan (a few thousand layoffs over 18-24 months), an additional 200-role cut in late 2025, and revenue stuck at $15-16B for five years. KPMG, Deloitte, Bain and Accenture continue similar AI-driven redesigns. McKinsey's own report finds 30% of companies planning AI-related layoffs in 2026. Still well short of 33% sector decline by 2030, but trajectory is consistent with the medium-tail of the distribution."
+  },
+  {
+    "date": "2026-05-13",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 3,
+    "ci_lower": 1,
+    "ci_upper": 8,
+    "key_change": "Hold at 3%. Crisis remains acute but unresolved: ~90 Labour MPs publicly calling for Starmer to resign or set a departure date, four junior ministers (Fahnbulleh, Jess Philips, Davies-Jones, Zubir Ahmed) resigned 12 May, four ministerial aides also out. A pro-Starmer letter signed by 103 MPs published 12 May provides a thin majority of named supporters. Starmer remains defiant at the 12 May cabinet meeting. A formal leadership contest requires 81 endorsements (20% of PLP); no formal challenge yet. CNBC Eurasia note says he is 'unlikely to last the year'. Whether Labour holds together until 2029 GE under any leader remains an open question; polling collapse from 2025/2026 locals and Mandelson scandal still binding. Underlying judgment: very low probability Labour can recover to be largest party by Dec 2029."
+  },
+  {
+    "date": "2026-05-13",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 76,
+    "ci_lower": 58,
+    "ci_upper": 89,
+    "key_change": "Hold at 76%. The 8.5-year window absorbs short-term noise. Latest reads consistent with prior: Goodheart Labs AGI Timelines Dashboard median ~2031-33; Metaculus median for weakly general AI moved from July 2031 to November 2033 (still well within the 2035 window). Sam Altman's public timeline still anchored at 'AGI by 2035'. Trump-Xi diplomatic track may introduce friction but no signal of an outright cap on capability development. Underlying drivers unchanged — hold."
+  },
+  {
+    "date": "2026-05-13",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 6,
+    "ci_lower": 2,
+    "ci_upper": 14,
+    "key_change": "Down 1pp to 6%. Trump arriving Beijing tonight (13 May) for the state visit; talks 14-15 May. Taiwan, trade, Iran, AI all on the agenda. Trump confirmed Taiwan arms sales will be discussed; Beijing reportedly pressing for security assurances. The summit creates a near-term diplomatic opening that lowers immediate escalation risk. PLA Navy continues blockade rehearsals (Justice Mission 2025; ongoing exercises in response to Balikatan 2026), and Chinese coast guard pressure persists, but no signal of imminent crisis-level escalation. Resolution window now ~31.5 months. Trim 1pp on summit-window diplomatic absorption; underlying long-window risk unchanged."
+  },
+  {
+    "date": "2026-05-13",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 1,
+    "ci_lower": 0,
+    "ci_upper": 3,
+    "key_change": "Hold at 1%. ONS April 2026 CPI release is scheduled for 20 May 07:00 — not yet published. Last data point remains March 2026 at 3.3% (up from 3.0% in Feb 2026), with transport +4.7%, services +4.5%. Bank of England April MPR explicitly forecasts CPI between 3.0% and 3.5% in Q2-Q3 2026 due to higher energy prices flowing through from the Iran war shock. With only ~8 monthly prints (April-November 2026) remaining and the BoE's central path well above 2%, the conditional probability of any month printing below 2.0% is very low."
+  },
+  {
+    "date": "2026-05-13",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 98,
+    "ci_lower": 92,
+    "ci_upper": 99,
+    "key_change": "Hold at 98%. No new tracking data overnight. Variety / Movieweb continue to model $2-2.5B worldwide gross. Trailer remains the only film trailer ever to cross 1.1 billion views (first to cross 1B; 718.6M in 24 hours from 18 March release). 31 July 2026 release, leaving 5 months of theatrical runway before resolution deadline. Reference class No Way Home ($1.9B) supports modal outcome comfortably above $1.5B. Underlying drivers unchanged — hold."
+  },
+  {
+    "date": "2026-05-13",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 99,
+    "ci_lower": 96,
+    "ci_upper": 100,
+    "key_change": "Hold at 99%. Confirmed combined figures (April 2026): Anthropic ~$30B ARR (1,400% YoY; passed OpenAI for first time in April, ahead of August consensus crossover); OpenAI at ~$24B ARR ($2B/month, company-confirmed). Combined gross ~$54B in April 2026. Anthropic's $14B→$30B in 8 weeks demonstrates acceleration. To miss $70B by Dec 2026, combined growth would need to collapse to <30% over the remaining 8 months — implausible given current trajectories. Underlying drivers unchanged — hold."
+  },
+  {
+    "date": "2026-05-13",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 39,
+    "ci_lower": 23,
+    "ci_upper": 57,
+    "key_change": "Hold at 39%. OBR March 2026 EFO remains the binding reference: GDP per person ~1.1% to 2030, productivity assumed to pick up to 1% medium term, labour-supply growth declining to ½% by 2030 driven by lower net migration and population ageing. Adding 1% productivity + ½% labour supply ≈ 1.5% headline GDP — i.e., right on the resolution threshold for the 2030s decade average. Public-sector net debt projected to stabilise at ~95% of GDP in early 2030s, leaving little fiscal headroom for growth stimulus. Trump-Xi summit and the Iran war energy shock add downside risk to global trade. Hold at 39%, reflecting balanced uncertainty around the threshold."
   }
 ]
