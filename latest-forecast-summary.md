@@ -1,37 +1,39 @@
-# Daily Forecast Summary — 2026-05-13
+# Daily Forecast Update — 2026-05-14
 
-Wednesday, 13 May 2026. Trump arrives Beijing tonight for the China state visit (talks 14–15 May), the Starmer leadership crisis remains unresolved, and Anthropic + OpenAI combined ARR is already at ~$54B in April data.
+## Summary Table
 
-## Headline movements
+| Question | Today | Yesterday | Δ | 80% CI |
+|---|---|---|---|---|
+| AGI by 2030 | **25%** | 25% | +0pp | 13–42% |
+| Consultancy ≥33% loss by 2030 | **25%** | 25% | +0pp | 12–39% |
+| Labour largest party next GE | **3%** | 3% | +0pp | 1–8% |
+| AGI by 2035 | **77%** | 76% | +1pp | 59–90% |
+| China Taiwan blockade/invasion by 2030 | **7%** | 6% | +1pp | 3–15% |
+| UK CPI <2% before 2027 | **1%** | 1% | +0pp | 0–3% |
+| Spider-Man BND >$1.5B | **98%** | 98% | +0pp | 92–99% |
+| OpenAI+Anthropic ARR >$70B by 2026 | **99%** | 99% | +0pp | 97–100% |
+| UK real GDP >1.5% 2030s | **38%** | 39% | -1pp | 22–56% |
 
-| # | Question | Today | Prior | Δ | 80% CI |
-|---|----------|-------|-------|----|--------|
-| 1 | Will AGI be developed before 1 January 2030? | **25%** | 25% | hold | 13–42% |
-| 2 | Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | **25%** | 25% | hold | 12–39% |
-| 3 | Will Labour be largest party at next UK General Election? | **3%** | 3% | hold | 1–8% |
-| 4 | Will AGI be developed before 1 January 2035? | **76%** | 76% | hold | 58–89% |
-| 5 | Will China initiate a military blockade or invasion of Taiwan before 1 Januar… | **6%** | 7% | -1pp | 2–14% |
-| 6 | Will UK annual CPI inflation fall below 2.0% for at least one month before 1 … | **1%** | 1% | hold | 0–3% |
-| 7 | Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | **98%** | 98% | hold | 92–99% |
-| 8 | Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2… | **99%** | 99% | hold | 96–100% |
-| 9 | Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-203… | **39%** | 39% | hold | 23–57% |
+## Key Takeaways
 
-## Key takeaways
+- **Trump-Xi Beijing summit** is the central geopolitical event today. Xi explicitly warned of 'clashes and even conflicts' over Taiwan, and Trump is publicly equivocating on the $14B Taiwan arms package — a small uptick to the China-Taiwan blockade/invasion probability (6→7%).
+- **Anthropic Mythos preview** clearing the UK AISI 'The Last Ones' 32-step range in 3 of 10 runs (73% expert-task success) is the most meaningful capability marker this quarter — small uptick to the AGI-by-2035 line (76→77%); AGI-by-2030 unchanged (still requires public declaration).
+- **UK Labour** position remains dire. Fresh Ipsos Political Pulse (8-12 May 2026): 66% say Starmer should not lead Labour into next GE, 74% say Labour unlikely to win. Starmer now the most unpopular UK leader on record. Hold at 3%.
+- **UK CPI** held at 3.3% in March (released 22 April); April release on 20 May. BoE expects CPI to rise further into Q4 2026 on Middle East energy passthrough. Mathematically near-impossible to clear sub-2% before 2027 — hold at 1%.
+- **OpenAI + Anthropic ARR** confirmed: Anthropic $30B + OpenAI $24B = $54B combined in April. Path to $70B by Dec 2026 is near-certain. Hold at 99%.
+- **UK GDP 2030s** trimmed 1pp to 38% after re-reading OBR March 2026: productivity downgraded 0.3pp, real GDP per person only 1.1% to 2030, headline GDP averaging only 1.5% 2026-2029 (at the threshold, not above).
 
-- **China–Taiwan trimmed 1pp to 6%.** Trump–Xi summit (14–15 May) opens a near-term diplomatic channel covering Taiwan, trade, Iran and AI. PLA blockade rehearsals (Justice Mission 2025) continue, but the summit absorbs immediate escalation risk.
-- **AGI by 2030 holds at 25%.** Newsflow centred on OpenAI Deployment Co. (11 May) and EU access to GPT-5.5-Cyber; no lab is using these moves to declare AGI. Metaculus weakly-general median has pushed from July 2031 to Nov 2033 — still inside the 2035 window but outside 2030.
-- **Labour as largest party holds at 3%.** ~90 MPs publicly calling for Starmer's resignation; four junior ministers (Fahnbulleh, Philips, Davies-Jones, Ahmed) resigned 12 May. Pro-Starmer counter-letter has 103 signatures. Eurasia/CNBC consensus: 'unlikely to last the year'.
-- **OpenAI + Anthropic ARR holds at 99%.** April 2026 confirmed: Anthropic $30B (1,400% YoY, passed OpenAI), OpenAI $24B ($2B/month). Combined ~$54B; need only ~30% more growth over 8 months to clear $70B.
-- **UK CPI <2% before 2027 holds at 1%.** BoE April MPR puts Q2–Q3 2026 CPI at 3.0–3.5% on Iran-war energy pass-through; April 2026 ONS print due 20 May.
-- **UK 2030s GDP growth >1.5% holds at 39%.** OBR central path lands the decade arithmetic average right on the threshold (~1% productivity + ½% labour supply); roughly 50/50 either way, leaning slightly to the downside given OBR's track record of overestimating productivity.
+## Movements (vs yesterday)
 
-## Notable change drivers
+- **AGI by 2030**: 25% (—)
+- **Consultancy ≥33% loss by 2030**: 25% (—)
+- **Labour largest party next GE**: 3% (—)
+- **AGI by 2035**: 77% (▲ +1pp)
+- **China Taiwan blockade/invasion by 2030**: 7% (▲ +1pp)
+- **UK CPI <2% before 2027**: 1% (—)
+- **Spider-Man BND >$1.5B**: 98% (—)
+- **OpenAI+Anthropic ARR >$70B by 2026**: 99% (—)
+- **UK real GDP >1.5% 2030s**: 38% (▼ -1pp)
 
-- **China–Taiwan (Q5)**: −1pp to 6%. Trump–Xi summit window absorbs near-term escalation; underlying long-window risk unchanged.
-
-## What to watch next 72 hours
-
-- Trump–Xi readouts from Beijing (14–15 May) — particularly Taiwan arms-sale language and any AI cooperation framework
-- Starmer cabinet stability — any further ministerial resignations or formal 81-MP threshold trigger for a leadership contest
-- ONS April 2026 CPI release (20 May, 07:00) — directly resolves Q6 prior
-- Any frontier-model capability disclosure tied to the OpenAI–Anthropic ARR / governance race
+## Method
+Re-forecast with the `probabilistic-forecast` skill against fresh web-search evidence for each question. Updates posted daily; full structured report (factors up/down, key uncertainties, update triggers) saved as `reports/2026-05-14.json`.
