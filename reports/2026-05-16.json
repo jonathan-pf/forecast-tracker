@@ -1,0 +1,266 @@
+{
+  "date": "2026-05-16",
+  "forecasts": [
+    {
+      "question": "Will AGI be developed before 1 January 2030?",
+      "central": 24,
+      "ci_lower": 12,
+      "ci_upper": 41,
+      "key_change": "Down 1pp to 24%. Trump-Xi Beijing summit (14-15 May) closed with 'underwhelming' readout per Euronews; no AI cooperation breakthrough but agreed strategic-stability framework that may slow declarations. Microsoft researchers' new warning that frontier models still corrupt long-running multistep workflows is a capability counterweight to Anthropic Mythos preview hype. OpenAI Deployment Co. and Tomoro acquisition signal services pivot rather than imminent AGI claim. Resolution window now ~31 months. Net mildly negative.",
+      "base_rate": "~22-25% aggregated from Metaculus (~31% by 2030 on weakly-general AI question), Kalshi (~40% OpenAI-specific by 2030), and superforecaster surveys",
+      "factors_up": [
+        "Anthropic '2028: Two Scenarios' paper publicly anchors leadership timeline at AGI by 2028 (+1pp)",
+        "Anthropic $200B compute commitment + Colossus 1 (220k Nvidia) full access deepens capability leverage (+1pp)",
+        "Anthropic Mythos preview clearing 3/10 runs on UK AISI 'Last Ones' 32-step range remains in play (+1pp)"
+      ],
+      "factors_down": [
+        "Trump-Xi summit produced no AI breakthrough; established a 3-year stability framework that may dampen declarations (-1pp)",
+        "Microsoft research showing frontier models still corrupt long workflows reinforces robustness gap (-1pp)",
+        "OpenAI services pivot (Deployment Co., Tomoro) implies monetisation focus over AGI race (-1pp)",
+        "Resolution requires explicit lab declaration or 3+ researcher endorsement \u2014 high evidentiary bar (-2pp)",
+        "Time decay: ~31 months remaining (-1pp)"
+      ],
+      "key_uncertainties": [
+        "Whether Mythos full release in H2 2026 is framed as AGI",
+        "Whether US-China stability framework includes AI declaration constraints",
+        "Whether Anthropic's '2028' paper triggers competitive AGI claims from OpenAI"
+      ],
+      "update_triggers": {
+        "up": "Public AGI declaration from any frontier lab; Mythos full release with AGI framing; 3+ leading researchers publicly endorse",
+        "down": "Capability plateau; CAISI imposes pre-disclosure delay; lab walks back 2028 timeline"
+      }
+    },
+    {
+      "question": "Will economic consultancy lose \u226533% value/jobs by end 2030 due to AI?",
+      "central": 25,
+      "ci_lower": 12,
+      "ci_upper": 39,
+      "key_change": "Hold at 25%. Fresh reporting confirms McKinsey 200 tech/support cuts in late 2025 and 10% non-client workforce reduction over next two years; Bain, Deloitte, KPMG, Accenture all trimming in 2025. ~25% of entry-level consulting/finance postings now require AI skills. Trajectory consistent with prior tracking \u2014 no acceleration but no reversal. Headcount cuts target back-office, not client-facing revenue, so the jump from ~10-20% to \u226533% by 2030 still requires a step-change. Hold.",
+      "base_rate": "Historical sector contractions of \u226533% rare (~15-20%); AI-attributed structural shifts unprecedented",
+      "factors_up": [
+        "McKinsey 10% non-client cut formalised as multi-year plan \u2014 first major firm with explicit headcount reduction trajectory (+2pp)",
+        "Industry-wide trimming pattern (Bain/Deloitte/KPMG/Accenture) suggests systemic adjustment underway (+2pp)",
+        "OpenAI Deployment Co. + Anthropic enterprise services + AI consulting startups eating into traditional advisory revenue pools (+2pp)"
+      ],
+      "factors_down": [
+        "BCG growing headcount (with AI tilt) \u2014 counter-cyclical signal (-1pp)",
+        "Resolution requires 'primarily attributed to AI by 2+ credible analyses' \u2014 high bar even with sector contraction (-2pp)",
+        "Cuts so far largely back-office; client-facing fees/headcount still resilient (-2pp)",
+        "Consulting historically rebounds from cycles within 18-24 months (-1pp)",
+        "Revenue attribution is fungible \u2014 firms repackage AI advisory under same brand (-1pp)"
+      ],
+      "key_uncertainties": [
+        "Whether 2026-2027 macro slowdown amplifies AI substitution",
+        "Whether economic consultancy is parsed narrowly (boutique strategy) or broadly (incl. Big 4)",
+        "Whether AI productivity gains compress fees rather than headcount"
+      ],
+      "update_triggers": {
+        "up": "Top-3 firm announces \u226520% client-facing layoffs; revenue down >15% YoY; explicit AI attribution",
+        "down": "Sector revenue rebound 2026 H2; AI seen as augmenting not replacing advisory work"
+      }
+    },
+    {
+      "question": "Will Labour be largest party at next UK General Election?",
+      "central": 3,
+      "ci_lower": 1,
+      "ci_upper": 8,
+      "key_change": "Hold at 3%. YouGov VI 4-5 May 2026: Reform 25%, Lab 18%, Con 17%, Greens 15%, LD 14%. Five-party split with Reform consistently leading. 2026 local elections confirmed Labour losses to Reform. 66% of Britons say Starmer should not lead Labour into next GE; 74% expect he won't win. Starmer publicly recommitting to '10-year project' insulates him short-term but doesn't shift VI. Andy Burnham strongest alternative on net favourability vs Farage. With Labour ~7pp behind Reform and Conservatives close behind, path to largest party requires either Reform collapse or major realignment. Hold.",
+      "base_rate": "Incumbent governments losing >25pp in midterm polls and recovering to win largest-party status: ~15-20% historically",
+      "factors_up": [
+        "Five-party split means Reform's lead could fragment (+1pp)",
+        "FPTP advantages plurality winners \u2014 even 22-23% Labour vote could win most seats (+2pp)",
+        "Time to GE (~3.5 years) leaves room for recovery (+1pp)",
+        "Starmer leadership change to Burnham could narrow gap with Reform (+1pp)"
+      ],
+      "factors_down": [
+        "Labour now consistently 3rd or 4th in some polls; Reform lead structural not transient (-2pp)",
+        "Local election losses confirm Labour's ground game eroded (-2pp)",
+        "66% public rejection of Starmer's leadership \u2014 durability concern (-1pp)",
+        "Reform polling stable 25%+ with no sign of collapse (-2pp)",
+        "Government approval ratings historically don't recover from -50 net by mid-term (-2pp)"
+      ],
+      "key_uncertainties": [
+        "Whether Starmer is replaced before 2027",
+        "Whether Reform suffers internal split or candidate quality issues",
+        "Whether Conservative-Reform pact emerges"
+      ],
+      "update_triggers": {
+        "up": "Starmer replaced by Burnham; Reform internal split; Labour VI back to 25%+",
+        "down": "Reform consolidates further; Labour drops below 15%; Starmer remains and approval falls further"
+      }
+    },
+    {
+      "question": "Will AGI be developed before 1 January 2035?",
+      "central": 78,
+      "ci_lower": 60,
+      "ci_upper": 91,
+      "key_change": "Up 1pp to 78%. Anthropic '2028: Two Scenarios for Global AI Leadership' paper publicly anchors AGI-by-2028 expectations from a leading lab. With ~8.7 years to deadline, Anthropic $200B compute build-out (Colossus 1 + Google Cloud + SpaceX deal), and Mythos preview demonstrating long-horizon agentic competence, the long-run probability rises slightly even as short-term news (Trump-Xi summit, Microsoft workflow corruption findings) is mixed. Resolution allows declaration any time before 2035 \u2014 long window absorbs near-term noise.",
+      "base_rate": "~70-80% from superforecaster consensus and Metaculus on weakly-general AI by 2035",
+      "factors_up": [
+        "Anthropic '2028' paper publicly forecasts AGI within 2.5 years (+2pp)",
+        "$200B Anthropic compute commitment + Colossus 1 access \u2014 historically unprecedented build (+1pp)",
+        "Mythos preview clearing UK AISI 'Last Ones' 32-step range in 3 of 10 runs \u2014 capability ramp continuing (+1pp)",
+        "OpenAI Deployment Co. + Anthropic enterprise services suggests confidence in deployable capability (+1pp)"
+      ],
+      "factors_down": [
+        "Microsoft research confirms multi-step workflow corruption persists in frontier models \u2014 robustness gap (-1pp)",
+        "OpenAI capability-gate replacement of AGI clause raises declaration friction (-1pp)",
+        "Resolution still requires explicit declaration or 3+ researcher endorsement (-1pp)",
+        "Trump-Xi 3-year stability framework may include AI declaration constraints (-1pp)"
+      ],
+      "key_uncertainties": [
+        "Whether scaling laws hold through GPT-7 / Claude-7 generation",
+        "Whether AGI-relevant capability gates get triggered by 2030",
+        "Whether US-China governance regime constrains lab declarations"
+      ],
+      "update_triggers": {
+        "up": "Mythos full release framed as AGI; OpenAI matches Anthropic 2028 timeline; capability gate triggered",
+        "down": "Capability plateau on next-gen frontier models; binding international AI governance treaty"
+      }
+    },
+    {
+      "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+      "central": 7,
+      "ci_lower": 3,
+      "ci_upper": 15,
+      "key_change": "Hold at 7%. Trump-Xi summit (14-15 May) ended with 'strategic stability' framework but Xi delivered sharpest language on Taiwan: 'most important issue in US-China relations... handle badly, two countries risk collision or conflict.' AEI 15 May update notes continued PRC undersea research vessel activity around Taiwan and Bashi Channel chokepoint preparation. Xi will visit US this fall \u2014 diplomatic track active, lowers near-term escalation risk. Net offsetting: rhetoric up, kinetic risk roughly flat. Hold.",
+      "base_rate": "Major-power amphibious invasion/blockade in any 4-year window: ~3-5% historically",
+      "factors_up": [
+        "Xi sharpest Taiwan rhetoric of summit \u2014 explicit collision warning (+1pp)",
+        "AEI confirms continued PRC undersea research and Bashi Channel preparation (+1pp)",
+        "Taiwan HIMARS deployments to Penghu/Dongyin signal heightened invasion concern (+1pp)",
+        "PLA modernisation reaching 2027 readiness window (+1pp)"
+      ],
+      "factors_down": [
+        "Trump-Xi 3-year stability framework \u2014 diplomatic off-ramp (-1pp)",
+        "Xi state visit to US in fall 2026 \u2014 high-level engagement track active (-1pp)",
+        "Trump-Xi Iran/Hormuz cooperation suggests transactional d\u00e9tente (-1pp)",
+        "Chinese economy still fragile \u2014 invasion costs prohibitive (-1pp)",
+        "Resolution requires actual initiation, not threats \u2014 high bar (-2pp)"
+      ],
+      "key_uncertainties": [
+        "Whether 2027 PLA readiness milestone triggers action",
+        "Whether Trump's Taiwan policy creates miscalculation risk",
+        "Whether Chinese internal politics force Xi into Taiwan move"
+      ],
+      "update_triggers": {
+        "up": "PLA mobilisation; Chinese coast guard quarantine of Taiwan ports; US-Taiwan defence treaty",
+        "down": "Cross-strait dialogue resumption; PLA exercise tempo decline; Taiwanese political shift"
+      }
+    },
+    {
+      "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+      "central": 1,
+      "ci_lower": 0,
+      "ci_upper": 3,
+      "key_change": "Hold at 1%. March 2026 CPI confirmed at 3.3% (up from 3.0% Feb), with transport division at 4.7% YoY \u2014 highest since Dec 2022. April 2026 release scheduled 20 May. With inflation actually rising, ~20 months to deadline (Dec 2026 release in Jan 2027), and energy/transport pressures persistent, the probability of any single month touching <2.0% remains negligible. BoE April Monetary Policy Report did not signal disinflation acceleration. Hold.",
+      "base_rate": "UK CPI dropping >1.3pp in <8 months without recession: <5% historically",
+      "factors_up": [
+        "Energy base effects could compress YoY readings if oil falls sharply (+1pp)",
+        "Currency strength would import disinflation (+1pp)",
+        "Recession scenario could collapse demand quickly (+1pp)"
+      ],
+      "factors_down": [
+        "March 2026 print at 3.3% and rising \u2014 wrong direction (-2pp)",
+        "Transport at 4.7% suggests structural fuel-price pressure (-1pp)",
+        "BoE not signalling rapid disinflation in April MPR (-1pp)",
+        "Services inflation typically sticky and remains elevated (-2pp)",
+        "Only ~8 months of CPI prints remaining in window (-1pp)",
+        "Wage growth still above productivity-consistent rate (-1pp)"
+      ],
+      "key_uncertainties": [
+        "Whether oil price shock or collapse alters trajectory",
+        "Whether UK enters technical recession in 2026 H2"
+      ],
+      "update_triggers": {
+        "up": "Single-month CPI print drops below 2.5%; oil collapse; sterling rally",
+        "down": "April 2026 CPI prints above 3.5%; services inflation re-accelerates"
+      }
+    },
+    {
+      "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+      "central": 98,
+      "ci_lower": 92,
+      "ci_upper": 99,
+      "key_change": "Hold at 98%. Trailer crossed 1 BILLION views in less than a week per Variety \u2014 first trailer in history to do so, surpassing the 718.6M 24-hour record. Movie releases 31 July 2026, leaving 5 months of theatrical window before deadline. Tom Holland + Zendaya + Mark Ruffalo cast; analyst projections compare to Avengers: Endgame opening trajectory. Predecessor No Way Home grossed $1.92B. Risk now almost entirely tail (theatrical disruption, cast scandal, film quality collapse). Hold.",
+      "base_rate": "Tentpole MCU sequels with No Way Home-tier hype reaching $1.5B+: ~85-90%",
+      "factors_up": [
+        "1B trailer views in <1 week \u2014 unprecedented hype signal (+3pp)",
+        "Holland/Zendaya/Ruffalo cast \u2014 proven $1B+ ensemble (+1pp)",
+        "Predecessor No Way Home grossed $1.92B \u2014 strong base rate (+2pp)",
+        "31 July release \u2014 full summer/autumn theatrical window (+1pp)",
+        "Analyst projections track Avengers: Endgame opening (+1pp)"
+      ],
+      "factors_down": [
+        "Box office volatility \u2014 quality collapse could cap at $1.2B (-1pp)",
+        "Streaming windows compressing theatrical tails (-1pp)",
+        "Possible production/cast disruption tail risk (-1pp)"
+      ],
+      "key_uncertainties": [
+        "Critical reception and CinemaScore",
+        "China release status and performance",
+        "Competing tentpoles in Aug-Dec 2026"
+      ],
+      "update_triggers": {
+        "up": "Strong opening weekend \u2265$300M global; positive critical reception",
+        "down": "Production delay; Holland/Zendaya scandal; opening weekend <$200M"
+      }
+    },
+    {
+      "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+      "central": 99,
+      "ci_lower": 97,
+      "ci_upper": 100,
+      "key_change": "Hold at 99%. Confirmed April 2026 figures: Anthropic at $30B ARR (passed OpenAI for first time, 80x growth in 2.25 years), OpenAI at $24B ARR. Combined currently $54B. With 8 months to deadline, growth trajectory implies ~$16B more needed \u2014 Anthropic added $11B in single month (March\u2192April), OpenAI adds ~$2B/month. Even on conservative 2% monthly compounding from here, combined hits $70B by August. Tail risks: accounting dispute (OpenAI argues Anthropic gross overstates by $8B), but question resolves on 'most recent credible reporting' which currently shows the higher figure. Hold.",
+      "base_rate": "~95% on linear extrapolation of 2026 growth rates",
+      "factors_up": [
+        "Combined ARR already $54B; only $16B gap with 8 months runway (+5pp)",
+        "Anthropic's April $11B/month add suggests acceleration not deceleration (+2pp)",
+        "OpenAI Deployment Co. + Anthropic enterprise services launching new revenue streams (+1pp)",
+        "$200B+ compute commitments imply confident demand visibility (+1pp)"
+      ],
+      "factors_down": [
+        "Accounting disputes could revise Anthropic figure down by ~$8B (gross\u2192net) (-1pp)",
+        "Macro recession could compress Q4 enterprise AI spend (-1pp)",
+        "Resolution requires Q4 2026 reporting \u2014 Q4 figures not published until Jan-Feb 2027 in some cases (-1pp)"
+      ],
+      "key_uncertainties": [
+        "Whether Q4 2026 figures are published in time and whether reporting uses gross or net",
+        "Whether enterprise AI spend slows in 2026 H2"
+      ],
+      "update_triggers": {
+        "up": "Q3 2026 reporting confirms combined ARR >$60B",
+        "down": "Both companies adopt net accounting; macro shock cuts enterprise AI 20%+"
+      }
+    },
+    {
+      "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+      "central": 38,
+      "ci_lower": 22,
+      "ci_upper": 56,
+      "key_change": "Hold at 38%. OBR March 2026 EFO remains binding reference: real GDP per person growth forecast 1.1% per year 2026-2030, with potential output growth recovering as TFP rises from 0.3% (2026) to 0.8% (2030). November 2025 OBR revised down medium-term productivity by 0.3pp to 1.0%. Adding population growth of ~0.4-0.5pp gives real GDP trajectory ~1.5-1.6% \u2014 right at the threshold. Long-horizon forecast highly sensitive to AI productivity diffusion (upside) vs aging/fiscal drag (downside). Hold.",
+      "base_rate": "UK 10-year real GDP averages exceeding 1.5%: ~50% in post-1990 history; declining trend",
+      "factors_up": [
+        "OBR potential output growth path rises through 2030 \u2014 TFP recovery base case (+2pp)",
+        "AI productivity diffusion is wildcard upside if Anthropic 2028 timeline lands (+2pp)",
+        "Population growth of ~0.4-0.5pp adds to GDP totals beyond per-person figures (+1pp)"
+      ],
+      "factors_down": [
+        "OBR per-person growth of 1.1% requires ~0.4pp population to clear 1.5% \u2014 narrow margin (-1pp)",
+        "November 2025 productivity revision was -0.3pp \u2014 trend negative not positive (-1pp)",
+        "Aging demographics, fiscal drag, energy transition costs all weigh on 2030s (-2pp)",
+        "Real per-person GDP still below 2019 \u2014 recovery not yet under way (-1pp)",
+        "10-year average requires sustained performance \u2014 single weak year drags average (-1pp)"
+      ],
+      "key_uncertainties": [
+        "AI productivity diffusion \u2014 could swing 2030s real GDP by \u00b10.5pp",
+        "Whether population growth assumptions hold",
+        "Energy and fiscal policy direction post-2027"
+      ],
+      "update_triggers": {
+        "up": "OBR upgrades medium-term productivity; AI productivity studies confirm sectoral diffusion",
+        "down": "OBR further downgrades productivity; recession 2026-27; population growth slows"
+      }
+    }
+  ]
+}
