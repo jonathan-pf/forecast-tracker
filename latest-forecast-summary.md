@@ -1,39 +1,31 @@
-# Daily Forecast Update — 2026-05-14
+# Forecast Update — 2026-05-16
 
-## Summary Table
+## Summary table
 
-| Question | Today | Yesterday | Δ | 80% CI |
-|---|---|---|---|---|
-| AGI by 2030 | **25%** | 25% | +0pp | 13–42% |
-| Consultancy ≥33% loss by 2030 | **25%** | 25% | +0pp | 12–39% |
-| Labour largest party next GE | **3%** | 3% | +0pp | 1–8% |
-| AGI by 2035 | **77%** | 76% | +1pp | 59–90% |
-| China Taiwan blockade/invasion by 2030 | **7%** | 6% | +1pp | 3–15% |
-| UK CPI <2% before 2027 | **1%** | 1% | +0pp | 0–3% |
-| Spider-Man BND >$1.5B | **98%** | 98% | +0pp | 92–99% |
-| OpenAI+Anthropic ARR >$70B by 2026 | **99%** | 99% | +0pp | 97–100% |
-| UK real GDP >1.5% 2030s | **38%** | 39% | -1pp | 22–56% |
+| Question | Previous | Today | Δ | 80% CI |
+|---|---:|---:|---:|---|
+| AGI before 1 Jan 2030 | 25% | **24%** | −1pp | 12–41 |
+| Consultancy ≥33% loss by 2030 | 25% | **25%** | 0 | 12–39 |
+| Labour largest party at next UK GE | 3% | **3%** | 0 | 1–8 |
+| AGI before 1 Jan 2035 | 77% | **78%** | +1pp | 60–91 |
+| China blockade/invasion of Taiwan by 2030 | 7% | **7%** | 0 | 3–15 |
+| UK CPI <2.0% any month before Jan 2027 | 1% | **1%** | 0 | 0–3 |
+| Spider-Man: Brand New Day >$1.5B by EOY 2026 | 98% | **98%** | 0 | 92–99 |
+| OpenAI + Anthropic combined ARR >$70B by EOY 2026 | 99% | **99%** | 0 | 97–100 |
+| UK average real GDP growth >1.5% in 2030s | 38% | **38%** | 0 | 22–56 |
 
-## Key Takeaways
+## Key takeaways
 
-- **Trump-Xi Beijing summit** is the central geopolitical event today. Xi explicitly warned of 'clashes and even conflicts' over Taiwan, and Trump is publicly equivocating on the $14B Taiwan arms package — a small uptick to the China-Taiwan blockade/invasion probability (6→7%).
-- **Anthropic Mythos preview** clearing the UK AISI 'The Last Ones' 32-step range in 3 of 10 runs (73% expert-task success) is the most meaningful capability marker this quarter — small uptick to the AGI-by-2035 line (76→77%); AGI-by-2030 unchanged (still requires public declaration).
-- **UK Labour** position remains dire. Fresh Ipsos Political Pulse (8-12 May 2026): 66% say Starmer should not lead Labour into next GE, 74% say Labour unlikely to win. Starmer now the most unpopular UK leader on record. Hold at 3%.
-- **UK CPI** held at 3.3% in March (released 22 April); April release on 20 May. BoE expects CPI to rise further into Q4 2026 on Middle East energy passthrough. Mathematically near-impossible to clear sub-2% before 2027 — hold at 1%.
-- **OpenAI + Anthropic ARR** confirmed: Anthropic $30B + OpenAI $24B = $54B combined in April. Path to $70B by Dec 2026 is near-certain. Hold at 99%.
-- **UK GDP 2030s** trimmed 1pp to 38% after re-reading OBR March 2026: productivity downgraded 0.3pp, real GDP per person only 1.1% to 2030, headline GDP averaging only 1.5% 2026-2029 (at the threshold, not above).
+- **Trump-Xi summit** (14-15 May, Beijing) closed with a "strategic stability" framework but no AI breakthrough. Xi delivered the sharpest Taiwan rhetoric of the meeting: "handle badly, two countries risk collision or conflict." Net effect: marginal downward pressure on near-term AGI declaration probability, offset on Taiwan by active diplomatic track (Xi visiting US in fall).
+- **Anthropic's "2028: Two Scenarios" paper** publicly anchors AGI-by-2028 expectations from a leading lab. Combined with $200B compute commitment and Mythos preview clearing UK AISI's "Last Ones" 32-step range (3/10), this nudges the long-horizon AGI-by-2035 probability up a point.
+- **Microsoft research** confirming frontier models still corrupt long multi-step workflows is a meaningful capability counterweight to recent AI hype, marginally reducing 2030 AGI odds.
+- **UK politics:** YouGov 4-5 May has Reform 25%, Lab 18%, Con 17%, Greens 15%, LD 14% — five-party split with Labour third. 66% of Britons say Starmer should not lead Labour into next GE. Labour-largest-party probability stays at 3%.
+- **UK inflation:** March CPI confirmed at 3.3% (up from 3.0%), transport at 4.7% YoY. Trajectory is wrong direction for the <2.0% threshold; 1% probability holds.
+- **OpenAI + Anthropic ARR:** April 2026 figures confirm Anthropic $30B, OpenAI $24B (combined $54B). Need only $16B more in 8 months — Anthropic added $11B in a single month. Holds at 99%.
+- **Spider-Man:** Trailer crossed 1 BILLION views in less than a week — first in history. Sets up an Avengers: Endgame-tier opening; 98% probability of >$1.5B holds.
 
-## Movements (vs yesterday)
+## Movements (notable)
 
-- **AGI by 2030**: 25% (—)
-- **Consultancy ≥33% loss by 2030**: 25% (—)
-- **Labour largest party next GE**: 3% (—)
-- **AGI by 2035**: 77% (▲ +1pp)
-- **China Taiwan blockade/invasion by 2030**: 7% (▲ +1pp)
-- **UK CPI <2% before 2027**: 1% (—)
-- **Spider-Man BND >$1.5B**: 98% (—)
-- **OpenAI+Anthropic ARR >$70B by 2026**: 99% (—)
-- **UK real GDP >1.5% 2030s**: 38% (▼ -1pp)
-
-## Method
-Re-forecast with the `probabilistic-forecast` skill against fresh web-search evidence for each question. Updates posted daily; full structured report (factors up/down, key uncertainties, update triggers) saved as `reports/2026-05-14.json`.
+- **AGI 2030: −1pp to 24%.** Trump-Xi stability framework dampens declaration likelihood; Microsoft workflow-corruption research offsets recent capability hype; OpenAI services pivot (Deployment Co., Tomoro acquisition) implies monetisation focus over imminent AGI claim.
+- **AGI 2035: +1pp to 78%.** Anthropic's public AGI-by-2028 paper from a frontier lab is a meaningful anchor over the long window.
+- All other forecasts hold within ±0pp of yesterday's values; underlying drivers shifted but offset within each question.
