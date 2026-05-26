@@ -1,41 +1,44 @@
-# Daily Forecast Update — 2026-05-25
+# Daily Forecast Summary — 2026-05-26
 
-| Question | Central | 80% CI | Δ vs prior | Direction |
+## Headline
+
+Quiet day across the board: most forecasts unchanged. The only moves are micro-ticks reflecting fresh datapoints rather than regime change. 
+Spider-Man: Brand New Day nudges up 1pp on its record-shattering 1.1B-views trailer (first ever); the OpenAI+Anthropic ARR question creeps from 98 → 99 as Anthropic's Q2 trajectory toward $43-45B effectively locks the combined ≥$70B by Q3 2026; UK CPI <2% before 2027 ticks up 1pp on the clean April print at 2.8%. Everything else is unchanged.
+
+## Forecasts table
+
+| Question | Central | 80% CI | Previous | Δ |
 |---|---|---|---|---|
-| AGI by 1 Jan 2030 | 22% | [12, 37] | +1pp | ↑ |
-| Consultancy ≥33% loss by end 2030 | 25% | [13, 40] | 0pp | → |
-| Labour largest party at next UK GE | 2% | [1, 6] | 0pp | → |
-| AGI by 1 Jan 2035 | 78% | [60, 91] | 0pp | → |
-| China blockade/invasion of Taiwan before 2030 | 8% | [4, 16] | +1pp | ↑ |
-| UK CPI <2.0% one month before 2027 | 12% | [4, 25] | +2pp | ↑ |
-| Spider-Man: Brand New Day >$1.5B by end 2026 | 97% | [90, 99] | 0pp | → |
-| OpenAI+Anthropic combined ARR >$70B by end 2026 | 96% | [86, 99] | −2pp | ↓ |
-| UK avg real GDP growth >1.5% in 2030s | 38% | [22, 56] | 0pp | → |
+| Will AGI be developed before 1 January 2030? | 21% | [11, 37] | 21% | → +0pp |
+| Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | 25% | [13, 41] | 25% | → +0pp |
+| Will Labour be largest party at next UK General Election? | 2% | [1, 6] | 2% | → +0pp |
+| Will AGI be developed before 1 January 2035? | 78% | [60, 91] | 78% | → +0pp |
+| Will China initiate a military blockade or invasion of Taiwan before 1 January 2030? | 7% | [3, 15] | 7% | → +0pp |
+| Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027? | 11% | [4, 24] | 10% | ↑ +1pp |
+| Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | 98% | [92, 100] | 97% | ↑ +1pp |
+| Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026? | 99% | [96, 100] | 98% | ↑ +1pp |
+| Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)? | 38% | [22, 56] | 38% | → +0pp |
 
-## Key Takeaways
+## Notable movements
 
-The day's most notable shifts come from fresh data points rather than narrative turns. UK April CPI printed at 2.8% (down from 3.3% in March) on the back of the April 1 energy price cap reduction, which moves the sub-2% question upward by 2pp to 12% — still a low-probability event but no longer trivially out of reach if services inflation softens. The OpenAI+Anthropic ARR question drifts down 2pp to 96% as the cloud-reseller accounting dispute (OpenAI's CRO publicly arguing Anthropic's $30B headline overstates by ~$8B) injects real resolution-basis ambiguity, though the gross-basis combined figure (~$67B) already sits within striking distance of the $70B threshold. China-Taiwan ticks up 1pp on PRC deployments — 100+ vessels around Taiwan post-Trump-Xi summit and the unveiling of ~500 J-6 drones converted for saturation roles.
+### Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?
+**10% → 11%** (+1pp)
 
-## Movements
+Up 1pp to 11%. April 2026 ONS CPI confirmed at 2.8% (down from 3.3% in March), with the moderation driven by the 1 April energy price cap reset (housing/household services from 5.3% to 1.4%). Core CPIH at 2.8%. The April-to-December path now needs ~0.8pp further fall in 8 months. Plausible if (a) further utility-base-effect drift through summer, (b) services inflation eases from current ~3.5-4% range, and (c) wage growth moderates further. Still below 50/50 given core stickiness and likely autumn services CPI seasonality. Marginal uptick reflects April's surprisingly clean print rather than co...
 
-- **AGI 2030**: 21% → 22%. Metaculus combined dashboard now ~31% by 2030 with median 2031; universal timeline-shortening among Jan-Apr 2026 updaters.
-- **AGI 2035**: 78% → 78%. Stable; 8.6-year horizon comfortably exceeds median expert forecast.
-- **Consultancy decline**: 25% → 25%. McKinsey, KPMG, Bain layoffs continue but Big Four AI advisory revenue offsetting.
-- **Labour largest party**: 2% → 2%. Reform 8-12pt lead consistent across YouGov, Ipsos, PollCheck; Labour joint-third in some polls.
-- **China-Taiwan**: 7% → 8%. PRC naval show of force and J-6 drone deployment to Fujian/Guangdong; Trump-Xi summit eased near-term risk.
-- **UK CPI <2%**: 10% → 12%. April CPI 2.8%, faster fall than expected from energy cap.
-- **Spider-Man $1.5B**: 97% → 97%. Trailer 1.1B+ views; Variety projecting $2.54B WW.
-- **OpenAI+Anthropic ARR**: 98% → 96%. Net-vs-gross accounting dispute clouds resolution basis.
-- **UK GDP 2030s >1.5%**: 38% → 38%. OBR March 2026 confirms 1.5% remains the threshold — coin-flip with downward tilt.
+### Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?
+**97% → 98%** (+1pp)
 
-## Sources
+Up 1pp to 98%. Variety and Screen Daily confirm the Brand New Day trailer hit 718.6M views in first 24 hours — the biggest trailer launch ever, surpassing Deadpool & Wolverine (365M) inside 8 hours. Within 4 days the trailer crossed 1.1B views — the first film trailer ever to do so. This is an extraordinary pre-sales indicator: trailer-view-to-opening-weekend correlation has been positive and strengthening since Avengers: Endgame. The reference class (No Way Home $1.92B, Endgame $2.8B, Avatar Way of Water $2.3B) now looks closer to the modal expectation than the upside scenario. 31 July releas...
 
-- [Metaculus AGI questions](https://www.metaculus.com/questions/5121/when-will-the-first-general-ai-system-be-devised-tested-and-publicly-announced/)
-- [YouGov voting intention 10-11 May 2026](https://yougov.com/en-gb/articles/54744-voting-intention-10-11-may-2026-ref-28-con-17-grn-16-lab-16-ld-13)
-- [Ipsos: Reform hold 7-point lead over Labour](https://www.ipsos.com/en-uk/reform-hold-7-point-lead-over-labour-ipsos-poll)
-- [AEI China & Taiwan Update May 22 2026](https://www.aei.org/articles/china-taiwan-update-may-22-2026/)
-- [ONS Consumer price inflation UK April 2026](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/april2026)
-- [Variety: Spider-Man Brand New Day trailer hits 1B views](https://variety.com/2026/film/news/spider-man-brand-new-day-trailer-1-billion-views-first-history-1236697959/)
-- [Anthropic $30B ARR via SaaStr](https://www.saastr.com/anthropic-just-passed-openai-in-revenue-while-spending-4x-less-to-train-their-models/)
-- [OBR March 2026 EFO](https://obr.uk/efo/economic-and-fiscal-outlook-march-2026/)
-- [McKinsey layoffs Fast Company](https://www.fastcompany.com/91463039/why-the-mckinsey-layoffs-are-a-warning-signal-for-consulting-in-the-ai-age-ai-layoffs-management-consulting)
+### Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?
+**98% → 99%** (+1pp)
+
+Up 1pp to 99%. CNBC (20 May) reports Anthropic on track for $10.9B Q2 revenue, implying ~$43-45B ARR by end of Q2 2026 — confirming the SaaStr/Sacra figures from April. OpenAI ARR confirmed at $24B in April 2026 ($2B/month). Combined run-rate is ~$67-69B today; with monthly growth of $2-3B at Anthropic alone (sales 'more than doubled in a matter of months'), the $70B combined threshold is almost mechanically guaranteed by Q3 2026 well before the 31 December resolution date. Note: ARR accounting dispute remains (OpenAI argues Anthropic's gross figure overstates by ~$8B vs net; Anthropic's net c...
+
+## Key takeaways
+- **AI capability narrative remains 'approaching but not declared'** — no AGI resolution event despite ongoing CEO commentary (Amodei: ~2027; Hassabis: 'foothills'; Sequoia: 'AGI is here, now' as opinion-piece reframing).
+- **AI commercial flywheel continues to amaze**: Anthropic Q2 revenue trajectory ~$10.9B (CNBC, 20 May) implies ~$43-45B ARR by end-Q2; OpenAI at $24B. Combined ≥$70B essentially locked.
+- **UK political landscape stable**: Reform 27%, Labour ~20% — sustained ~7pp deficit. Labour-largest-party probability stays in the low single digits.
+- **UK inflation moderating cleanly**: April CPI 2.8% (vs 3.3% in March) driven by energy cap reset. Sub-2% before 2027 still less than 1-in-5, but trajectory is improving.
+- **Spider-Man: Brand New Day is now the strongest signal in the entire portfolio**: 1.1B trailer views in 4 days, first ever. Probability climbs to 98%.
