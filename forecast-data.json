@@ -2878,5 +2878,77 @@
     "ci_lower": 22,
     "ci_upper": 56,
     "key_change": "Unchanged at 38%. OBR March 2026 EFO forecasts headline GDP growth 1.1% in 2026 and 1.6% in 2027, with real GDP per person growing 1.1% per year between 2026-2030. Aggregate potential output growth is 0.1pp lower than November forecast due to weaker net inward migration offsetting marginally higher investment. This implies the structural baseline going into the 2030s sits near the threshold, not comfortably above it. The 1.5% headline target requires either (a) population/migration recovery, (b) a productivity surge, or (c) a sustained AI-driven productivity dividend that the OBR has not yet priced. None of these is the modal path, but each has plausible upside. Result: this question stays a coin-flip-with-downward-tilt."
+  },
+  {
+    "date": "2026-05-26",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 21,
+    "ci_lower": 11,
+    "ci_upper": 37,
+    "key_change": "Unchanged at 21%. Four days since last forecast; no resolution-triggering AGI announcement. Sequoia's 'AGI is here, now' essay (late May) frames long-horizon agents as 'functionally AGI' — opinion piece, not the lab-declaration-or-3-researcher attestation the resolution criterion requires. Dario Amodei's Davos 2026 'AGI within a few years (2027)' restatement and Hassabis's 'foothills of the singularity' language remain forward-looking rather than declarative. OpenAI's $24B Q1 ARR and Anthropic's $30B → $43-45B trajectory confirm extraordinary commercial traction without a YES-triggering event. 31 months to deadline; time-decay continues to dominate without a positive shock."
+  },
+  {
+    "date": "2026-05-26",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 25,
+    "ci_lower": 13,
+    "ci_upper": 41,
+    "key_change": "Unchanged at 25%. Fast Company, Inc and Quartz coverage of McKinsey's 200 tech/support cuts (late 2025) plus Sternfels's signal of further non-client reductions reinforces the trajectory rather than accelerating it. BCG is still growing headcount, but tilted toward AI/tech specialists vs. generalists — consistent with re-mix rather than collapse. McKinsey's Lilli running 500k+ prompts/month internally with consultants reporting up to 30% time-savings is now the dominant productivity-substitution story. ~25% of entry-level consulting/finance postings require AI fluency vs <5% two years ago. None of this yet maps to a ≥33% headline decline in revenue or employment vs 2024 baseline — but the directional pressure is increasingly hard to ignore."
+  },
+  {
+    "date": "2026-05-26",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 2,
+    "ci_lower": 1,
+    "ci_upper": 6,
+    "key_change": "Unchanged at 2%. Ipsos (14-20 May) confirms Reform 27%, Labour 20% — a sustained 7pp Reform lead. PollCheck moving average puts Reform 27.3% vs Labour 19.7%. Labour now firmly in the high-teens to low-twenties, with Greens (13-15%) and LD (13-14%) crowding the centre-left. The Andy Burnham leadership challenge speculation (Makerfield by-election context) is a minor signal but not enough to shift trajectory absent a Labour bounce. Up to 3-4 years to the next GE provides ample time for swing — but Labour would need a 7-9pp swing while Reform consolidates, and the historical base rate for governing-party recoveries of this magnitude from this position is low."
+  },
+  {
+    "date": "2026-05-26",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 78,
+    "ci_lower": 60,
+    "ci_upper": 91,
+    "key_change": "Unchanged at 78%. The 2035 deadline gives ~8.5 more years of compounding capability — a regime in which today's signals (Amodei: AGI ~2027; Hassabis: 'foothills'; Sequoia: 'AGI is here'; Clark: 60% recursive-self-improvement by 2028) compound rather than fade. Anthropic at $43-45B ARR by Q2 2026 and OpenAI at $24B confirm commercial flywheel adequate to fund continued frontier scaling for the rest of the decade. Even with the 'AGI' term being deprecated in commercial contracts, by 2035 the most likely modal outcome is a public consensus-event triggered by either capability demonstration (e.g., autonomous AI economist, AI scientist) or coordinated researcher statement. Stable estimate around 78% reflects high confidence in capability arrival within window, tempered by definitional and political-coordination risk on the resolution event itself."
+  },
+  {
+    "date": "2026-05-26",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 7,
+    "ci_lower": 3,
+    "ci_upper": 15,
+    "key_change": "Unchanged at 7%. No fresh PLA escalation in late May 2026 beyond the Balikatan-2026-response posture (AEI 1 and 8 May): Type 055 + 052D + 054A surface group plus Type 903A in Luzon Strait, plus Liaoning carrier transit on 20 April. These remain coercive signalling rather than the kind of pre-mobilisation, logistical-buildup, or political ultimatum that would precede a blockade or invasion. Cross-strait baseline tension remains elevated but recently stable; no major Lai administration provocation, no Beijing political-cycle deadline forcing action. 44 months to deadline — probability builds slowly with calendar."
+  },
+  {
+    "date": "2026-05-26",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 11,
+    "ci_lower": 4,
+    "ci_upper": 24,
+    "key_change": "Up 1pp to 11%. April 2026 ONS CPI confirmed at 2.8% (down from 3.3% in March), with the moderation driven by the 1 April energy price cap reset (housing/household services from 5.3% to 1.4%). Core CPIH at 2.8%. The April-to-December path now needs ~0.8pp further fall in 8 months. Plausible if (a) further utility-base-effect drift through summer, (b) services inflation eases from current ~3.5-4% range, and (c) wage growth moderates further. Still below 50/50 given core stickiness and likely autumn services CPI seasonality. Marginal uptick reflects April's surprisingly clean print rather than confirmation of sub-2% arrival."
+  },
+  {
+    "date": "2026-05-26",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 98,
+    "ci_lower": 92,
+    "ci_upper": 100,
+    "key_change": "Up 1pp to 98%. Variety and Screen Daily confirm the Brand New Day trailer hit 718.6M views in first 24 hours — the biggest trailer launch ever, surpassing Deadpool & Wolverine (365M) inside 8 hours. Within 4 days the trailer crossed 1.1B views — the first film trailer ever to do so. This is an extraordinary pre-sales indicator: trailer-view-to-opening-weekend correlation has been positive and strengthening since Avengers: Endgame. The reference class (No Way Home $1.92B, Endgame $2.8B, Avatar Way of Water $2.3B) now looks closer to the modal expectation than the upside scenario. 31 July release date holds. The remaining ~2% risk reflects tail outcomes: catastrophic review reception, summer competitive cannibalisation, or theatrical disruption."
+  },
+  {
+    "date": "2026-05-26",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 99,
+    "ci_lower": 96,
+    "ci_upper": 100,
+    "key_change": "Up 1pp to 99%. CNBC (20 May) reports Anthropic on track for $10.9B Q2 revenue, implying ~$43-45B ARR by end of Q2 2026 — confirming the SaaStr/Sacra figures from April. OpenAI ARR confirmed at $24B in April 2026 ($2B/month). Combined run-rate is ~$67-69B today; with monthly growth of $2-3B at Anthropic alone (sales 'more than doubled in a matter of months'), the $70B combined threshold is almost mechanically guaranteed by Q3 2026 well before the 31 December resolution date. Note: ARR accounting dispute remains (OpenAI argues Anthropic's gross figure overstates by ~$8B vs net; Anthropic's net comp ~$22B). Resolution criterion specifies 'most recent credible reporting (Bloomberg, The Information, FT, or company disclosures)' — which has consistently used the headline gross figures. 1pp residual reflects (a) accounting interpretation risk and (b) catastrophic disruption tail."
+  },
+  {
+    "date": "2026-05-26",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 38,
+    "ci_lower": 22,
+    "ci_upper": 56,
+    "key_change": "Unchanged at 38%. OBR March 2026 EFO continues to forecast 1.1% headline GDP growth in 2026, 1.6% in 2027, with real GDP per person growing 1.1%/year through 2026-2030. TFP recovery from 0.3% (2026) to 0.8% (2030) is built in but conditional on investment delivering. Aggregate potential output growth 0.1pp lower than November 2025 due to weaker net inward migration offsetting marginally higher investment. The 2030s arithmetic-mean >1.5% requires either (a) demographics-positive surprise (population growth via migration), (b) TFP pickup above OBR baseline, or (c) AI-driven productivity acceleration manifesting in measured productivity by mid-2030s. Each is plausible but not modal; combined probability around the high-thirties."
   }
 ]
