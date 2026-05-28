@@ -3022,5 +3022,77 @@
     "ci_lower": 22,
     "ci_upper": 56,
     "key_change": "Unchanged at 38%. OBR March 2026 EFO continues to anchor: 1.1% headline GDP growth in 2026, 1.6% in 2027, real GDP per person growing 1.1%/year through 2026-2030, with TFP recovery to 1% in the medium term. OBR's productivity briefing (No.9, Nov 2025) revised TFP up from 0.8% to 1.0%/year — modest upside but still well below 2000s baseline. Labour supply growth declining to 0.5% by 2030 (lower migration + ageing). The 2030s outcome distribution likely sits with median ~1.3-1.5% per the OBR fundamentals — but AI-productivity upside (BCG, McKinsey deploying productivity tools) and a potential migration policy shift create meaningful right-tail probability. The 38% central holds: roughly even-money around the 1.5% threshold, with productivity upside scenarios providing the path to YES."
+  },
+  {
+    "date": "2026-05-28",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 22,
+    "ci_lower": 12,
+    "ci_upper": 37,
+    "key_change": "GPT-5.4 with 1M token context and 75% on OSWorld-V benchmark shows strong agent capability gains, and consensus has shifted from 'decades' to 'imminent few years'; but no lab has declared AGI and ~3.6 years remaining. Slight drift up."
+  },
+  {
+    "date": "2026-05-28",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 27,
+    "ci_lower": 14,
+    "ci_upper": 43,
+    "key_change": "Big Four layoffs accelerating: PwC -5,600 H1 2025, KPMG -400 US advisory and -590 UK, PwC US cutting graduate hiring by a third 'related to AI impact'. Aggregate revenues still rising (PwC +2.7%, Deloitte +4.8%), but headcount and entry-level pipelines clearly contracting. Slight drift up."
+  },
+  {
+    "date": "2026-05-28",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 3,
+    "ci_lower": 1,
+    "ci_upper": 7,
+    "key_change": "PollCheck 7-poll average: Labour 19.3%, Reform 25%, Conservatives 17%. Ipsos: 74% of Britons think Starmer unlikely to win next GE. Position essentially unchanged from yesterday — kept marginally up to reflect long horizon and possibility of mean reversion."
+  },
+  {
+    "date": "2026-05-28",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 79,
+    "ci_lower": 61,
+    "ci_upper": 92,
+    "key_change": "Same capability signals lifting Q1 also lift Q4; with 8.6 years of horizon and continued investment ($122B OpenAI raise), probability remains high. Slight drift up."
+  },
+  {
+    "date": "2026-05-28",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 7,
+    "ci_lower": 3,
+    "ci_upper": 15,
+    "key_change": "AEI weekly tracker continues to show PRC posturing in Bashi Channel and submarine warfare prep, but no kinetic escalation. Trump-Xi summit produced no major agreements but also no rupture. Hold."
+  },
+  {
+    "date": "2026-05-28",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 7,
+    "ci_lower": 3,
+    "ci_upper": 15,
+    "key_change": "April 2026 CPI at 2.8% (down from 3.3% March). But Bank of England April MPR now expects CPI to rise to 3.3% in Q3 and somewhat further in Q4 due to Middle East energy shock. Only 7 months to year-end. Drop probability."
+  },
+  {
+    "date": "2026-05-28",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 98,
+    "ci_lower": 92,
+    "ci_upper": 100,
+    "key_change": "Confirmed July 31, 2026 release (5 months of box office window before Dec 31 deadline). Trailer hit 718M views in first day — biggest trailer ever. Marketing engagement implies extraordinary opening. Hold at top end."
+  },
+  {
+    "date": "2026-05-28",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 99,
+    "ci_lower": 96,
+    "ci_upper": 100,
+    "key_change": "OpenAI at $25B annualised (Feb 2026, growing). Anthropic at $30-44B (April-May 2026 reports). Combined already in $55-69B range and trajectory is steep. Reaching $70B Q4 ARR is now near-certain barring catastrophe. Hold."
+  },
+  {
+    "date": "2026-05-28",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 38,
+    "ci_lower": 22,
+    "ci_upper": 56,
+    "key_change": "OBR March 2026 EFO: GDP growth 1.1% (2026), 1.6% (2027); productivity assumed to reach 1% medium-term, labour supply growth declining to 0.5% by 2030 (combined trend ~1.5%). On the borderline. Hold."
   }
 ]
