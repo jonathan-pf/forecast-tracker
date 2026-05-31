@@ -3094,5 +3094,77 @@
     "ci_lower": 22,
     "ci_upper": 56,
     "key_change": "OBR March 2026 EFO: GDP growth 1.1% (2026), 1.6% (2027); productivity assumed to reach 1% medium-term, labour supply growth declining to 0.5% by 2030 (combined trend ~1.5%). On the borderline. Hold."
+  },
+  {
+    "date": "2026-05-31",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 22,
+    "ci_lower": 12,
+    "ci_upper": 37,
+    "key_change": "No material new evidence in last 3 days; Anthropic CEO continues to project AGI ~2027 while Hassabis maintains ~50% by 2030. Holding steady."
+  },
+  {
+    "date": "2026-05-31",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 25,
+    "ci_lower": 13,
+    "ci_upper": 42,
+    "key_change": "Slight downgrade: latest data shows BCG AI revenue at $3.6B (25% of total) and Bain projecting AI to be 50% of consulting — AI substituting for some roles but expanding revenue base."
+  },
+  {
+    "date": "2026-05-31",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 5,
+    "ci_lower": 2,
+    "ci_upper": 11,
+    "key_change": "Small upward revision: ongoing Labour leadership crisis with Burnham as preferred successor (members 74% think Labour wins under Burnham vs 28% under Starmer) creates a path to recovery, though Reform's 7-point lead remains structurally hard to overturn."
+  },
+  {
+    "date": "2026-05-31",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 79,
+    "ci_lower": 61,
+    "ci_upper": 92,
+    "key_change": "No change since last forecast. Long horizon (9.5 years) accommodates multiple capability transitions; majority of researcher surveys cluster around 2030-2035."
+  },
+  {
+    "date": "2026-05-31",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 7,
+    "ci_lower": 3,
+    "ci_upper": 15,
+    "key_change": "Holding steady. US 2026 Annual Threat Assessment confirms Chinese leadership has no fixed invasion timeline; PLA conducting more frequent show-of-force exercises but no escalatory threshold crossed."
+  },
+  {
+    "date": "2026-05-31",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 3,
+    "ci_lower": 1,
+    "ci_upper": 8,
+    "key_change": "Material downgrade: BoE April 2026 MPR now projects CPI rising to 3.1% Q2, 3.3% Q3 and 'somewhat further in Q4' due to Middle East conflict and energy prices. April 2026 print was 2.8%. Path to sub-2% in 2026 essentially closed."
+  },
+  {
+    "date": "2026-05-31",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 97,
+    "ci_lower": 90,
+    "ci_upper": 100,
+    "key_change": "Marginal trim from 98 to 97. Tracking remains exceptional (1B+ trailer views, Polymarket 54.5% to be top-grossing of 2026, $340M+ international opening predecessor). Five months from July 31 release to Dec 31 deadline provides comfortable runway."
+  },
+  {
+    "date": "2026-05-31",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 99,
+    "ci_lower": 97,
+    "ci_upper": 100,
+    "key_change": "Threshold already cleared in current reporting: Anthropic at ~$45B ARR, OpenAI at ~$33B = ~$78B combined as of May 2026. Only material risk is dramatic accounting revision or business shock."
+  },
+  {
+    "date": "2026-05-31",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 38,
+    "ci_lower": 22,
+    "ci_upper": 56,
+    "key_change": "No change. OBR March 2026 EFO has growth averaging 1.6% out to 2030-31; question requires sustaining 1.5% average for full decade including 2032-2039 where forecasts have higher uncertainty."
   }
 ]
