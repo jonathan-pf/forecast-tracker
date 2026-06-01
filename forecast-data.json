@@ -3166,5 +3166,77 @@
     "ci_lower": 22,
     "ci_upper": 56,
     "key_change": "No change. OBR March 2026 EFO has growth averaging 1.6% out to 2030-31; question requires sustaining 1.5% average for full decade including 2032-2039 where forecasts have higher uncertainty."
+  },
+  {
+    "date": "2026-06-01",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 22,
+    "ci_lower": 12,
+    "ci_upper": 37,
+    "key_change": "Hold at 22%. Searches confirm no credible AGI announcement in the 1 day since prior forecast. Industry consensus remains split: Amodei (Anthropic) maintaining ~2027 AGI projection, Hassabis (DeepMind) at ~50% by 2030, Legg (DeepMind) at 50% for 'Minimal AGI' by 2028. Frontier model gains continue (Gemini 3.1 Pro 77.1% on ARC-AGI-2) but no resolution-triggering announcement."
+  },
+  {
+    "date": "2026-06-01",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 25,
+    "ci_lower": 13,
+    "ci_upper": 42,
+    "key_change": "Hold at 25%. McKinsey 2026 layoffs (~10% of global workforce, 3-4k positions) reinforce the headcount-contraction thesis. But BCG AI revenue at ~40% of 2026 revenue and Bain projecting 50% over coming years continues to point to a revenue-substitution rather than revenue-collapse pathway."
+  },
+  {
+    "date": "2026-06-01",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 6,
+    "ci_lower": 2,
+    "ci_upper": 13,
+    "key_change": "Slight uptick from 5 to 6%. May 2026 local elections cemented Reform's structural lead — Labour lost 208+ councillors and Reform gained 339 seats. But post-election polling showed only 5% of 2024 Labour voters switched to Reform vs 32% to Greens/Lib Dems, suggesting recoverable progressive bloc if Labour can reunite it under new leadership. Burnham succession scenario remains the most plausible recovery path."
+  },
+  {
+    "date": "2026-06-01",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 79,
+    "ci_lower": 61,
+    "ci_upper": 92,
+    "key_change": "Hold at 79%. Long-horizon forecast unchanged in 1 day. Continued capability gains and majority of researcher surveys clustering around 2030-2035 timelines keep this above the 75% threshold."
+  },
+  {
+    "date": "2026-06-01",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 7,
+    "ci_lower": 3,
+    "ci_upper": 15,
+    "key_change": "Hold at 7%. Continued PLA exercises (December 2025 Justice Mission, May 2026 South China Sea / West Pacific submarine deployments) signal escalating posture but no kinetic threshold crossed. Wang Yi labelling Taiwan 'biggest risk factor' is rhetorical, not escalatory. Taiwan's $25B special defense budget raising defensive capacity moderately reduces invasion-window incentives."
+  },
+  {
+    "date": "2026-06-01",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 3,
+    "ci_lower": 1,
+    "ci_upper": 8,
+    "key_change": "Hold at 3%. April 2026 CPI print confirmed at 2.8%, down from 3.3% in March. BoE April MPR projects CPI rising further: 3.1% Q2, 3.3% Q3, with 'somewhat further' in Q4. HM Treasury survey of independent forecasters has Q4 CPI averaging ~3.5%. Path to sub-2% before January 2027 effectively requires a major demand shock or oil price collapse."
+  },
+  {
+    "date": "2026-06-01",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 97,
+    "ci_lower": 90,
+    "ci_upper": 100,
+    "key_change": "Hold at 97%. Confirmed July 31, 2026 release. Trailer at 1B+ views, Polymarket 54.5% to be top-grossing 2026 domestic film. Pre-release tracking remains exceptional. Five months from release to year-end provides plenty of runway above $1.5B threshold (predecessor No Way Home reached $1.9B; this title has 1B-view trailer suggesting comparable or larger opening)."
+  },
+  {
+    "date": "2026-06-01",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 99,
+    "ci_lower": 97,
+    "ci_upper": 100,
+    "key_change": "Hold at 99%. Threshold already cleared at current reporting: Anthropic ~$45B ARR (May 2026), OpenAI ~$33B = ~$78B combined. Anthropic projecting first quarterly operating profit ($559M) in Q2 2026 on $10.9B revenue. Only material risk is dramatic accounting restatement (e.g. moving Anthropic to net-revenue basis would cut ~$8B) or year-end business shock."
+  },
+  {
+    "date": "2026-06-01",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 38,
+    "ci_lower": 22,
+    "ci_upper": 56,
+    "key_change": "Hold at 38%. OBR March 2026 EFO shows real GDP per capita averaging 1.1% growth 2026-2030 and headline growth ~1.6% through 2030. Productivity assumed to recover to 1% medium-term but population ageing weighing on labour supply growth (down to 0.5% by 2030). Achieving 1.5% average across full 2030s requires sustained productivity revival including 2032-2039 where uncertainty is highest."
   }
 ]
