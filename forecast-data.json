@@ -3238,5 +3238,77 @@
     "ci_lower": 22,
     "ci_upper": 56,
     "key_change": "Hold at 38%. OBR March 2026 EFO shows real GDP per capita averaging 1.1% growth 2026-2030 and headline growth ~1.6% through 2030. Productivity assumed to recover to 1% medium-term but population ageing weighing on labour supply growth (down to 0.5% by 2030). Achieving 1.5% average across full 2030s requires sustained productivity revival including 2032-2039 where uncertainty is highest."
+  },
+  {
+    "date": "2026-06-02",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 21,
+    "ci_lower": 11,
+    "ci_upper": 36,
+    "key_change": "No formal AGI declaration as of late May 2026; researcher consensus continues to drift toward late-2020s/early 2030s. Hassabis maintains ~50% by 2030; Amodei sees 2027 plausibility; OpenAI/Anthropic shipping major models but no AGI claim."
+  },
+  {
+    "date": "2026-06-02",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 28,
+    "ci_lower": 15,
+    "ci_upper": 45,
+    "key_change": "Morgan Stanley research shows UK consultant vacancies down 37% since ChatGPT launch — strongest evidence yet that AI is materially affecting consultancy demand. Tightens the case that ≥33% decline by 2030 is plausible, though resolution requires attribution by 2+ credible analyses."
+  },
+  {
+    "date": "2026-06-02",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 5,
+    "ci_lower": 2,
+    "ci_upper": 11,
+    "key_change": "Labour at 18.7% in latest polling moving average — sharply behind Reform UK (26.9%) and roughly tied with Conservatives (18.3%). Catastrophic May 2026 local elections (lost 38 councils). 95+ Labour MPs publicly questioning Starmer leadership."
+  },
+  {
+    "date": "2026-06-02",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 78,
+    "ci_lower": 60,
+    "ci_upper": 90,
+    "key_change": "Maintained near prior. Long horizon and ongoing capability advances continue to support a high probability of AGI declaration by 2034. Multiple credible CEO claims push toward late-2020s, leaving large buffer."
+  },
+  {
+    "date": "2026-06-02",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 8,
+    "ci_lower": 3,
+    "ci_upper": 16,
+    "key_change": "Late-May 2026: 30-hour Chinese Coast Guard standoff at Pratas Island; PLA exercises near Taiwan. March 2026 US ODNI assessment: 'Chinese leaders lack fixed timeline or current plans for invading Taiwan'; favoured strategy is grey-zone coercion. Slight uptick from rising incident frequency but no evidence of imminent kinetic action."
+  },
+  {
+    "date": "2026-06-02",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 3,
+    "ci_lower": 1,
+    "ci_upper": 8,
+    "key_change": "CPI at 2.8% (April 2026) and BoE base-case projection shows inflation rising to ~3.5% by end-2026, only returning near 2% in Q2 2027. New energy price-cap hike from July 2026 will push CPI further up. Almost no plausible path to a sub-2% monthly print between now and Dec 2026."
+  },
+  {
+    "date": "2026-06-02",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 96,
+    "ci_lower": 88,
+    "ci_upper": 99,
+    "key_change": "Pre-release indicators remain extraordinary: 1B+ trailer views in <1 week, Polymarket 54.5% odds of being top 2026 domestic film, projected $2.54B worldwide. Slight haircut from prior 97% to reflect normal release-window execution risk."
+  },
+  {
+    "date": "2026-06-02",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 99,
+    "ci_lower": 96,
+    "ci_upper": 100,
+    "key_change": "Q1/Q2 2026 reporting confirms threshold already exceeded: Anthropic ARR ~$45B (CNBC, The Information), OpenAI ARR ~$33B = combined ~$78B. Question resolves YES barring revenue collapse before Q4 2026."
+  },
+  {
+    "date": "2026-06-02",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 37,
+    "ci_lower": 22,
+    "ci_upper": 55,
+    "key_change": "OBR March 2026 EFO has medium-term real GDP averaging ~1.6% to forecast horizon, with downward productivity revisions (TFP 0.8% vs 1.1% earlier). AI contribution to productivity central case +0.2pp by horizon. 1.5% threshold is roughly at the OBR central case."
   }
 ]
