@@ -3310,5 +3310,77 @@
     "ci_lower": 22,
     "ci_upper": 55,
     "key_change": "OBR March 2026 EFO has medium-term real GDP averaging ~1.6% to forecast horizon, with downward productivity revisions (TFP 0.8% vs 1.1% earlier). AI contribution to productivity central case +0.2pp by horizon. 1.5% threshold is roughly at the OBR central case."
+  },
+  {
+    "date": "2026-06-03",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 21,
+    "ci_lower": 11,
+    "ci_upper": 36,
+    "key_change": "No major movement. Davos 2026 commentary continues to show Amodei bullish (~2027) and Hassabis at ~50% by 2030. No formal AGI claim by a lab; Gemini 3.5 Pro pending public release in June 2026 but not pitched as AGI."
+  },
+  {
+    "date": "2026-06-03",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 27,
+    "ci_lower": 14,
+    "ci_upper": 44,
+    "key_change": "Slight downward drift. McKinsey ~10% cuts and broad Big-3 restructuring continue, but BCG is actually growing revenue via AI ($3.6B of $14.4B from AI work). Headline picture is a mix shift, not a 33% decline."
+  },
+  {
+    "date": "2026-06-03",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 5,
+    "ci_lower": 2,
+    "ci_upper": 11,
+    "key_change": "No change. June 2026 PollCheck average: Reform 27.3%, Labour 19.0%, Con 18.3%. Electoral Calculus April MRP gave Reform 188 seats, Labour just 86. Labour would need a ~10pt swing back across ~3 years."
+  },
+  {
+    "date": "2026-06-03",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 78,
+    "ci_lower": 60,
+    "ci_upper": 90,
+    "key_change": "No change. Most lab leaders' median estimates fall within the 2027-2032 window; 9 years is enough time to bridge definitional disputes and force public claims. Strong consensus among Amodei/Hassabis/Altman that AGI is plausible by early 2030s."
+  },
+  {
+    "date": "2026-06-03",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 8,
+    "ci_lower": 3,
+    "ci_upper": 16,
+    "key_change": "No change. PLA grey-zone activity continues but ASPI and US State Dept assessments view 2026 not the year for blockade/invasion. Taiwan passed $25B defence supplement. PRC strategy remains coercion-short-of-war."
+  },
+  {
+    "date": "2026-06-03",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 4,
+    "ci_lower": 1,
+    "ci_upper": 10,
+    "key_change": "Slight upward revision. April 2026 CPI came in at 2.8% (down from 3.3% in March) thanks to energy price cap. Core 2.5%, services 3.2%. Trajectory has surprised downward but reaching <2.0% in just 7-8 months requires another significant moderation."
+  },
+  {
+    "date": "2026-06-03",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 78,
+    "ci_lower": 55,
+    "ci_upper": 92,
+    "key_change": "Downward revision. Closer inspection of base rates: only one solo Spider-Man (No Way Home, $1.92B) has cleared $1.5B; tracking suggests $1B+ as base case. Polymarket gives 54.5% prob of being top domestic film of 2026 (not the same as $1.5B WW). Release is July 31, leaving ~5 months for theatrical run."
+  },
+  {
+    "date": "2026-06-03",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 99,
+    "ci_lower": 96,
+    "ci_upper": 100,
+    "key_change": "Essentially resolved. Anthropic ~$45B ARR, OpenAI ~$33B ARR per May 2026 reporting = ~$78B already, even accepting OpenAI's contested ~$22B Anthropic figure ($55B combined). Resolution requires Q4 2026 reporting, so the only risk is an unprecedented collapse."
+  },
+  {
+    "date": "2026-06-03",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 36,
+    "ci_lower": 22,
+    "ci_upper": 54,
+    "key_change": "Small downward drift. OBR March 2026 forecasts 1.1% p.p. growth and 1% productivity assumption; labour supply growth dropping to 0.5% by 2030. Headline GDP growth would sit ~1.4-1.6% on those assumptions — right at the threshold. Treasury independent forecaster average is more pessimistic (0.9-1.1%)."
   }
 ]
