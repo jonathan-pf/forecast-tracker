@@ -1,38 +1,28 @@
-# Daily Forecast Summary — 2026-06-05
+# Daily Forecast Update — 2026-06-07
 
-Re-forecast of nine tracked questions. Live dashboard: https://jonathan-pf.github.io/forecast-tracker/
+## Summary Table
 
-## Headline table
+| Question | Central | 80% CI | Δ vs prior |
+|---|---:|:---:|:---:|
+| Will AGI be developed before 1 January 2030? | 21% | 11–36% | +0pp |
+| Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | 24% | 12–41% | +0pp |
+| Will Labour be largest party at next UK General Election? | 4% | 1–10% | +0pp |
+| Will AGI be developed before 1 January 2035? | 78% | 60–90% | +0pp |
+| Will China initiate a military blockade or invasion of Taiwan before 1 January 2030? | 8% | 3–16% | +0pp |
+| Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027? | 5% | 2–12% | +0pp |
+| Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | 72% | 48–88% | -1pp |
+| Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026? | 99% | 97–100% | +0pp |
+| Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)? | 35% | 21–53% | +0pp |
 
-| Question | Central | 80% CI | Δ vs prev |
-|---|---:|---:|---:|
-| AGI by 2030 | 21% | [11, 36] | → 0pp |
-| Consultancy ≥33% AI loss by 2030 | 24% | [12, 41] | → 0pp |
-| Labour largest at next UK GE | 4% | [1, 10] | → 0pp |
-| AGI by 2035 | 78% | [60, 90] | → 0pp |
-| China Taiwan blockade/invasion by 2030 | 8% | [3, 16] | → 0pp |
-| UK CPI <2.0% before Jan 2027 | 5% | [2, 12] | → 0pp |
-| Spider-Man: BND >$1.5B by end 2026 | 73% | [50, 90] | ↓ -5pp |
-| OpenAI+Anthropic >$70B ARR by end 2026 | 99% | [97, 100] | → 0pp |
-| UK 2030s avg GDP growth >1.5% | 35% | [21, 53] | → 0pp |
+## Key Takeaways
 
-## Key movements
+- **Weekend update** — most forecasts hold steady; limited fresh signal between Friday 5 Jun and Sunday 7 Jun.
+- **AI labs**: Anthropic + DeepMind continue to signal self-improvement acceleration; Anthropic reports >80% AI-generated code. No formal AGI claim. AGI 2030 holds 21%; AGI 2035 holds 78%.
+- **UK politics**: Reform's lead over Labour widens marginally (Reform 27.1%, Lab 18.4%, Con 18.1%). Labour win path holds at 4%.
+- **AI ARR**: Anthropic ~$45B + OpenAI ~$33B = ~$78B combined, already above $70B threshold on credible reporting. Holds at 99%.
+- **Spider-Man: Brand New Day**: Polymarket on highest-grossing-2026 remains in mid-40s; marginal downward drift to 72% (–1pp).
+- **UK inflation**: April 2026 CPI at 2.8%; May print due mid-June. Path to <2.0% before Jan 2027 remains narrow. Holds 5%.
 
-- **Spider-Man: BND >$1.5B by end 2026**: 78% → 73% (-5pp)
+## Notable Movements
 
-## Takeaways
-
-- AGI markets: Hassabis (Decrypt, June 2026) restated ~50% AGI by 2030; Amodei still leans 2027. Both held — pre-2030 at 21%, pre-2035 at 78%.
-- UK politics: PollCheck 7-poll average (5 Jun) — Reform 27.3%, Lab 18.4%, Con 18.4%. Labour largest party probability held at 4%.
-- Taiwan: US ODNI re-affirmed PRC not currently planning invasion; PLA gray-zone activity continues. Held at 8%.
-- UK CPI: April print at 2.8% with sharp drop in housing/household services after 1 April energy cap. <2.0% before Jan 2027 held at 5%.
-- Spider-Man: Brand New Day: Polymarket-implied 2026 domestic-leader probability slipped to ~46% from 54.5%. $1.5B WW probability nudged down 5pp to 73%.
-- OpenAI + Anthropic combined ARR already ~$78B (Anthropic ~$45B gross-of-reseller, OpenAI ~$33B). Held at 99%.
-- UK 2030s GDP >1.5%: OBR March 2026 EFO consistent with previous read. Held at 35%.
-
-## Next update triggers to watch
-
-- May 2026 ONS CPI full release / June print (mid-July).
-- Anthropic IPO disclosure and any audited ARR figures.
-- Avengers: Doomsday opening weekend (cannibalisation risk for Spider-Man).
-- Any movement in PollCheck 7-poll average for Labour.
+- ↓ **Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?**: 73% → 72% (-1pp)
