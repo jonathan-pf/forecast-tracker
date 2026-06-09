@@ -3670,5 +3670,77 @@
     "ci_lower": 21,
     "ci_upper": 53,
     "key_change": "Hold at 35%. OBR March 2026 EFO has real GDP per person at ~1.1% per year to 2030, with productivity growth assumed to recover to 1% in the medium term and labour supply growth dropping to 0.5% by 2030 — implying headline real GDP growth in the 1.5-1.6% range at the end of the forecast horizon. IFS projects 1.4% average from 2026 onwards. A decade average above 1.5% therefore requires sustained productivity rebound through the 2030s — plausible on an AI-productivity upside scenario, but central path is at or just below 1.5%. No new data this weekend; hold central."
+  },
+  {
+    "date": "2026-06-09",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 21,
+    "ci_lower": 11,
+    "ci_upper": 36,
+    "key_change": "No movement; no AGI announcements; Amodei still bullish near-term while Hassabis maintains ~50% by 2030."
+  },
+  {
+    "date": "2026-06-09",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 24,
+    "ci_lower": 12,
+    "ci_upper": 41,
+    "key_change": "Slight uptick: McKinsey 10% cuts confirmed, BCG and Deloitte slowing, 40% productivity gains reported."
+  },
+  {
+    "date": "2026-06-09",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 5,
+    "ci_lower": 1,
+    "ci_upper": 13,
+    "key_change": "Labour at 18.7% in PollCheck moving average; Reform leads at 27.7%, Tories 18.1%. Labour now neck-and-neck with Conservatives."
+  },
+  {
+    "date": "2026-06-09",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 78,
+    "ci_lower": 60,
+    "ci_upper": 90,
+    "key_change": "Holding steady; 9-year window remains substantial. Continued model progress, but no near-term claim."
+  },
+  {
+    "date": "2026-06-09",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 8,
+    "ci_lower": 3,
+    "ci_upper": 17,
+    "key_change": "PLA continues blockade rehearsals (Strait Thunder 2025A, Justice Mission 2025) but no escalation. ODNI says no fixed timeline."
+  },
+  {
+    "date": "2026-06-09",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 9,
+    "ci_lower": 3,
+    "ci_upper": 19,
+    "key_change": "April 2026 CPI 2.8% (down from 3.3% in March); fastest disinflation since energy price cap. ~8 months remaining."
+  },
+  {
+    "date": "2026-06-09",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 71,
+    "ci_lower": 50,
+    "ci_upper": 86,
+    "key_change": "Tracking strongly: 1B trailer views, leading 2026 box office odds at 54.5% on Polymarket, July 31 release."
+  },
+  {
+    "date": "2026-06-09",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 99,
+    "ci_lower": 97,
+    "ci_upper": 100,
+    "key_change": "Already at combined ~$78B run-rate per May 2026 reporting (Anthropic $45B + OpenAI $33B). Q2 trajectory remains explosive."
+  },
+  {
+    "date": "2026-06-09",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 35,
+    "ci_lower": 20,
+    "ci_upper": 53,
+    "key_change": "OBR March 2026 EFO projects ~1.6% over forecast horizon, but 2030s subject to substantial productivity uncertainty."
   }
 ]
