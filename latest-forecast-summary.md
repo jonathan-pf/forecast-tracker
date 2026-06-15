@@ -1,36 +1,31 @@
-# Daily Forecast Update — 2026-06-12
-
-Nine questions re-forecast using superforecaster methodology grounded in current (June 2026) web search.
+# Forecast Update - 2026-06-15
 
 ## Summary table
 
-| Question | Central | 80% CI | Prev | Δ |
+| Question | Prev | New | Δ | 80% CI |
 |---|---|---|---|---|
-| AGI before 2030 | 20% | 10–34% | 20% | ▬ +0 |
-| Consultancy ≥33% loss by 2030 | 26% | 14–43% | 25% | ▲ +1 |
-| Labour largest party next GE | 5% | 2–11% | 5% | ▬ +0 |
-| AGI before 2035 | 79% | 62–90% | 78% | ▲ +1 |
-| China blockade/invasion Taiwan by 2030 | 8% | 3–16% | 7% | ▲ +1 |
-| UK CPI <2.0% before 2027 | 13% | 5–25% | 11% | ▲ +2 |
-| Spider-Man BND >$1.5B in 2026 | 75% | 55–88% | 72% | ▲ +3 |
-| OpenAI+Anthropic ARR >$70B | 99% | 97–99% | 99% | ▬ +0 |
-| UK real GDP >1.5% in 2030s | 34% | 18–50% | 33% | ▲ +1 |
+| Will AGI be developed before 1 January 2030? | 20% | 21% | +1 | 10-35% |
+| Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | 26% | 27% | +1 | 14-44% |
+| Will Labour be largest party at next UK General Election? | 5% | 5% | — | 2-11% |
+| Will AGI be developed before 1 January 2035? | 79% | 80% | +1 | 63-90% |
+| Will China initiate a military blockade or invasion of Taiwan before 1 January 2030? | 8% | 8% | — | 3-16% |
+| Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027? | 13% | 44% | +31 | 28-62% |
+| Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | 75% | 76% | +1 | 56-88% |
+| Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026? | 99% | 99% | — | 97-99% |
+| Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)? | 34% | 34% | — | 18-50% |
 
-## Key takeaways
+## Key movements
 
-- **OpenAI + Anthropic combined ARR (99%)** is effectively settled: mid-2026 reporting already sums to ~$80B (Anthropic ~$47B, OpenAI ~$33B), well above the $70B bar.
-- **Spider-Man: Brand New Day (75%, ▲3)** strengthens on a confirmed 31 July 2026 release and a record-breaking trailer (~1.1B views in four days); tracking models point to ~$2.5B worldwide.
-- **AGI by 2035 (79%, ▲1)** inches up as AI-accelerated research compounds capability gains; **AGI by 2030 (20%, flat)** is held back by an unmet declaration bar and no shared definition.
-- **UK CPI <2.0% before 2027 (13%, ▲2)** rises modestly: April 2026 CPI fell to 2.8% from 3.3%, showing disinflation momentum, but the threshold is still 0.8pp away with few months left.
-- **Labour largest party (5%, flat)** stays low — Reform leads ~27.6% with Labour ~18.7%, level with the Conservatives.
+- **Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?**: 13% → 44% (+31pp)
+- **Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?**: 26% → 27% (+1pp)
+- **Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?**: 75% → 76% (+1pp)
+- **Will AGI be developed before 1 January 2035?**: 79% → 80% (+1pp)
+- **Will AGI be developed before 1 January 2030?**: 20% → 21% (+1pp)
 
-## Movements vs previous run
+## Takeaways
 
-- Consultancy ≥33% loss by 2030: 25% → 26% (+1pp)
-- AGI before 2035: 78% → 79% (+1pp)
-- China blockade/invasion Taiwan by 2030: 7% → 8% (+1pp)
-- UK CPI <2.0% before 2027: 11% → 13% (+2pp)
-- Spider-Man BND >$1.5B in 2026: 72% → 75% (+3pp)
-- UK real GDP >1.5% in 2030s: 33% → 34% (+1pp)
-
-*Generated automatically by the daily forecast update task.*
+- **UK CPI sub-2.0% jumped 13% → 44%**, the largest move this cycle. May 2026 CPI printed at exactly 2.0% (BoE target, first time since 2021) down sharply from 2.8% in April, putting the headline right at the threshold with disinflation momentum; sticky core (3.5%) and services (5.7%) inflation are the main offset.
+- **AGI timelines firmed modestly** (2030: 20→21%, 2035: 79→80%) after Hassabis sharpened his estimate to 'AGI is 3-4 years away' in late May, though the declaration-based resolution bar remains the binding constraint.
+- **AI-driven consultancy disruption edged up** (26→27%): McKinsey's ~10% cut (largest since 2008) and 150k+ global white-collar cuts in 2026 confirm a structural shift, but losses remain far below the 33% bar.
+- **Spider-Man: Brand New Day nudged to 76%** with ~6 weeks to release, record trailer engagement and ~$2.5B tracking.
+- **Stable**: Labour largest party (5%, Reform still leads ~27.6%), China-Taiwan (8%, US IC sees no fixed timeline), OpenAI+Anthropic ARR (99%, near-certain), and UK 2030s GDP >1.5% (34%, OBR trend ~1.5%).
