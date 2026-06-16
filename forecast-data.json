@@ -4030,5 +4030,77 @@
     "ci_lower": 18,
     "ci_upper": 50,
     "key_change": "Roughly steady at 34%. The OBR's March 2026 outlook still implies trend real GDP growth around 1.5%: productivity is assumed to recover to ~1% in the medium term while labour-supply growth falls to ~0.5% by 2030 on lower migration and ageing, with real GDP per person averaging ~1.1%/yr to 2030. That leaves a full-decade average above 1.5% as roughly a coin-flip tilted slightly below threshold, given the OBR's repeated downgrades and persistent productivity disappointment."
+  },
+  {
+    "date": "2026-06-16",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 21,
+    "ci_lower": 10,
+    "ci_upper": 35,
+    "key_change": "Holds at 21%. As of mid-June 2026 the headline lab positions are unchanged: Amodei still frames Nobel-laureate-level AI as a 2026-27 possibility and Hassabis maintains ~50% for AGI by the end of the decade (a 2030-31 horizon). The window remains live but the resolution bar (a credible lab announcement OR 3+ leading researchers stating AGI is achieved) is unmet and there is still no agreed definitional threshold."
+  },
+  {
+    "date": "2026-06-16",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 26,
+    "ci_lower": 13,
+    "ci_upper": 43,
+    "key_change": "Edges down to 26%. June 2026 reporting confirms McKinsey's ~10% cut (3,000-4,000 roles, the largest since 2008) with revenue broadly flat at $15-16bn over five years, and Deloitte, EY, KPMG, PwC, BCG and Bain all trimming staff. The structural shift is unmistakable, but cuts stay concentrated in back-office and junior-research functions and remain an order of magnitude below the 33% revenue-or-employment bar by 2030."
+  },
+  {
+    "date": "2026-06-16",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 5,
+    "ci_lower": 2,
+    "ci_upper": 11,
+    "key_change": "Holds at 5%. Mid-June 2026 polling keeps Reform UK well clear (~27-28%) with Labour and the Conservatives tied far behind in the high teens (YouGov 31 May-1 Jun: Ref 27, Con 18, Lab 18, Grn 15, LD 13). A widening internal revolt against Starmer, with reports of ~100 Labour MPs pressing for his resignation, adds leadership risk but does not change the arithmetic at this distance from a vote due by 2029."
+  },
+  {
+    "date": "2026-06-16",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 80,
+    "ci_lower": 63,
+    "ci_upper": 90,
+    "key_change": "Holds at 80%. The 2035 horizon comfortably contains the modal lab and expert timelines: Amodei's 2026-27 thesis, Hassabis's ~50%-by-2030 view, and aggregated forecaster mass clustering in the late 2020s to early 2030s. The dominant residual risk is definitional/resolution ambiguity rather than capability arriving in time."
+  },
+  {
+    "date": "2026-06-16",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 8,
+    "ci_lower": 3,
+    "ci_upper": 16,
+    "key_change": "Holds at 8%. Mid-June 2026 assessments (AEI, ASPI) reiterate that 2026 is 'not the year', with no detectable large-scale amphibious mobilisation; prediction markets price near-zero invasion risk for mid-2026. Beijing continues gray-zone coercion (CCG incursions, simulated blockades, air activity) below the 72-hour blockade / assault threshold. The pre-2030 window still carries non-trivial tail risk centred on the often-cited 2027 readiness marker."
+  },
+  {
+    "date": "2026-06-16",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 48,
+    "ci_lower": 31,
+    "ci_upper": 64,
+    "key_change": "Edges up to 48%. The April 2026 CPI print (released 20 May) fell sharply to 2.8% from 3.3% in March, with core at 2.5% and services at 3.2% (the lowest since January 2022), driven by the April energy price cap and cooling housing/household services. Momentum is firmly downward with roughly seven more monthly prints (May-Nov 2026) due before the deadline, but 2.8% still sits meaningfully above the 2.0% mark, so a single sub-2% month is close to a coin flip."
+  },
+  {
+    "date": "2026-06-16",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 78,
+    "ci_lower": 60,
+    "ci_upper": 89,
+    "key_change": "Edges up to 78%. With a 31 July 2026 release and roughly five months of run before the deadline, tracking remains exceptional: record-breaking trailer views, analyst worldwide projections around $2.5B, and a strong franchise base (No Way Home grossed $1.9B). The $1.5B bar sits well below central projections; the principal risk is a sharp multiplier drop-off or a soft opening, not the ceiling."
+  },
+  {
+    "date": "2026-06-16",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 88,
+    "ci_lower": 70,
+    "ci_upper": 96,
+    "key_change": "Revised down to 88% from 99% after fresh reporting. June 2026 coverage puts OpenAI and Anthropic each at roughly $25B annualised run-rate (combined ~$50-55B), with a public dispute over whether Anthropic's higher figures are overstated. Both are still growing very fast (each having multiplied revenue several-fold year-on-year), so clearing $70B combined by Q4 remains the likely outcome, but the prior near-certainty looks unjustified given current levels sit clearly below the bar and reported figures are contested."
+  },
+  {
+    "date": "2026-06-16",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 33,
+    "ci_lower": 18,
+    "ci_upper": 50,
+    "key_change": "Edges to 33%. The OBR's March 2026 outlook implies real GDP growth averaging around 1.4% from 2026 onward (per-person ~1.1%), with medium-term productivity assumed to recover to ~1% and labour-supply growth fading to ~0.5% by 2030. A 1.5% decade average for the 2030s sits just above these central paths, so it requires productivity to beat the OBR's cautious assumption; persistent trend weakness (the OBR's ~0.3% downside) would leave it well short."
   }
 ]
