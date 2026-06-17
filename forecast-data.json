@@ -4102,5 +4102,77 @@
     "ci_lower": 18,
     "ci_upper": 50,
     "key_change": "Edges to 33%. The OBR's March 2026 outlook implies real GDP growth averaging around 1.4% from 2026 onward (per-person ~1.1%), with medium-term productivity assumed to recover to ~1% and labour-supply growth fading to ~0.5% by 2030. A 1.5% decade average for the 2030s sits just above these central paths, so it requires productivity to beat the OBR's cautious assumption; persistent trend weakness (the OBR's ~0.3% downside) would leave it well short."
+  },
+  {
+    "date": "2026-06-17",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 21,
+    "ci_lower": 10,
+    "ci_upper": 35,
+    "key_change": "No material change from yesterday's 21%. June 2026 evidence holds the picture stable: no credible lab has declared AGI and the resolution bar (lab announcement OR 3+ leading researchers stating AGI achieved) remains clearly unmet, while ARC-AGI-3 scores near 0% for frontier models underscore a persistent capability gap even as ARC-AGI-2 saturates. CEO timelines stay aggressive (Amodei 'powerful AI' late-2026/early-2027; Altman 'pretty close' but explicitly calls AGI a 'sloppy term'), but aggregators (Metaculus ~25% by 2029) anchor below a coin flip."
+  },
+  {
+    "date": "2026-06-17",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 24,
+    "ci_lower": 12,
+    "ci_upper": 41,
+    "key_change": "Marginal downward revision from 26% to 24%. The most directly on-point new evidence (ProMarket's April 2026 analysis of economic consulting) forecasts 'a smaller industry by headcount' but explicitly notes offsetting new revenue lines (algorithmic antitrust, AI compliance economics) and does not endorse a ≥33% decline. Hard data still shows pressure far short of the bar: CRA reported only a 5.8% YoY consultant headcount decline (FY24) while revenue per consultant rose ~17%; Deloitte global +5% to $70.5bn; McKinsey cuts ~10% concentrated in non-client/back-office roles. Cuts remain ~10% and largely revenue-neutral."
+  },
+  {
+    "date": "2026-06-17",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 5,
+    "ci_lower": 2,
+    "ci_upper": 11,
+    "key_change": "No material change from the previous 5%. June 2026 poll averages still show Labour third at ~18% (BritPolls 18.4%, PollCheck 18.7%), trailing Reform UK (~27.6%) by ~9pp and level with the Conservatives, while April's Electoral Calculus MRP projected Labour third on just ~86 seats versus Reform's 188. An active leadership crisis (95+ MPs urging Starmer to go) and a -44% PM net approval reinforce, rather than alter, a deeply unfavourable picture."
+  },
+  {
+    "date": "2026-06-17",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 81,
+    "ci_lower": 64,
+    "ci_upper": 91,
+    "key_change": "Essentially stable versus the prior 80%, nudged up 1pp. The April-May 2026 LEAP expert panel now centers ~50% AGI probability by 2033 (25% by 2029), and Metaculus weak/general-AGI sits at ~50% by 2032-2033 — both placing the bulk of their mass inside the 2035 window. Benchmark trajectory firmed further (Gemini 3.1 Pro ~77% on ARC-AGI-2; FrontierMath Tier 4 gains), while the loose resolution bar (lab announcement OR 3+ researchers asserting AGI) remains easy to trigger given Altman's ~2035 framing and Amodei/Legg near-term odds."
+  },
+  {
+    "date": "2026-06-17",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 8,
+    "ci_lower": 3,
+    "ci_upper": 15,
+    "key_change": "No material change from the prior 8%. June 2026 evidence is mixed but net-neutral: continued gray-zone escalation (late-May ADIZ aerial-refueling drills, Dec 2025 'Justice Mission' blockade rehearsal practicing power/port cut-off) is offset by the March 2026 ODNI assessment finding no fixed PRC timeline and no 2027 invasion plan, a May 2026 Trump-Xi summit that kept ties 'generally stable,' and Polymarket pricing invasion-by-end-2026 at ~13% (down from ~30%). Upper CI narrowed slightly (16 to 15) as de-escalatory signals reduce tail-risk weight."
+  },
+  {
+    "date": "2026-06-17",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 9,
+    "ci_lower": 3,
+    "ci_upper": 20,
+    "key_change": "Major downward revision from 48%. The May 2026 print (released 17 June) held at 2.8%, unchanged from April, with transport inflation jumping to 6.8% y/y (highest since Dec 2022) on Middle East/Iran energy disruption. The BoE now projects CPI RISING through H2 2026 to peak around 3.5-3.7% by year-end, with the Ofgem cap up ~13% from July; this removes nearly all of the downside path to sub-2% in the ~5-6 remaining prints."
+  },
+  {
+    "date": "2026-06-17",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 78,
+    "ci_lower": 61,
+    "ci_upper": 89,
+    "key_change": "No material new evidence versus the prior 78%; June searches reconfirm a July 31, 2026 release (ample ~5-month runway to Dec 31), record-shattering trailer hype (first ever to pass 1B views, 718.6M in 24h organically), and analyst projections clustering from a conservative ~$1.2-1.3B floor up to $2.3-2.54B. The predecessor No Way Home hit $1.9B worldwide and the Holland Spidey average is ~$1.31B, placing the $1.5B bar squarely in the plausible-but-not-guaranteed zone. Holding central at 78% with a marginally tighter CI."
+  },
+  {
+    "date": "2026-06-17",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 97,
+    "ci_lower": 91,
+    "ci_upper": 99,
+    "key_change": "New disclosures push this from likely to near-certain: Anthropic disclosed ~$47B run-rate in its late-May 2026 Series H announcement (up from $44B mid-May, $30B in April), while OpenAI sits at ~$25B (Sacra/March 2026) with some sources citing higher. The conservative sum (~$72B) already exceeds the $70B threshold today, in mid-June, with six more months of growth ahead. Versus the prior 88%, the threshold is now effectively already met rather than merely projected, so central rises to 97% and the CI tightens."
+  },
+  {
+    "date": "2026-06-17",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 39,
+    "ci_lower": 23,
+    "ci_upper": 56,
+    "key_change": "Modest upward revision from 33% to 39%. OBR's March 2026 EFO now averages ~1.6% real GDP growth over the rest of its forecast horizon and pegs medium-term potential growth at ~1.6% (productivity recovering to 1.0% by 2030), with a credible AI upside scenario in which productivity returns to 1.5%. This raises the plausibility that the 2030s decade mean clears 1.5%, though demographic drag (labour-supply growth falling toward ~0.5%) and NIESR's 1.25% trend estimate keep the central case just below the threshold."
   }
 ]
