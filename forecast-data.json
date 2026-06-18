@@ -4174,5 +4174,77 @@
     "ci_lower": 23,
     "ci_upper": 56,
     "key_change": "Modest upward revision from 33% to 39%. OBR's March 2026 EFO now averages ~1.6% real GDP growth over the rest of its forecast horizon and pegs medium-term potential growth at ~1.6% (productivity recovering to 1.0% by 2030), with a credible AI upside scenario in which productivity returns to 1.5%. This raises the plausibility that the 2030s decade mean clears 1.5%, though demographic drag (labour-supply growth falling toward ~0.5%) and NIESR's 1.25% trend estimate keep the central case just below the threshold."
+  },
+  {
+    "date": "2026-06-18",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 21,
+    "ci_lower": 10,
+    "ci_upper": 35,
+    "key_change": "No material change from yesterday's 21%. The G7 summit in France (15-17 June 2026) put Altman, Amodei and Hassabis at the leaders' table, but produced no AGI declaration. CEO timelines remain near-term (Amodei: 'powerful AI' ~2027; Altman: within the current presidential term) yet are best read as strategic communications, and the resolution bar (a credible lab declaration or 3+ leading researchers stating AGI achieved) remains unmet."
+  },
+  {
+    "date": "2026-06-18",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 25,
+    "ci_lower": 13,
+    "ci_upper": 42,
+    "key_change": "Small upward revision from 24% to 25%. June 2026 evidence shows accelerating AI-driven restructuring: McKinsey is cutting ~10% of its workforce (3,000-4,000 roles, its largest since 2008), with Bain, BCG, Deloitte, KPMG and Accenture all trimming staff or deferring start dates, and Forrester reporting ~40% productivity gains from AI tools. The direction of travel supports the thesis, but a ≥33% revenue or employment decline primarily attributed to AI by two credible analyses remains a high bar relative to today's ~10% cuts."
+  },
+  {
+    "date": "2026-06-18",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 5,
+    "ci_lower": 2,
+    "ci_upper": 11,
+    "key_change": "No change from 5%. Mid-June 2026 polling remains dire for Labour: the PollCheck 7-poll average (17 June) has Reform UK leading on ~27%, with Labour ~19% and the Conservatives ~19%; Ipsos shows Reform +6. With the election not due until 2029 there is time for incumbent recovery, but Labour now trails on a sustained basis and the path to most seats requires a large, durable swing back."
+  },
+  {
+    "date": "2026-06-18",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 81,
+    "ci_lower": 64,
+    "ci_upper": 91,
+    "key_change": "No change from 81%. The longer ~9-year horizon comfortably accommodates the central scenarios of leading labs, and June 2026 evidence (sustained capability gains, CEO confidence at the G7) is consistent with continued progress. The main residual risk is definitional/declaration risk rather than capability: even strong systems may not trigger a clean 'AGI achieved' consensus."
+  },
+  {
+    "date": "2026-06-18",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 8,
+    "ci_lower": 3,
+    "ci_upper": 15,
+    "key_change": "No change from 8%. June 2026 assessments remain stable: prediction markets price near-zero probability of action in the near term (Polymarket ~99.6% no invasion by 30 June 2026), and the March 2026 ODNI threat assessment finds Chinese leaders lack a fixed timeline and view amphibious operations as extremely difficult. Beijing continues gray-zone coercion below the conflict threshold, amid economic and demographic headwinds."
+  },
+  {
+    "date": "2026-06-18",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 8,
+    "ci_lower": 3,
+    "ci_upper": 18,
+    "key_change": "Small downward revision from 9% to 8%. ONS data for May 2026 shows headline CPI at 2.8%, unchanged from April and still well above the 2.0% threshold, with transport inflation accelerating sharply to 6.8% (highest since December 2022) even as food and housing eased. With only the June-November 2026 prints (released by January 2027) left, a fall below 2.0% in any single month would require an unusually rapid disinflation that current sticky services/transport dynamics do not support."
+  },
+  {
+    "date": "2026-06-18",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 80,
+    "ci_lower": 64,
+    "ci_upper": 90,
+    "key_change": "Small upward revision from 78% to 80%. With a 31 July 2026 release, June tracking is exceptionally strong: record-setting first-day presales, a billion-view trailer, and model projections clustering around $2.3-2.5B worldwide. Polymarket gives it ~55% to be 2026's top film. The $1.5B bar sits comfortably below central projections, so the main risks are execution/reception and the usual gap between hype-driven models and realised grosses."
+  },
+  {
+    "date": "2026-06-18",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 98,
+    "ci_lower": 93,
+    "ci_upper": 99,
+    "key_change": "Small upward revision from 97% to 98%. June 2026 reporting puts OpenAI at roughly a $33B run-rate and Anthropic at roughly $45B, implying a combined ~$78B annualized run-rate already above the $70B threshold six months before resolution. Given strong continued growth trajectories, the combined Q4 2026 figure clearing $70B is now close to a formality; residual risk is mainly definitional (which 'ARR/run-rate' figure credible reporting uses) or an unexpected sharp reversal."
+  },
+  {
+    "date": "2026-06-18",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 39,
+    "ci_lower": 23,
+    "ci_upper": 56,
+    "key_change": "No change from 39%. June 2026 forecasts keep the decade mean near the threshold: the OBR's March 2026 EFO has growth rising toward ~1.6% later in its horizon with medium-term productivity recovering to ~1.0% but labour-supply growth falling to ~0.5% by 2030; the IFS expects ~1.4% from 2026 onwards, while NIESR pegs trend at ~1.25%. The balance of central estimates clusters just below or around 1.5%, leaving the decade outcome a genuine coin-toss tilted slightly below."
   }
 ]
