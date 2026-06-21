@@ -1,28 +1,29 @@
-# Daily Forecast Update — 2026-06-20
+# Daily Forecast Update — 2026-06-21
 
-| # | Question | Forecast | 80% CI | Prev | Δ |
-|---|----------|:-------:|:------:|:----:|:--:|
-| 1 | AGI before 1 Jan 2030 | 21% | 10–35% | 21% | — |
-| 2 | Economic consultancy −≥33% value/jobs by end 2030 (AI) | 26% | 14–43% | 25% | ▲1 |
-| 3 | Labour largest party at next UK GE | 5% | 2–11% | 5% | — |
-| 4 | AGI before 1 Jan 2035 | 81% | 64–91% | 81% | — |
-| 5 | China blockade/invasion of Taiwan before 1 Jan 2030 | 8% | 3–15% | 8% | — |
-| 6 | UK CPI < 2.0% for ≥1 month before 1 Jan 2027 | 5% | 2–12% | 6% | ▼1 |
-| 7 | Spider-Man: Brand New Day > $1.5B worldwide by 31 Dec 2026 | 83% | 68–92% | 82% | ▲1 |
-| 8 | OpenAI + Anthropic combined ARR > $70B by 31 Dec 2026 | 98% | 93–99% | 98% | — |
-| 9 | UK avg annual real GDP growth > 1.5% across 2030s | 39% | 23–56% | 39% | — |
+| # | Question | Today | Prev | Δ |
+|---|----------|:-----:|:----:|:-:|
+| 1 | AGI before 1 Jan 2030 | 21% | 21% | — |
+| 2 | Economic consultancy −≥33% value/jobs by end 2030 (AI) | 26% | 26% | — |
+| 3 | Labour largest party at next UK GE | 5% | 5% | — |
+| 4 | AGI before 1 Jan 2035 | 81% | 81% | — |
+| 5 | China blockade/invasion of Taiwan before 1 Jan 2030 | 8% | 8% | — |
+| 6 | UK CPI < 2.0% for ≥1 month before 1 Jan 2027 | 4% | 5% | ▼1 |
+| 7 | Spider-Man: Brand New Day > $1.5B by 31 Dec 2026 | 84% | 83% | ▲1 |
+| 8 | OpenAI + Anthropic combined ARR > $70B by 31 Dec 2026 | 98% | 98% | — |
+| 9 | UK avg real GDP growth > 1.5% across 2030s | 39% | 39% | — |
 
 ## Key takeaways
-
-- **Quiet day, small moves.** Six of nine forecasts unchanged; three moved by 1pp.
-- **AI's grip on consulting tightens (▲1 → 26%).** Confirmed reporting of McKinsey's ~10% (3,000–4,000) AI-attributed cuts plus hiring slowdowns at Bain, BCG and Deloitte nudge the consultancy-disruption probability up, though a full one-third decline by 2030 stays a high bar.
-- **UK inflation drifting the wrong way (▼1 → 5%).** ONS May 2026 CPI came in at 2.6% (up from 2.5%), leaving little room for a sub-2.0% print before 2027.
-- **Spider-Man momentum (▲1 → 83%).** Record five-year presales and a $200M+ opening track ahead of the 31 July release strengthen the path to $1.5B.
+- A quiet day: seven of nine forecasts unchanged, reflecting incremental-update discipline.
+- **UK CPI (Q6)** nudged down to 4%. ONS data (17 June) holds headline CPI at 2.8% for May, unchanged from April, with transport inflation surging to 6.8%. Only six monthly prints remain before 2027, so a sub-2.0% month is now even less likely.
+- **Spider-Man: Brand New Day (Q7)** nudged up to 84%. Record US single-day presales (best in five years; 4th-largest ever) and ~$200M opening tracking strengthen the case, though $1.5B remains well above the ~$1B central projection.
 
 ## Movements
+- Q6 UK CPI < 2%: 5% → 4% (▼1) — CPI sticky at 2.8%, transport accelerating, runway shrinking.
+- Q7 Spider-Man $1.5B: 83% → 84% (▲1) — exceptional presales and opening tracking.
 
-- Economic consultancy AI disruption: 25% → 26% (+1)
-- UK CPI < 2.0% before 2027: 6% → 5% (−1)
-- Spider-Man > $1.5B: 82% → 83% (+1)
-
-*Bars unmet / no material change:* AGI 2030 (21%), AGI 2035 (81%), Labour largest party (5%), China–Taiwan (8%), OpenAI+Anthropic ARR (98%), UK GDP 2030s (39%).
+## Watchlist (no change but live)
+- **AGI 2030/2035 (Q1/Q4):** noisy "AGI achieved" rhetoric (Huang, Altman) but resolution bar unmet; hard benchmarks (ARC-AGI-2 ~4%) still gate.
+- **Consultancy (Q2):** McKinsey ~10% cuts confirmed, industry-wide, but ≥33%-by-2030 bar far off.
+- **Taiwan (Q5):** PLA blockade rehearsals continue; analysts still centre 2027.
+- **OpenAI+Anthropic ARR (Q8):** combined run-rate already ~$63–80B; main risk is accounting-definition disputes.
+- **UK 2030s GDP (Q9):** OBR central potential growth sits right on the 1.5% threshold.
