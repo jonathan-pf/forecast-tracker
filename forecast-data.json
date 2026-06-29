@@ -4822,5 +4822,77 @@
   "ci_lower": 23,
   "ci_upper": 54,
   "key_change": "Held at 38%. No new macro release in the last few days; the OBR's March 2026 path (medium-term productivity ~1%, AI adding ~0.2pp by the horizon, ~0.5% labour-supply growth) leaves the decade-average near the 1.5% threshold — a coin-toss tilted slightly below given recent productivity downgrades."
+ },
+ {
+  "date": "2026-06-29",
+  "question": "Will AGI be developed before 1 January 2030?",
+  "central": 22,
+  "ci_lower": 11,
+  "ci_upper": 36,
+  "key_change": "Nudged down 23→22%. Late-June signals are mixed: Anthropic's formal OSTP submission reiterates it expects 'powerful AI' in late 2026/early 2027, and labs continue shipping frontier models roughly every ~11 days. But ARC-AGI-3 results show frontier models scoring under 1% on general-agent tasks, underscoring a wide remaining gap, and no lab has declared 'AGI' nor have 3+ leading researchers converged on it. The resolution bar remains unmet; small downward nudge on the benchmark evidence."
+ },
+ {
+  "date": "2026-06-29",
+  "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+  "central": 25,
+  "ci_lower": 14,
+  "ci_upper": 42,
+  "key_change": "Held at 25%. Fresh reporting confirms McKinsey cutting ~10% of its workforce (3,000-4,000 roles) attributed to AI productivity, with Bain/BCG/Deloitte making similar adjustments and ~25% of McKinsey fees now outcome-based. But BCG is actually growing headcount (tilted to AI/tech specialists), and the cuts so far concentrate in back-office, not a ≥33% revenue or employment collapse. The structural pressure is real but far below the resolution threshold; no change."
+ },
+ {
+  "date": "2026-06-29",
+  "question": "Will Labour be largest party at next UK General Election?",
+  "central": 6,
+  "ci_lower": 3,
+  "ci_upper": 13,
+  "key_change": "Held at 6%. Late-June polling is unchanged in shape: PollCheck's 7-poll average (27 Jun) has Reform ~26%, Labour ~21%, Conservatives ~19%; YouGov (21-22 Jun) has Reform 25%, Con 20%, Lab 18%, Grn 15%, LD 14%. Labour sits second or third with a fragmenting left (Green retention pulling votes). With the next GE not due until 2029 there is time to recover, but the current standing is poor; no change."
+ },
+ {
+  "date": "2026-06-29",
+  "question": "Will AGI be developed before 1 January 2035?",
+  "central": 83,
+  "ci_lower": 66,
+  "ci_upper": 92,
+  "key_change": "Held at 83%. The 10-year horizon comfortably accommodates lab timelines (Anthropic 'powerful AI' 2026-2027; broad insider expectation of transformative AI within the decade) and the current rapid release cadence. The main drag remains definitional — whether a credible 'AGI' declaration or 3+ researcher consensus actually materialises — plus visible gaps such as sub-1% ARC-AGI-3 scores. No new information shifts the long-horizon view."
+ },
+ {
+  "date": "2026-06-29",
+  "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+  "central": 7,
+  "ci_lower": 3,
+  "ci_upper": 14,
+  "key_change": "Held at 7%. AEI's late-June China-Taiwan updates show the PLA rehearsing blockade mechanics (Coast Guard covering the Strait, Navy the eastern approaches), publishing mock strikes on Taiwanese LNG terminals, and demonstrating hypersonic and carrier-sustainment capability. But analysts (AEI, ASPI) judge a 2026 blockade/invasion unlikely, expecting continued grey-zone coercion rather than kinetic action; Trump-Xi talks yielded no Taiwan agreement. Capability signalling is rising without an imminent-action signal; no change."
+ },
+ {
+  "date": "2026-06-29",
+  "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+  "central": 1,
+  "ci_lower": 1,
+  "ci_upper": 3,
+  "key_change": "Held at 1%. ONS data show CPI at 2.8% in the 12 months to May 2026, unchanged from April. Food and housing services are easing, but transport inflation accelerated sharply to 6.8% (highest since Dec 2022) on fuel, air fares and VED. With only ~6-7 monthly readings publishable before 1 Jan 2027 and the rate stuck near 2.8%, a fall below 2.0% in any one month is highly unlikely; no change."
+ },
+ {
+  "date": "2026-06-29",
+  "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+  "central": 91,
+  "ci_lower": 80,
+  "ci_upper": 95,
+  "key_change": "Held at 91%. Pre-release tracking continues to strengthen: best US first-day presales in five years, >$40M domestic presales, and projections of a $200M+ (potentially $250M+) domestic opening — the biggest since Deadpool & Wolverine — ahead of the 31 July release. The comparison point, No Way Home, reached $1.9B. The $1.5B bar is high but the franchise pedigree and record presales make it the central case; no change pending actual opening figures."
+ },
+ {
+  "date": "2026-06-29",
+  "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+  "central": 99,
+  "ci_lower": 97,
+  "ci_upper": 99,
+  "key_change": "Held at 99%. Mid-2026 reporting already puts Anthropic at roughly $30-47B annualized (Sacra ~$47B in May; Anthropic-cited ~$30B run rate) and OpenAI around $33B (May), implying a combined ~$63-80B now — already at or above the threshold on most estimates, and both are growing fast. Reaching a combined >$70B by Q4 2026 is near-certain barring a methodology dispute knocking figures down; no change."
+ },
+ {
+  "date": "2026-06-29",
+  "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+  "central": 38,
+  "ci_lower": 23,
+  "ci_upper": 54,
+  "key_change": "Held at 38%. The OBR's March 2026 outlook implies aggregate potential output growth around ~1.5% (medium-term productivity ~1% plus labour-supply growth falling toward ~0.5% by 2030), with AI adding ~0.2pp to productivity by the horizon; per-person growth is just 1.1% to 2030. The IFS is slightly more upbeat at ~1.4% average. The 1.5% decade-average threshold sits right at the central estimate, so it is close to a coin-flip tilted below; no change."
  }
 ]
