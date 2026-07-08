@@ -1,0 +1,329 @@
+{
+  "date": "2026-07-08",
+  "forecasts": [
+    {
+      "question": "Will AGI be developed before 1 January 2030?",
+      "central": 22,
+      "ci_lower": 11,
+      "ci_upper": 36,
+      "key_change": "Held at 22%. No lab or government has issued a formal AGI declaration and no convergence of 3+ leading researchers on 'achieved'. Early-July 2026 activity (Anthropic's Claude Sonnet 5 release, OpenAI's new inference chip) reflects fast capability progress but no 'AGI' claim; Amodei still frames a 'nation of geniuses' by 2027 while Hassabis stays cautious. Resolution bar unmet; nothing this run moves the estimate.",
+      "base_rate": "Reference class: near-term insider predictions of a transformative technology arriving within a fixed ~3.5-year window, where insiders carry optimism incentives. Such forecasts resolve YES well under half the time; base ~15-20%.",
+      "factors_up": [
+        {
+          "factor": "Lab leadership timelines (Anthropic 'powerful AI' 2026-27; Legg ~2028) sit inside the window",
+          "impact": "+6pp"
+        },
+        {
+          "factor": "Rapid frontier-model cadence and agentic progress in verifiable domains (coding, maths)",
+          "impact": "+3pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "factor": "Resolution bar (credible declaration or 3+ researchers) remains unmet and definitionally contested",
+          "impact": "-7pp"
+        },
+        {
+          "factor": "Hassabis and cautious voices keep the field short of a shared 'achieved' call; scientific discovery/creative reasoning still weak",
+          "impact": "-4pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether any major lab will formally declare 'AGI' rather than avoiding the term",
+        "Whether 3+ leading researchers would publicly converge on 'AGI achieved' before 2030"
+      ],
+      "update_triggers": [
+        "Revise UP if a credible lab announces AGI or 3+ leading researchers state it is achieved",
+        "Revise DOWN if labs explicitly push timelines beyond 2030"
+      ]
+    },
+    {
+      "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+      "central": 27,
+      "ci_lower": 15,
+      "ci_upper": 44,
+      "key_change": "Held at 27%. Evidence base unchanged this run: McKinsey ~10% cuts (3,000-4,000 roles, headcount down to ~40,000), Accenture >11,000 departures, Bain/BCG/Deloitte/KPMG slowing hiring or trimming, entry-level postings increasingly AI-gated. Direction is toward the threshold but observed contraction (~10%) remains well short of the 33% bar attributable primarily to AI by 2+ credible analyses.",
+      "base_rate": "Reference class: mature professional-services sectors experiencing a technology shock; historically employment/revenue contractions of >=33% within ~6 years attributable to a single cause are uncommon (base ~15-20%).",
+      "factors_up": [
+        {
+          "factor": "Concrete 2026 layoffs (McKinsey ~10%, Accenture ~11k) with AI cited as a driver",
+          "impact": "+8pp"
+        },
+        {
+          "factor": "Structural pressure from AI-native boutiques and collapsing junior/analyst hiring",
+          "impact": "+5pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "factor": "33% decline from a 2024 baseline by 2030 is a high bar; current cuts ~10%",
+          "impact": "-7pp"
+        },
+        {
+          "factor": "Attribution 'primarily to AI' is contested (also post-pandemic demand slowdown, cyclical factors)",
+          "impact": "-6pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether cuts accelerate from ~10% toward 33% by 2030 or plateau",
+        "Whether credible analyses will attribute declines primarily to AI vs. cyclical demand"
+      ],
+      "update_triggers": [
+        "Revise UP if cumulative headcount/revenue declines pass ~20% with explicit AI attribution",
+        "Revise DOWN if consulting demand rebounds or firms re-hire as AI augments rather than replaces"
+      ]
+    },
+    {
+      "question": "Will Labour be largest party at next UK General Election?",
+      "central": 6,
+      "ci_lower": 3,
+      "ci_upper": 13,
+      "key_change": "Held at 6%. Latest YouGov (5-6 July) has Reform 25, Con 21, Lab 20, Grn 13, LD 12; PollCheck 7-poll average Reform ~25.7, Lab ~21.4, Con ~19.1. Labour sits second or third with Reform holding a sustained lead. The next GE is not due until 2029, so large recovery remains possible, but current standing keeps 'largest party' unlikely.",
+      "base_rate": "Reference class: governing parties polling third/second ~3 years before an election going on to win most seats; uncommon but not negligible given FPTP and mid-term unpopularity that often partly reverses (base ~10-15%).",
+      "factors_up": [
+        {
+          "factor": "~3 years to the election allows substantial recovery; incumbency and FPTP can convert modest vote share into seat pluralities",
+          "impact": "+5pp"
+        },
+        {
+          "factor": "Multi-party fragmentation can hand pluralities on low vote shares",
+          "impact": "+3pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "factor": "Reform UK holds a sustained polling lead; Labour support down sharply since 2024",
+          "impact": "-8pp"
+        },
+        {
+          "factor": "Government approval near record lows with no clear recovery catalyst",
+          "impact": "-4pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether Reform's lead proves durable or reverts as an election nears",
+        "How fragmentation and tactical voting translate votes into seats under FPTP"
+      ],
+      "update_triggers": [
+        "Revise UP if Labour regains a consistent polling lead or Reform collapses",
+        "Revise DOWN if Reform's lead widens further or an early election is called"
+      ]
+    },
+    {
+      "question": "Will AGI be developed before 1 January 2035?",
+      "central": 83,
+      "ci_lower": 66,
+      "ci_upper": 92,
+      "key_change": "Held at 83%. The long horizon to 2035 continues to absorb near-term noise: sustained frontier progress (new model releases, agentic gains) and insider timelines clustering in the late-2020s support a high probability, tempered by definitional ambiguity around what counts as a credible 'AGI achieved' declaration. No change this run.",
+      "base_rate": "Reference class: transformative-technology arrival within a ~9-year window where multiple credible insiders forecast success inside the horizon; such medium-horizon forecasts resolve YES more often than near-term ones (base ~55-65%).",
+      "factors_up": [
+        {
+          "factor": "Most leading-lab and community medians for AGI fall before 2035",
+          "impact": "+15pp"
+        },
+        {
+          "factor": "Sustained compute scaling, capital inflows and rapid agentic progress",
+          "impact": "+8pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "factor": "Definitional contestation could delay any clean 'achieved' declaration even if capabilities are high",
+          "impact": "-8pp"
+        },
+        {
+          "factor": "Possible scaling/algorithmic or energy bottlenecks, or regulatory slowdowns",
+          "impact": "-6pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether capability gains continue or hit a wall this decade",
+        "Whether the community converges on a declaration even if AGI-like systems exist"
+      ],
+      "update_triggers": [
+        "Revise UP if a credible AGI declaration occurs or timelines compress",
+        "Revise DOWN if frontier progress visibly plateaus or a hard bottleneck emerges"
+      ]
+    },
+    {
+      "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+      "central": 7,
+      "ci_lower": 3,
+      "ci_upper": 14,
+      "key_change": "Held at 7%. PRC grey-zone pressure continues (near-constant 5-6 warship presence, Fujian carrier Strait transit 23 June) and Taiwan is running blockade-readiness drills, but there is no initiation of a >72hr blockade or assault. Elevated but sub-threshold tension; estimate unchanged.",
+      "base_rate": "Reference class: great-power initiations of a major blockade/invasion against a defended territory within a fixed ~4-year window; historically rare (base ~5%).",
+      "factors_up": [
+        {
+          "factor": "Growing PLA amphibious/blockade capability (third carrier, landing barges, port-blockade drills)",
+          "impact": "+4pp"
+        },
+        {
+          "factor": "Sustained grey-zone coercion and paramilitary presence that could escalate by accident",
+          "impact": "+2pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "factor": "US and analysts assess near-term direct action unlikely; Beijing prefers coercion short of war",
+          "impact": "-3pp"
+        },
+        {
+          "factor": "High risk of failure and US intervention deters an amphibious assault",
+          "impact": "-2pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether grey-zone actions escalate into a formal >72hr blockade",
+        "Xi's internal timeline and risk tolerance"
+      ],
+      "update_triggers": [
+        "Revise UP on mobilisation, a declared quarantine/blockade, or a major cross-strait incident",
+        "Revise DOWN on cross-strait de-escalation or renewed dialogue"
+      ]
+    },
+    {
+      "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+      "central": 2,
+      "ci_lower": 1,
+      "ci_upper": 4,
+      "key_change": "Held at 2%. Latest ONS print (May 2026, published 17 June) has CPI at 2.8%, unchanged from April and well above target. With only ~6 monthly prints left before the deadline and inflation sticky near 2.8%, a sub-2.0% month remains very unlikely.",
+      "base_rate": "Reference class: sub-2.0% monthly CPI print occurring within a ~6-month window while inflation sits ~0.8pp above target and is described as sticky; uncommon absent a demand shock (base ~5%).",
+      "factors_up": [
+        {
+          "factor": "Food inflation easing (2.2% in May) and some disinflationary momentum",
+          "impact": "+2pp"
+        },
+        {
+          "factor": "Possible energy/base effects or a demand shock could produce a single soft print",
+          "impact": "+1pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "factor": "CPI stuck at 2.8% for two consecutive months, ~0.8pp above the 2% target",
+          "impact": "-3pp"
+        },
+        {
+          "factor": "Few monthly prints remain before the Jan 2027 deadline",
+          "impact": "-2pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether services inflation and wage growth ease fast enough",
+        "Whether any one-off base effect drags a single month below 2.0%"
+      ],
+      "update_triggers": [
+        "Revise UP if a print lands at or near 2.0% or energy prices fall sharply",
+        "Revise DOWN if CPI reaccelerates or holds at/above 2.8%"
+      ]
+    },
+    {
+      "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+      "central": 94,
+      "ci_lower": 84,
+      "ci_upper": 97,
+      "key_change": "Nudged up from 93% to 94%. Tracking strengthened ahead of the 31 July release: record U.S. first-day presales (~$40M advance bookings, best in years), domestic opening projected ~$210-255M and worldwide opening ~$550M. That trajectory points comfortably toward $1.5B given franchise legs (No Way Home reached ~$1.9B). Residual risk is weak multipliers or reception, keeping it below certainty.",
+      "base_rate": "Reference class: MCU/Spider-Man tentpoles with record presales and >$500M projected global openings; most such films clear $1.5B lifetime (base ~80-90%).",
+      "factors_up": [
+        {
+          "factor": "Record presales and ~$550M projected worldwide opening weekend",
+          "impact": "+8pp"
+        },
+        {
+          "factor": "Franchise legs (No Way Home $1.9B) and full second half of 2026 to accumulate gross",
+          "impact": "+4pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "factor": "No domestic IMAX opening weekend and no China IMAX for two weeks trims premium-format revenue",
+          "impact": "-4pp"
+        },
+        {
+          "factor": "Execution/reception risk or a weaker-than-expected multiplier",
+          "impact": "-3pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Opening-weekend actuals vs. tracking",
+        "Legs/multiplier and China performance"
+      ],
+      "update_triggers": [
+        "Revise UP if opening weekend meets or beats ~$550M worldwide",
+        "Revise DOWN if reviews/word-of-mouth are poor or the opening underperforms tracking"
+      ]
+    },
+    {
+      "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+      "central": 99,
+      "ci_lower": 97,
+      "ci_upper": 99,
+      "key_change": "Held at 99%. Reporting already puts Anthropic run-rate ~$47B (mid-May) and OpenAI ~$25B, a combined ~$72B that already clears the bar, with both growing rapidly through year-end. Only a severe, implausible reversal would push Q4 2026 combined ARR back under $70B.",
+      "base_rate": "Reference class: hyper-growth AI leaders already at/near a revenue threshold six months before the measurement date, growing multiple-x per year; near-certain to clear it (base >95%).",
+      "factors_up": [
+        {
+          "factor": "Combined annualized revenue already ~$80B by mid-2026 (Anthropic ~$47B + OpenAI ~$33B)",
+          "impact": "+very high"
+        },
+        {
+          "factor": "Both firms growing rapidly (Anthropic ~10x/yr, OpenAI ~3-4x/yr)",
+          "impact": "+high"
+        }
+      ],
+      "factors_down": [
+        {
+          "factor": "Definitional/reporting differences (ARR vs run-rate) and source disagreement",
+          "impact": "-1pp"
+        },
+        {
+          "factor": "Tail risk of a severe demand or funding shock before Q4 2026",
+          "impact": "-1pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Which reported figure/definition resolvers use for Q4 2026 ARR",
+        "Whether any reversal or restatement occurs before year-end"
+      ],
+      "update_triggers": [
+        "Revise DOWN only on a major revenue collapse or restatement",
+        "Already near ceiling; little room to revise UP"
+      ]
+    },
+    {
+      "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+      "central": 38,
+      "ci_lower": 23,
+      "ci_upper": 54,
+      "key_change": "Held at 38%. No new structural information this run. Mainstream long-run UK trend-growth estimates cluster around ~1.5%, placing the decade-average-above-1.5% threshold near a coin-flip but slightly below even. Potential AI-driven productivity upside is offset by demographic headwinds and weak recent productivity.",
+      "base_rate": "Reference class: advanced-economy decade-average real GDP growth exceeding trend estimates; UK has undershot 1.5% average in recent decades post-2008 (base ~35-40%).",
+      "factors_up": [
+        {
+          "factor": "Potential AI/automation productivity boost across the decade",
+          "impact": "+8pp"
+        },
+        {
+          "factor": "Possible investment/planning reforms lifting trend growth",
+          "impact": "+4pp"
+        }
+      ],
+      "factors_down": [
+        {
+          "factor": "Weak post-2008 productivity trend and ageing demographics",
+          "impact": "-7pp"
+        },
+        {
+          "factor": "Fiscal constraints and recurring shock risk over a 10-year horizon",
+          "impact": "-5pp"
+        }
+      ],
+      "key_uncertainties": [
+        "Whether AI materially lifts measured UK productivity this decade",
+        "Frequency/severity of shocks and the demographic/labour-supply path"
+      ],
+      "update_triggers": [
+        "Revise UP if productivity growth durably accelerates or OBR upgrades trend growth",
+        "Revise DOWN on a major recession or further productivity disappointment"
+      ]
+    }
+  ]
+}
