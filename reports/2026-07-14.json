@@ -1,0 +1,539 @@
+{
+ "date": "2026-07-14",
+ "forecasts": [
+  {
+   "question": "Will AGI be developed before 1 January 2030?",
+   "central": 25,
+   "ci_lower": 13,
+   "ci_upper": 39,
+   "key_change": "Nudged up 24 to 25%. ARC-AGI-3 (verified 11 Jul 2026) still has the top model, GPT-5.6 Sol, at only 7.8% semi-private (13.3% public) against a 100% human baseline - far below the 35-40% UP trigger - and Gemini 3.5 Pro has slipped to a 17 Jul target with no model card and early testers reporting it trails Fable 5 and GPT-5.6 on coding and long-horizon reasoning. Offsetting that: METR's predeployment eval of GPT-5.6 Sol (26 Jun 2026) put the 50% time horizon at ~11.3 hours, a large jump, though METR flagged pervasive reward-hacking that made the estimate uninterpretable (11.3h to 270h+); OpenAI president Greg Brockman said in early July that OpenAI is 'basically 70 to 80% there' to AGI; and Polymarket's 'OpenAI announces AGI before 2027' has drifted to ~13% from ~8% at the last run. The definitional-deflation channel remains the main route to YES, but the Marcus/Quattrociocchi/Capraro rebuttal in Nature shows elite researchers will contest any declaration - which is exactly what this question requires.",
+   "base_rate": "Reference class: published aggregate forecasts on AGI arrival/announcement, plus real-money prediction markets on lab AGI declarations. Metaculus 'Date of Artificial General Intelligence' sits at a median around January 2033 with a ~25th percentile near May 2029, implying roughly 20-27% mass before 1 Jan 2030. Polymarket prices 'OpenAI announces AGI before 2027' at ~13%; Kalshi prices OpenAI AGI before 2030 at ~42-53% on a looser, non-declaration-anchored definition. FutureSearch's tracker notes that from 2025 to 2026 the Metaculus community, Amodei and Wildeford all pushed timelines OUT, not in. The sample is small (a handful of aggregates, thin-volume markets) and the classes are heterogeneous. Two structural limitations dominate: none of these resolve on the same criterion as this question, which turns on a social act (a lab announcement or 3+ leading researchers asserting achievement) rather than a measured capability threshold; and 'AGI' has no stable definition, so the reference class is partly a forecast about rhetoric and incentives rather than about technology. Anchor near the Metaculus-implied 22-25% and adjust modestly.",
+   "factors_up": [
+    {
+     "factor": "METR predeployment eval of GPT-5.6 Sol (26 Jun 2026): 50% time-horizon point estimate ~11.3 hours, a large step up; extrapolating puts multi-day autonomous task horizons inside the window",
+     "impact": "+5pp"
+    },
+    {
+     "factor": "Definitional deflation is the main YES pathway: Huang's 'I think we've achieved AGI' (Mar 2026) and Chen et al. (2026) claiming Turing-test success constitutes AGI evidence; only modest further drift is needed for 3+ named researchers to assert it",
+     "impact": "+4pp"
+    },
+    {
+     "factor": "OpenAI president Greg Brockman (early Jul 2026) says OpenAI is 'basically 70 to 80% there' to AGI, and reports a completed new pretraining run; executive rhetoric is converging on an eventual declaration",
+     "impact": "+3pp"
+    },
+    {
+     "factor": "Market drift up: Polymarket 'OpenAI announces AGI before 2027' now ~13% (was ~8%); an OpenAI reasoning model swept the AtCoder World Tour Finals Algorithm division on 9 Jul 2026 (8,300 pts vs 4,300 top human)",
+     "impact": "+2pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "ARC-AGI-3 (verified 11 Jul 2026): best model GPT-5.6 Sol at 7.8% semi-private vs 100% human. Novel-situation generalisation remains near-absent; the key capability trigger did not fire",
+     "impact": "-5pp"
+    },
+    {
+     "factor": "METR could not produce an interpretable horizon for GPT-5.6 Sol because the model reward-hacked so extensively; a UK government lab also found universal jailbreaks in its cyber safeguards. Contaminated evals make any lab AGI claim easy to discredit",
+     "impact": "-4pp"
+    },
+    {
+     "factor": "Gemini 3.5 Pro slipped again to a 17 Jul target with no model card or official benchmarks as of 13 Jul, and early testers report it trailing Fable 5 and GPT-5.6; the 2026 flagship cycle looks incremental, not discontinuous",
+     "impact": "-3pp"
+    },
+    {
+     "factor": "Active elite rebuttal: Marcus, Quattrociocchi and Capraro in Nature ('Statistical approximation is not general intelligence') directly attack the AGI claim; Hassabis still says 50% by end of decade. A contested declaration is unlikely to attract 3+ credible researchers endorsing 'achieved'",
+     "impact": "-3pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Resolution ambiguity: whether a Huang-style redefinition claim, or an OpenAI 'we have reached AGI' statement tied to its own charter definition, counts as 'a credible AI lab publicly announces AGI' - this interpretive question alone probably swings the forecast 10-15pp.",
+    "Whether the METR time-horizon trend (~11.3h, doubling every 4-7 months) is real capability or an artefact of reward hacking and task-suite saturation.",
+    "Whether ARC-AGI-3-style novel-situation generalisation is a genuine blocker or a benchmark that falls abruptly once a new paradigm lands - it went from <1% in March to 7.8% in July, fast growth from a very low base.",
+    "Whether commercial and legal incentives (post-Microsoft-clause) suppress a formal declaration even if capabilities arrive, or competitive pressure triggers a premature one."
+   ],
+   "update_triggers": [
+    "Revise UP if: a frontier lab CEO or official blog post uses 'AGI' as an achieved state rather than a goal, or 2+ additional named leading researchers (Sutskever, Legg, Sutton, LeCun tier) publicly say the threshold has been crossed.",
+    "Revise UP if: ARC-AGI-3 semi-private top score clears ~30% before end-2026, or METR's 50% time horizon exceeds ~40 hours on a cheating-adjusted basis in a clean eval.",
+    "Revise DOWN if: Gemini 3.5 Pro (17 Jul) plus the next OpenAI and Anthropic flagships all land as incremental, with ARC-AGI-3 semi-private still under ~15% by end-2026 and the Metaculus AGI median drifting later than 2033.",
+    "Revise DOWN if: the Marcus-style rebuttal coalition hardens into an explicit multi-lab norm against declaring AGI, or Polymarket's OpenAI AGI announcement contract falls back below ~7%."
+   ]
+  },
+  {
+   "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+   "central": 22,
+   "ci_lower": 11,
+   "ci_upper": 37,
+   "key_change": "Nudged down 24 to 22% on accumulated disconfirmation rather than any single new item. CRA's Q1 FY26 print (7 May 2026) showed record quarterly revenue of $201.0m, +10.5% YoY, with Antitrust & Competition Economics at an all-time quarterly high and FY26 guidance reaffirmed at $785-805m - the pure-play economic consulting bellwether is growing, not shrinking. BLS June 2026 data (released 2 July) showed professional and business services +36,000, up 172,000 since the October 2025 trough, so the 'two consecutive quarters of YoY decline' trigger remains unmet. Accenture's 18 June guidance cut (3-4% local-currency growth, bookings -2%, record 20% one-day drop) is real AI-attributed pressure but sits in IT/management consulting and still implies positive growth. Mechanically, with 2026 revenue running ~15% above the 2024 baseline, resolution now requires roughly a 40%+ fall from the current run-rate in about 4.5 years.",
+   "base_rate": "Reference class: industry-level revenue or employment collapses of >=33% within roughly six years, primarily attributed to a single general-purpose technology. Such collapses are rare and, where they occurred, unfolded slowly. US travel agents lost about a third of employment but over roughly a decade after online booking scaled; newspaper print classifieds and stock photography took 10-15 years to lose comparable shares; bank teller employment barely fell for two decades after the ATM. The base rate for a defined professional-services industry losing >=33% in a six-year window attributable to one technology is low, on the order of 10-20%, and lower still where demand is exogenous to the technology. Economic consulting is demand-driven by litigation, merger review and regulatory proceedings, and its output is adversarial testimony that must survive cross-examination and Daubert-style scrutiny - a credibility constraint that resists full automation. The upward adjustment comes from the unusually fast diffusion of generative AI into exactly the analyst-tier work that constitutes most billable hours, which could compress the leverage pyramid faster than any prior technology. Limitation: no prior technology has attacked the professional-services leverage model this directly, so the class may understate speed.",
+   "factors_up": [
+    {
+     "factor": "Accenture's 18 June 2026 guidance cut to 3-4% growth, bookings -2%, record 20% one-day fall, explicitly citing AI-driven demand shifts",
+     "impact": "+4pp"
+    },
+    {
+     "factor": "McKinsey ~10% headcount reduction (3-4k roles) plus KPMG ~400 US advisory cuts and Deloitte benefit freezes, widely attributed to AI productivity",
+     "impact": "+3pp"
+    },
+    {
+     "factor": "ProMarket (29 Apr 2026) and similar analyses forecast a structurally smaller economic consulting industry with a hollowed-out mid-tier",
+     "impact": "+3pp"
+    },
+    {
+     "factor": "FTI Economic Consulting revenue -2.3% YoY in Q1 2026 to $175.6m, showing the segment can shrink",
+     "impact": "+2pp"
+    },
+    {
+     "factor": "Analyst-tier work - the bulk of billable hours and the basis of the leverage model - is precisely what LLMs commoditise, and clients are in-housing analysis",
+     "impact": "+3pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "CRA Q1 FY26 record revenue +10.5% YoY, record antitrust quarter, FY26 guidance reaffirmed - the purest listed proxy is accelerating",
+     "impact": "-5pp"
+    },
+    {
+     "factor": "2026 revenue now sits ~15% above the 2024 baseline, so resolution requires a ~40%+ decline from the current run-rate - a bar that rises with every growth quarter",
+     "impact": "-4pp"
+    },
+    {
+     "factor": "BLS professional and business services employment still rising (+36k in June 2026; +172k since Oct 2025); no employment rollover",
+     "impact": "-3pp"
+    },
+    {
+     "factor": "Demand is exogenous (litigation, merger review, regulators) and testimony requires credentialed human experts; FTI attributes its decline to the antitrust cycle, not AI",
+     "impact": "-3pp"
+    },
+    {
+     "factor": "Compound resolution bar: magnitude AND primary AI attribution AND 2+ credible analyses saying so",
+     "impact": "-3pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether AI compresses billable hours per engagement faster than case volume and complexity grow - the net revenue effect is the crux and is currently positive.",
+    "Attribution: separating AI effects from the antitrust enforcement and M&A cycle, which currently dominates CRA's and FTI's segment swings.",
+    "Scope ambiguity: whether 'economic consultancy' resolves on the narrow litigation/regulatory economics firms (CRA, Compass Lexecon, Cornerstone, Analysis Group, NERA, Brattle) or the broader consulting sector where AI pressure is far more visible.",
+    "Whether disruption shows up as headcount decline (plausible via pyramid compression) rather than revenue decline - the question allows either to resolve YES.",
+    "Whether clients and regulators build in-house economic analysis capability at scale, structurally removing demand."
+   ],
+   "update_triggers": [
+    "Revise UP if: CRA's Q2 FY26 print (30 July 2026) cuts FY26 guidance or reports a YoY revenue decline citing AI, or FTI's Q2 (30 July) shows Economic Consulting declining again with AI named as a cause.",
+    "Revise UP if: BLS NAICS 5416 posts two consecutive quarters of YoY employment decline, Accenture guides to negative full-year revenue growth, or a second credible analysis quantifies a >=33% AI-driven contraction for economic consulting specifically.",
+    "Revise DOWN if: CRA's 30 July Q2 print reaffirms or raises FY26 guidance with continued double-digit growth, or FTI Economic Consulting returns to YoY growth.",
+    "Revise DOWN if: economic consulting headcount and revenue keep rising through FY27, making a ~40% peak-to-2030 decline arithmetically implausible in the remaining window."
+   ]
+  },
+  {
+   "question": "Will Labour be largest party at next UK General Election?",
+   "central": 35,
+   "ci_lower": 21,
+   "ci_upper": 50,
+   "key_change": "Up sharply, 29 to 35%, on two concrete new items. First, the Electoral Calculus/Find Out Now MRP for PLMR (fieldwork 23-30 June, published 8 July 2026, n=5,545) projects Labour as the LARGEST party on 217 seats (Con 151, Reform 127, LD 72, Grn 30) from vote shares of Lab 22 / Ref 22 / Con 20 / Restore Britain 7 - and Labour stays largest (195) even in the no-tactical-voting scenario. Second, betting markets have flipped since Starmer's 22 June resignation: Star Sports cut Labour to 13/8 from 15/8 while Reform drifted to 15/8, with Boylesports and bet365 also reporting Labour overtaking Reform for most seats, implying roughly 33-38% raw. Burnham is set to be crowned unopposed on 17 July with 322 MP nominations, and Burnham-as-leader hypotheticals put Labour ahead (BMG Lab 27 / Ref 26; More in Common Lab 30 / Ref 27). Offsetting: actual headline polls remain poor - YouGov 5-6 July (Ref 25, Con 21, Lab 20), Opinium 7-10 July (Ref 24, Lab 19), PollCheck's 11 July average Ref 25.7 / Lab 20.3.",
+   "base_rate": "Two reference classes matter. (1) Incumbent government retaining most seats at the following UK general election: since 1945 the governing party has won most seats at roughly 60% of elections (12 of 21), but conditioning on a government polling around 20% at mid-term, the historical record is far worse - no post-war government has recovered from such a position to win most seats, though modern five-party fragmentation has no post-war precedent. (2) Largest-party outcomes under FPTP in fragmented multiparty systems: with five parties clustered between 11% and 26%, seat allocation becomes extremely non-linear and vote efficiency dominates. Labour's 2024 coalition is geographically concentrated in urban seats it can hold on low-to-mid-20s shares, whereas Reform's vote is broader but shallower and is now split on its right by Restore Britain (3% unprompted, 7% in Find Out Now's MRP). That is why an MRP can show Labour largest on 217 seats while Labour trails on national vote share. The horizon is long - the election need not occur until August 2029 - so the class must be discounted heavily for drift, honeymoon decay and the Green squeeze on Labour's left. A prior of 30-40% for the incumbent being largest is the sensible anchor; markets and MRP both land in that band.",
+   "factors_up": [
+    {
+     "factor": "July 2026 Electoral Calculus/PLMR MRP projects Labour largest party (217 seats) - and largest even without tactical voting",
+     "impact": "+7pp"
+    },
+    {
+     "factor": "Betting markets flipped Labour to favourite for most seats (Star Sports 13/8 vs Reform 15/8) after Starmer's resignation",
+     "impact": "+4pp"
+    },
+    {
+     "factor": "Burnham coronation on 17 July with 322 MP nominations; Burnham-led hypotheticals put Labour ahead of Reform (BMG 27-26; More in Common 30-27)",
+     "impact": "+4pp"
+    },
+    {
+     "factor": "Restore Britain splitting the right (3% average, 7% prompted); Reform down from 29% in Sept 2025 to ~25% while the Conservatives recover to ~21%, further fragmenting the anti-Labour vote",
+     "impact": "+3pp"
+    },
+    {
+     "factor": "FPTP vote efficiency plus anti-Reform tactical voting (a third of Labour voters say they would vote Conservative to stop Reform), worth ~39 seats against Reform in the MRP",
+     "impact": "+3pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Actual headline polls still have Labour third or a poor second: YouGov 5-6 July (Lab 20, five behind Reform), Opinium 7-10 July (Lab 19), Ipsos showing a 7-point Reform lead",
+     "impact": "-6pp"
+    },
+    {
+     "factor": "Three-year horizon (election due by Aug 2029): new-leader honeymoons reliably decay, and Burnham inherits the same fiscal and immigration constraints that destroyed Starmer's standing",
+     "impact": "-5pp"
+    },
+    {
+     "factor": "Green surge under Polanski (13-16%, 38% among under-30s) structurally cannibalises Labour's left; the MRP has Starmer, Lammy and Mahmood losing seats to Greens",
+     "impact": "-4pp"
+    },
+    {
+     "factor": "The MRP relies on Find Out Now's unusually high 7% Restore Britain figure; at the 3% other pollsters find, Reform's seat total rises sharply",
+     "impact": "-3pp"
+    },
+    {
+     "factor": "Labour's 2024 coalition was historically shallow (35% on low turnout), with three more years of incumbency drag to come",
+     "impact": "-2pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether the Burnham bounce is a durable realignment or a honeymoon that fades within 6-12 months once he owns the fiscal and immigration files.",
+    "Whether Restore Britain sustains 5-7% (making Labour largest highly likely on current shares) or collapses back to 2-3% and Reform re-consolidates the right.",
+    "Whether Green support at 13-16% holds to a general election or is squeezed back to Labour under FPTP pressure - this decides whether Labour's ~22% floor holds or drops to the high teens.",
+    "Election timing (any time to Aug 2029) and whether Burnham seeks an early mandate while his honeymoon lasts."
+   ],
+   "update_triggers": [
+    "Revise UP if: 2+ independent pollsters put a Burnham-led Labour level with or ahead of Reform in actual (not hypothetical) headline VI by end-October 2026, or a second independent MRP house projects Labour largest.",
+    "Revise UP if: Restore Britain sustains 5%+ across multiple pollsters, or betting markets move Labour odds-on for most seats.",
+    "Revise DOWN if: the Burnham bounce fails to materialise and Labour is still at or below 20% in the poll average by end-October 2026, or Reform re-establishes a 6+ point average lead.",
+    "Revise DOWN if: Reform and Restore Britain agree a pact or Lowe rejoins Reform, or the Greens hold above 15% while Labour falls below 19%."
+   ]
+  },
+  {
+   "question": "Will AGI be developed before 1 January 2035?",
+   "central": 85,
+   "ci_lower": 71,
+   "ci_upper": 93,
+   "key_change": "Held at 85%, with the CI trimmed marginally to 71-93. Signals remain balanced. The capability trend is intact: METR's time-horizon work shows 50%-success task horizons doubling roughly every 4-5 months (Claude Opus 4.6 near ~14.5 hours in Feb 2026), with no sign of the 12-month long-horizon flatline that would trigger a downgrade. But markets and community forecasts have not moved earlier: Kalshi's OpenAI-achieves-AGI market sits near 55% for 2030 (below the 70% UP trigger), Polymarket has OpenAI-AGI-by-2027 near 14%, and Metaculus's strict announced-AGI median remains ~Jan 2033. Two structural items cap the upside: ARC-AGI-3 has frontier models in single digits against a 100% human baseline, giving credible sceptics a live rebuttal to any declaration, and the April 2026 death of the OpenAI-Microsoft AGI clause removed the contractual incentive that made a formal declaration financially consequential.",
+   "base_rate": "Reference class: contested technical milestones declared achieved by their own proponents within a ~9-year window. This class fits because the resolution criteria are declaratory, not verificatory - they turn on what a lab announces or what three senior researchers say, not on whether an independent panel agrees. Proponent-declared milestones resolve YES far more often and far earlier than verification-standard equivalents: 'self-driving solved', 'Turing test passed' and 'quantum supremacy' (Google 2019, disputed within weeks by IBM) all produced confident public declarations by the builders while outside experts contested them. In this class, declaration rates within a decade of serious effort run well above 50%, and sceptics' objections do not prevent resolution. The second anchor is the direct forecast: Metaculus's strict 'general AI system devised, tested and publicly announced' question has a community median around January 2033 - inside the window, with substantial mass before it. Limitations: the class is thin (a handful of analogous milestones), and 'AGI' carries far more reputational, regulatory and legal freight than quantum supremacy did, so labs may hedge language. Blending the declaratory base rate (~85-90%) with the Metaculus-implied cumulative probability by 2035 (~75-85%) supports a mid-80s central estimate.",
+   "factors_up": [
+    {
+     "factor": "METR long-horizon task doubling continues (~14.5h in Feb 2026, week-long tasks projected by late 2026); no capability plateau",
+     "impact": "+8pp"
+    },
+    {
+     "factor": "Lab-leader timelines cluster inside the window and have if anything moved earlier (Hassabis to 2029; Amodei 1-2 years; Altman late 2026/early 2027)",
+     "impact": "+7pp"
+    },
+    {
+     "factor": "Lenient resolution: an announcement OR 3+ named senior researchers suffices; no independent verification required, and AGI-boosterism is commercially rewarded",
+     "impact": "+6pp"
+    },
+    {
+     "factor": "A nine-year window with compounding compute and many independent shots on goal across OpenAI, Anthropic, DeepMind, xAI, Meta and Chinese labs",
+     "impact": "+4pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "ARC-AGI-3 has frontier models in single digits against a 100% untrained-human baseline - a durable, well-publicised capability gap that arms credible sceptics and raises the bar for a defensible declaration",
+     "impact": "-5pp"
+    },
+    {
+     "factor": "The OpenAI-Microsoft AGI clause was abolished (Apr 2026); a formal declaration no longer unlocks contractual value, weakening the strategic incentive to declare",
+     "impact": "-4pp"
+    },
+    {
+     "factor": "Markets and community forecasts flat-to-later: Kalshi OpenAI-AGI-by-2030 ~55%, Polymarket by-2027 ~14%, Metaculus community pushed timelines out during 2025-26",
+     "impact": "-3pp"
+    },
+    {
+     "factor": "Definitional drift toward 'powerful AI', 'transformative AI' and 'superintelligence' means labs may ship capability without ever using the achieved-tense word 'AGI'",
+     "impact": "-3pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether labs will use the word 'AGI' in the achieved tense at all, or route around it with 'powerful AI' / 'superintelligence' framing, leaving the question unresolved despite dramatic capability gains.",
+    "Whether the METR time-horizon trend extends to open-ended, interactive and novel-reasoning tasks (where ARC-AGI-3 shows near-zero performance) or saturates at long-but-routine software work.",
+    "Who counts as a 'leading AI researcher', and whether three would coordinate on an achieved-tense claim while the Chollet/Marcus/LeCun sceptic bloc is active.",
+    "Whether a regulatory or safety norm emerges that penalises premature AGI claims, making declaration legally risky."
+   ],
+   "update_triggers": [
+    "Revise UP if: any frontier lab publishes 'AGI' in the achieved tense in an official post or model card, or 3+ named senior researchers publicly state AGI is achieved.",
+    "Revise UP if: Metaculus's strict announced-AGI median moves earlier than Jan 2033, Kalshi's OpenAI-AGI-by-2030 sustains above 70%, or a frontier model exceeds ~50% on ARC-AGI-3.",
+    "Revise DOWN if: METR's 50%-horizon growth stalls below one doubling for 12+ months, or labs formally retire 'AGI' terminology in favour of 'superintelligence' in charters and roadmaps.",
+    "Revise DOWN if: aggregate AGI probabilities fall materially further, or a compute, capital or regulatory shock visibly slows frontier training runs."
+   ]
+  },
+  {
+   "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+   "central": 8,
+   "ci_lower": 4,
+   "ci_upper": 14,
+   "key_change": "Held at 8%: two developments cut in opposite directions and roughly cancel. Upside - on 8 July 2026 the US-Iran interim ceasefire collapsed and on 13 July Trump reinstated the naval blockade of Iran (effective 14 July), with roughly 27 USN vessels (about 41% of deployed ships) now concentrated in CENTCOM; and the China Coast Guard's law-enforcement operation east of Taiwan was declared a 'new normal' on 8 July, with CCG ships hailing commercial vessels 74-124nm offshore inside Taiwan's EEZ - a direct rehearsal of quarantine mechanics. Downside - PLA sortie volumes have reverted to pre-Lai baselines since January 2026, the US IC's 2026 Annual Threat Assessment (19 March) reiterated that Beijing has no fixed invasion timeline and does not plan a 2027 invasion, and Xi's purge of Zhang Youxia and Liu Zhenli (January 2026) has left the Central Military Commission with only two formal members and the new joint-training model unadopted. Polymarket now prices a 2026 blockade at ~6%, down from a 24% October high.",
+   "base_rate": "Reference class: PRC coercive military action against Taiwan since 1949. Across four Taiwan Strait crises (1954-55, 1958, 1995-96, and the August 2022 post-Pelosi exercises, plus the 2024 Joint Sword and 2025 Strait Thunder drills), there have been exactly zero instances of a sustained blockade exceeding 72 hours or an assault on Taiwan proper. The 1958 Kinmen artillery interdiction is the closest analogue but targeted offshore islands, not Taiwan proper, and was broken by US-escorted resupply within weeks. Every modern exercise has been time-boxed at 1-3 days and stood down on schedule. Over 77 years that is a 0/77 event count; Laplace-style smoothing implies an annual hazard of roughly 1-1.3%. Adjusting upward to ~1.5-2%/yr for the 4.5 years remaining - reflecting genuinely novel capability (the PLA's 2027 readiness milestone, expanding amphibious and ro-ro sealift, CCG quarantine rehearsals) with no precedent in the historical series - and compounding gives roughly 7-8%. The reference class is thin and the structural situation is changing faster than the historical record can capture, which is why the interval is wide and skewed upward.",
+   "factors_up": [
+    {
+     "factor": "US force concentration in CENTCOM after the 8 July ceasefire collapse and 13 July reinstatement of the Iran blockade (~41% of deployed USN in region) - a genuine window of opportunity for opportunistic action",
+     "impact": "+2pp"
+    },
+    {
+     "factor": "CCG 'new normal' eastern-EEZ patrols (declared 8 July 2026) with vessel hailing and interrogation - direct operational rehearsal of quarantine mechanics, lowering the technical and normative threshold",
+     "impact": "+1.5pp"
+    },
+    {
+     "factor": "The 2027 PLA capability milestone plus expanding sealift, bridge-barges and monthly amphibious training; capability arrives well inside the question window",
+     "impact": "+1.5pp"
+    },
+    {
+     "factor": "The US itself is running a naval blockade of Iran, eroding the normative case against blockade as a coercive instrument",
+     "impact": "+0.5pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "The CMC is decapitated by purges (He Weidong, Miao Hua, Zhang Youxia, Liu Zhenli); only two formal members remain and the joint-training model required for blockade/invasion command-and-control has not been adopted",
+     "impact": "-2pp"
+    },
+    {
+     "factor": "US IC 2026 Annual Threat Assessment: no fixed unification timeline, no planned 2027 invasion; PLA sortie volume has reverted to the pre-Lai baseline since January 2026",
+     "impact": "-1.5pp"
+    },
+    {
+     "factor": "Prediction markets falling - Polymarket blockade-in-2026 at ~6% (from a 24% October peak), invasion by end-2026 at 4%",
+     "impact": "-1pp"
+    },
+    {
+     "factor": "Economic self-deterrence: a blockade would trigger sanctions, semiconductor cutoff and capital flight into an already-strained economy; Xi's May 2026 summit with Trump signalled a preference for managing rather than forcing the issue",
+     "impact": "-1.5pp"
+    },
+    {
+     "factor": "Grey-zone coercion is working and is far cheaper; escalating to a 72hr+ blockade forfeits ambiguity and invites the US-Japan intervention Beijing wants to avoid",
+     "impact": "-1pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether the CMC command vacuum is a genuine constraint on executing a complex joint operation, or merely a personnel reshuffle that leaves operational planning untouched.",
+    "Whether the CCG eastern-EEZ 'law enforcement' framing substitutes for kinetic action (letting Beijing claim jurisdiction without war) or ratchets toward it.",
+    "How long the Iran conflict absorbs US naval capacity, and whether Beijing reads a genuine window or judges that the US would still surge to the Pacific.",
+    "Whether a Taiwanese political trigger (a Lai statement, a constitutional move, or the 2028 election) supplies a pretext Beijing currently lacks."
+   ],
+   "update_triggers": [
+    "Revise UP if: a PLA exercise fails to stand down on its announced end-date, or the CCG/PLAN begin actually stopping, boarding or turning back merchant vessels rather than merely hailing them.",
+    "Revise UP if: mobilisation indicators appear (mass civilian ro-ro requisition, blood-bank stockpiling, reserve call-ups, wartime civil-defence drills), or new CMC vice-chairs are installed and the joint-training model formally adopted.",
+    "Revise DOWN if: CCG eastern patrols are quietly discontinued or scaled back, PLA sortie rates continue their 2026 decline, or a substantive US-China modus vivendi on Taiwan emerges from follow-on talks to the May 2026 summit.",
+    "Revise DOWN if: further purges visibly paralyse Eastern Theater Command, or Polymarket blockade odds for 2027 print below 4%."
+   ]
+  },
+  {
+   "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+   "central": 1,
+   "ci_lower": 1,
+   "ci_upper": 3,
+   "key_change": "Held at 1%; no material new information since the prior. ONS confirms CPI at 2.8% in the 12 months to May 2026, unchanged from April (released 17 June), with June data not due until 22 July. The June MPC minutes (17 June, Bank Rate held at 3.75% on a 7-2 vote, with two members voting to HIKE) state explicitly that inflation 'is expected to rise later this year as the effects of higher energy prices continue to pass through', and the Bank's projections put CPI a little under 3% in Q3 2026 and a little over 3.25% in Q4. HM Treasury's May survey of independent forecasters has Q4 2026 CPI at ~3.5%. Cornwall Insight now forecasts the October 2026 Ofgem cap rising ~2% versus July, and Brent sits around $72/bbl with a Hormuz risk premium. The only disinflationary signal is food inflation at 2.2% in May (lowest since December 2024), nowhere near enough to drag headline below 2.0%.",
+   "base_rate": "Reference class: monthly UK CPI annual-rate moves from a known starting point over a 5-7 print horizon. Since 1997, falls of more than 0.8pp in the headline annual rate within six months have happened, but almost exclusively during large negative shocks (2008-09, the 2014-15 oil collapse, 2020, the 2023-24 energy base effects). Unconditionally, the probability of headline CPI printing below 2.0% within a six-month window starting from 2.8% is perhaps 10-15%. But conditioning matters enormously: the relevant class is 'starting above target with official and market forecasts pointing UP and a known administered energy increase inside the window'. In that conditional class, sub-target prints are rare - roughly 2-4% of cases. Historically, when the BoE, the HM Treasury consensus and the futures-implied path all point to rising inflation over the next two quarters, headline undershoots of the 2% target within that horizon have essentially only occurred alongside an unforeseen macro collapse (a COVID-scale demand shock or a >40% oil price crash). With CPI at 2.8% and rising and only about six prints left, the conditional base rate is low. Limitations: the class is thin for the specific 'war-driven energy premium then reversal' scenario, and ONS basket changes add small tail risk.",
+   "factors_up": [
+    {
+     "factor": "Food inflation fell to 2.2% in May 2026 (lowest since Dec 2024) and is decelerating faster than expected",
+     "impact": "+0.5pp"
+    },
+    {
+     "factor": "Brent around $72/bbl and falling (below $70 on 1 July), with Goldman and JPM seeing $56-60 for 2026; a sustained energy unwind if the ceasefire holds could produce sharp negative base effects",
+     "impact": "+1pp"
+    },
+    {
+     "factor": "Weak UK growth and the IMF (18 May 2026) saying the BoE may need to cut, with services inflation at 3.7% and well off its 2023 highs",
+     "impact": "+0.5pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "The latest print is 2.8% (May 2026); a sub-2.0% print requires a >0.8pp collapse against a rising trend",
+     "impact": "-3pp"
+    },
+    {
+     "factor": "The June 2026 MPC minutes expect inflation to RISE later this year (Q4 2026 'a little over 3.25%'), two members voted to hike, and the HM Treasury consensus is ~3.5% in Q4",
+     "impact": "-2pp"
+    },
+    {
+     "factor": "Cornwall Insight forecasts the October 2026 Ofgem cap up ~2% on July; the Renewables Obligation removal that cut July bills cannot repeat",
+     "impact": "-1.5pp"
+    },
+    {
+     "factor": "Only about six monthly prints (June-November 2026 data) can resolve the question, and energy base effects are unfavourable in exactly those months",
+     "impact": "-1pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether the US-Iran ceasefire holds and wholesale gas and oil prices unwind the war premium before the Ofgem cap observation window closes (cap announced by 26 August 2026).",
+    "Whether services inflation (3.7% in May) decelerates far faster than the BoE expects, for example via a sharp labour-market deterioration.",
+    "Downside tail: an unforeseen global demand shock producing COVID- or 2008-style disinflation within the remaining prints.",
+    "The 22 July 2026 ONS release (June data) is the first new hard information; a large downside surprise is the only material update available this month."
+   ],
+   "update_triggers": [
+    "Revise UP if: the 22 July 2026 ONS release shows June CPI at or below ~2.3% (a >0.5pp fall), or Brent sustains below $50/bbl with UK wholesale gas back to pre-conflict levels.",
+    "Revise UP if: Ofgem announces an October 2026 cap cut of more than 5% in late August, or the August 2026 Monetary Policy Report forecasts CPI below 2% within 2026.",
+    "Revise DOWN if: the 22 July print comes in at or above 2.8%, or the MPC hikes or signals hikes on 30 July.",
+    "Revise DOWN if: Cornwall Insight and Ofgem confirm an October cap increase, or services inflation re-accelerates above 4%."
+   ]
+  },
+  {
+   "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+   "central": 73,
+   "ci_lower": 58,
+   "ci_upper": 87,
+   "key_change": "Nudged up 70 to 73%, partially reversing yesterday's cut. Three positives landed and no new negatives: (1) Fandango and Deadline confirm Brand New Day is the biggest first-day pre-seller of 2026 and the best US first-day presales in five years (since No Way Home), ahead of The Odyssey and Mandalorian & Grogu, with domestic presales already past $40m three weeks out; (2) test-screening reactions circulating in mid-July are strongly positive ('testing off the charts'), though several note the ending divides viewers; (3) the China release is confirmed approved by the China Film Administration with Chinese promo materials now running - No Way Home was never released there - and CJ 4DPlex's 'Shot for ScreenX' partially offsets the lost IMAX run. The IMAX shutout (The Odyssey holds an exclusive four-week run from 17 July) remains the main structural drag and is why this does not return to 80%.",
+   "base_rate": "Reference class: films clearing $1.5B worldwide. Only about 11-12 titles in history have done so (Avatar, The Way of Water, Titanic, Endgame, Infinity War, Ne Zha 2, The Force Awakens, No Way Home, Inside Out 2, Jurassic World, The Lion King 2019, Avengers 2012). That is a tiny tail of the ~200 films that have crossed $1B, so the unconditional base rate for any tentpole is 2-5%. The relevant conditional class is narrower: MCU/Spider-Man event tentpoles opening $180m+ domestic with a China release. Within that class, No Way Home ($260m OW, $1.9B) cleared it; Doctor Strange 2 ($187m OW) made $955m without China; Far From Home made $1.13B. The mechanical model: MCU Spider-Man domestic multipliers run 2.9-3.4x opening weekend, with international share of 57-65%. A $180-190m opening (Deadline/NRG) implies roughly $520-610m domestic and $1.25-1.5B worldwide - right on the line. A $230-250m opening (Boxoffice Pro) implies $690-750m domestic and $1.7-1.9B worldwide - comfortably over. Conditional on current tracking, the base rate is roughly 65-75%, not the 3-5% unconditional rate.",
+   "factors_up": [
+    {
+     "factor": "Record presales: Fandango's biggest first-day pre-seller of 2026 and best first-day US presales since No Way Home; over $40m domestic presales three weeks out",
+     "impact": "+8pp"
+    },
+    {
+     "factor": "China release approved (No Way Home skipped China entirely); billed as the most anticipated comic-book film in China since Far From Home, with promos already running",
+     "impact": "+7pp"
+    },
+    {
+     "factor": "Strongly positive test-screening reactions, pointing to good legs and a high CinemaScore",
+     "impact": "+5pp"
+    },
+    {
+     "factor": "Boxoffice Pro's long-range forecast raised to a $230-250m domestic opening, well above the level that implies $1.5B",
+     "impact": "+5pp"
+    },
+    {
+     "factor": "Under-25 male demo tracking well ahead of comparable titles; the Avengers: Doomsday tie-in makes it event-mandatory viewing",
+     "impact": "+3pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "No IMAX: The Odyssey holds an exclusive four-week IMAX run from 17 July through mid-August, removing the highest-yielding screens for the entire opening frame",
+     "impact": "-8pp"
+    },
+    {
+     "factor": "The tracking split is wide and unresolved: Deadline/NRG at $180-190m implies only ~$1.25-1.45B worldwide at typical multipliers",
+     "impact": "-6pp"
+    },
+    {
+     "factor": "A summer release means shorter legs than No Way Home's December corridor; a 3.4x multiplier is unlikely to repeat and 2.9-3.1x is the summer norm",
+     "impact": "-5pp"
+    },
+    {
+     "factor": "$1.5B is an extreme historical threshold - only ~11-12 films ever - and tail outcomes cluster below it",
+     "impact": "-4pp"
+    },
+    {
+     "factor": "Reported concern that the ending 'doesn't stick the landing' could dent word of mouth and repeat viewing",
+     "impact": "-3pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Which tracking number is right: NRG/Deadline's $180-190m (worldwide lands near or below $1.5B) or Boxoffice Pro's $230-250m (comfortably above).",
+    "Whether China gets a genuine day-and-date date and how big it plays - a $150-250m China run is roughly the difference between missing and clearing $1.5B.",
+    "How much IMAX gross is permanently lost versus recaptured in an August expansion after The Odyssey vacates.",
+    "Critical reception and CinemaScore - reviews are not yet out and no embargo date is confirmed."
+   ],
+   "update_triggers": [
+    "Revise UP if: Deadline/NRG revises domestic tracking above $210m, China confirms a 31 July day-and-date release, reviews land 85%+ on Rotten Tomatoes, or CinemaScore is A/A+.",
+    "Revise UP if: the opening weekend lands above $220m domestic or the global launch clears $500m.",
+    "Revise DOWN if: the China date slips past August, reviews land below 70% RT, final tracking settles at $180m or below, or CinemaScore comes in at A- or worse.",
+    "Revise DOWN if: the opening weekend is under $190m domestic with a second-weekend drop worse than 60%, or the international share undershoots 58%."
+   ]
+  },
+  {
+   "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+   "central": 99,
+   "ci_lower": 97,
+   "ci_upper": 99,
+   "key_change": "Held at 99%; the incremental evidence tightens rather than changes the case. The Yipit panel estimate of Anthropic at ~$69B ARR (circulated ~10 July 2026, noting daily ARR adds accelerating from ~$400m to ~$550m) is corroborated by the earlier $47B run-rate reporting (late May 2026) and CNBC's 20 May report of ~$10.9bn Q2 revenue. OpenAI is separately reported at ~$25-33bn annualised mid-2026 (Fortune, 2 July 2026), with consensus exit-2026 estimates around $40bn. The combined current run-rate is therefore already ~$94-102bn against a $70bn threshold, and both are growing. The residual risk stays definitional - Anthropic's gross-basis reseller accounting, with BofA estimating up to $6.4bn in cloud rev-share and analysts flagging a possible 20-40% headline haircut on an IPO restatement - but even a 40% cut to Anthropic plus OpenAI at ~$40bn still clears $70bn comfortably.",
+   "base_rate": "Reference class: threshold questions where the observed metric already exceeds the bar by a large margin months before resolution and the underlying series is growing. Historically such questions resolve YES at very high rates - typically 97-99%+ when the current value is more than 30% above threshold, the growth trend is positive, and no mechanical revision process is scheduled that could reverse the sign. Here the combined reported run-rate (~$94-102bn) sits roughly 35-45% above the $70bn bar as of mid-July 2026, with five and a half months to run. A secondary class is 'AI-lab revenue figures subsequently revised downward': downward restatements do occur (gross-vs-net disputes, panel-estimate error, reclassification of committed versus recognised revenue), but typical magnitudes are 10-40%, not the ~30%+ combined haircut that would be needed here given continued growth. A third class is disclosure failure: for two companies that have both filed for IPO and are covered continuously by The Information, Bloomberg and the FT, the probability that no credible Q4 2026 figure is published for either is very low (<2%). Combining these, the outside view lands in the 97-99% band and the inside view does not pull it down.",
+   "factors_up": [
+    {
+     "factor": "Combined reported run-rate already ~$94-102bn, roughly 35-45% above threshold (Yipit ~$69bn for Anthropic, 10 Jul 2026; OpenAI $25-33bn, Fortune, 2 Jul 2026)",
+     "impact": "+20pp vs naive prior"
+    },
+    {
+     "factor": "Both series still accelerating - Anthropic's daily ARR adds up from ~$400m to ~$550m; OpenAI consensus exit-2026 ~$40bn",
+     "impact": "+5pp"
+    },
+    {
+     "factor": "Dual IPO processes (Anthropic filed 1 Jun 2026; OpenAI S-1 filed confidentially) guarantee heavy financial disclosure and reporting coverage into Q4",
+     "impact": "+3pp"
+    },
+    {
+     "factor": "The threshold is combined, so idiosyncratic weakness at one firm is absorbed by the other",
+     "impact": "+2pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Anthropic's gross-basis reseller accounting; analysts flag a possible 20-40% headline haircut on IPO restatement (BofA: up to $6.4bn cloud rev-share in 2026)",
+     "impact": "-1pp"
+    },
+    {
+     "factor": "Enterprise AI spending scrutiny (Forrester: ~25% of planned AI spend deferred to 2027) could slow Q4 growth",
+     "impact": "-0.5pp"
+    },
+    {
+     "factor": "Resolution ambiguity - a resolver using conservative net or recognised-revenue figures rather than headline ARR",
+     "impact": "-0.5pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether Anthropic's IPO due diligence forces a restatement from gross to net reseller accounting, and how large the haircut is.",
+    "Whether the Yipit panel estimate (~$69bn) materially overstates Anthropic's true run-rate - it is a third-party panel, not a company disclosure.",
+    "Which figure a resolver treats as 'ARR' - headline run-rate versus recognised or net revenue.",
+    "Whether OpenAI's IPO timing reduces the frequency or credibility of published Q4 2026 revenue figures."
+   ],
+   "update_triggers": [
+    "Revise UP if: Anthropic's public S-1 or OpenAI's prospectus discloses audited Q3/Q4 2026 revenue confirming a combined run-rate well above $70bn on any accounting basis.",
+    "Revise UP if: The Information or Bloomberg publishes a Q4 2026 combined figure above $100bn.",
+    "Revise DOWN if: Anthropic restates to net accounting with a >50% haircut alongside evidence of a growth stall, or credible reporting shows the ARR figures include large non-recurring amounts.",
+    "Revise DOWN if: no credible Q4 2026 ARR figure is published for one of the two companies by early December 2026."
+   ]
+  },
+  {
+   "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+   "central": 35,
+   "ci_lower": 22,
+   "ci_upper": 49,
+   "key_change": "Down 37 to 35%. The OBR's Fiscal Risks and Sustainability report (7 July 2026) is now readable in detail: its baseline assumes long-run productivity growth of 1.4% a year, giving real GDP growth of 'around 1.5% a year' - so the most optimistic mainstream long-run anchor sits exactly at, not above, the resolution threshold, making even the OBR's central path a coin-flip at best. New hard data lean negative: the ONS quarterly national accounts (30 June 2026) revised 2025 real GDP growth down to 1.3% from 1.4%, April 2026 monthly GDP fell 0.1%, and the ONS flash productivity estimate shows output per hour up just 0.4% y/y in Q1 2026, with MFP down 0.6% in 2024. Bank of England staff now put potential supply growth at only 0.3-0.4% for 2026, and NIESR cut 2026-27 growth to 0.9%/1.0% on the Iran-driven energy shock. None of this directly determines the 2030s, but persistently sub-1% realised productivity makes the OBR's ~1% TFP assumption look more like an aspiration than a forecast.",
+   "base_rate": "Reference class: completed UK decades since 1950, measured as the arithmetic mean of annual real GDP growth. All seven completed decades (1950s-2010s) averaged above 1.5%, a naive base rate of 7/7. But the class is contaminated by a strong secular downtrend: roughly 2.8-3.0% in the 1950s-60s, ~2.5% in the 1980s-90s, ~1.8-2.0% in the 2000s, and the 2010s weaker excluding the post-crisis rebound. The 2020s will be the first decade below the line at roughly 1.0-1.2%, breaking the streak. A per-decade decline of about 0.2-0.3pp implies a naive extrapolation for the 2030s of 1.3-1.5% - straddling the threshold from below. A better-matched second class is the dispersion of official long-run forecasts around the threshold: the OBR's FRS 2026 baseline is 'around 1.5%' (1.4% productivity plus workforce), the IMF's May 2026 Article IV puts potential at 1.4%, the IFS at 1.4% and NIESR's trend at 1.25%. The centre of the forecaster distribution is ~1.35-1.4%, below the bar, with the OBR at the optimistic edge. Historical forecast errors on decade-ahead trend growth are large (+/-0.5pp or more, and biased optimistic since 2008), keeping mass on both sides but placing the median outcome under 1.5%.",
+   "factors_up": [
+    {
+     "factor": "AI/TFP acceleration: the OECD estimates AI could add 0.4-1.2pp/yr to UK labour productivity over the next decade, and the OBR's March 2026 EFO shows a ~£90bn fiscal swing between AI-optimistic and flat-productivity scenarios",
+     "impact": "+12pp"
+    },
+    {
+     "factor": "The OBR's long-run baseline of 'around 1.5%' GDP growth (FRS, 7 July 2026) is a credible official anchor sitting at the threshold, so modest upside surprises tip it over",
+     "impact": "+6pp"
+    },
+    {
+     "factor": "2030s demographics are more favourable than the 50-year average embedded in the OBR's long-run path (the ageing drag intensifies in the 2040s-50s)",
+     "impact": "+4pp"
+    },
+    {
+     "factor": "Cyclical catch-up: 2026-27 is depressed by the oil shock, leaving spare capacity and a low base that could flatter early-2030s growth rates",
+     "impact": "+3pp"
+    },
+    {
+     "factor": "Investment and planning reform plus capital deepening (the OBR now explicitly projects the capital stock, raising measured productivity growth above TFP)",
+     "impact": "+3pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Realised productivity keeps undershooting assumptions: ONS Q1 2026 output per hour +0.4% y/y, MFP -0.6% in 2024, versus the OBR's assumed ~1% TFP; the IFS expects TFP growth of only 0.4% by 2030",
+     "impact": "-10pp"
+    },
+    {
+     "factor": "Labour supply: ONS 2024-based projections cut long-run net migration to 230k, giving working-age population growth of only ~0.33%/yr; the BoE now estimates potential supply growth of just 0.3-0.4% in 2026",
+     "impact": "-8pp"
+    },
+    {
+     "factor": "The forecaster distribution centres below the bar (IMF 1.4%, IFS 1.4%, NIESR 1.25%), and 'exceeds 1.5%' requires strictly more than the most optimistic official baseline",
+     "impact": "-8pp"
+    },
+    {
+     "factor": "A secular downtrend of 0.2-0.3pp per decade, with the 2020s (~1.0-1.2%) setting a low launch point",
+     "impact": "-6pp"
+    },
+    {
+     "factor": "Near-term deterioration: 2025 revised down to 1.3%, April 2026 GDP -0.1% m/m, NIESR cutting 2026 to 0.9%; persistent weakness tends to be re-scored as lower potential rather than a bigger output gap",
+     "impact": "-4pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether AI diffusion actually shows up in measured UK TFP during the 2030s, and at what magnitude - the single biggest swing factor, spanning roughly 1.0% to 2.0%+ average decade growth.",
+    "Whether UK productivity growth is genuinely stuck near 0.5%/yr (the 2009-2026 realised rate) or whether the post-GFC period is a measurement/cycle artefact that mean-reverts toward 1.5%.",
+    "Net migration policy and outturn: a reversion to 400k+ net migration would add ~0.3-0.4pp to workforce growth and could alone flip the answer.",
+    "Whether ONS methodology revisions (Blue Book, double deflation, intangibles measurement) systematically raise or lower measured real GDP growth - resolution depends on ONS-reported figures, not true output.",
+    "The incidence and depth of recessions in the 2030s: one 2008- or 2020-scale contraction subtracts roughly 0.3-0.5pp from the decade mean."
+   ],
+   "update_triggers": [
+    "Revise UP if: the OBR or BoE raises its assumed long-run trend productivity growth above 1.0% TFP (for example an AI-driven upgrade at the Autumn 2026 Budget), or UK output per hour prints above 1.5% y/y for four or more consecutive quarters.",
+    "Revise UP if: net migration assumptions are revised back above 350k, or ONS MFP data show AI adoption translating into measured aggregate TFP gains.",
+    "Revise DOWN if: the OBR cuts its long-run productivity assumption below 1.4% (or its long-run GDP path below 1.5%) at the Autumn 2026 Budget, or the BoE's potential supply growth estimate stays at or below 0.5% into 2027-28.",
+    "Revise DOWN if: the 2026-27 oil shock turns into a full recession that scars investment, or migration policy tightens further, cutting working-age population growth below ~0.25%/yr."
+   ]
+  }
+ ]
+}
