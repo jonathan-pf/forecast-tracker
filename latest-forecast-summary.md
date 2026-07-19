@@ -1,28 +1,28 @@
-# Forecast Update — 2026-07-17
+# Daily Forecast Summary — 2026-07-19
 
-| # | Question | Central | 80% CI | Δ vs 07-15 |
-|---|----------|:-------:|:------:|:----------:|
-| 1 | AGI before 1 Jan 2030 | 25% | 13–39 | — |
-| 2 | Economic consultancy loses ≥33% value/jobs by end 2030 (AI) | 24% | 12–38 | ▲ +1 |
-| 3 | Labour largest party at next UK GE | 33% | 19–48 | ▼ −1 |
-| 4 | AGI before 1 Jan 2035 | 85% | 71–93 | — |
-| 5 | China blockade/invasion of Taiwan before 2030 | 8% | 4–14 | — |
-| 6 | UK CPI < 2.0% for ≥1 month before 2027 | 1% | 1–3 | — |
-| 7 | Spider-Man: Brand New Day > $1.5B worldwide by 31 Dec 2026 | 77% | 62–88 | ▲ +2 |
-| 8 | OpenAI + Anthropic combined ARR > $70B by 31 Dec 2026 | 99% | 97–99 | — |
-| 9 | UK avg annual real GDP growth > 1.5% across 2030s | 35% | 22–49 | — |
+| Question | Central | 80% CI | Prev | Move |
+|---|---|---|---|---|
+| AGI before 2030 | 25% | 13–39% | 25% | → 0 |
+| Econ consultancy −33% by 2030 (AI) | 24% | 12–38% | 24% | → 0 |
+| Labour largest party next UK GE | 33% | 19–48% | 33% | → 0 |
+| AGI before 2035 | 85% | 71–93% | 85% | → 0 |
+| China blockade/invasion Taiwan by 2030 | 8% | 4–14% | 8% | → 0 |
+| UK CPI <2.0% before 2027 | 1% | 1–3% | 1% | → 0 |
+| Spider-Man BND >$1.5B by end 2026 | 79% | 64–89% | 77% | ▲ +2 |
+| OpenAI+Anthropic ARR >$70B by end 2026 | 99% | 97–99% | 99% | → 0 |
+| UK real GDP >1.5% avg 2030s | 35% | 22–49% | 35% | → 0 |
 
 ## Movements
 
-- **Spider-Man $1.5B (75 → 77):** Two weeks before the 31 Jul release, tracking firmed up — Box Office Pro now floats a $230–250M domestic opening (vs earlier $180–190M) and the film posted the best presales since *No Way Home* (~$40M advance). $1.5B worldwide remains a demanding bar with China as the swing factor.
-- **Consultancy −33% (23 → 24):** July reporting confirms McKinsey's ~10% workforce cut (largest since 2008) plus BCG/Bain/Deloitte reductions, explicitly linked to AI. The ≥33%, AI-attributed threshold by 2030 stays demanding while aggregate sector revenue still grows.
-- **Labour largest party (34 → 33):** Mid-July polling has Labour slipping to third — YouGov (5–6 Jul) Ref 25 / Con 21 / Lab 20; PollCheck 7-poll average (16 Jul) Ref 25.3 / Con 20.3 / Lab 19.7. Long runway to 2029 and FPTP seat efficiency cap the downside.
+- **Spider-Man BND >$1.5B by end 2026**: +2pp
 
 ## Key takeaways
 
-- **Near-locked YES:** OpenAI + Anthropic combined ARR (99%) — Anthropic alone is ~$69B ARR (Yipit, 10 Jul) and accelerating; OpenAI ~$25B; combined ~$94B already exceeds the $70B bar.
-- **Near-locked NO:** UK CPI < 2.0% before 2027 (1%) — CPI stuck at 2.8% (May, unchanged), BoE holding Bank Rate at 3.75%; no disinflation momentum. Taiwan blockade/invasion (8%) — Xi's PLA purge has pushed back the timetable; coercion stays below the >72hr threshold.
-- **AGI:** No qualifying declaration; GPT-5.6 and the July flagship cycle are incremental. 2030 holds at 25%, 2035 at 85%.
-- **Structural holds:** UK 2030s GDP > 1.5% (35%) — nothing in the data window moves a decade-ahead trend-growth call.
-
-*Forecasts generated with superforecaster methodology (reference-class anchoring, inside/outside-view integration, explicit uncertainty). Nine questions re-forecast against current web evidence.*
+- **Spider-Man: Brand New Day** nudged up to 79% as tracking strengthened to a ~$230-250M projected domestic opening (biggest of 2026 YTD, best presales since *No Way Home*); offset partly by loss of IMAX screens.
+- **AGI (2030/2035)** held at 25%/85%: no lab or 3+-researcher declaration; the upcoming AGI-26 conference is a skeptic-heavy academic venue, not an achievement claim.
+- **UK politics** held at 33%: Reform still leads (~25%) with Labour ~20%, but a long runway to 2029 and FPTP dynamics keep a seats-based path alive.
+- **UK CPI <2.0%** held at 1%: inflation stuck at 2.8% (May), only ~5 prints left before the deadline.
+- **OpenAI+Anthropic ARR** held at 99%: combined run-rate already ~$70-100B on mid-July estimates.
+- **Taiwan** held at 8%: elevated grey-zone coercion, but Xi's PLA purge has pushed back the invasion timetable.
+- **UK 2030s GDP >1.5%** held at 35%: OBR potential output revised to ~1.5%, sitting right on the threshold.
+- **Economic consultancy** held at 24%: real but sub-threshold declines (~6% headcount, ~12% per-engagement revenue) versus a 33% bar.
