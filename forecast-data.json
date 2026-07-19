@@ -5830,5 +5830,77 @@
     "ci_lower": 22,
     "ci_upper": 49,
     "key_change": "Hold at 35%. Nothing in the 17 Jul data window materially shifts a decade-ahead structural forecast. The most optimistic mainstream projections (OBR, IMF, BoE potential-growth estimates) cluster UK trend growth around 1.0-1.5%, so a full-decade arithmetic mean above 1.5% requires either a sustained productivity acceleration (plausibly AI-driven) or favourable demographics/investment that current forecasts do not embed as a central case. The AI-productivity upside is a genuine two-sided risk but unproven at the macro level. This stays below even, reflecting subdued trend-growth baselines partly offset by credible upside scenarios."
+  },
+  {
+    "date": "2026-07-19",
+    "question": "Will AGI be developed before 1 January 2030?",
+    "central": 25,
+    "ci_lower": 13,
+    "ci_upper": 39,
+    "key_change": "Hold at 25%. No AGI declaration by any credible lab or 3+ leading researchers in the 19 Jul window. The main event on the horizon is the academic AGI-26 conference (27-30 Jul, San Francisco), headlined by Goertzel, Gary Marcus, Friston and other long-horizon/skeptic voices - a research gathering, not a frontier-lab achievement claim, and if anything a venue where 'not yet AGI' rhetoric dominates. July flagship cadence remains incremental rather than discontinuous. The definitional-deflation route (a lab redefining AGI as achieved) stays the primary YES pathway; ~3.4 years of runway keeps this materially above zero but well below even."
+  },
+  {
+    "date": "2026-07-19",
+    "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+    "central": 24,
+    "ci_lower": 12,
+    "ci_upper": 38,
+    "key_change": "Hold at 24%. Fresh data confirms a real but sub-threshold trend: Charles River Associates headcount -5.8% YoY (FY24), McKinsey announcing 3,000-4,000 cuts across 2025-26, and BCG's study of 80 firms finding a median 12% revenue decline per engagement where AI is deployed without pricing reform. These are single-digit-to-low-teens effects and are partly offset by value-based pricing (25-45% higher margins for adapters). A ≥33% decline in sector revenue or employment vs 2024, primarily attributed to AI by 2+ credible analyses, remains a high bar over ~4.5 years - directionally supported but far from locked in."
+  },
+  {
+    "date": "2026-07-19",
+    "question": "Will Labour be largest party at next UK General Election?",
+    "central": 33,
+    "ci_lower": 19,
+    "ci_upper": 48,
+    "key_change": "Hold at 33%. Mid-July polling is broadly stable and unfavourable for Labour: PollCheck's 7-poll average has Reform ~24.9%, Conservatives ~20.1% and Labour ~20.1% (YouGov 5-6 Jul: Ref 25 / Con 21 / Lab 20; Opinium 7-10 Jul: Ref 24 / Lab 19 / Con 18). Labour is running second-or-third in vote share. Offsetting the deficit: the next GE can be as late as 2029 (long runway for recovery/incumbency effects), FPTP can convert a plurality into most seats on efficient vote distribution, and Reform's newest print is its weakest in 18 months with Farage's ratings at a Parliament low. Net: Labour losing the vote share race but with a live seats-based path."
+  },
+  {
+    "date": "2026-07-19",
+    "question": "Will AGI be developed before 1 January 2035?",
+    "central": 85,
+    "ci_lower": 71,
+    "ci_upper": 93,
+    "key_change": "Hold at 85%. The ~9-year horizon is unaffected by short-run July newsflow. No AGI declaration to date, but the trajectory of frontier capability, sustained compute/investment scaling, and the strong likelihood that at least one lab or 3+ leading researchers will assert AGI at some point before 2035 keep this high. The AGI-26 conference and continued executive rhetoric reinforce that a declaration - via genuine capability or definitional deflation - is a question of when rather than if within this window."
+  },
+  {
+    "date": "2026-07-19",
+    "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+    "central": 8,
+    "ci_lower": 4,
+    "ci_upper": 14,
+    "key_change": "Hold at 8%. Tensions remain elevated - PRC coast guard vessels questioned commercial ships east of Taiwan in June, and analysts describe intensifying blockade rehearsals and grey-zone coercion as part of a 'Fourth Taiwan Strait Crisis.' But the consensus read is that an actual >72hr blockade or assault before 2030 stays unlikely: Xi's purge of senior PLA officers has degraded command trust and operational competence, pushing back the invasion timetable, and Beijing is assessed as preferring sustained coercion over kinetic action. The grey-zone escalation modestly raises tail risk without changing the central estimate."
+  },
+  {
+    "date": "2026-07-19",
+    "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+    "central": 1,
+    "ci_lower": 1,
+    "ci_upper": 3,
+    "key_change": "Hold at 1%. The latest ONS print (May 2026) has CPI at 2.8%, unchanged from April, with CPIH at 3.0%; the June release lands 22 Jul (just after this run) and is not expected to break the pattern. With only about five more monthly prints publishable before 1 Jan 2027 and inflation stuck near 2.8%, a fall below 2.0% in any of them would require an abrupt, unprecedented ~0.8pp+ collapse for which there is no leading indicator. Essentially a tail scenario."
+  },
+  {
+    "date": "2026-07-19",
+    "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+    "central": 79,
+    "ci_lower": 64,
+    "ci_upper": 89,
+    "key_change": "Nudge up to 79% (from 77%). Tracking has strengthened: the film (releasing 31 Jul) is now forecast for a ~$230-250M domestic opening - the biggest of 2026 YTD and second-largest in franchise history behind No Way Home's $260M - on the best presales since NWH. A ~$1.9B worldwide comparable (No Way Home) and strong global Spider-Man/Tom Holland demand make $1.5B achievable with normal-to-good legs. The main drag is the loss of IMAX screens (occupied by The Odyssey), which trims PLF revenue. Nearly five months of runway to 31 Dec provides ample time to accumulate the total."
+  },
+  {
+    "date": "2026-07-19",
+    "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+    "central": 99,
+    "ci_lower": 97,
+    "ci_upper": 99,
+    "key_change": "Hold at 99%. Mid-July reporting puts Anthropic at roughly a $69B annualized run-rate (with some estimates lower, ~$45B) and OpenAI at ~$25-33B. Even on conservative pairings the combined figure is already at or above $70B now, and both are compounding fast (Anthropic's average daily ARR increase reportedly rising from ~$400M to ~$550M). By the Q4 2026 resolution date the threshold is near-certain to be cleared; residual risk is only estimate-definition/reporting ambiguity, not the underlying trajectory."
+  },
+  {
+    "date": "2026-07-19",
+    "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+    "central": 35,
+    "ci_lower": 22,
+    "ci_upper": 49,
+    "key_change": "Hold at 35%. The OBR's March 2026 outlook revised medium-term potential output growth down to ~1.5% and shows real GDP steady at around 1.5% over the forecast, with real GDP per person growing just ~1.1% a year to 2030 and TFP reaching a trend of only ~0.8%. Headline GDP sits right on the 1.5% threshold, so exceeding it as a 2030s decade average is close to a coin flip tilted slightly to the downside. The OBR's central AI assumption (~+0.2pp to annual productivity by the horizon) and any migration-driven labour-supply upside are the main routes above 1.5%; ageing, weak productivity, and fiscal drag pull the other way."
   }
 ]
