@@ -1,28 +1,33 @@
-# Daily Forecast Summary — 2026-07-19
+# Daily Forecast Summary — 2026-07-20
 
-| Question | Central | 80% CI | Prev | Move |
-|---|---|---|---|---|
-| AGI before 2030 | 25% | 13–39% | 25% | → 0 |
-| Econ consultancy −33% by 2030 (AI) | 24% | 12–38% | 24% | → 0 |
-| Labour largest party next UK GE | 33% | 19–48% | 33% | → 0 |
-| AGI before 2035 | 85% | 71–93% | 85% | → 0 |
-| China blockade/invasion Taiwan by 2030 | 8% | 4–14% | 8% | → 0 |
-| UK CPI <2.0% before 2027 | 1% | 1–3% | 1% | → 0 |
-| Spider-Man BND >$1.5B by end 2026 | 79% | 64–89% | 77% | ▲ +2 |
-| OpenAI+Anthropic ARR >$70B by end 2026 | 99% | 97–99% | 99% | → 0 |
-| UK real GDP >1.5% avg 2030s | 35% | 22–49% | 35% | → 0 |
+Nine questions re-forecast using superforecaster methodology with fresh web research. One day since the previous run (2026-07-19); movements are small and evidence-driven.
+
+## Forecast table
+
+| Question | Central | 80% CI | Δ vs 2026-07-19 |
+|---|---|---|---|
+| AGI before 2030 | 25% | 13–39% | — |
+| Consultancy −33% by 2030 (AI) | 25% | 13–39% | +1pp |
+| Labour largest party next GE | 33% | 19–48% | — |
+| AGI before 2035 | 85% | 71–93% | — |
+| China–Taiwan blockade/invasion pre-2030 | 8% | 4–14% | — |
+| UK CPI <2.0% before 2027 | 1% | 1–3% | — |
+| Spider-Man: BND >$1.5B in 2026 | 80% | 66–90% | +1pp |
+| OpenAI+Anthropic ARR >$70B in 2026 | 99% | 97–99% | — |
+| UK real GDP >1.5% avg 2030s | 35% | 22–49% | — |
 
 ## Movements
 
-- **Spider-Man BND >$1.5B by end 2026**: +2pp
+- ▲ **Consultancy −33% by 2030 (AI)**: 24% → 25% (+1pp)
+- ▲ **Spider-Man: BND >$1.5B in 2026**: 79% → 80% (+1pp)
 
 ## Key takeaways
 
-- **Spider-Man: Brand New Day** nudged up to 79% as tracking strengthened to a ~$230-250M projected domestic opening (biggest of 2026 YTD, best presales since *No Way Home*); offset partly by loss of IMAX screens.
-- **AGI (2030/2035)** held at 25%/85%: no lab or 3+-researcher declaration; the upcoming AGI-26 conference is a skeptic-heavy academic venue, not an achievement claim.
-- **UK politics** held at 33%: Reform still leads (~25%) with Labour ~20%, but a long runway to 2029 and FPTP dynamics keep a seats-based path alive.
-- **UK CPI <2.0%** held at 1%: inflation stuck at 2.8% (May), only ~5 prints left before the deadline.
-- **OpenAI+Anthropic ARR** held at 99%: combined run-rate already ~$70-100B on mid-July estimates.
-- **Taiwan** held at 8%: elevated grey-zone coercion, but Xi's PLA purge has pushed back the invasion timetable.
-- **UK 2030s GDP >1.5%** held at 35%: OBR potential output revised to ~1.5%, sitting right on the threshold.
-- **Economic consultancy** held at 24%: real but sub-threshold declines (~6% headcount, ~12% per-engagement revenue) versus a 33% bar.
+- **Consultancy −33% (AI)** nudged up 1pp to 25%: McKinsey confirmed ~10% cuts (3,000–4,000 roles) and Bain/BCG/Deloitte are reducing headcount, hardening the AI-substitution narrative — though current cuts remain far short of the 33% resolution bar.
+- **Spider-Man: Brand New Day** nudged up 1pp to 80%: eleven days from its 31 Jul release, tracking firmed to a ~$500–600M global opening; the multiplier to $1.5B remains the swing factor.
+- **AGI (2030/2035)** held at 25% / 85%: Hassabis's 14 Jul framework reiterates 'a few short years away' but no lab or 3+ researcher AGI declaration; late-July releases (GPT-5.6, Claude 5, Muse Spark 1.1) are incremental.
+- **Labour largest party** held at 33%: polling third on vote share (~20%) yet current MRP models still project Labour the largest single party (217 seats) via a split right-of-centre vote.
+- **UK CPI <2.0%** held at 1%: latest print +2.8% (May, unchanged), June due 22 Jul; a sub-2% single month by end-2026 remains highly unlikely.
+- **China–Taiwan** held at 8%: Xi's PLA purge is assessed to delay invasion timing, favouring grey-zone coercion over kinetic action.
+- **OpenAI+Anthropic ARR >$70B** held at 99%: combined mid-2026 run-rate (~$47B + ~$24B) already exceeds the threshold.
+- **UK real GDP >1.5% (2030s)** held at 35%: structural question; trend-growth estimates cluster ~1.3–1.5%, keeping this below even.
