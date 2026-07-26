@@ -1,28 +1,30 @@
-# Forecast Update — 2026-07-24
+# Forecast Update — 2026-07-26
 
-Daily re-forecast of nine tracked questions (previous run: 2026-07-22).
+Daily re-forecast of nine tracked questions using superforecaster methodology (reference-class anchoring, inside-view adjustment, calibration checks). Movements are small and evidence-driven; where two days brought no material news, estimates hold.
 
-| # | Question | Central | 80% CI | Prev | Δ |
-|---|----------|:------:|:------:|:----:|:-:|
-| 1 | Will AGI be developed before 1 January 2030? | **25%** | 13–39 | 25% | — |
-| 2 | Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | **23%** | 12–38 | 23% | — |
-| 3 | Will Labour be largest party at next UK General Election? | **37%** | 22–52 | 33% | +4 |
-| 4 | Will AGI be developed before 1 January 2035? | **85%** | 71–93 | 85% | — |
-| 5 | Will China initiate a military blockade or invasion of Taiwan before 1 January 2030? | **8%** | 4–14 | 8% | — |
-| 6 | Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027? | **3%** | 1–7 | 3% | — |
-| 7 | Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | **85%** | 73–92 | 84% | +1 |
-| 8 | Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026? | **99%** | 97–99 | 99% | — |
-| 9 | Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)? | **34%** | 21–48 | 34% | — |
+## Summary table
 
-## Movements
-
-- **Will Labour be largest party at next UK General Election?**: 33% → 37% (+4 pp)
-- **Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?**: 84% → 85% (+1 pp)
+| Question | Estimate | 80% CI | Prev | Δ |
+|---|---|---|---|---|
+| AGI by 2030 | **25%** | 13–39% | 25% | — |
+| Consultancy −33% by 2030 (AI) | **23%** | 12–38% | 23% | — |
+| Labour largest party next GE | **38%** | 23–53% | 37% | +1 |
+| AGI by 2035 | **85%** | 71–93% | 85% | — |
+| China blockade/invasion Taiwan by 2030 | **8%** | 4–14% | 8% | — |
+| UK CPI <2.0% before 2027 | **3%** | 1–7% | 3% | — |
+| Spider-Man BND >$1.5B by 2026 | **88%** | 77–94% | 85% | +3 |
+| OpenAI+Anthropic ARR >$70B by 2026 | **99%** | 97–99% | 99% | — |
+| UK real GDP >1.5% avg 2030s | **34%** | 21–48% | 34% | — |
 
 ## Key takeaways
 
-- **Labour largest party** nudged up to 37% (+4pp): a July MRP projects Labour as the single largest party on seats despite trailing Reform on vote share, alongside Labour's biggest polling recovery since 2024 and the Starmer→Burnham leadership transition.
-- **Spider-Man: Brand New Day** edged to 85% (+1pp): record US first-day presales and a projected ~$230–250M domestic opening (biggest of 2026) ahead of its 31 July release.
-- **UK CPI sub-2% before 2027** held at 3%: June CPI eased to 2.6% (from 2.8%) but stays well above target with only ~5 prints left.
-- **Combined OpenAI+Anthropic ARR >$70B** held at 99%: mid-2026 run-rate (Anthropic ~$47B, OpenAI ~$25B) already near/above the bar.
-- **AGI (2030/2035)**, **consultancy AI disruption**, **Taiwan**, and **UK 2030s GDP** all held: no threshold-crossing developments in the last 48 hours.
+- **AGI timelines unchanged.** No lab has declared AGI and no 3+ researcher consensus exists; near-term (2030) sits at 25% on definitional-deflation risk, while the decade view (2035) holds at 85%. The AGI Society conference (27–30 July) is unlikely to change resolution status.
+- **Spider-Man: Brand New Day upgraded to 88%.** Box-office tracking for the 31 July release jumped from a $180–190M to a $230–250M domestic opening — the biggest of 2026 — putting $1.5B worldwide within comfortable reach despite losing the IMAX run.
+- **Labour nudged to 38%.** Reform still leads the vote average (~24.7%) but posted its weakest share in 18 months; a late-June MRP projects Labour as the largest party on seats (~217) via FPTP vote efficiency.
+- **OpenAI + Anthropic ARR near-certain (99%).** Combined run-rate is already ~$80B mid-2026 (Anthropic ~$47B, OpenAI ~$33B), far above the $70B bar.
+- **UK macro/geopolitics steady.** UK CPI <2.0% before 2027 holds at 3% (June print 2.6%, short runway); China–Taiwan blockade/invasion holds at 8% (coercion over kinetic action; Xi's PLA purge delays the timetable); UK 2030s real GDP >1.5% holds at 34%; consultancy −33% holds at 23%.
+
+## Movements since last update
+
+- **Labour largest party next GE:** 37% → 38% (+1pp)
+- **Spider-Man BND >$1.5B by 2026:** 85% → 88% (+3pp)
