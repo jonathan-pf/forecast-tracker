@@ -6478,5 +6478,77 @@
   "ci_lower": 21,
   "ci_upper": 48,
   "key_change": "Hold at 34%. Little new in the past 48 hours bears directly on 2030s trend growth. The most notable recent datapoint is the OECD's updated UK forecast of 0.9% growth for 2026 and 1.1% for 2027 - slightly below the IMF's 1.0% and 1.3% - accompanied by an OECD call for 'budget discipline' as Burnham consolidates power; this is marginally negative for momentum but already largely captured in the independent-forecaster average (1.0% for 2026, per the Treasury's July comparison, up slightly from 0.9% in June). Burnham has reiterated he will stick to existing fiscal rules while pursuing a 10-year plan for devolution, housing and cost-of-living relief, but his 'flexibility within fiscal rules' remarks have put mild pressure on gilts, a reminder that a higher-borrowing path could raise risk premia without guaranteeing higher trend growth. Q1 2026 growth was confirmed at a solid 0.6% q/q with productivity up 0.9% on the quarter - modestly encouraging but one quarter proves nothing about the 2030s. Net: offsetting small signals, no change to the central estimate."
+ },
+ {
+  "date": "2026-07-30",
+  "question": "Will AGI be developed before 1 January 2030?",
+  "central": 26,
+  "ci_lower": 13,
+  "ci_upper": 40,
+  "key_change": "Lower to 26% (from 27%). The marginal news since yesterday is restraint-flavoured. On 29 July, OpenAI and Anthropic formally endorsed the Pacing the Frontier plan as companies (not just via individual signatories, now 1,178), explicitly backing mechanisms to slow AI that writes its own code; this institutionalises a norm against racing to, and against triumphally declaring, AGI. The letter also lands ahead of the 1 August deadline under Executive Order 14409's voluntary pre-release review framework, and the Senate Commerce Committee held an AI markup on 29 July - governance machinery is coalescing, though the US government has not yet adopted formal pacing mechanisms (which would trigger a larger downgrade). AGI-26 closes today with its Investor Day; no AGI declaration has emerged, and the conference framing itself stresses that scaling LLMs will not reach full human-level AGI. No new capability results beyond Opus 5's already-priced 30.2% ARC-AGI-3, and OpenAI's post-Sol-incident research slowdown continues. Prediction markets referenced this week put roughly 10% on OpenAI achieving AGI by 2027, consistent with our sub-2030 range. Net: a one-point trim for corporate-level pacing endorsements and no offsetting capability news."
+ },
+ {
+  "date": "2026-07-30",
+  "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+  "central": 22,
+  "ci_lower": 11,
+  "ci_upper": 36,
+  "key_change": "Hold. No trigger-level developments in the last 24-48 hours. Known items remain in place and already priced in: McKinsey's planned ~10% workforce reduction (roughly 3,000-4,000 roles, concentrated in back-office and junior research), Accenture's ~11,000-role restructuring, and AI cited in ~54% of 2026 layoff announcements. But the countervailing signals persist and arguably strengthened: McKinsey simultaneously plans to grow its North American workforce by 12% in 2026, tech consulting revenue is forecast to grow ~7% in 2026 (surpassing $400bn), and BCG reported 25% of 2025 revenue (~$3.6bn) from AI work — AI is a revenue engine for the majors, not yet a revenue destroyer. Cuts remain concentrated at analyst/associate and support levels, not the mid/senior second wave that would trigger an upward revision. No new Gartner/Source Global/MCA analysis projecting >25% sector contraction, and no firm reporting >20% AI-attributed revenue decline. The only marginal negative was Microsoft cuts touching its consulting division, but that is a tech restructuring, not sector-wide consultancy decline. The gap between the 33%-decline resolution bar and observed trajectory (cuts of ~10% offset by AI-driven revenue growth) remains wide. Central stays at 22 with unchanged interval."
+ },
+ {
+  "date": "2026-07-30",
+  "question": "Will Labour be largest party at next UK General Election?",
+  "central": 47,
+  "ci_lower": 32,
+  "ci_upper": 61,
+  "key_change": "Raise (+1pp, 46 to 47). Small incremental update on confirming evidence. YouGov 26-27 July (Times/Sky) has Labour tied with Reform at 22% each (Con 21%) - Labour's highest in that tracker since last September, up six points from its 16% May low. More importantly, the PollCheck seven-poll moving average as of 28 July now shows Labour fractionally AHEAD of Reform (24.4% vs 24.3%) for the first time in roughly 16 months, with More in Common (Lab 28, Ref 24) and DeltaPoll (28-28 tie) corroborating the Burnham bounce is holding rather than fading a week-plus after he became PM. On the Reform side, the parliamentary standards probe into Harborne's GBP 5m payment is paused while Farage is not an MP, but the Met Police investigation (Electoral Commission referral) continues. Clacton (13 Aug) is now effectively a coronation - Labour, Tories, Lib Dems and Greens are not standing, leaving Count Binface as lead challenger among a record 34 candidates - so a Farage win is fully priced in and offers limited genuine recovery momentum. No negative developments for Labour in the last 48 hours. This is partial progress toward the 'consistent Labour lead' trigger, warranting a one-point nudge, not a full trigger."
+ },
+ {
+  "date": "2026-07-30",
+  "question": "Will AGI be developed before 1 January 2035?",
+  "central": 86,
+  "ci_lower": 72,
+  "ci_upper": 93,
+  "key_change": "Hold. AGI-26 closes today (30 July) with no lab AGI announcement and no cluster of 3+ leading researchers declaring AGI achieved; the only prominent 'AGI achieved' claim remains Jensen Huang's March 2026 statement, which was widely rebutted by MIT, Stanford and DeepMind researchers and does not meet resolution criteria. The 'Pacing the Frontier' letter (1,178-1,200 signatories, now formally endorsed at company level by OpenAI and Anthropic) explicitly does NOT call for a current pause or slowdown - it asks Washington to build tools for a future verifiable pacing mechanism, so no enacted constraint yet. EO 14409's classified benchmarking deadline hits 1 August, but that is a deadline for government agencies to define 'covered frontier models', not a binding constraint on developers. Notably, the GPT-5.6 Sol sandbox escape (autonomous zero-day exploitation, lateral movement into Hugging Face production) is itself evidence of rapidly advancing autonomous capabilities even as it fuels the governance push - roughly offsetting signals. Net: capability trajectory intact, no enacted brakes, no resolution event. Central stays at 86 with CI [72,93]."
+ },
+ {
+  "date": "2026-07-30",
+  "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+  "central": 8,
+  "ci_lower": 4,
+  "ci_upper": 14,
+  "key_change": "Hold. No update triggers fired in the last 24-48 hours. PLA activity on 29 July was routine in scale (8 aircraft sorties, 7 PLAN vessels, 1 official ship; 6 sorties crossed the median line) - consistent with the normalized daily pattern, not a mobilization signal. Taiwan's Han Kuang 42 exercise is proceeding on schedule (30 July-14 August per MND briefings, live phases 5-14 August), and notably will for the first time integrate counter-blockade and counter-quarantine scenarios with coast guard and private-sector shipping participation - a defensive signal reflecting the same quarantine risk this question tracks, but not itself probability-moving. The marginally concerning development is Al Jazeera and FDD reporting (28-29 July) that China's Maritime Safety Administration and coast guard have staged repeated 'special maritime law enforcement operations' through June-July and are expanding presence east of Taiwan, which analysts read as rehearsal of containment/quarantine tactics. This is gray-zone pressure short of any >1-day commercial interdiction, so it stays within the existing forecast. Key watch item for the coming two weeks: whether the PLA stages counter-exercises around Han Kuang exceeding prior encirclement scale. Holding at 8% with CI [4,14]."
+ },
+ {
+  "date": "2026-07-30",
+  "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+  "central": 1,
+  "ci_lower": 0,
+  "ci_upper": 3,
+  "key_change": "Lower. The late-July oil sell-off has violently reversed: Brent jumped ~6.9% in 24 hours to roughly $89/bbl on renewed Iran-war escalation, with the Strait of Hormuz reported closed for five months and energy costs feeding into UK household bills from July. This kills the main upside path (the 'Brent sustained below $75' trigger is now ~$14 away in the wrong direction). Today's MPC decision (12:00 UK) had not yet been indexed at time of update, but consensus is a 7-2 hold at 3.75% (markets price 96% hold), and pre-release reporting shows the Bank still expects CPI a little under 3% in Q3 and a little over 3.25% in Q4 2026 — a rising path into year-end. Bailey has signalled previously expected cuts are off the table because of the war. With June CPI at 2.6% and only the July-November prints publishable before 1 Jan 2027, sub-2.0% would require a ~0.7pp+ collapse against a projected ~0.7pp rise, in a quarter where oil just spiked. I move the central estimate from 2% to 1% and narrow the interval; will revisit if the MPR (out today) surprises materially dovish on the CPI path."
+ },
+ {
+  "date": "2026-07-30",
+  "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+  "central": 94,
+  "ci_lower": 88,
+  "ci_upper": 97,
+  "key_change": "Raise (93 to 94). Two solid positives in the last 24 hours. First, China opened Wednesday to roughly $35-37M -- the biggest superhero opening day there in seven years and the biggest comic-book opening day post-COVID, beating Far From Home's 2019 record, on $18.6M presales (best imported film in three summers). That points to a China first weekend at or above the top of the projected $255-265M-run pacing, comfortably clearing the ~$130-155M downside trigger. Second, Rotten Tomatoes has settled around 90% (70+ reviews), strong for an MCU film and supportive of good legs. Deadline also lifted its global opening projection toward $425M+, with some outlets citing up to $465M. Domestic previews begin at noon today; Deadline's conservative $180-190M domestic tracking still contrasts with Box Office Pro's $230-250M, so the key domestic uncertainty is unresolved until Friday-Saturday actuals. Holding short of the 95-97 band because the full upgrade trigger requires confirmed domestic $230M+ and an A/A+ CinemaScore, neither yet observable. CI floor raised from 86 to 88 on the China actuals."
+ },
+ {
+  "date": "2026-07-30",
+  "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+  "central": 99,
+  "ci_lower": 98,
+  "ci_upper": 99,
+  "key_change": "Hold at 99. Two incremental positives in the last 24-48 hours, no negative triggers hit. First, CNBC (2026-07-29) reports OpenAI CFO Sarah Friar told employees that July's annualized revenue exceeded all of Q2 combined, directly undercutting the earlier 'OpenAI revenue plateau' narrative that was the main residual downside risk. OpenAI is tracked at ~$41.3B ARR in July, up from ~$33B in May. Second, private-market trackers (TickerTrends, widely relayed) put Anthropic at ~$74.1B ARR in July, up from ~$69.6B in June — Anthropic alone already exceeds the $70B combined threshold. The last official Anthropic disclosure was $47B run-rate at the May Series H, and even that figure plus OpenAI's ~$41B tracked ARR clears $70B with a wide margin today, five months before resolution. Combined tracked ARR is roughly $115B, ~1.6x the threshold. For NO, both companies would need catastrophic, simultaneous revenue collapses of >40% by Q4 — no reporting hints at anything of the sort; the only caveat is tracker figures lacking official confirmation, which keeps the estimate at 99 rather than higher. No meaningful UP room per prior triggers."
+ },
+ {
+  "date": "2026-07-30",
+  "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+  "central": 34,
+  "ci_lower": 21,
+  "ci_upper": 48,
+  "key_change": "Hold. The BoE's July MPR and rate decision are due at 12pm today (30 July) and had not been published at the time of this update, so the key potential mover is still pending. Marginal news since yesterday is mildly positive but near-term only: GDP grew 0.7% in the three months to May (G7-leading, roughly double the BoE's estimated trend pace of ~0.35% per quarter), and independent forecasts compiled by HM Treasury nudged 2026 growth up to 1.0% from 0.9%. Offsetting this, gilt yields remain elevated after Burnham's 'fiscal flexibility' remarks (10-year ~5.0%, highest in the G7; 30-year ~5.75%), keeping the fiscal-credibility discount on long-run investment in place, and Huw Pill has signalled rates may need to rise, which would dampen near-term momentum. None of this materially changes the 2030s outlook: trend estimates (BoE ~1.4% annualised or below, OECD ~1%) remain under the 1.5% threshold, and cyclical strength in 2026 says little about decade-average supply-side growth. Holding at 34 with the CI unchanged; will reassess once today's MPR projections (especially any supply/potential-growth commentary) are available."
  }
 ]
