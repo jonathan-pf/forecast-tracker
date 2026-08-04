@@ -1,28 +1,30 @@
-# Latest Forecast Summary — 3 August 2026
+# Daily Forecast Summary — 4 August 2026
 
-| Question | Central | 80% CI | Change vs 1 Aug |
+| Question | Central | 80% CI | Change vs 3 Aug |
 |---|---|---|---|
-| AGI before 2030 | 27% | 14–41% | +1pp |
-| Economic consultancy loses ≥33% value/jobs by 2030 (AI) | 22% | 11–36% | — |
-| Labour largest party at next UK GE | 49% | 34–63% | +2pp |
-| AGI before 2035 | 86% | 72–93% | — |
-| China blockades/invades Taiwan before 2030 | 8% | 4–14% | — |
-| UK CPI below 2.0% before 2027 | 1% | 0–3% | — |
-| Spider-Man: Brand New Day >$1.5B by end 2026 | 98% | 95–99% | +1pp |
+| AGI before 1 Jan 2030 | 27% | 14–41% | — |
+| Economic consultancy loses ≥33% value/jobs by end 2030 (AI) | 22% | 11–36% | — |
+| Labour largest party at next UK GE | 49% | 34–63% | — |
+| AGI before 1 Jan 2035 | 86% | 72–93% | — |
+| China blockade/invasion of Taiwan before 2030 | 8% | 4–14% | — |
+| UK CPI below 2.0% before 1 Jan 2027 | 1% | 0–3% | — |
+| Spider-Man: Brand New Day >$1.5B WW by end 2026 | 99% | 97–100% | ▲ +1 |
 | OpenAI + Anthropic combined ARR >$70B by end 2026 | 99% | 98–99% | — |
-| UK avg real GDP growth >1.5% in 2030s | 34% | 21–48% | — |
-
-## Movements
-
-- **AGI before 2030: 26% → 27%.** Two developments since 30 July partially reverse the one-point governance trim taken last update. First, on 30 July OpenAI claimed GPT-5.6 Sol is now state-of-the-art on ARC-AGI-3: with 'retained reasoning and compaction' the public-set score jumps from 13.3% to 38.3% with roughly 6x fewer output tokens, leapfrogging Opus 5's 30.2% (which was the only priced-in capability datapoint).
-- **Labour largest party at next UK GE: 47% → 49%.** Two genuinely new pieces of evidence since 30 July. First, the PollCheck seven-poll moving average as of 1 August shows Labour at 25.9% vs Reform 23.7% (Con 19.9%) - the fractional 0.1pp edge of 28 July has widened to a 2.2pp lead, meaning the Burnham bounce is not just holding but compounding across pollsters rather than being a single-house artefact.
-- **Spider-Man: Brand New Day >$1.5B by end 2026: 97% → 98%.** Opening-weekend actuals (1-2 August) fired every upgrade trigger at once and then some. Domestic opened to an estimated $355M - second-biggest of all time, just shy of Endgame's $357M and roughly 55% above the $230M top of pre-release tracking - off a record $75M Thursday and $168M Friday.
-
-Holds: Economic consultancy loses ≥33% value/jobs by 2030 (AI), AGI before 2035, China blockades/invades Taiwan before 2030, UK CPI below 2.0% before 2027, OpenAI + Anthropic combined ARR >$70B by end 2026, UK avg real GDP growth >1.5% in 2030s.
+| UK avg real GDP growth >1.5% across 2030s | 34% | 21–48% | — |
 
 ## Key takeaways
 
-- **Spider-Man: Brand New Day is now near-certain (98%)** after a historic $927M global opening weekend (second-best ever; $355M domestic), an A CinemaScore and 98% audience score — only a ~1.62x global multiplier is now needed against a genre floor of ~2.0x.
-- **AGI-2030 edged back up to 27%**: OpenAI reported GPT-5.6 Sol at 38.3% on ARC-AGI-3 (from 13.3%), the second state-of-the-art jump in a week, while the 1 August EO 14409 deadline passed with no public deliverables, weakening the governance-restraint story.
-- **Labour ticked up to 49%** on a widened PollCheck average lead (+2.2pp) and a comfortable Greater Manchester mayoral hold against Reform, though this is treated as a honeymoon-bounce signal ~3.5 years out.
-- The remaining questions were quiet: the Bank of England's hawkish July MPR (6-3 hold, CPI peaking at 3.2% in Q4 2026) keeps sub-2% CPI before 2027 at 1%, PLA activity around Taiwan remains routine ahead of Han Kuang 42's live-fire phase (5–14 Aug), and consultancy cuts remain concentrated below the trigger threshold while AI-driven revenue grows.
+1. **A quiet, high-discipline day: eight holds, one raise.** The 3–4 August window was dominated by verification of earlier claims rather than new signal, and in two cases yesterday's evidence partially deflated on inspection.
+
+2. **Spider-Man: Brand New Day up to 99% (from 98%).** Monday actuals revised the opening UP to a record $360M domestic / $932M global — the biggest domestic opening in history, past Endgame — and the film crossed $1B worldwide within ~4 days. Only a ~1.61x multiplier is now needed against a historical worst case of 2.29x; the question is close to effective resolution, likely within 2–3 weeks.
+
+3. **The ARC-AGI-3 "SOTA jump" priced into AGI-2030 yesterday turned out to be a harness dispute.** Under the official ARC Prize harness GPT-5.6 Sol scores 7.78%, not the self-reported 38.3%; Opus 5's 30.2% stands as official SOTA. Offsetting: an OpenAI model disproved a 1946 Erdős conjecture (~$2,000 compute) with Fields Medalist Timothy Gowers calling it Annals-worthy — the first clear crossing from benchmarks into verifiable original research. Net wash; AGI-2030 holds at 27%.
+
+4. **Consultancy verification cut both ways.** The "EY UK senior cuts" story traces to December 2024 (soft demand, not AI), and Deloitte's title overhaul is re-titling rather than headcount decline — but Revelio Labs postings data (consulting hiring ~20% below 2023 peak, consultant postings ~40% lower) is a genuine leading indicator of pyramid compression. Signals cancel; hold at 22%.
+
+5. **Watch items for the coming fortnight:** Han Kuang 42 live-fire phase (5–14 Aug — a PLA counter-exercise would move Taiwan up 1–2pp; a quiet passage supports shaving to 7%); Clacton by-election (13 Aug); UK July CPI print (19 Aug); Ofgem October cap announcement (by 26 Aug); Iran peace talks after Brent's 5% fall to ~$84 on 3 Aug.
+
+## Movements
+
+- **Spider-Man: Brand New Day >$1.5B (98 → 99, CI narrows to [97,100])**: record $360M domestic opening confirmed in actuals; $1B worldwide crossed in ~4 days; trackers projecting a $2.1B+ finish. Remaining NO paths are systemic shocks only.
+- All eight other questions held, with no update triggers fired in the 3–4 August window.
