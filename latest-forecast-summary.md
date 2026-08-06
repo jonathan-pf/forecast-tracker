@@ -1,30 +1,25 @@
-# Daily Forecast Summary — 5 August 2026
+# Latest Forecast Summary — 2026-08-06
 
-| Question | Central | 80% CI | Change vs 4 Aug |
+| Question | Central | 80% CI | Δ vs 2026-08-05 |
 |---|---|---|---|
-| AGI before 1 Jan 2030 | 28% | 15–42% | ▲ +1 |
-| Economic consultancy loses ≥33% value/jobs by end 2030 (AI) | 22% | 11–36% | — |
-| Labour largest party at next UK GE | 49% | 34–63% | — |
-| AGI before 1 Jan 2035 | 86% | 72–93% | — |
-| China blockade/invasion of Taiwan before 2030 | 8% | 4–14% | — |
-| UK CPI below 2.0% before 1 Jan 2027 | 1% | 0–3% | — |
-| Spider-Man: Brand New Day >$1.5B WW by end 2026 | 99% | 98–100% | — (CI floor 97→98) |
-| OpenAI + Anthropic combined ARR >$70B by end 2026 | 99% | 98–99% | — |
-| UK avg real GDP growth >1.5% across 2030s | 34% | 21–48% | — |
-
-## Key takeaways
-
-1. **Eight holds, one raise.** The 4–5 August window brought one genuine capability signal (OpenAI's Astra maths results) and otherwise confirmation of existing storylines.
-
-2. **AGI-2030 up to 28% (from 27%).** The Erdős disproof priced on 4 Aug turned out to be part of a much larger OpenAI release: ten decade-old open problems solved with fully verified Lean proofs by internal model "Astra", teased as its next major model (TechTimes, Forbes, Quartz, The Decoder, 2–4 Aug). This partially meets the pre-registered "multiple verified novel research results" up-trigger. Capped at +1 because experts uniformly frame Astra as a specialised tool, no researcher has made an AGI declaration, and the ARC-AGI-3 harness dispute is still unresolved. AGI-2035 holds at 86% — the release is confirmatory of a cadence already priced in.
-
-3. **Spider-Man is effectively resolved-in-waiting.** 4 Aug data confirmed a record $47M Monday, fastest-ever to $400M domestic, and $1B worldwide in six days (correcting yesterday's "~4 days"). Only a ~1.55x multiplier is needed against a 2.29x historical worst case. Hold at 99% with the CI floor raised to 98.
-
-4. **UK cluster fully quiet.** New polls 4 Aug point opposite ways and cancel (YouGov: Reform nominally +1; JL Partners/Bloomberg: first Labour lead with that pollster since March 2025) — poll average unchanged at Lab ~26 / Ref ~24. Brent's 3 Aug dip partially reversed toward $85; no August MPC meeting exists (next decision 17 September); sub-2% CPI remains outside every published forecast range. Long-run growth anchors all stand.
-
-5. **Watch items:** Han Kuang 42 live-fire phase runs 5–14 Aug — it began today on schedule with PLA activity at or below the quiet 2026 baseline (6 sorties on 4 Aug) and no Eastern Theater counter-exercise; a quiet passage would support shaving Taiwan to 7%. Also: Clacton by-election (13 Aug), UK July CPI print (19 Aug), Ofgem October cap (by 26 Aug), Anthropic's August–September roadshow forcing audited ARR disclosure.
+| AGI before 2030 | 28% | [15, 42] | — |
+| Consultancy loses ≥33% to AI by 2030 | 22% | [11, 36] | — |
+| Labour largest party at next GE | 49% | [34, 63] | — |
+| AGI before 2035 | 86% | [72, 93] | — |
+| China blockades/invades Taiwan by 2030 | 8% | [4, 14] | — |
+| UK CPI <2.0% before 2027 | 2% | [0, 4] | +1pp |
+| Spider-Man: BND >$1.5B in 2026 | 99% | [98, 100] | — |
+| OpenAI+Anthropic ARR >$70B in 2026 | 99% | [98, 99] | — |
+| UK GDP growth >1.5% avg in 2030s | 34% | [21, 48] | — |
 
 ## Movements
 
-- **AGI before 2030 (27 → 28, CI [15,42])**: OpenAI's "Ten advances" release — ten decade-old open maths problems with verified Lean proofs from the unreleased Astra model — partially fires the "multiple verified novel research results" up-trigger; first clear crossing from benchmarks into a portfolio of verifiable original research.
-- All eight other questions held; the only pre-registered trigger activity in the 4–5 August window was the partial Astra trigger above.
+- **UK CPI <2.0% before 2027**: 1% → 2% (+1pp)
+
+## Key takeaways
+
+- **Quiet news window overall**: eight of nine forecasts held. The only move was UK CPI <2.0% before 2027, raised from 1% to 2% after Brent crude fell >10% in three sessions to ~$79 on an Iran–Oman Hormuz shipping agreement with a US deal reportedly imminent, and Cornwall Insight cut its October Ofgem cap forecast to a slight fall (~£1,849) versus the previously assumed rise. The pre-registered trigger (signed deal plus Brent held below $70 for 3+ weeks) has not fired, capping the move at 1pp.
+- **AGI 2030 holds at 28%**: the 5–6 Aug window brought only digestion of the 1 Aug OpenAI Astra release (explanatory companion paper by nine mathematicians including Gowers and Alon, with no AGI framing), an unchanged ARC-AGI-3 leaderboard (Opus 5 at 30.2% official SOTA), and continued EO 14409 silence.
+- **Taiwan holds at 8%**: Han Kuang 42's live-force phase opened 5 August exactly as scheduled; Beijing's response so far is rhetorical only ("political show" commentary in Global Times), with PLA activity at the quiet post-summit baseline. A clean passage through 14 August would support shaving toward 7%.
+- **Spider-Man (99%) and combined ARR (99%)** remain at the calibration cap: the film set a biggest-ever Tuesday record ($42M) with $1.1B worldwide in six days, and the official-only ARR sum ($47B + $25B = $72B) already clears the $70B threshold.
+- **Labour largest party stays at coin-flip territory (49%)** with no new national poll in the window; the Clacton by-election (13 Aug) is the next scheduled information event.
