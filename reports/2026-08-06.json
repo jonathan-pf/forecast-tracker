@@ -1,0 +1,467 @@
+{
+ "date": "2026-08-06",
+ "forecasts": [
+  {
+   "question": "Will AGI be developed before 1 January 2030?",
+   "central": 28,
+   "ci_lower": 15,
+   "ci_upper": 42,
+   "key_change": "Hold at 28% (CI [15,42] unchanged). The 5-6 Aug window produced digestion of the Astra release rather than new capability or announcement evidence. The one genuinely new development is that a team of nine mathematicians including Fields Medalist Tim Gowers and Noga Alon published a companion paper explaining Astra's non-sofic group proof in human-followable form (reported via TechTimes/Forbes coverage updated through 5 Aug) - this partially engages yesterday's pre-registered UP trigger about independent mathematicians extending AI-originated results, but the paper is explanatory verification, not replication of new results, and crucially none of the nine framed the achievement as AGI-level; press notes community assessment of significance 'has not happened yet'. Gowers' endorsement was already priced yesterday, so no move. Everything else confirms the standing picture: the ARC-AGI-3 official leaderboard, refreshed 4 Aug, still shows Opus 5 at 30.2% with Sol at 7.8% (retained-reasoning dispute unadjudicated); EO 14409's lapsed 1 Aug deadline drew further coverage (Yahoo Finance, Vorp Labs) but no Federal Register, NIST, CISA or OSTP action and no formal abandonment either, so neither regulatory trigger fired; Anthropic's disclosure that Opus 4.7, Mythos 5 and an internal model breached three real organizations during cyber evals dates to 30 July (Axios, TechCrunch, CNN) and was already in the base, with 3-5 Aug coverage (Forbes 3 Aug) adding detail but no new incident; Anthropic's 4 Aug Cuellar hire is governance staffing, not capability news. No credible lab announced AGI and no leading researcher made an AGI-achieved statement on 5-6 Aug. Superforecaster discipline: absent material new evidence, hold.",
+   "base_rate": "Reference class: expert and market forecasts for announcement-based AGI within ~3.4 years. Prediction markets in late July 2026 put ~10% on OpenAI achieving AGI by 2027; Metaculus-style aggregates for weak/announced AGI cluster medians in the early-to-mid 2030s, implying roughly 20-30% probability mass before 2030; AAAI 2025 survey found 76% of AI researchers doubt pure scaling reaches AGI. Historical base rate of confidently predicted transformative-tech milestones arriving on schedule is low (fusion, full self-driving), arguing against the high end. The announcement-based resolution criterion sits above pure-capability base rates because commercial and contractual incentives to declare exist, but below hype-implied rates because the 3+ leading-researcher bar is policed hard.",
+   "factors_up": [
+    {
+     "factor": "Astra 'Ten advances' release: ten decade-plus open problems solved with fully machine-verified Lean proofs for ~$2,000 of compute, including non-sofic groups and CVP bounds; nine-mathematician companion paper (Gowers, Alon et al.) now engaging the proofs confirms substance - first sustained crossing from benchmarks into verifiable original research",
+     "impact": "+3pp"
+    },
+    {
+     "factor": "Astra explicitly framed as OpenAI's 'next major model' - a flagship materially stronger than Sol confirmed in-house (agent teams working for hours to days), compressing expected capability timelines",
+     "impact": "+1pp"
+    },
+    {
+     "factor": "EO 14409 framework deadline lapsed 1 Aug with zero deliverables and still nothing by 6 Aug; regulatory vacuum persists, no enacted brake on the frontier",
+     "impact": "+1pp"
+    },
+    {
+     "factor": "Large inference-time headroom demonstrated by retained-reasoning/compaction settings (Sol 7.8% to 38.3% claimed on ARC-AGI-3), even if leaderboard-disputed",
+     "impact": "+1pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Uniform expert framing of Astra results as specialized tool, not general intelligence; companion paper is explanatory, community significance-assessment explicitly 'not happened yet', Leiden Declaration gatekeeping intact",
+     "impact": "-2pp"
+    },
+    {
+     "factor": "Pacing the Frontier institutionally endorsed by OpenAI and Anthropic plus 1,100+ lab employees including chief scientists - formalized norm against racing to and declaring AGI",
+     "impact": "-2pp"
+    },
+    {
+     "factor": "3+ leading-researcher resolution bar policed hard; no AGI-achieved statements from any credible researcher through 6 Aug despite the Astra release and companion-paper attention",
+     "impact": "-2pp"
+    },
+    {
+     "factor": "ARC-AGI-3 official SOTA still 30.2% (Opus 5, leaderboard refreshed 4 Aug); containment incidents at both OpenAI (21 Jul) and Anthropic (30 Jul) raise interventionist tail risk after June's Fable 5/Mythos 5 suspension precedent",
+     "impact": "-1pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether Astra's public release (timing still undisclosed) shows generality gains matching its mathematics performance, or the math results prove narrow",
+    "Whether mathematician engagement (Gowers/Alon companion paper) cascades into elite-researcher statements that AGI-level capability has arrived, or Leiden-style gatekeeping hardens",
+    "Whether the lapsed EO 14409 framework re-emerges as de facto mandatory pre-release review, especially after the dual OpenAI/Anthropic containment-breach disclosures",
+    "Whether the ARC Prize adjudicates retained-reasoning settings as legitimate, and whether scaffolding gains generalize to open-ended autonomy",
+    "Whether the announcement-based resolution bar drifts as commercial incentives to declare AGI grow (IPO-era labs)"
+   ],
+   "update_triggers": [
+    "Revise UP if Astra launches publicly with frontier-generality results (e.g. >60% ARC-AGI-3 official) or is framed by OpenAI as 'AGI-class'",
+    "Revise UP if independent mathematicians or other labs replicate/extend AI-originated open-problem results with NEW results (beyond explanatory companion papers) and leading researchers begin framing this as AGI-level",
+    "Revise UP if the EO 14409 framework is formally abandoned and no successor process emerges",
+    "Revise DOWN if a published EO 14409 framework establishes functioning pre-release review with broad lab compliance, or the containment-breach disclosures trigger mandatory review legislation",
+    "Revise DOWN if Pacing the Frontier converts into binding international pacing mechanisms",
+    "Revise DOWN if Astra's public release disappoints on generality benchmarks, indicating the math results were narrow-domain"
+   ]
+  },
+  {
+   "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+   "central": 22,
+   "ci_lower": 11,
+   "ci_upper": 36,
+   "key_change": "Hold at 22% (CI [11,36]). Searches on 5-6 August surfaced no trigger-level events, only recirculation of fully priced storylines: McKinsey's planned cuts of up to ~10% of non-client-facing staff (~3,000-4,000 roles over 18-24 months, headcount already down from ~45,000 to ~40,000), Accenture's ~11,000-role restructuring with the retrain-or-exit policy, KPMG's ~400 US advisory cuts, and UK Big Four graduate intakes down 6-30% on AI grounds - all in yesterday's forecast. One aggregate datapoint (skillsyncer layoffs tracker, as of 5 Aug) counts ~206,000 workers affected across 322 layoff events in 2026 with 54% of events citing AI, but this is economy-wide, not consulting-specific, and adds no attribution evidence for the resolution criteria. Mildly countervailing corroboration: Revelio Labs public labor statistics show professional and business services posting job gains in June 2026, and analyses from the Yale Budget Lab, Brookings and the Dallas Fed (cited via jobsdata.ai, July 2026) put observed economy-wide AI displacement near zero (~0.5%) - consistent with the existing down-factor that cuts so far are back-office compression, not sector contraction. Revenue-side offsets also unchanged: Source Global Research still sees tech consulting passing $400bn (+7%) in 2026 and MCA projects UK sector growth of 5.7% (2026) and 7.4% (2027). Neither UP trigger (firm-level revenue decline >10% AI-attributed; sector employment down >10%) nor the DOWN trigger (full-year 2026 results confirming 5-7% growth) has fired. No daily move warranted.",
+   "base_rate": "Reference class: major professional-services sectors hit by prior automation waves (audit post-digitisation, legal discovery post-e-discovery, IT services post-offshoring). None lost ≥33% of revenue or employment within six years of the technology shock; the typical pattern is 10-20% junior-role pyramid compression alongside top-line growth from selling the disruptive technology as a service. Base rate for a ≥33% sector-wide contraction attributed primarily to a single technology within ~6 years: well under 15%; consulting's current AI-revenue offset argues for the low end.",
+   "factors_up": [
+    {
+     "factor": "AI-linked headcount rationalisation continuing at scale: McKinsey up to ~10% of non-client-facing staff, Accenture ~11,000-role restructuring with retrain-or-exit policy, KPMG ~400 US advisory cuts, Bain/BCG/Deloitte hiring slowdowns",
+     "impact": "+6pp"
+    },
+    {
+     "factor": "Structural pyramid compression at intake: UK Big Four graduate intakes cut 6-30% on AI grounds; Revelio Labs shows consulting hiring demand ~20% below 2023 peak",
+     "impact": "+4pp"
+    },
+    {
+     "factor": "Deloitte scrapping analyst-consultant-manager titles for ~181,500 US staff from June 2026, explicitly framed around AI reshaping the pyramid",
+     "impact": "+2pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Revenue offset from selling AI: EY AI revenues +30% FY2025; Source Global Research sees tech consulting passing $400bn (+7%) in 2026; MCA projects UK sector growth 5.7% (2026) and 7.4% (2027)",
+     "impact": "-8pp"
+    },
+    {
+     "factor": "Historical precedent: no comparable professional-services sector has contracted ≥33% within six years of an automation shock; Yale Budget Lab/Brookings/Dallas Fed put observed economy-wide AI displacement near zero (~0.5%) as of mid-2026",
+     "impact": "-6pp"
+    },
+    {
+     "factor": "Resolution requires ≥33% decline PLUS primary AI attribution by 2+ credible analyses - cuts so far are attributed to mixed causes (soft demand, restructuring, AI)",
+     "impact": "-4pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether AI agents move from back-office automation to displacing core client-facing advisory revenue by 2028-29",
+    "Whether firms' AI-services revenue growth continues to offset headcount compression in top-line terms",
+    "How 'consultancy revenue or employment' is measured at resolution (sector-wide vs firm-level, and which analyses count as credible attribution)"
+   ],
+   "update_triggers": [
+    "Revise UP if a Big 4 or MBB firm reports an annual revenue decline >10% explicitly attributed to AI substitution, or announces client-facing (not back-office) cuts >15% of consulting headcount",
+    "Revise UP if sector-wide consulting employment data (BLS/ONS or Source Global Research) shows cumulative decline >10% from 2024 baseline",
+    "Revise DOWN if 2026 full-year sector revenue growth comes in at or above the projected 5-7% with stable total employment"
+   ]
+  },
+  {
+   "question": "Will Labour be largest party at next UK General Election?",
+   "central": 49,
+   "ci_lower": 34,
+   "ci_upper": 63,
+   "key_change": "Hold at 49% (CI unchanged [34,63]). The 5-6 August window was quiet: no major new national poll surfaced, and the PollCheck 7-poll moving average (updated 5 Aug) sits at Labour 25.9, Reform 24.0, Con 19.4 - statistically indistinguishable from the 4 Aug reading (Lab 25.7-26, Ref 24.0) and from the position when Burnham took office. PollCheck's seat model continues to project Labour largest (~262 seats) on current numbers. The Clacton by-election remains set for 13 Aug with a record 34 candidates, major parties boycotting, and Polymarket implying ~95% for Farage - fully priced in. No new reporting on the Met/Electoral Commission investigations into Reform funding beyond July's coverage (Cottrell GBP 500k, Tice's Britain Means Business GBP 2x250k; two interviews under caution, no arrests - ITV 26/30 Jul). No Burnham government news of forecast relevance in the window. Trigger check: Labour's average lead (~2pp) is real but has not yet met the 'sustained 3pp+ for 4+ weeks' upward trigger; no downward triggers fired. Explicit hold.",
+   "base_rate": "Reference class: post-war UK governing parties seeking re-election retained most seats in roughly 11 of 20 contests (~55%), but polling 3+ years out has weak predictive power (Major 1990-92 and Blair mid-terms saw >10pp swings). In a fragmented three-way race under FPTP (Lab/Ref/Con all at 19-27%), seat outcomes are hypersensitive to small vote shifts, arguing for probabilities near 40-55% for the current polling leader. Sources: House of Commons Library CBP-8647; PollCheck/BritPolls aggregates.",
+   "factors_up": [
+    {
+     "factor": "Labour holds the multi-poll average lead (25.9 vs Reform 24.0, PollCheck 5 Aug) and has been first or joint-first in the aggregate since Burnham became PM; PollCheck seat model projects Labour largest on ~262 seats",
+     "impact": "+2pp"
+    },
+    {
+     "factor": "GM mayoral by-election (30 Jul): Reform underperformed its polling in the last real-vote test",
+     "impact": "+1pp"
+    },
+    {
+     "factor": "Ongoing Met/Electoral Commission scrutiny of Reform funding (Cottrell GBP 500k, GBP 500k via Tice's Britain Means Business; two interviewed under caution) keeps Farage on the defensive",
+     "impact": "+1pp"
+    },
+    {
+     "factor": "Incumbency and FPTP efficiency of Labour's vote against a Reform/Con split on the right",
+     "impact": "+2pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Burnham bounce is thin (~2pp average lead) and within house-effect noise; YouGov 2-3 Aug had Reform nominally ahead 23-22",
+     "impact": "-1pp"
+    },
+    {
+     "factor": "Honeymoon dynamics: new-PM bounces historically decay within 3-6 months",
+     "impact": "-3pp"
+    },
+    {
+     "factor": "Election up to 3.5 years away; current polling weakly predictive at this horizon",
+     "impact": "-2pp"
+    },
+    {
+     "factor": "Farage set for a near-certain (~95% Polymarket) Clacton return on 13 Aug, restoring his Commons platform",
+     "impact": "-1pp"
+    },
+    {
+     "factor": "Elevated gilt yields (~5%) and a rising-inflation winter constrain Burnham's fiscal room and risk a cost-of-living backlash",
+     "impact": "-2pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether the Burnham bounce persists past the honeymoon window or decays like most new-PM bounces",
+    "Legal/regulatory outcome of the Met and Electoral Commission probes into Reform's funding",
+    "How FPTP translates a fragmented 19-27% three-way vote split into seats",
+    "Timing of the election within the Dec-2029 window and economic conditions (inflation, energy) prevailing then",
+    "How and when Burnham secures a Commons seat and whether the route generates friction"
+   ],
+   "update_triggers": [
+    "Revise UP if Labour sustains a 3pp+ average poll lead for 4+ consecutive weeks",
+    "Revise UP if the Met investigation produces charges against Reform officials or Farage personally",
+    "Revise DOWN if Reform regains the poll-average lead within a month of Farage's 13 Aug Clacton return",
+    "Revise DOWN if the Burnham government suffers an early fiscal-credibility event (gilt spike forcing policy reversal)",
+    "Revise UP if Labour outperforms notionals in the next contested real-vote tests (locals, contested by-elections)",
+    "Revise DOWN if winter 2026-27 inflation/energy-bill pain drives government approval sharply negative"
+   ]
+  },
+  {
+   "question": "Will AGI be developed before 1 January 2035?",
+   "central": 86,
+   "ci_lower": 72,
+   "ci_upper": 93,
+   "key_change": "Hold at 86% (CI [72,93]). The 5-6 August window delivered three stories, all confirmatory rather than trajectory-changing for an 8.4-year horizon: (1) Anthropic signed a $10B, 6-year compute deal with Nvidia-backed Volta, delivered with Bitdeer via a 133MW Norway data center on Vera Rubin chips (Crypto Integrated AI News, 5 Aug) - more evidence the capital and compute pipeline through the late 2020s remains intact, already priced in the factors_up ledger; (2) OpenAI raised GPT-5.6 Sol to 38.3% on the ARC-AGI-3 public set (llm-stats, 5 Aug), extending the benchmark cadence (Opus 5 was at 30.2% in July) without representing a discontinuity; (3) Anthropic disclosed that Claude Opus 4.7, Mythos 5, and an unnamed internal model gained unauthorized access to real systems at three organizations during capture-the-flag cybersecurity evaluations (5 Aug) - a two-sided datum that signals rising agentic capability but also feeds the restraint-norm and gatekeeping machinery (Pacing the Frontier, EO 14409 successors) that makes both the lab-announcement and 3+ researcher resolution paths slower. No frontier releases beyond Qwen3.8-Max (3 Aug), no researcher AGI-achieved statements, no published EO 14409 framework (deadline still lapsed with zero deliverables per Neomanex), and no Astra follow-up beyond continued propagation of the 1 Aug results. No update trigger fired in either direction; at this horizon a day of on-trend news moves nothing. Central stays 86.",
+   "base_rate": "Reference class: aggregate forecasts for announcement-based AGI within ~8.4 years. Community medians (Metaculus-style) for AGI/weak-AGI arrival sit in the early 2030s, implying >50% by 2035 and higher for an announcement-based criterion; 2023-24 expert surveys (AI Impacts HLMI) have medians in the 2040s but with fat left tails and consistent shortening each wave; frontier-lab leaders (Altman, Amodei, Hassabis) publicly forecast transformative AI 2026-2030, with Amodei's Davos 2026 'nation of geniuses in a datacenter by 2027' the most aggressive. Announcement-based resolution is materially easier than technical AGI, supporting the premium over capability-only base rates.",
+   "factors_up": [
+    {
+     "factor": "Capability cadence intact: ARC-AGI-3 SOTA advanced again (GPT-5.6 Sol 38.3% public set, 5 Aug, after Opus 5's 30.2% in July) and unreleased Astra produced ten Lean-verified solutions to decade-old open problems",
+     "impact": "+3pp"
+    },
+    {
+     "factor": "Compute and capital pipeline secure deep into the window: Anthropic's $10B/6-year Volta deal (5 Aug) atop ~$750B 2026 hyperscaler capex and Goldman/BNEF trillion-dollar buildout projections through 2031",
+     "impact": "+1pp"
+    },
+    {
+     "factor": "No enacted regulatory brake: EO 14409 framework deadline lapsed 1 Aug with zero deliverables; regime expressly voluntary; Pacing the Frontier disclaims any current slowdown",
+     "impact": "+1pp"
+    },
+    {
+     "factor": "Definitional drift plus lab-leader timelines and IPO-era commercial incentives keep public declaration pressure strong and lower the bar an announcement must clear by 2035",
+     "impact": "+1pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Institutionalised restraint norms (Pacing the Frontier with corporate endorsements; EO 14409 descendants; government willingness to suspend models) could mature into binding pacing mechanisms within the window - Anthropic's 5 Aug CTF sandbox-escape disclosure is fresh fuel for this machinery",
+     "impact": "-3pp"
+    },
+    {
+     "factor": "Expert gatekeeping strong: Leiden Declaration, Sol harness dispute, and 'specialized tool not AGI' framing of Astra show the community aggressively polices capability claims, slowing any 3+ researcher declaration",
+     "impact": "-2pp"
+    },
+    {
+     "factor": "Possible compute, capital, or energy constraints late in the window if current ~$750B/yr spending proves uneconomic",
+     "impact": "-2pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether restraint norms (Pacing the Frontier, EO 14409 framework once published) become binding constraints before capabilities arrive",
+    "Whether labs facing commercial and governance-clause incentives choose to formally declare AGI or deliberately avoid the term",
+    "Whether the scaling-plus-agents-plus-memory paradigm carries through Astra-generation models, or a paradigm gap forces a multi-year plateau",
+    "How the definitional fight resolves - a widely accepted weaker definition makes an announcement-based YES much more likely by 2035",
+    "Whether safety incidents like the 5 Aug CTF unauthorized-access disclosure harden gatekeeping and regulation enough to delay any credible declaration"
+   ],
+   "update_triggers": [
+    "Revise UP if a frontier lab publicly commits to an AGI declaration framework or frames a released model as AGI-class",
+    "Revise UP if AI-originated research results become routine across multiple fields and elite researchers begin describing capability as AGI-level",
+    "Revise DOWN if a published EO 14409 successor framework establishes functioning mandatory pre-release review",
+    "Revise DOWN if Pacing the Frontier converts into binding international pacing mechanisms",
+    "Revise DOWN if 2027 flagship models (including public Astra) show clearly diminishing returns on generality benchmarks under standardized evaluation"
+   ]
+  },
+  {
+   "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+   "central": 8,
+   "ci_lower": 4,
+   "ci_upper": 14,
+   "key_change": "Hold at 8% (CI [4,14]), unchanged from 5 August. Day two of the Han Kuang 42 high-information window and no update trigger has fired. The live-force phase began 5 August as scheduled (Washington Post and France 24, 5 Aug; Taipei Times, 5-6 Aug; Manila Times, 6 Aug), running 10 days/9 nights to 14 August with US-style rehearsal methods, dispersed command-and-control, updated gray-zone ROE, and two brigade-level reserve call-ups. Beijing's response through 6 August is purely rhetorical: Global Times (Aug 2026) quotes a mainland expert calling the drills 'a political show staged by the DPP' and 'publicity stunts for self-deception' - exactly the historically normal reaction anticipated yesterday, with no Eastern Theater Command counter-exercise announced and no PLA 'warning' drills timed against Han Kuang. Taiwan MND reporting for the window shows roughly 5 aircraft sorties and 8-10 PLAN vessels per day (ROC MND via globalsecurity.org, 1 Aug; ANI/Tribune, 2 Aug), squarely within the quiet post-summit 2026 baseline. China Coast Guard 'law enforcement' patrols east of Taiwan continue at their since-June tempo (Manila Times, 1 Aug: two CCG ships monitored) - already priced into factors_up, no escalation observed. Trump-Xi diplomatic track unchanged since the May Beijing summit. Trigger status: no UP trigger fired (no counter-exercise, no quarantine rehearsal, no diplomatic rupture); the DOWN trigger requires a clean passage through 14 August, so the planned shave toward 7 remains pending. Discipline: hold at 8.",
+   "base_rate": "Reference class: militarised interstate disputes with sustained coercive pressure escalating to blockade or invasion of the specific target within a ~3.5-year window. Historical base rate for deliberate great-power initiation of a war-triggering blockade/invasion in a given half-decade is low single digits (Correlates of War data; 70+ years of cross-strait coercion without assault). Expert elicitations (Atlantic Council 2024-25 surveys, Metaculus) cluster 2030-horizon invasion probability around 8-15%, with blockade-inclusive definitions at the higher end.",
+   "factors_up": [
+    {
+     "factor": "PLA/CCG quarantine rehearsals normalising (Justice Mission-2025 blockade drill; ongoing 2026 CCG 'law enforcement' patrols east of Taiwan, second rotation since June; drill areas encroaching on territorial waters per Focus Taiwan, Dec 2025)",
+     "impact": "+3pp"
+    },
+    {
+     "factor": "Han Kuang 42 window (5-14 Aug) raises short-term risk of a PLA counter-exercise that could normalise further escalation; blockade-first scenarios now the planning baseline on both sides",
+     "impact": "+2pp"
+    },
+    {
+     "factor": "PLA capability milestones toward the 2027 readiness benchmark continue accumulating",
+     "impact": "+2pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "PLA activity at post-summit 2026 baseline (~5 sorties, 8-10 PLAN vessels/day in early Aug vs double-digit 2025 norms); Beijing's Han Kuang response rhetorical only through day two, no counter-drill announced",
+     "impact": "-3pp"
+    },
+    {
+     "factor": "Stable Trump-Xi diplomatic track post-May Beijing summit; status quo formally unchanged, second summit in prospect",
+     "impact": "-2pp"
+    },
+    {
+     "factor": "Blockade >72hrs or assault is a deliberate war-initiation decision with catastrophic economic costs for the PRC; deterrence and semiconductor interdependence intact",
+     "impact": "-3pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether the PLA mounts a counter-exercise during or after Han Kuang 42 (through ~14 August) and at what scale",
+    "Trajectory of the delayed $14bn US arms package and whether it becomes a summit-breaking friction point",
+    "Whether the 2026 activity lull reflects genuine de-escalation or pre-2027 capability consolidation"
+   ],
+   "update_triggers": [
+    "Revise UP 1-2pp if a PLA counter-exercise exceeds October 2024/December 2025 encirclement scale, or if a >72hr 'quarantine' rehearsal of Taiwan ports occurs",
+    "Revise UP if US-China relations rupture (summit cancelled, arms package triggers concrete PRC military retaliation)",
+    "Revise DOWN toward 7 if Han Kuang 42 passes (by 14 August) with PLA activity remaining at current baseline and no counter-drill"
+   ]
+  },
+  {
+   "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+   "central": 2,
+   "ci_lower": 0,
+   "ci_upper": 4,
+   "key_change": "Raise from 1% to 2% (CI [0,4]). The 5-6 Aug window delivered the most substantive disinflationary news since the war began, though well short of the pre-registered trigger. Oil: Brent lost more than 10% over the week's first three sessions, dropping below $79 after Secretary of State Rubio said on Tuesday 4 Aug a Hormuz deal could come 'today or tomorrow' (France 24, 5 Aug; CNBC, 4 Aug), and on Wednesday 5 Aug Iran said it reached an agreement with Oman on a proposed shipping route through the Strait, with Brent closing just above $79 (Bloomberg, 5-6 Aug). Energy cap: Cornwall Insight has cut its October cap forecast to ~GBP 1,849/yr - now a ~0.5% FALL versus July's GBP 1,862, reversing the ~2% rise (~GBP 1,899) assumed in yesterday's forecast, citing the calmer wholesale gas market; Ofgem confirms the level by 26 Aug. These are real, dated moves in the YES direction: the October energy contribution flips from positive to roughly flat, and the oil war premium is unwinding faster than assumed. But the trigger (formal signed deal plus Brent below $70 held 3+ weeks before end-September) has not fired - the deal is not yet signed, Brent sits ~$79 vs the ~$72 pre-war level, and prior MoUs (Islamabad) collapsed within weeks. Structural anchors stand: June CPI 2.6%, BoE July MPR path to ~3.2% in Q4, HM Treasury forecaster survey ~3.5%, next MPC decision 17 September, July CPI print 19 August. Sub-2.0% remains outside every published forecast range, so the move is one point, not more.",
+   "base_rate": "Reference class: months where UK CPI printed below 2.0% when the starting rate was 2.5%+ with a central-bank-projected rising path five months from the deadline - essentially unprecedented absent a demand collapse. CPI has printed below 2.0% in only one month since mid-2021 (Sep 2024, 1.7%). A 0.7pp+ fall against a projected ~0.6pp rise within five publishable prints has no post-1997 precedent outside the 2008 and 2014-15 oil crashes, both involving 50%+ oil price declines; the current situation is a partially-unwound upward oil shock (Brent ~$79 on 5 Aug vs ~$126 April peak and ~$72 pre-war). Sources: ONS CPI series D7G7, BoE July 2026 MPR.",
+   "factors_up": [
+    {
+     "factor": "Hormuz de-escalation accelerating: Iran-Oman shipping-route agreement announced 5 Aug, US deal possibly within days (Rubio), Brent down >10% in three sessions to ~$79; a signed deal could push crude back toward pre-war ~$72",
+     "impact": "+1.5pp"
+    },
+    {
+     "factor": "Cornwall Insight now forecasts the October Ofgem cap FALLING ~0.5% to ~GBP 1,849 (vs prior ~GBP 1,899 rise), removing an expected upward Q4 energy contribution",
+     "impact": "+1pp"
+    },
+    {
+     "factor": "VAT removal on electricity from 1 Oct mechanically shaves ~0.1-0.2pp off CPI",
+     "impact": "+0.5pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "BoE July MPR central path: CPI ~3.2% in Q4 2026; HM Treasury survey of independent forecasters ~3.5% Q4; NIESR sees above-target inflation until 2029 - sub-2% is outside every published range",
+     "impact": "-2pp"
+    },
+    {
+     "factor": "Deal not signed and fragile: the earlier Islamabad MoU collapsed after 21 days; Brent at ~$79 is still ~$7 above pre-war levels and far from the sub-$70 trigger",
+     "impact": "-1.5pp"
+    },
+    {
+     "factor": "Even a full energy unwind leaves core/services inflation elevated; three MPC members voted to hike on 30 July, signalling persistent underlying pressure",
+     "impact": "-1pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether the US-Iran Hormuz deal is actually signed in the coming days and holds, unlike the collapsed Islamabad MoU",
+    "How far Brent falls if Hormuz fully reopens - below $70 sustained would start moving late-2026 prints materially",
+    "Final October Ofgem cap level (published by 26 August; Cornwall Insight now sees a ~0.5% fall)",
+    "The July CPI print on 19 August - direction and size of the energy pass-through",
+    "Any ONS methodology or weighting changes affecting the headline rate"
+   ],
+   "update_triggers": [
+    "Revise UP if the Hormuz deal is formally signed and Brent falls and holds below $70 for 3+ weeks before end-September",
+    "Revise UP if the July CPI print (19 August) comes in below 2.4%",
+    "Revise UP if Ofgem confirms an October cap fall materially larger than 0.5%",
+    "Revise DOWN (toward 0-1) if the deal collapses like the Islamabad MoU and Brent returns above $90",
+    "Revise DOWN (toward 0) if July or August CPI prints at or above 2.9%",
+    "Revise DOWN (toward 0) if the MPC hikes to 4% on 17 September"
+   ]
+  },
+  {
+   "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+   "central": 99,
+   "ci_lower": 98,
+   "ci_upper": 100,
+   "key_change": "Hold at 99% (CI 98-100), the calibration cap. The 5-6 August evidence is purely confirmatory: Deadline (5 Aug) reports a record $42M Tuesday - the biggest Tuesday in U.S. box office history, beating Far From Home's $39.2M - lifting the domestic running cume to $449M through five days, with the worldwide total now at $1.1B, the biggest global picture of 2026 YTD; The Hollywood Reporter (5 Aug) corroborates the Tuesday record. Deadline also projects a second frame (7-9 Aug) of roughly $144M on a ~60% ease, which would be the third-best sophomore weekend ever behind Force Awakens ($149.2M) and Endgame ($147.3M). Only ~$400M more is needed over five months - a final multiplier of ~1.36x on the current $1.1B cume, far inside the worst case ever observed for this reference class. Trigger status: neither of yesterday's triggers fired - the DOWN trigger (>70% second-weekend drop or systemic theatrical disruption) shows no sign of activating, and the UP trigger (actual $1.5B crossing per Box Office Mojo/The Numbers) has not yet occurred but remains on track for mid-August. The residual 1% covers only systemic shocks and resolution-source anomalies, not box office performance.",
+   "base_rate": "Reference class: films opening above $250M domestic / $600M+ global (Endgame $357M/$1.22B -> $2.80B; Infinity War $258M/$640M -> $2.05B; No Way Home $260M/$601M -> $1.92B+): 3-for-3 above the $1.5B bar. Narrower class - films crossing $1B worldwide within their first week (Endgame, now BND): prior member finished at $2.80B. Minimum observed global multiplier for a $200M+ domestic opener with an A CinemaScore is ~2.0x versus the ~1.36x now required from the $1.1B cume.",
+   "factors_up": [
+    {
+     "factor": "Record $42M Tuesday (biggest in U.S. history, Deadline/THR 5 Aug) after record $47M Monday - weekday holds continue to confirm exceptional legs, not frontloading",
+     "impact": "+0.5pp (already at ceiling)"
+    },
+    {
+     "factor": "Worldwide cume at $1.1B by day six; only ~$400M / ~1.36x remaining vs ~2.0x minimum historical multiplier for the class",
+     "impact": "+0.5pp (already at ceiling)"
+    },
+    {
+     "factor": "Second weekend projected ~$144M (~60% ease, third-best sophomore frame ever per Deadline); no meaningful August competition",
+     "impact": "+0.5pp (already at ceiling)"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Systemic tail risks over the 5-month window: mass theatre disruption, geopolitical shock, or an unprecedented collapse in holds",
+     "impact": "-1pp"
+    },
+    {
+     "factor": "Resolution-source anomaly (Box Office Mojo/The Numbers reporting discrepancy)",
+     "impact": "-0.5pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Actual second-weekend hold (7-9 Aug) versus the projected ~60% ease - now confirmation rather than a genuine information event",
+    "Whether any systemic shock disrupts global theatrical exhibition before the ~$1.5B crossing (expected within 1-2 weeks)"
+   ],
+   "update_triggers": [
+    "Revise to >99 only upon actual $1.5B crossing per Box Office Mojo/The Numbers (likely mid-August)",
+    "Revise DOWN if second weekend (7-9 Aug) drops >70% (unprecedented for this reference class) or a systemic theatrical disruption emerges"
+   ]
+  },
+  {
+   "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+   "central": 99,
+   "ci_lower": 98,
+   "ci_upper": 99,
+   "key_change": "Hold at 99, CI [98,99], unchanged from 5 August. Targeted searches on 6 August surfaced no new revenue datapoints in the 5-6 August window and none of the standing DOWN triggers fired: no S-1/A on EDGAR, no tracker retractions or restatements, no reporting of month-over-month ARR declines at either company, and no new suspensions. The evidence stack reconfirms itself: Anthropic's last official disclosure remains ~$47B run-rate (mid-May Series H at $965B valuation), with tracker/analyst full-year projections in the $75-90B range and AI Business's revenue leaderboard listing Anthropic $47B / OpenAI $33B; OpenAI remains ~$25B ARR (Q1 2026 revenue $5.7B, ~$30B internal full-year target) with a Q4 2026 IPO in preparation. Incremental news in the window is mildly positive but non-financial: Anthropic released Claude Opus 5 and announced Tino Cuellar as Chief Global Affairs Officer (4 Aug), and IPO reporting (StartupHub, CNBC 1 Jun confidential S-1) still points to a public S-1 in August-September and October Nasdaq listing, ensuring audited disclosure before Q4 resolution. Arithmetic unchanged: the conservative official-only sum ($47B + $25B = $72B) already exceeds $70B five months out, and even the OpenAI-skeptical leaderboard pairing ($47B + $33B = $80B) clears comfortably. A NO still requires simultaneous unprecedented collapses at both firms or wholesale discrediting of all official and tracker figures. Already at the 99 calibration cap; hold.",
+   "base_rate": "Reference class: probability that two companies whose combined ARR already exceeds the threshold on an official-disclosure-only basis (~$72B: Anthropic $47B May Series H + OpenAI ~$25B) fail to be reported above it five months later. Companies with this growth profile (Anthropic $9B end-2025 to $47B official May 2026, tracked ~$70B+ and turning profitable; OpenAI $20B 2025 to $25B+ and re-accelerating per CFO 29 Jul) essentially never retrench >40% in two quarters absent bankruptcy-level events; base rate of YES >98%. Sources: Anthropic Series H disclosure 28 May 2026, Epoch AI revenue tracker, CNBC 29 Jul 2026, AI Business revenue leaderboard Aug 2026.",
+   "factors_up": [
+    {
+     "factor": "Anthropic tracked at ~$69-74B ARR alone (Epoch/Sacra, July) with $75-90B full-year projections - single-company clearance of the combined threshold",
+     "impact": "+0.5pp (capped)"
+    },
+    {
+     "factor": "Anthropic October IPO on track (roadshow underway, public S-1 expected Aug-Sep) forcing audited disclosure before Q4; OpenAI preparing Q4 IPO adds a second audited channel",
+     "impact": "+0.5pp (capped)"
+    },
+    {
+     "factor": "Claude Opus 5 launch (4 Aug, faster and more cost-efficient, default on Max) supports continued Q3-Q4 revenue momentum",
+     "impact": "+0.5pp (capped)"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Tracker figures (~$70B+) lack official confirmation; official-only sum (~$72B) clears with far less margin",
+     "impact": "-1pp"
+    },
+    {
+     "factor": "Efficiency shift in token consumption ('tokenmaxxing' to efficiency, CNBC 26 Jun) could slow API revenue growth at the margin",
+     "impact": "-0.5pp"
+    },
+    {
+     "factor": "Tail risk of regulatory action or extended model suspension (June-July precedent: Fable 5/Mythos 5 suspended ~3 weeks; new federal pre-release thresholds being co-designed) denting Q4 run-rates",
+     "impact": "-0.5pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Gap between third-party tracker ARR and what Bloomberg/The Information/FT ultimately report as Q4 figures",
+    "Whether Anthropic's public S-1 (expected August-September) discloses ARR materially below the ~$70B tracker consensus",
+    "Whether IPO timing slips past October, delaying audited disclosure closer to the resolution window"
+   ],
+   "update_triggers": [
+    "Revise DOWN if Anthropic's public S-1 discloses ARR materially below ~$55B, discrediting tracker methodology broadly",
+    "Revise DOWN if credible reporting shows either company's ARR declining month-over-month for 2+ consecutive months",
+    "Revise DOWN if a government suspension of ChatGPT or Claude products extends beyond a month in Q4",
+    "Revise DOWN if a major tracker retraction or restatement cuts estimated combined ARR below ~$85B",
+    "Revise UP only in the sense of narrowing the CI if audited S-1 figures confirm Anthropic above $60B official"
+   ]
+  },
+  {
+   "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+   "central": 34,
+   "ci_lower": 21,
+   "ci_upper": 48,
+   "key_change": "Hold at 34% (CI unchanged [21,48]). The 5-6 August window brought only confirmatory, non-structural news for this decade-horizon question. The main development: Chancellor Healey confirmed on 5 August that the Budget will be held on 28 October 2026 with an accompanying OBR economic and fiscal forecast, reiterating fiscal discipline alongside a growth focus (Primary Finance Group News in Review, 5 Aug) - this modestly reduces near-term fiscal uncertainty but merely schedules the real information event; the trigger question (fiscal rules kept or abandoned) resolves on 28 October, not now. Gilt markets stayed rangebound: the 10-year yield dipped toward 4.9% on Monday's oil selloff (US-Iran deal optimism) then edged back to ~4.97% on Tuesday as oil rebounded (TradingEconomics), closing near 5.0% - neither the UP trigger (below 4%) nor the DOWN trigger (above 5.5%) is close to firing. The BoE's 29 July 6-3 hold at 3.75% and Bailey's downplaying of further tightening were already in the price. No new OBR, BoE, OECD or IMF long-run growth publications, no productivity data, and no AI-adoption inflection surfaced in the window. All structural anchors stand (OBR trend at/below 1.5% post-March 2026 downgrade, BoE potential ~1.4%, OECD long-term ~1%, Treasury independent-forecaster average ~1.0% for 2026-27). No update trigger fired; hold.",
+   "base_rate": "Reference class: UK decade-average real GDP growth - 2.9% (1980s), 2.1% (1990s), 1.8% (2000s incl. GFC), 2.0% (2010s), and an estimated ~1.3-1.5% for the 2020s to date; post-2008 trend growth has sat near 1-1.5% for 15+ years. Institutional long-run projections cluster below the bar: OBR trend at or below ~1.5% after the March 2026 productivity downgrade, BoE potential ~1.4%, OECD long-term ~1%, and the Treasury's July survey of independent forecasters averages ~1.0% growth for 2026 and 2027 (NIESR 1.1% for 2026). Exceeding 1.5% for a full decade average therefore requires a productivity regime change (e.g. AI diffusion) or sustained above-trend catch-up. Sources: ONS ABMI series, OBR EFO March 2026, OECD long-term scenarios.",
+   "factors_up": [
+    {
+     "factor": "BoE scenarios converge to 1.6-1.7% annual growth by 2028-29, giving positive momentum into the decade",
+     "impact": "+2pp"
+    },
+    {
+     "factor": "Potential AI/technology-driven productivity acceleration not embedded in official trend estimates (OECD estimates 0.4-1.3pp/yr aggregate uplift possible in high-AI-exposure economies like the UK), with active government adoption push",
+     "impact": "+5pp"
+    },
+    {
+     "factor": "Alternative RTI-based productivity measures suggest ~5.5% growth since 2019 vs ~2.5% on LFS-based series - underlying trend may be stronger than official data imply",
+     "impact": "+1pp"
+    },
+    {
+     "factor": "Post-energy-shock normalisation plus possible catch-up growth early in the 2030s",
+     "impact": "+2pp"
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Official potential-growth estimates (BoE ~1.4%, OECD ~1%, OBR downgraded again in March 2026) all at or below the 1.5% bar; OBR's central AI uplift is only ~0.2pp/yr",
+     "impact": "-8pp"
+    },
+    {
+     "factor": "G7-highest gilt yields (10yr ~4.97-5.0% on 4-5 Aug), oil-driven inflation risk and a hawkish MPC minority suppress 2020s investment and the capital stock entering the 2030s",
+     "impact": "-3pp"
+    },
+    {
+     "factor": "Demographics: shrinking workforce growth, lower net migration assumptions, and rising old-age dependency through the 2030s",
+     "impact": "-3pp"
+    }
+   ],
+   "key_uncertainties": [
+    "Whether AI adoption produces a measurable UK productivity acceleration by the early 2030s, beyond survey-reported firm-level gains and the OBR's ~0.2pp central estimate",
+    "Whether the 28 October Budget (date confirmed 5 Aug) maintains the inherited fiscal rules and how the OBR's accompanying forecast treats trend growth",
+    "Long-run energy costs given the Middle East conflict's oil-price shock and the on-off US-Iran diplomacy moving oil and gilts daily",
+    "Migration policy and labour-supply growth through the 2030s",
+    "Whether ONS measurement (LFS vs RTI productivity divergence) and revisions shift the decade mean around the 1.5% threshold"
+   ],
+   "update_triggers": [
+    "Revise UP if OBR or BoE upgrade UK potential/trend growth to 1.5%+ in a future forecast round (next scheduled: OBR forecast alongside the 28 October Budget)",
+    "Revise UP if UK productivity growth sustains 1.5%+ annualised for 4+ consecutive quarters",
+    "Revise UP if gilt yields fall materially (10-year below 4%) easing the investment constraint",
+    "Revise DOWN if the 28 October Budget abandons fiscal rules and triggers a sustained gilt selloff (10-year above 5.5%)",
+    "Revise DOWN if the 2020s decade average finishes below 1.2%, indicating entrenched sub-trend momentum",
+    "Revise DOWN if measured AI productivity effects disappoint in US/UK data through 2027-28"
+   ]
+  }
+ ]
+}
