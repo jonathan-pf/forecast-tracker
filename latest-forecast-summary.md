@@ -1,74 +1,44 @@
-# Forecast update — 11 August 2026
+# Daily Forecast Update - 12 August 2026
 
-Nine questions re-forecast against the 9–11 August evidence window. Previous update: 10 August 2026.
+Nine questions re-forecast against the 11-12 August 2026 evidence window. Four moved, five held.
 
 ## Summary table
 
-| # | Question | Central | 80% CI | Prev | Move |
+| # | Question | Central | 80% CI | Prior | Move |
 |---|---|---|---|---|---|
-| 1 | AGI by 2030 | **30%** | [17, 44] | 29% | ↑ +1pp |
-| 2 | Consultancy ≥33% loss by 2030 | **20%** | [10, 33] | 21% | ↓ -1pp |
-| 3 | Labour largest party at next GE | **52%** | [37, 65] | 50% | ↑ +2pp |
-| 4 | AGI by 2035 | **86%** | [72, 93] | 85% | ↑ +1pp |
-| 5 | China blockade/invasion of Taiwan by 2030 | **7%** | [4, 12] | 7% | → hold |
-| 6 | UK CPI below 2.0% before 2027 | **1%** | [0, 2] | 1% | → hold |
-| 7 | Spider-Man: BND over $1.5B | **100%** | [100, 100] | 100% | → hold |
-| 8 | OpenAI+Anthropic ARR over $70B | **99%** | [98, 99] | 99% | → hold |
-| 9 | UK real GDP growth over 1.5% in 2030s | **34%** | [21, 48] | 34% | → hold |
-
-## Movements
-
-**AGI by 2030: 29% → 30% (+1pp)**
-
-Raise from 29% to 30% (CI [16,43] to [17,44], width unchanged).
-
-**Consultancy ≥33% loss by 2030: 21% → 20% (-1pp)**
-
-Trim 21 to 20 (CI [10,34] to [10,33]).
-
-**Labour largest party at next GE: 50% → 52% (+2pp)**
-
-Up 2pp, 50 to 52, with the CI shifted up to [37,65] from [35,63].
-
-**AGI by 2035: 85% → 86% (+1pp)**
-
-Up 1pp to 86% (CI [72,93] from [71,93]), reversing last window's shave.
-
-**Held (5):** China blockade/invasion of Taiwan by 2030 at 7%; UK CPI below 2.0% before 2027 at 1%; Spider-Man: BND over $1.5B at 100%; OpenAI+Anthropic ARR over $70B at 99%; UK real GDP growth over 1.5% in 2030s at 34%.
+| 1 | Will AGI be developed before 1 January 2030? | 32% | 18-48 | 30% | +2 |
+| 2 | Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | 19% | 10-32 | 20% | -1 |
+| 3 | Will Labour be largest party at next UK General Election? | 54% | 39-66 | 52% | +2 |
+| 4 | Will AGI be developed before 1 January 2035? | 85% | 71-93 | 86% | -1 |
+| 5 | Will China initiate a military blockade or invasion of Taiwan before 1 January 2030? | 7% | 4-12 | 7% | hold |
+| 6 | Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027? | 1% | 0-2 | 1% | hold |
+| 7 | Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | 100% | 100-100 | 100% | hold |
+| 8 | Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026? | 99% | 98-99 | 99% | hold |
+| 9 | Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)? | 33% | 20-47 | 34% | -1 |
 
 ## Key takeaways
 
-1. **The AGI pair moved together, and upward, on two new capability artefacts.** OpenAI's GPT-5.6-Cyber (launched 10 August) found two previously unknown Chrome V8 vulnerabilities, chainable to escape the heap sandbox and patched by Google as CVE-2026-15903 — the first externally-validated, AI-discovered zero-day. Separately, NVIDIA Labs open-sourced NOOA, reporting ARC-AGI-3 mean RHAE of 85.1% with GPT-5.6 Sol against 50.2% with GPT-5.5. Both are caveated: Axios states explicitly that GPT-5.6-Cyber cleared only the "High" Preparedness threshold, **not** Astra's "Critical", and the NOOA figures are vendor-blog harness results on a human-relative efficiency metric, not ARC Prize verified entries. Hence +1pp on each, not more.
+**The two AGI questions moved in opposite directions, and that is deliberate.** The 2030 question rose on a market-structure finding rather than news: Kalshi's KXAGICO series, which asks almost exactly this question in announcement terms, is marked at 76c, far above the 30% the capability-based aggregators imply. It is thin, stale and non-monotonic across strikes, so it earns only a 2pp nudge and a fatter right tail. The 2035 question fell 1pp because two capability signals the prior leaned on were partly deflated: ARC Prize confirmed it does not verify ARC-AGI-3 submissions by default (verified SOTA remains Claude Opus 5 at 30.2%), and 11 August coverage reframed GPT-5.6-Cyber's 95%-vs-1.5% gap as a refusal-policy unlock on the same base model rather than a new capability tier. Near-term announcement odds up, long-horizon capability trajectory very slightly down.
 
-2. **A correction to the 10 August oil figure materially strengthens the UK inflation NO case.** The previous entry recorded Brent at roughly $84.18–84.42. Brent actually *settled* near **$87.72 on 10 August, up about 5% in a day**, reaching $88.23 on 11 August. UK NBP gas rose **11.03% in a single day to 150.95 GBp/therm**, now +85.8% year-on-year, with EU storage under 58% — the lowest seasonal level in nearly two decades. Cornwall Insight's ~£1,899 October cap forecast is now stale to the upside, with Ofgem's assessment window closing 18 August.
+**Labour's biggest single-poll move of the month.** YouGov published on 11 August (fieldwork 9-10 August) with Labour 24, Reform 22, Conservatives 21 - Labour's best in that tracker since July 2025 and Reform's joint-lowest since January 2025. This matters because YouGov was specifically the house showing Reform ahead and flagged as possibly not updated post-handover. Two caveats keep the move to 2pp: PolitPro's trend still has Reform marginally ahead at 24.4 to 24.0, and the lead is only three weeks old and coincides exactly with the Burnham handover, so honeymoon decay is the base case.
 
-3. **Labour's position strengthened on seat-level evidence, not new polling.** No voting-intention poll with fieldwork after 7 August has been published. The move rests on the Convergent Opinion MRP (fieldwork 25–30 July, n=10,919) projecting **Labour 245, Reform 174, Con 99** — the largest-sample recent MRP, previously unpriced — plus Reform's flagship foreign-prisoner deportation policy collapsing within hours on an Estonian government denial, and a second live standards investigation into Farage that reactivates automatically if he wins Clacton on 13 August.
+**Taiwan held at 7% but its internal composition shifted.** Two new strands offset. Upward: the PRC announced its first publicly declared exercise with a foreign navy (Indonesia) in waters east of Taiwan, and Taiwan and the US State Department both formally rejected China's Guangdong MSA traffic-control order over Strait shipping. Downward: no PLA counter-exercise to Han Kuang 42, ADIZ sorties at 4, 1 and 2 across 9-11 August, and a Beidaihe readout framing Taiwan policy as united-front and legal warfare aimed at the November local elections. More of the 7% now sits on the blockade branch, less on the amphibious-assault branch.
 
-4. **Taiwan held rather than continuing its shave, because two new strands offset.** The 11 August MND count was near-floor (2 sorties, 7 PLAN, zero median-line crossings) with Han Kuang 42 still drawing no PLA counter-exercise. Against that, CNOOC installed a floating turbine ~80km from Pratas inside Taiwan's EEZ (operational 7 August), and Chinese state media asserted traffic-control authority over northbound Strait shipping under a typhoon pretext — the legalistic-quarantine pathway, which a quiet kinetic environment would mask. The pre-committed downward trigger does not fully fire until Han Kuang concludes on 14 August.
+**Three questions are effectively resolved or near-ceiling and should be watched only for tail risk.** Spider-Man verified at $1,688,767,811 worldwide on The Numbers as of 12 August, $188.8M of headroom - failure now requires an 11.2% restatement against a 0.11% precedent. The ARR question's binding constraint remains reporting, not revenue: disclosures already sum to roughly $71-72B, but a qualifying outlet must publish Q4 figures for both firms. UK sub-2% CPI stays at the practical floor, and the window pushed against it - fatal Houthi attacks in the Bab el-Mandeb, Hormuz talks deadlocked, Brent back near $90.
 
-5. **Spider-Man is now verified against both named resolution sources.** The Numbers (fetched 11 August) shows worldwide **$1,672,082,079** — roughly $172M clear of the bar. A $745,614 downward domestic restatement was found and logged; at 0.11% it is three orders of magnitude short of what a NO would require. CI narrows to [100, 100].
+## Movements
 
-6. **The ARR question's real risk is its source list, not the revenue.** Trackers put Anthropic near $74B, roughly $27B above the official $47B carried previously — but TickerTrends and Yipit are *not* among the named resolution sources. On a strict reading (Anthropic's official $47B plus OpenAI's confirmed ~$24–25B) the sum is ~$71–72B: above the bar, but thinly. It holds at 99 because OpenAI alone, adding ~$5B/month off a $42.6B July base, plausibly reaches $55–65B by Q4 on figures the named outlets routinely report.
+- **Q1 AGI 2030, 30 to 32 (+2), CI widened to [18,48].** Driven by the Kalshi KXAGICO reading at 76c, not by in-window news. No UP trigger fired; the ARC Prize verification trigger moved against.
+- **Q3 Labour largest party, 52 to 54 (+2), CI [39,66].** YouGov flip on 11 August. No trigger fired cleanly - the 3pp-sustained-lead threshold is not met and no post-handover MRP appeared.
+- **Q2 Consultancy, 20 to 19 (-1).** PwC became the fourth Big Four firm caught publishing AI-generated thought leadership, but the failure mode is the accountability layer clients pay for. Cornerstone Research named a new CEO on an expansion agenda. No UP trigger fired.
+- **Q4 AGI 2035, 86 to 85 (-1).** ARC Prize verification policy and the GPT-5.6-Cyber reframing, partly offset by strengthened capex durability (OpenAI $7bn tender at $852bn, NVIDIA's $500bn financing alliance, Intel raising $20bn, TSMC July sales +45%).
+- **Q9 UK 2030s growth, 34 to 33 (-1).** Capital Economics put the 28 October Budget at up to £25bn of tax rises (~0.8% of GDP). Gilts round-tripped through 5% and back to ~4.95%. The Q2 GDP print is still due 13 August, so the main scheduled trigger remains live.
+- **Q5, Q6, Q7, Q8 held.** In each case new evidence arrived but either offset (Taiwan) or was directionally consistent with an estimate already at its floor or ceiling.
 
-7. **Two questions were genuinely quiet.** Consultancy produced no on-question news at all across a second consecutive window, with two independent industry sources now arguing AI is *increasing* consulting demand — a 1pp trim. UK 2030s GDP saw only 2026 cyclical noise ahead of the ONS Q2 release on 13 August; the OBR's central forecast still sits exactly on the 1.5% threshold, which is why this stays in the mid-30s.
+## What to watch next
 
-## Calendar — near-term resolution-relevant events
-
-| Date | Event | Bears on |
-|---|---|---|
-| 12 Aug | US July CPI (consensus 3.4%) | UK CPI (read-across) |
-| 13 Aug | Clacton by-election | Labour largest party |
-| 13 Aug | ONS Q2 2026 GDP + June monthly GDP, 07:00 | UK 2030s GDP |
-| 14 Aug | Han Kuang 42 concludes | Taiwan (completes down-trigger) |
-| ~14 Aug | ISW-AEI China & Taiwan Update | Taiwan |
-| 18 Aug | Ofgem price cap assessment window closes | UK CPI |
-| 18 Aug | ONS Labour market overview | UK 2030s GDP |
-| 19 Aug | ONS July 2026 CPI, 07:00 | UK CPI |
-| by 26 Aug | Ofgem October price cap announcement | UK CPI |
-| ~Sep | Anthropic public S-1 expected | OpenAI+Anthropic ARR |
-| 28 Oct | UK Budget (Chancellor Healey) | Labour largest party; UK GDP |
-
-
-## Methodology note
-
-Each question was re-forecast using the `probabilistic-forecast` skill: reference class established first (outside view), case-specific factors quantified in percentage points (inside view), then integrated with heavy anchoring on the outside view. Updates follow the small-increment rule — most evidence is weak to moderate, so most moves are 1–2pp. Disconfirming evidence was actively sought for every question, and two source-quality traps were identified and explicitly excluded: a Bloomberg Tax consulting-layoffs story dated **April 2023** circulating as current, and a "$47M biggest Monday" box-office figure that belongs to **3 August**, not 10 August.
+1. **13 August**: ONS Q2 2026 GDP first estimate, consensus +0.4% q/q (Q9); Clacton by-election (Q3).
+2. **14 August**: Han Kuang 42 concludes, plus the pending ISW-AEI update (Q5).
+3. **19 August**: ONS July CPI - the only near-term datapoint that could move Q6.
+4. **Mid-to-late August**: OpenAI public S-1 expected on EDGAR; Anthropic's expected ahead of a September roadshow (Q8, and materially Q4).
+5. **26 August**: Ofgem October price cap announcement (Q6).
