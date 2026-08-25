@@ -1,49 +1,41 @@
-# Forecast update — 2026-08-24
+# Forecast Update — 25 August 2026
 
-Nine questions re-forecast using superforecaster methodology, with fresh research over the 23–24 August 2026 window.
+Nine questions re-forecast using the probabilistic-forecast methodology, with web research covering the last 24-72 hours and an explicit check of each of yesterday's update triggers.
 
-| Question | Central | 80% CI | Previous | Change |
-|---|---|---|---|---|
-| Will AGI be developed before 1 January 2030? | **29%** | 17–45% | 30% | ▼ -1 |
-| Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | **11%** | 6–19% | 11% | — 0 |
-| Will Labour be largest party at next UK General Election? | **51%** | 35–63% | 52% | ▼ -1 |
-| Will AGI be developed before 1 January 2035? | **84%** | 73–92% | 83% | ▲ +1 |
-| Will China initiate a military blockade or invasion of Taiwan before 1 January 2030? | **7%** | 4–12% | 7% | — 0 |
-| Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027? | **1%** | 0–1% | 1% | — 0 |
-| Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | **100%** | 99–100% | 100% | — 0 |
-| Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026? | **99%** | 98–99% | 99% | — 0 |
-| Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)? | **36%** | 23–50% | 33% | ▲ +3 |
+| Question | Central | 80% CI | Prev | Move | 7-day |
+|---|---|---|---|---|---|
+| Will AGI be developed before 1 January 2030? | **29%** | 17-45 | 29% | — | -2 |
+| Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI? | **11%** | 6-19 | 11% | — | -4 |
+| Will Labour be largest party at next UK General Election? | **52%** | 36-64 | 51% | +1 | -1 |
+| Will AGI be developed before 1 January 2035? | **84%** | 73-92 | 84% | — | -1 |
+| Will China initiate a military blockade or invasion of Taiwan before 1 January 2030? | **7%** | 4-12 | 7% | — | — |
+| Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027? | **1%** | 0-1 | 1% | — | — |
+| Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026? | **100%** | 99-100 | 100% | — | — |
+| Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026? | **99%** | 98-99 | 99% | — | — |
+| Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)? | **36%** | 23-50 | 36% | — | +3 |
+
+## Takeaways
+
+**A quiet day: eight holds and one one-point move.** Every forecast was re-derived from scratch against yesterday's stated update triggers, and across the nine questions only one trigger set produced a move. That is the expected pattern for a Tuesday in late August with no scheduled data releases — the honest output of a disciplined Bayesian process on a slow news day is a hold, not manufactured movement.
+
+**The AGI pair held together.** The 2030 question stayed at 29% and the 2035 question at 84%, preserving an implied ~77% conditional probability of a qualifying declaration during 2030-2035 given none by 2030. Two candidate movers were examined and set aside: NVIDIA's disputed 100.00 RHAE claim, where NVIDIA now itself concedes the figure "should not be interpreted as a direct measurement" and ARC Prize's Verified Leaderboard remains unchanged; and an apparent 7-point fall in Kalshi's KXOAIAGI "Before 2030" print, which dissolves on inspection into roughly $85 of turnover on a widening bid-ask spread rather than genuine repricing. The Goodheart Labs aggregate is still a 2031 median with an 80% band of 2027-2043.
+
+**Labour ticks up on non-polling news.** No new voting-intention fieldwork for a sixth day — the latest remains Find Out Now on 19 August at Labour 23 / Reform 23. The single point comes from Farage's reopened parliamentary standards inquiry over an undeclared £5m gift, which carries recall-petition risk, and from the 1 October removal of VAT on household electricity trimming the pre-Budget downside ahead of the 28 October fiscal event. A note of caution on this question: the market-corroboration trigger was retired today after ElectionOdds confirmed there is no live UK most-seats market on either Polymarket or Kalshi, so the market anchor rested on a single bookmaker board. The wide 36-64 interval reflects a genuine 18-point disagreement between Electoral Calculus (58%) and normalised bookmaker pricing (~40%).
+
+**Three questions are now effectively settled.** Spider-Man: Brand New Day sits at $2.22bn worldwide on both named resolution sources, 48% clear of the $1.5B bar with 128 days to run. The combined OpenAI-Anthropic ARR headline is around $105bn against a $70bn bar, and both series are still accelerating. UK CPI needs roughly 100 basis points of unexpected disinflation across four remaining prints from a July base of 2.9%, with tomorrow's Ofgem cap decision expected to raise gas unit rates 7.8% across three of those four reference months. The residual probabilities on all three are resolution-mechanics risk, not substantive uncertainty.
+
+**Taiwan and consultancy remain quiet in a way that is itself informative.** Taiwan's MND logged 2 PLA sorties on 24 August; there has been no named exercise for eight months and no Fujian navigation warning anywhere in August. On consultancy, the most striking new datapoint cuts against the thesis: the BLS 2024-34 projection has employment in NAICS 5416 growing 9.4%, and it is immune to the commercial-interest objection that applies to industry-analyst forecasts.
 
 ## Movements
 
-**Will AGI be developed before 1 January 2030?** — 30% → 29% (-1)
+- **Will Labour be largest party at next UK General Election?**: 51% → 52% (+1)
 
-Move: 30 to 29. A one-point move down, and unusually for a Monday there is real content behind it rather than weekend drift. Two of yesterday's stated triggers fired in the DOWN direction, and the single most substantive piece of new reporting in the last 24 hours is a demand-side deflation story rather than a capability story.
+## Scheduled catalysts ahead
 
-**Will Labour be largest party at next UK General Election?** — 52% → 51% (-1)
-
-Move: 52 to 51. This is a one-point trim, and I want to be clear at the outset that it is not driven by a new poll. Parliament is in recess, the Sunday papers produced nothing, and BritPolls' complete 2026 archive, refetched today, still shows the most recent GB fieldwork ending 19 August (Find Out Now: Lab 23, Ref 23, Con 18, Grn 14, LD 11, n=2,287). PollCheck's seven-poll moving average is still stamped 21 August and still reads Lab 26.0, Ref 25.0, Con 19.6, Grn 10.6, LD 10.3, exactly as yesterday. BritPolls' live ticker reads Lab 25.4, Ref 25.0, Con 19.6. There has been no new national voting intention published in the 22-24 August window. I checked PollCheck's per-poll table, which lists a Survation dated 20 August (n=2,013) and a YouGov dated 19 August (n=2,354); cross-referencing against BritPolls' fieldwork-end dates, these are publication dates for the Survation 18/8 and YouGov 16-17/8 waves I already had. No new fieldwork. I say so rather than manufacture a trend.
-
-**Will AGI be developed before 1 January 2035?** — 83% → 84% (+1)
-
-Move: 83 to 84.
-
-**Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?** — 33% → 36% (+3)
-
-Move: 33 to 36. Yesterday I wrote that I was stopping the drift and would not move again absent the 30 September quarterly national accounts or the 28 October EFO. I am overriding that, and I want to be explicit about why rather than quietly abandoning the constraint. Two things happened. First, a named think-tank publication landed squarely inside the 23-24 August window that directly attacks the evidentiary basis I used to justify the downward drift. Second, in following it up I found a straightforward error in my own reading of the Bank of England's potential-supply anchor, which I have been carrying as a bear factor for days. One is new evidence; one is self-correction. Both point the same way.
-
-## Holds
-
-- **Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?** — held at 11%. Hold at 11. Today's research turned up two genuinely new pieces of evidence, both landing squarely on the narrowest and most literally on-point reading of the question — and they point in opposite directions with almost exactly offsetting force. That is a real hold, not a lazy one. Nothing dated 23 or 24 August 2026 moved the needle; I checked the Consultancy.uk live feed and the most recent items are 21 August (an Inizio Ignite sponsored piece), 20 August (Five hard AI questions most boards are ignoring) and 19 August (a B2B sales-and-marketing alignment survey). No consulting-contraction news in the last 72 hours.
-- **Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?** — held at 7%. Hold at 7. Today produced substantial new evidence on both sides of the ledger, and after working through it I judge the two largest new items to be close to offsetting. I keep the central estimate at 7 percent but widen the upper bound from 11 to 12 to reflect a structural factor I had not previously priced.
-- **Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?** — held at 1%. Hold at 1%. The 80% interval stays at [0, 1]. Today's incoming information is net negative for a YES, not positive: two of yesterday's three open questions have now closed, and both closed the wrong way for anyone hoping to see a 1.9% print before 16 December.
-- **Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?** — held at 100%. Hold at 100. Verified today, Monday 24 August 2026, by fresh raw-HTML retrieval of both named resolution sources. Box Office Mojo (https://www.boxofficemojo.com/release/rl2299756545/) was fetched at 08:07:36 UTC, HTTP 200, 181,429 bytes on disk, and reports Domestic $854,901,026, International $1,365,000,000 and Worldwide $2,219,901,026, with the opening weekend unchanged at $360,091,572 from 4,487 theatres and a release date of 31 July 2026. The Numbers (https://www.the-numbers.com/movie/Spider-Man-Brand-New-Day-(2026)) was fetched at 08:07:37 UTC, HTTP 200, 138,135 bytes, and reports Domestic Box Office $854,901,000, International Box Office $1,365,000,000 and Worldwide Box Office $2,219,901,000, alongside Legs of 2.37, a domestic share of 38.5 per cent, a production budget of $225,000,000 and theatre counts of 4,487 opening / 4,539 maximum. Both worldwide lines reconcile exactly against their own published components. Taking the LOWER of the two, the film stands at $2,219,901,000, which is 48.0 per cent above the $1.5B threshold and a buffer of $719,901,000.
-- **Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?** — held at 99%. Hold at 99. The 23-24 August window produced no revenue datapoint that touches the arithmetic, but it did produce one factual correction to yesterday's write-up that I want on the record, and one genuinely new dated headwind. Neither is remotely large enough to move a forecast carrying roughly 50% headroom, but both belong in the ledger.
-
-## Key takeaways
-
-- Both AGI questions moved in opposite directions: the 2030 rung eased to 29% as the NVIDIA AVO ARC-AGI-3 claim failed to clear ARC Prize's verification bar, while the 2035 rung firmed to 84% because the same result reads as evidence that scaffolding, not architecture, is the binding constraint.
-- UK 2030s growth is the largest mover of the day (+3 to 36%), on a Resolution Foundation productivity report published today and a corrected reading of the Bank's July MPR potential-supply figure as quarterly rather than annual.
-- Labour eased a point to 51% on a genuinely new disconfirming data point — Restore Britain polling at 3.0% against the 7% assumed in the June Electoral Calculus MRP — which weakens the three-way right-split mechanism.
-- The two near-certain questions (Spider-Man box office, combined OpenAI/Anthropic ARR) remain at 100% and 99%; yesterday's Box Office Mojo international anomaly reversed and the two named sources now agree to within $26.
-- Taiwan holds at 7% with a widened upper bound, balancing a structural collapse in PLA sortie tempo against the absence of any US carrier in the western Pacific since 19 August.
+- **26 August** — Ofgem price cap decision (CPI question)
+- **4 September** — Challenger August report; BLS August employment situation (consultancy question)
+- **16 September** — ONS August CPI release
+- **30 September** — UK quarterly national accounts and revised business investment (GDP question)
+- **28 October** — Healey Budget and OBR EFO (GDP and Labour questions)
+- **Late October** — FTI and CRA Q3 results (consultancy question)
+- **17 November** — Q3 productivity flash (GDP question)
