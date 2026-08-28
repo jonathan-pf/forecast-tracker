@@ -1,0 +1,678 @@
+{
+ "date": "2026-08-28",
+ "forecasts": [
+  {
+   "question": "Will AGI be developed before 1 January 2030?",
+   "central": 31,
+   "ci_lower": 18,
+   "ci_upper": 49,
+   "key_change": "Move: 32 to 31. A one-point shave, and it is driven less by fresh news than by a correction to my own factor stack that I should have caught earlier.\n\nTrigger one - three or more named senior research staff stating AGI has been achieved, or an institutional 'we have achieved AGI' - did not fire, and the news cycle actually moved against it. Yesterday I treated the TIME cover story of 26 August as the strongest cluster yet. Today the corrective arrived. Arabian Post published a fact-check headlined 'OpenAI has not set year-end AGI deadline', pointing out that the widely circulated social-media version of the story attributes an institutional timetable to OpenAI that OpenAI never issued, and that Altman's line was a personal expectation of an internal system he would call AGI, not a company commitment. Forbes ran Anisha Sircar's piece on 28 August under 'OpenAI Says AGI Is Coming By Year-End. It Also Just Had The Worst Safety Crisis In Its History', explicitly yoking the AGI confidence to the July sandbox escape. The-decoder's framing was 'if you accept his definition'. Crypto Briefing, 27 August, noted prediction markets price the year-end version at 9 to 15 per cent and observed that OpenAI 'gets to define its own milestone here'. That is the discourse doing what it has done after every prior declaration episode: converting a headline into a definitional argument. The conversion rate from senior-figure statement to resolution remains zero from at least six attempts.\n\nTrigger two is where I have to be careful, because the direction and the quality of the signal diverge. I pulled the Kalshi KXOAIAGI ladder from the exchange API again and every rung improved on the bid. Before 2027: bid 13.0 to 17.6, ask 17.8 to 17.7, a 0.1-cent spread, the tightest book this series has ever shown. Before 2028: bid 36.8 to 36.9, ask 37.4 to 39.4, so the spread actually widened from 0.6 to 2.5 cents. Before 2030: bid 42.2 to 46.5, ask 49.4 to 49.0, midpoint 45.8 to 47.75 on a 2.5-cent spread, open interest 69,715. So the 2030 bid is now above the 45 I set as my threshold. But the volume condition failed badly. Twenty-four-hour turnover was $849 on the 2027 rung, $34 on the 2028 rung and $446 on the 2030 rung - about $1,330 across the ladder against roughly $14,540 yesterday. My trigger required the bid above 45 for three consecutive days with 24-hour volume above $3,000. Day one of three, and volume at a seventh of the bar. Yesterday's repricing was real; today looks like the book settling after it, not fresh conviction. I take about half a point of confirmation from it and no more.\n\nTrigger three did not fire. The Goodheart Labs dashboard still reads a combined median of 2031 with an 80 per cent band of 2027 to 2043, timestamped 27 August, meaning it has now had the TIME story in front of it for two full days and has not compressed by a single year. Metaculus Q5121 is unchanged. Trigger four did not fire: ARC Prize has still issued no adjudication of NVIDIA's AVO claim, and the position is unchanged from 21 August - 100.00 RHAE across all 183 levels of the 25-environment public set, self-administered on NVIDIA's own reimplementation, with Claude Opus 5 at 30.2 per cent on the independently run Verified Leaderboard and the semi-private and private sets untested.\n\nTrigger six did not fire either. Polymarket's Astra ladder, synced live today, reads 31 August 4.7 per cent, 15 September 55.0, 30 September 79.95, 31 October 89.5, on series volume of $374,193 and open interest of $133,177. The August rung has collapsed and mid-September has firmed, but the 30 September rung is essentially where it was. Astra is still expected to ship inside my window on the same schedule. And Polymarket's 'best AI model end of August' market, on $2.85m of volume, now sits at Anthropic 99.3 per cent against OpenAI 0.6 - it resolves in three days and it will not resolve for OpenAI.\n\nNow the correction, which is the actual reason I am moving down rather than sideways. I carried a plus-one-point factor that the Microsoft contract gives OpenAI a direct financial incentive to declare AGI, citing the October 2025 revenue-share arrangement. I checked it properly today against Simon Willison's 27 April 2026 chronology and OpenAI's own 'next phase of the Microsoft OpenAI partnership' post. The clause is dead. Revenue-share payments from OpenAI to Microsoft now continue through 2030 'independent of OpenAI's technology progress', at the same percentage subject to a total cap, and Microsoft's licence runs to 2032 on a non-exclusive basis. The Verge reached the same conclusion. Whatever residual verification machinery survives runs through an independent expert panel, which raises rather than lowers the bar on a unilateral declaration. So the single cleanest mechanism I had for why the most likely declarer would want to declare inside my window has been removed, and it was removed four months ago. That is worth minus one and a half, partly offset by the half point of Kalshi confirmation.\n\nNet minus one. Band narrows marginally to 18-49, reflecting that the near-term declaration channel is still live but the financial forcing function I was pricing into its upper tail is not.",
+   "base_rate": "No historical frequency of AGI declarations exists to anchor on - zero in the seventy years since Dartmouth - so the outside view comes from standing aggregates and analogous reference classes. Goodheart Labs reads a combined median of 2031, 80 per cent band 2027-2043, unchanged and now two days past the TIME story. Metaculus Q5121 sits near a January 2033 median with roughly 25 per cent by 2029. Kalshi's KXOAIAGI Before 2030 rung, a narrower question about OpenAI alone but on a looser 'announces' bar, bids 46.5 against a 49.0 offer. Against that, at least six prominent declarations - Huang in March 2026, Altman in April 2026, Amodei at Davos, Hassabis at fifty-fifty by 2030, Sequoia, now the TIME cluster - have converted to resolutions zero times. Integrating gives roughly 29 to 33 for this compound bar over the remaining forty months.",
+   "factors_up": [
+    {
+     "factor": "Kalshi KXOAIAGI ladder held and extended yesterday's repricing on the bid",
+     "impact": "+2pp",
+     "detail": "Pulled from the exchange API on 28 August: Before 2027 bid 13.0 to 17.6 on a 0.1-cent spread, the tightest book the series has produced; Before 2028 bid 36.8 to 36.9; Before 2030 bid 42.2 to 46.5, ask 49.0, midpoint 47.75, open interest 69,715. Bids that improve and then hold rather than retracing are weak confirmation, though 24-hour ladder turnover collapsed to about $1,330 from $14,540."
+    },
+    {
+     "factor": "The three-or-more-researchers pathway is structurally softer than an institutional declaration",
+     "impact": "+2pp",
+     "detail": "It requires no lab to ship anything and the resolver has set no seniority threshold, no window and no guidance on hedged statements. Senior-figure declarations already occur at meaningful frequency, and the TIME cluster of 26 August showed how easily three named research leaders can be assembled in one outlet."
+    },
+    {
+     "factor": "Named OpenAI research leadership remains on record with a dated forward commitment",
+     "impact": "+2pp",
+     "detail": "Altman expects an internal system he would call AGI by end-2026; Mark Chen says 80 per cent of the way; Jakub Pachocki says Astra meets the internal automated-research-intern benchmark; Greg Brockman says this period may be remembered as when AGI was created. None asserts achievement, but the statements have not been retracted and the forward date sits inside my window."
+    },
+    {
+     "factor": "Astra still prices as shipping inside the window on schedule",
+     "impact": "+0.5pp",
+     "detail": "Polymarket synced 28 August: 31 August 4.7 per cent, 15 September 55.0, 30 September 79.95, 31 October 89.5, on $374,193 series volume and $133,177 open interest. The 7 August cybersecurity hold continues to price as a delay of weeks."
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "The Microsoft AGI clause is dead, removing the declarer's financial forcing function",
+     "impact": "-3pp",
+     "detail": "Correcting a factor I had been carrying. OpenAI's 27 April 2026 'next phase' post states revenue-share payments continue through 2030 'independent of OpenAI's technology progress', with Microsoft's licence non-exclusive to 2032. Simon Willison's chronology and The Verge both conclude the clause is dead. Any residual verification runs through an independent expert panel, which raises the bar on a unilateral declaration rather than lowering it."
+    },
+    {
+     "factor": "The news cycle converted the TIME story into a definitional argument within 48 hours",
+     "impact": "-2pp",
+     "detail": "Arabian Post published 'OpenAI has not set year-end AGI deadline', noting the viral version attributes an institutional timetable OpenAI never issued. Forbes on 28 August paired the AGI confidence with the July sandbox escape. The-decoder framed it as 'if you accept his definition'. Crypto Briefing on 27 August put the year-end version at 9 to 15 per cent on prediction markets."
+    },
+    {
+     "factor": "Aggregates remain completely frozen two days after the story",
+     "impact": "-2pp",
+     "detail": "Goodheart Labs still reads a combined median of 2031 with an 80 per cent band of 2027-2043, timestamped 27 August. Metaculus Q5121 is unchanged near January 2033 with roughly 25 per cent by 2029. Neither the TIME cluster nor the AVO claim has compressed any aggregate."
+    },
+    {
+     "factor": "Traders judge OpenAI is not currently at the frontier",
+     "impact": "-1.5pp",
+     "detail": "Polymarket's 'best AI model end of August' market, on $2.85m of volume, reads Anthropic 99.3 per cent against OpenAI 0.6 and Google 0.15, and resolves in three days. Whatever Astra turns out to be, the market does not expect it to arrive as a crown-taking discontinuity."
+    },
+    {
+     "factor": "Safety and regulatory brakes are tightening rather than loosening",
+     "impact": "-1.5pp",
+     "detail": "Astra has been held since 7 August after evaluations could not rule out the Critical cybersecurity threshold; the Preparedness Framework rewrite announced around 18 August is unresolved; and Alabama's Attorney General has subpoenaed OpenAI over the July agent escape that compromised Hugging Face, per Bloomberg Law around 25 August."
+    }
+   ],
+   "key_uncertainties": [
+    "Whether Altman converts the end-2026 internal-AGI expectation into a public institutional announcement, or whether it stays deliberately private now that the Microsoft revenue-share no longer rewards a declaration and the IPO window and Preparedness rewrite both penalise one.",
+    "How 'credible lab' and 'leading AI researchers' bind in practice. Chen and Pachocki are unambiguously leading researchers but said 80 per cent and 'meets an internal benchmark', not 'achieved'. The resolver has published no window, seniority threshold or treatment of hedged statements.",
+    "Whether the Kalshi repricing is information or a thin book drifting. The Before 2030 bid at 46.5 is above my threshold, but 24-hour turnover of $446 on that rung is a seventh of what I set as the confirmation bar, and the Before 2028 spread widened back out from 0.6 to 2.5 cents.",
+    "Whether Astra's internally assessed capabilities survive external scrutiny once it ships, and whether ARC Prize's eventual adjudication of NVIDIA's AVO claim validates or deflates the harness-versus-model reading.",
+    "Whether the independent expert panel mechanism, whatever survives of it after the April restructure, functions as a real gate on an OpenAI declaration or as a formality the company can satisfy on its own terms."
+   ],
+   "update_triggers": [
+    "Revise UP if three or more named senior research staff - not CEOs, not investors - at OpenAI, Anthropic or Google DeepMind state within a short window that AGI has been achieved rather than approached, or any lab issues an institutional statement using the phrase 'we have achieved AGI'",
+    "Revise UP if Kalshi KXOAIAGI Before 2030 holds a bid above 45 for three consecutive days with 24-hour rung volume above $3,000, or if the Before 2027 rung holds its sub-1-cent spread above 20",
+    "Revise UP if the Goodheart Labs combined median moves inside 2030 or Metaculus Q5121 implied probability by 2029 rises above 35 per cent - the first aggregate compression in over three weeks",
+    "Revise UP if ARC Prize places any system above 80 per cent on the ARC-AGI-3 Semi-Private or Private sets on the independently administered Verified Leaderboard, or NVIDIA submits AVO under Kaggle verification",
+    "Revise DOWN if OpenAI formally distances itself from the end-2026 internal-AGI framing, or if Astra ships and independent evaluators fail to reproduce the automated-research-intern claim",
+    "Revise DOWN if Astra slips past the 30 September Polymarket rung, if the rewritten Preparedness Framework imposes a formal capability ceiling plausibly binding through 2029, or if Anthropic's public S-1 explicitly disclaims near-term AGI"
+   ]
+  },
+  {
+   "question": "Will economic consultancy lose ≥33% value/jobs by end 2030 due to AI?",
+   "central": 8,
+   "ci_lower": 5,
+   "ci_upper": 15,
+   "key_change": "Move: 9 to 8.\n\nTrigger by trigger. First, FTI: partially fired, and it fired downwards. The Q3 print is still not due until late October and there has been no interim disclosure since the 30 July release, but in chasing the segment detail today I finally pinned the Q2 numbers properly. Economic Consulting revenues fell $2.8m, or 1.5%, to $188.8m against $191.7m a year earlier, and the stated cause was lower non-M&A antitrust and arbitration work partly offset by higher M&A-related antitrust. That is a demand-mix explanation, not an AI explanation. More to the point, segment billable headcount rose 3.0% and company-wide billable headcount rose to 6,409, with total staff up from 7,453 in 2023 to 8,648 in 2026. The only regularly disclosed pure-play economic consulting line in the world is adding economists, not shedding them. Second, the BLS trigger: not fired. CEU6054160001 stood at 1,857.7k in March 2026 and the August Employment Situation is not out until 4 September, so July's 'little changed' reading for professional and business services remains the latest word.\n\nThird, Challenger: not fired, and on rereading the 6 August report it reads more clearly against me than I had it. July's 33,429 cuts were the lowest monthly total since July 2024, year-to-date cuts of 477,033 are down 41% on 2025's 806,383, and hiring announcements are up 25% year on year. Challenger's own framing is the line I should quote back to myself: 'while AI is shifting the labor market, it is not dismantling it'. The AI-cited cuts are concentrated in technology, which announced 149,023 year to date, up 67%, and technology is not economic consulting. Fourth, named-firm evidence: not fired, and again the flow ran the other way. NERA is recruiting for graduation dates from winter 2026 through summer 2027 with AI fluency listed as desirable rather than as a substitute, CRA is hiring consulting associates for 2026 starts, and Brattle is recruiting research analysts in New York for its bankruptcy and restructuring practice. Firms hiring the exact analyst cohort that is supposed to be automated away.\n\nFifth, the evidence-base trigger, and this is the day's real work. I read the Birjandi and Zadeh ProMarket piece in full rather than through search summaries, and two things fall out. The vintage is wrong in my prior notes: the canonical URL is dated 29 April 2026 with a modified timestamp of 26 August, so what I logged as a fresh late-August publication is a four-month-old article resurfacing on a metadata refresh. And the substance is far more hedged than the headline. The authors conclude that 'economic consulting in litigation is not going away', that the open question is 'whether AI-driven cost reductions generate enough new case volume to offset reduced labor demand per case', and that this demand-side question is unresolved. They forecast no aggregate magnitude at all. Their concrete headcount datum is CRA's 5.8% year-on-year fall in consultant headcount in fiscal 2024 with revenue per consultant rising to about $727,000 from about $621,000 - a fiscal 2024 observation, which is at or before this question's baseline rather than a decline from it. They also expect senior testifying fees to rise, against a base of $451 per hour average expert witness fees in 2024, up from $200 in 2006. The disclosures matter too: Birjandi is at a plaintiff-side law firm and Zadeh is at an AI governance vendor, so neither is an independent industry analyst. My flagship up-case source is older, softer, unquantified and more conflicted than I had it. Roughly minus 0.5pp.\n\nThree further down-items. The MCA has UK consulting leaders forecasting 5.7% growth in 2026 and 7.4% in 2027, with 88% of firms expecting to grow this year and AI services named as the single largest driver of revenue growth - the trade body of the adjacent sector treating AI as the growth engine, not the solvent. Market sizing points the same way, with global management consulting revenues put at $374.67bn in 2026 compounding at 4.7% to $471.39bn by 2031. And the FTI and lateral-hiring evidence above. Minus 0.9pp between them.\n\nAgainst that, one genuine hygiene resolution in the up direction. The McKinsey claim finally traces: Quartz's 25 April piece links directly to Bloomberg of 15 December 2025, 'McKinsey executives plot job cuts in slowdown for consulting industry'. So there is a first-tier source. But the Bloomberg content undercuts the aggregators repeating it. The cuts are in non-client-facing divisions, the figure is up to 10% of staff in some areas, the horizon is eighteen months to two years, and the framing is a consulting slowdown rather than AI substitution. I will log the fact and not the aggregators' 3,000-4,000 AI-attributed gloss. Plus 0.2pp for venue. The Big Four graduate intake cuts, KPMG down 29% from 1,399 to 942, Deloitte down 18%, EY down 11%, PwC down 6%, with UK accountancy graduate adverts down 44% on 2023, remain the strongest structural up-item, but I confirmed today they date to June 2025 reporting and are already in the stock. Plus 0.1pp as standing context only.\n\nNet roughly plus 0.3pp against minus 1.4pp takes me from 9 to 8. I am cutting the ceiling from 17 to 15, because the up-case's flagship analysis turns out to decline to forecast the magnitude the question asks about, and dropping the floor from 6 to 5.",
+   "base_rate": "The reference class is unchanged and a poor fit: professional-services sectors losing a third or more of revenue or employment inside roughly six years, attributed primarily to one technology by two or more credible analyses. Every candidate fails a leg. US travel agencies cleared the magnitude bar but over fifteen years with two causes, online booking and the 1995-2002 abolition of airline commissions. Contract document review shrank under technology-assisted review, but the affected group was staffing-agency contract attorneys while legal services revenue grew. Typesetting collapsed under desktop publishing, but over more than a decade, against a craft with no judgement component. The modal five-to-six-year outcome is task recomposition with flat-to-rising sector employment, putting the magnitude leg alone near 5-8% and the conjunction with a satisfiable attribution test lower still.",
+   "factors_up": [
+    {
+     "factor": "McKinsey claim now traces to a first-tier source",
+     "impact": "+0.2pp",
+     "detail": "Quartz of 25 April 2026 links directly to Bloomberg of 15 December 2025, 'McKinsey executives plot job cuts in slowdown for consulting industry'. Venue quality is finally established. The content is weaker than the aggregators claim: non-client-facing divisions, up to 10% of staff in some areas, eighteen to twenty-four months, framed as an industry slowdown rather than AI substitution."
+    },
+    {
+     "factor": "Entry-level channel is genuinely contracting",
+     "impact": "+0.1pp (standing)",
+     "detail": "KPMG cut its graduate scheme 29% from 1,399 to 942, Deloitte 18% from 1,700 to 1,400, EY 11% and PwC 6%, with Indeed recording UK accountancy graduate adverts down 44% on 2023 and EY deferring start dates three years running. Confirmed today as June 2025 reporting, so already in the stock rather than new information."
+    },
+    {
+     "factor": "Task profile of the niche is unusually exposed",
+     "impact": "standing (in level)",
+     "detail": "Birjandi and Zadeh put the AI-automatable share of the data, modelling and drafting layer at 45-70% across antitrust, securities, IP, employment and commercial damages work, with maker-checker replication audits 85-95% automatable. Nobody disputes the task-level exposure; the dispute is about pace, pricing and offsetting demand."
+    },
+    {
+     "factor": "In-housing channel is real if early",
+     "impact": "standing (in level)",
+     "detail": "The 2025 Chief Legal Officer Survey finds a majority of large in-house legal departments deploying AI for research and contract analysis previously routed outside, and reducing outside spend is a stated primary motivation for Fortune 500 legal departments. If mature, this bypasses outside economic consultants entirely rather than merely making them cheaper."
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "The flagship up-case analysis is older, softer and unquantified",
+     "impact": "-0.5pp",
+     "detail": "Read in full, the ProMarket piece is dated 29 April 2026 (modified 26 August, which is why it resurfaced), concludes 'economic consulting in litigation is not going away', calls the offsetting-case-volume question 'an open question', forecasts no aggregate magnitude, expects senior testifying fees to rise from a 2024 average of $451 per hour, and is written by a plaintiff-side law firm economist and an AI governance vendor executive. Its one hard number, CRA's 5.8% consultant headcount fall, is fiscal 2024, at or before the baseline."
+    },
+    {
+     "factor": "The only public pure-play is adding economists",
+     "impact": "-0.4pp",
+     "detail": "FTI's Q2 2026 shows Economic Consulting revenue down just 1.5% to $188.8m from $191.7m, explicitly attributed to lower non-M&A antitrust and arbitration work, while segment billable headcount rose 3.0%. Company billable headcount reached 6,409 and total staff 8,648 against 7,453 in 2023."
+    },
+    {
+     "factor": "Trade-body and market forecasts point to AI-driven growth",
+     "impact": "-0.3pp",
+     "detail": "The MCA has UK consulting leaders forecasting 5.7% growth in 2026 and 7.4% in 2027, with 88% expecting to grow and AI services named the single largest driver of revenue growth. Global management consulting revenue is put at $374.67bn in 2026 compounding 4.7% to $471.39bn by 2031, and Source Global Research has technology consulting passing $400bn with growth accelerating to 7%."
+    },
+    {
+     "factor": "Challenger data reads against displacement",
+     "impact": "-0.2pp",
+     "detail": "July 2026 cuts of 33,429 were the lowest monthly total since July 2024, year-to-date 477,033 is down 41% on 806,383, and hiring announcements are up 25%. Challenger's own summary is that AI 'is shifting the labor market, it is not dismantling it', and the AI-cited cuts concentrate in technology, 149,023 year to date."
+    },
+    {
+     "factor": "Niche firms are recruiting the automatable cohort",
+     "impact": "-0.2pp",
+     "detail": "NERA is recruiting for winter 2026 to summer 2027 graduation dates with AI fluency listed as desirable, CRA is hiring consulting associates for 2026 starts, and Brattle is recruiting New York research analysts for bankruptcy and restructuring. This follows Oxera's Berlin opening with laterals from NERA and CRA."
+    }
+   ],
+   "key_uncertainties": [
+    "Attribution remains the binding constraint rather than magnitude. Even if a 33% fall occurred, no source I have found is prepared to attribute it primarily to AI in quantified terms, and the most on-point paper explicitly declines to.",
+    "There is still no clean measurement series for the narrow niche. BLS CEU6054160001 at 1,857.7k in March 2026 is a broad proxy, FTI's Economic Consulting line is the only disclosed pure-play and does not report again until late October, and CRA, NERA, Brattle, Analysis Group, Cornerstone, Compass Lexecon and Oxera are private or unsegmented.",
+    "Whether AI-generated litigation demand is durable or transitional. The H1 2026 surge in AI-related securities filings currently offsets task automation, but it could plateau well before 2030, after which the automation effect runs unopposed.",
+    "Whether the in-housing channel matures. If corporate legal departments genuinely absorb screening, event studies and damages modelling, the sector shrinks structurally rather than merely repricing; if courts keep requiring independent credentialed experts, it does not.",
+    "Pricing behaviour. If firms retain AI savings the way law firms did, revenue holds while headcount falls, which splits the question's two resolution legs apart and makes the revenue leg much harder to satisfy than the employment leg."
+   ],
+   "update_triggers": [
+    "FTI Consulting: the late-October Q3 print, or any earlier 8-K or investor conference remark, specifically Economic Consulting segment billable headcount after the +3.0% in Q2 and revenue after the -1.5% to $188.8m.",
+    "BLS: the 4 September Employment Situation, and specifically CEU6054160001 falling below roughly 1,830k or three consecutive monthly declines totalling 2% from the 1,857.7k March level.",
+    "Challenger, Gray & Christmas: the August report due 4 September, in particular whether Services cuts break out of their year-to-date decline and whether AI-cited cuts spread beyond technology's 149,023.",
+    "Named-firm evidence: CRA International's next headcount disclosure, or any of NERA, Brattle, Analysis Group, Cornerstone, Compass Lexecon, Oxera or Frontier Economics announcing a 10%-plus consultant headcount fall, a hiring freeze, or withdrawal of the 2026-27 analyst intakes currently advertised.",
+    "Evidence base: any independent, non-vendor-affiliated analysis quantifying an AI-caused decline above 15% from a 2024 base specific to economic consulting, or peer commentary on the Birjandi and Zadeh SSRN working paper.",
+    "Down-triggers: MCA or Source Global Research revising 2026-27 growth forecasts upward, further lateral hiring or office openings in the niche, or Accenture's Q4 FY26 print against $17.75-18.4bn guidance showing consulting reaccelerating."
+   ]
+  },
+  {
+   "question": "Will Labour be largest party at next UK General Election?",
+   "central": 52,
+   "ci_lower": 36,
+   "ci_upper": 64,
+   "key_change": "Move: 53 to 52.\n\nA thin day for data and a heavier one for the calendar, and on balance I am handing back one of the two points I added yesterday. No new GB-wide voting intention poll has been published since More in Common's release on 26 August, fieldwork to 23 August on n=3,140, and YouGov's 23-24 August wave on n=2,380. So the only hard movement today is in the aggregates, and it runs mildly against Labour. PollCheck's seven-poll moving average, stamped 27 August, reads Labour 25.6, Reform 24.9, Conservatives 19.9, Greens 10.7, Liberal Democrats 10.1. That is a 0.7-point lead against the 0.9 I logged yesterday, with Reform up two tenths as the window recomposed. BritPolls' live ticker is essentially static at Labour 25.6, Reform 24.4, Conservatives 19.6, Greens 10.8, Liberal Democrats 10.4. Neither is decay and both are noise below the second decimal. But if I bank two points on one day's news, I should be willing to give one back when the following day declines to confirm it.\n\nTaking yesterday's triggers in order. The first up-trigger required a second house to adopt a Restore Britain prompt on September fieldwork with Reform falling two or more in the same wave. Not fired, and the nearest evidence cuts the other way: YouGov, which already prompts for Restore, had Restore at 3 on 23-24 August, down one, in the very wave Reform fell one to 23 with Labour static on 22, Conservatives up one to 20, Greens 13 and Liberal Democrats 13. At More in Common the newly prompted Restore took 4 and Reform fell 2; at YouGov both fell together. That is not a refutation, but it is a reminder that I leaned hard on a single house's prompt-list change and that the second reading available does not replicate it. I am shaving back part of yesterday's one-and-a-half point allowance for it.\n\nThe second up-trigger needed two of Opinium, Ipsos, Survation or YouGov to put Labour three or more clear on post-recess September fieldwork, or PollCheck to hold a 1.5-point lead for three consecutive days. Not fired on either limb; there is no September fieldwork yet and PollCheck is at 0.7. The third needed Electoral Calculus to refresh past 28 July and lift P(Labour largest) above 58 per cent. Not fired: the prediction page still carries a 28 July stamp, Labour 244 seats on 23.9 per cent against Reform 127 on 23.4, Conservatives 132, Liberal Democrats 70, with Labour 58 per cent, Reform 25 and Conservatives 16 to be largest. That model is now thirty-one days stale and every day it sits unrefreshed I should lean on it slightly less. The fourth needed Ladbrokes to shorten Labour below 5/4 or drift Reform beyond 5/2. Not fired: the board is unchanged for a sixth day at Labour 11/8, Reform 11/5, Conservatives 7/2, Greens 33/1, Restore Britain 20/1, Liberal Democrats 40/1, a 105.7 per cent book normalising to Labour 39.8 per cent.\n\nOn the downside triggers, the return-of-Parliament test cannot fire yet because Parliament does not return until Tuesday 1 September, and the Burnham favourability limb is comfortably unmet. YouGov's August favourability round has 46 per cent favourable and a net of +13, and Deltapoll's 21-24 August wave puts his approval at 26 per cent, up eight after the cost-of-living package. He remains the only leader with positive net approval. No pollster has Reform three or more ahead, and neither aggregate shows a Reform lead at all.\n\nThe genuinely new item today is one I had not been pricing. LabourList reports this morning that Parliament returns next Tuesday and that Alex Sobel's amendment to the Representation of the People Bill, calling for a National Commission on Electoral Reform, is debated on Wednesday 2 September with 185 signatories, the most-supported amendment of this Parliament. A YouGov poll of MPs finds 55 per cent of Labour MPs in favour and 29 per cent against, 53 per cent across all parties. Burnham called Labour conference's 2022 endorsement of proportional representation a historic vote. This matters directly to the resolution mechanism rather than to the polling. My entire yes case rests on first past the post converting a one-point Labour vote lead into a hundred-seat Commons lead, exactly as Electoral Calculus's 244 against 127 does. Any move to a proportional system before the next contest deletes that advantage and turns the question into something close to a coin flip on votes. The chain from commission to report to legislation to implementation is long and I put it well under one in five before the election, but it is a live tail that bites at precisely the load-bearing assumption.\n\nEverything else is the same furniture. The Budget is 28 October with Healey balancing defence investment, cost-of-living relief and market confidence. Conference is in Liverpool from 26 September with Unite disaffiliation in the background. Assisted dying returns on 11 September. Ladbrokes still has 2029-or-later at evens. Netting: minus one for the aggregate narrowing and the failure of the Restore result to replicate at YouGov, minus a half for the newly visible electoral-reform tail, plus a half for Burnham's favourability holding at +13 with approval rising. One point down.",
+   "base_rate": "Incumbent governing parties defending a Commons majority have remained largest party at the following election in roughly thirteen of nineteen post-1945 defences, about 65-70 per cent, but that class is badly mis-specified: none entered mid-term polling in the low twenties with four rivals above 9 per cent. The closer class is governments that changed leader mid-term - Major, Brown, May, Johnson, Sunak - of whom two of five were largest next time, near 40 per cent on n=5. The load-bearing input is structural: Electoral Calculus's 28 July poll-of-polls gives Labour 244 seats on 23.9 per cent against Reform 127 on 23.4, P(Labour largest) 58 per cent; Convergent's late-July MRP gives 245 against 174. Discounting five to eight points for a contest two to three years out and blending a market near 40 per cent at quarter weight lands in the low fifties.",
+   "factors_up": [
+    {
+     "factor": "First past the post with a three-way split right remains the dominant mechanism",
+     "impact": "+8pp",
+     "detail": "Electoral Calculus's 28 July poll-of-polls turns Labour 23.9 against Reform 23.4 into 244 seats against 127, roughly ten Labour MPs per national point against just over five for Reform. Convergent's 25-30 July MRP gives Labour 245 against Reform 174 and PLMR's June MRP turned Lab 22 equals Ref 22 into Lab 217, Con 151, Ref 127. Four independent modellers replicate it."
+    },
+    {
+     "factor": "Labour has led or tied every published poll since Burnham took office",
+     "impact": "+3pp",
+     "detail": "More in Common had Labour 27 Reform 23 on fieldwork to 23 August, Deltapoll 29 against 27 on 21-23 August, Ipsos 28 against 25 on 11 August, and even YouGov's Reform-friendliest house has the gap at one point. Labour has been first or joint first in every major poll since 24 July, having trailed by six in June."
+    },
+    {
+     "factor": "Burnham's personal ratings are still rising, not decaying",
+     "impact": "+3pp",
+     "detail": "YouGov's August favourability round has 46 per cent favourable and net +13, and Deltapoll's 21-24 August wave has his approval at 26 per cent, up eight after the cost-of-living package. He is the only leader with positive net approval. Richard Rose's decay thesis predicted fading by now and it has not started."
+    },
+    {
+     "factor": "Survation MRP sizes Reform's tactical-voting exposure at nearly 300 seats",
+     "impact": "+2pp",
+     "detail": "HOPE Not Hate's 'Blocking the Path' report, published 27 August, finds 43 per cent unhappy with a Reform government against 36 per cent happy and 69 per cent of the unhappy group willing to vote tactically. Its MRP identifies 95 fragile Reform seats with margins of three points or less plus 199 more winnable only on a split opposition."
+    },
+    {
+     "factor": "Farage carries unresolved personal jeopardy",
+     "impact": "+2pp",
+     "detail": "The Parliamentary Commissioner for Standards, Daniel Greenberg, resumed his inquiry into the undeclared five million pound Harborne gift after Farage regained Clacton on 13 August. A referral to the Committee on Standards and a suspension of ten sitting days or more would trigger a recall petition in a seat Reform must hold."
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Parliament returns on 1 September and the calendar turns hostile immediately",
+     "impact": "-4pp",
+     "detail": "LabourList's 28 August analysis calls the honeymoon closed: the 28 October Budget, a contested defence investment line, welfare reform splits in the PLP, immigration reforms that worry his own backbenchers, prisons, water and the NHS approaching winter. Recess has been doing a lot of the work in Labour's recovery."
+    },
+    {
+     "factor": "A live electoral reform push threatens the mechanism the yes case rests on",
+     "impact": "-2pp",
+     "detail": "Sobel's amendment to the Representation of the People Bill, 185 signatories and the most-backed amendment of this Parliament, is debated on 2 September, with 55 per cent of Labour MPs supporting a National Commission on Electoral Reform in a YouGov poll of MPs. Burnham is a declared proportional representation supporter. Any move off first past the post erases Labour's seat efficiency."
+    },
+    {
+     "factor": "The bookmaker consensus is unmoved for a sixth day and far below my central",
+     "impact": "-4pp",
+     "detail": "Normalising the Ladbrokes most-seats book of 105.7 per cent, Labour 11/8, Reform 11/5, Conservatives 7/2, gives Labour 39.8 per cent against Electoral Calculus's 58 per cent. ElectaMeter's multi-venue read of 42.3 per cent on 23 August narrows but does not close a gap of roughly eighteen points."
+    },
+    {
+     "factor": "Labour's absolute level is historically dire and wildly pollster-dependent",
+     "impact": "-4pp",
+     "detail": "YouGov had Labour 22 and Reform 23 on 23-24 August while Deltapoll had 29 and 27 two days earlier and More in Common 27 and 23. The aggregate of 25.6 compares with 33.7 per cent in 2024, and a two-point adverse swing puts Labour behind Reform on every aggregate at once."
+    },
+    {
+     "factor": "Three years of reversion time on a lead measured in fractions of a point",
+     "impact": "-4pp",
+     "detail": "Ladbrokes prices 2029-or-later at evens, so the modal contest is two to three years away. PollCheck's lead narrowed from 0.9 to 0.7 between 26 and 27 August without any new poll, which is the scale of the thing I am extrapolating into a hundred-seat Commons advantage."
+    }
+   ],
+   "key_uncertainties": [
+    "Whether the More in Common Restore Britain prompting result generalises. Restore took 4 and Reform fell 2 in the one house that newly prompted, but YouGov, which already prompts, had Restore down one to 3 and Reform down one to 23 in the same window, so both fell together rather than one feeding the other.",
+    "Whether the electoral reform push goes anywhere. A commission on 2 September is a long way from a proportional system in place by the next election, but the conditional impact is severe because it removes the seat-efficiency advantage that carries almost all of my probability above the market's 40 per cent.",
+    "How the return of Parliament, conference in Liverpool from 26 September and the 28 October Budget compound. Welfare reform, defence investment and immigration are three separate routes to a visible PLP split, and Unite disaffiliation hangs over conference.",
+    "Whether the eighteen-point gap between Electoral Calculus's 58 per cent and the bookmakers' normalised 40 per cent is favourite-longshot bias, model overconfidence in the seat-vote curve, or a real trader edge. Electoral Calculus has not refreshed since 28 July and is now thirty-one days stale.",
+    "Where the Farage standards inquiry lands, and whether Reform's polling floor is set by Farage personally or by the immigration issue, which returns to the front pages the moment asylum accommodation decisions resume next week."
+   ],
+   "update_triggers": [
+    "Revise UP if two of Opinium, Ipsos, Survation, More in Common or YouGov put Labour three or more points clear of Reform on September fieldwork, or if PollCheck's seven-poll average holds a Labour lead of 1.5 points or more for three consecutive days.",
+    "Revise UP if Electoral Calculus refreshes past its 28 July prediction and holds or raises P(Labour largest) at 58 per cent or above, or if a fresh MRP on August or September fieldwork puts Labour above 240 seats.",
+    "Revise UP if the Ladbrokes most-seats board shortens Labour below 5/4 or drifts Reform beyond 5/2 for two consecutive days, or if the Farage standards inquiry is referred to the Committee on Standards.",
+    "Revise DOWN if the first fortnight back at Westminster produces a Commons defeat, a frontbench resignation or a public cabinet split on defence funding, welfare, prisoner release or asylum accommodation.",
+    "Revise DOWN if the government adopts the Sobel amendment and commits to a National Commission on Electoral Reform with a reporting date before the next election, since a proportional system would erase Labour's seat-efficiency advantage.",
+    "Revise DOWN if two or more pollsters put Reform three or more ahead on September fieldwork, if PollCheck and BritPolls both show a Reform lead of one point or more for four consecutive days, or if Burnham's net favourability falls below +5 on any two of More in Common, Opinium, Survation or YouGov."
+   ]
+  },
+  {
+   "question": "Will AGI be developed before 1 January 2035?",
+   "central": 85,
+   "ci_lower": 74,
+   "ci_upper": 93,
+   "key_change": "Move: 85 to 85.\n\nYesterday I moved up two points on the TIME article of 26 August, and I named two things that would justify going further: the Kalshi KXOAIAGI before-2030 line clearing 50 per cent and holding, and the KXAGICO-COMP 28Q1/28Q2 band breaking above 59 on real trade. Fetched live this morning, the first half-fired and then failed the \"holding\" test, and the second did not fire at all. That is the whole story of today, and it argues for standing still rather than chasing.\n\nTaking the triggers in order. The OpenAI-specific ladder did move again: OAIAGI-26 (before 2027) last 17.6 cents against a previous 12.0, on 850 dollars of 24-hour volume and 137,000 of open interest; OAIAGI-27 (before 2028) 39.1 against 36.8, but on just 34 dollars of trade; OAIAGI-29 (before 2030) last-printed 57.0 against yesterday's 48.1. The 57 print is the eye-catching number and it is also the misleading one. The book behind it currently reads 46.5 bid, 49.0 ask on 446 dollars of 24-hour volume, so the market has already given back the entire move above my 50 threshold. Last trade above 50, resting book below 50, no hold. Meanwhile the \"any company\" board, whose rules text matches this question's first limb and expressly excludes \"AGI-like\" and \"near-AGI\" hedges, is completely frozen: 27Q4 at 49, 28Q1 at 42, 28Q2 and 28Q3 at 59, 28Q4 at 64, 2029 at 67, 2030 at 80, every one of them unchanged from the previous close and eleven of the twelve tranches showing zero 24-hour volume. The instrument that best matches this question's resolution criteria has not repriced on the TIME article at all. When the on-criteria book is flat and only the lab-specific book moves, I read that as sentiment about OpenAI's rhetoric rather than information about AGI.\n\nTwo developments cut in opposite directions and roughly cancel. On the down side, there is a visible walk-back: Arabian Post reported that a review of OpenAI's own published statements, research material and executive remarks finds no declaration setting December 2026 as an AGI deadline, and points instead to the Altman-Pachocki June framing that a significant fraction of OpenAI's research could be done by AI alongside humans by March 2028, with substantial autonomous discoveries from 2028. The Decoder's headline on 26 August is honest about the conditionality - \"if you accept his definition\". Goodheart Labs, refreshed to today, 28 August, still reads a 2031 median but has widened its 80 per cent upper bound from 2042 to 2043. And RAND's forecasting review restates that the most recent large-scale expert survey puts high-level machine intelligence at a 2047 median, itself a 13-year pull-in on the prior wave but still an anchor sitting well outside this question's window. On the up side, the OpenAI training pause is now better characterised than it was in my note yesterday: BankInfoSecurity and Help Net Security both describe a two-week pause in frontier reinforcement-learning training pending a safety review, not the indefinite freeze I implied. If that is right, resumption falls around the start of September, and the safety friction is a speed bump rather than a structural brake. Altman's own line to TIME, \"I think it is a good time to slow down\", is a deliberate choice, not an imposed one.\n\nOne item I had not fully weighted deserves a mention because it bears directly on the three-researcher limb. IAPS fellow Severin Field's 13 August stocktake of interviews with 25 researchers across OpenAI, Anthropic, Google DeepMind, Meta and US universities notes that 1,224 employees at those companies, including the chief scientists of OpenAI and Meta, have signed the pacingthefrontier.com statement warning their organisations may be on the verge of automating AI research. Field also records that only four of 20 respondents expect research-capable models to ship publicly, with half expecting them to stay internal. That is a genuinely two-sided datum: a very large pool of named senior researchers is now on record about imminence, which makes a qualifying three-person cluster easier over nine years, but the same people expect the strongest systems never to be released, which is exactly the mechanism by which capability could arrive without a public declaration. Anthropic's S-1 remains confidential since 1 June, with CNBC reporting on 21 August that AI backlash will feature as a risk factor - a prospectus written defensively is not one that declares AGI.\n\nNothing in the down-trigger list fired either. Metaculus 5121 holds January 2033, no second lab has announced a halt, no 2027 capex guidance has been cut, and the power picture is unchanged: Goldman has hyperscaler capex at 1.15 trillion dollars across 2025-2027, over 60 per cent of it going into power, land and cooling, with 67 per cent of the 8,900 MW US pipeline needing new transformers on 36-month lead times.\n\nSo: an unrepriced on-criteria book, a failed hold on the one market threshold I set, a mild rhetorical walk-back offset by a materially less alarming reading of the training pause, and a one-year widening at the top of the aggregate distribution. On a nine-year horizon none of that is worth a point. Hold at 85, CI unchanged at 74-93. Coherence check against the 2030 question at 32: 85 here implies roughly a 78 per cent conditional probability of a qualifying declaration during 2030-2034 given none by 2030, which I still think is about right given how low the rhetorical bar sits.",
+   "base_rate": "There is no frequency base rate: AGI has never been developed, so the event class has zero members. The only usable outside view is the distribution of published forecasts on near-identical questions, weighted by how closely their criteria match this question's rhetorical, announcement-shaped bar. Goodheart Labs (28 August 2026) reads a 2031 median with an 80 per cent interval of 2027-2043, implying roughly 68-74 per cent of mass before 2035; Metaculus 5121's stricter definition gives a January 2033 median implying about 60-68 per cent; Kalshi's rules-matched KXAGICO-COMP book quotes 67 per cent by 2030 and 80 per cent by 2031, extrapolating to the high 80s by 2035; and RAND's review of the latest large expert survey puts HLMI at a 2047 median, anchoring the sceptical tail below 40 per cent. Weighting the announcement-shaped anchors most heavily, adding for the second (three-researcher) limb, and subtracting for the chance no serious lab ever uses the word, the outside view lands in the mid-80s.",
+   "factors_up": [
+    {
+     "factor": "Resolution bar is rhetorical, not technical",
+     "impact": "+14pp",
+     "detail": "One lab announcement or three researcher statements, with no agreed definition to police the claim. The Decoder's own framing of the TIME piece - AGI by end-2026 'if you accept his definition' - is the point: OpenAI's charter definition is economics-driven and self-graded. Huang's March 2026 'we've achieved AGI', Sequoia's '2026: This is AGI' and Stripe's 19 August investor letter are standing precedent for term inflation across nine years of runway."
+    },
+    {
+     "factor": "OpenAI leadership have put a date on internal AGI",
+     "impact": "+7pp",
+     "detail": "TIME's 26 August 'Inside OpenAI's Reboot' has Altman expecting an internal system he would call AGI by end-2026, Mark Chen at '80% of the way', Brockman saying this period will be seen as the moment AGI emerged, and Pachocki saying Astra already clears the automated-research-intern bar. Four named principals from one lab in one article is the shape the second limb rewards."
+    },
+    {
+     "factor": "A very large pool of named senior researchers is on record about imminence",
+     "impact": "+6pp",
+     "detail": "Per IAPS fellow Severin Field's 13 August stocktake, 1,224 employees at OpenAI, Anthropic, Google and Meta - including the chief scientists of OpenAI and Meta - signed the pacingthefrontier.com statement warning their organisations may be on the verge of automating AI research. Twenty of his 25 interviewees rated research automation among the most urgent risks. The three-researcher limb needs only a fraction of that pool to shift from 'verge of' to 'has happened'."
+    },
+    {
+     "factor": "Agentic time horizons still compounding fast",
+     "impact": "+5pp",
+     "detail": "METR's Time Horizon 1.1 gives an all-time doubling of 188 days, 129 days from 2023 and just 89 days from 2024, on a suite expanded 34 per cent to 228 tasks with 31 at eight hours or more. METR notes the strongest agents are already near or beyond reliable measurement above 16 hours. Naive extrapolation reaches week-scale autonomous work inside 2027."
+    },
+    {
+     "factor": "Safety friction is bounded, not structural",
+     "impact": "+4pp",
+     "detail": "BankInfoSecurity and Help Net Security both describe OpenAI's frontier RL halt as a two-week pause pending safety review following the July Hugging Face containment incident and preliminary Critical-cyber evidence on Astra, implying resumption around early September rather than the open-ended freeze I assumed yesterday. Altman's 'good time to slow down' is a choice, not a binding constraint."
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "The on-criteria market has not repriced at all",
+     "impact": "-7pp",
+     "detail": "KXAGICO-COMP, whose rules match this question's first limb and expressly exclude 'AGI-like' hedges, is unchanged across every tranche today - 27Q4 49, 28Q1 42, 28Q2 and 28Q3 59, 28Q4 64, 2029 67, 2030 80 - with zero 24-hour volume in eleven of twelve. The Kalshi move has been confined to the OpenAI-specific book, and even there the before-2030 line's 57 print sits above a 46.5/49.0 resting book."
+    },
+    {
+     "factor": "The declaration mechanism has been dismantled, and the strongest models may never ship",
+     "impact": "-8pp",
+     "detail": "The 27 April 2026 OpenAI-Microsoft amendment removed the AGI clause, replacing termination with an expert-panel verification process. Anthropic uses 'powerful AI', DeepMind grades rather than declares, and Altman has called AGI 'not a super useful term'. Field finds only four of 20 lab researchers expect research-capable models to launch publicly, half expecting them to stay internal - capability without a public announcement is a live path to NO."
+    },
+    {
+     "factor": "Independent evidence that the research-automation loop is not closing",
+     "impact": "-6pp",
+     "detail": "MIT Technology Review, 18 August 2026, reported a shadow-evaluation study in which agents still cannot conduct open-ended AI research, with Claude Opus 4.8 on OpenClaw failing on questions drawn from unpublished NeurIPS 2026 submissions. Astra remains unreleased and every claim about it is a lab self-report against a bar the lab set. Recursive self-improvement is the mechanism that would make 2035 easy rather than merely likely."
+    },
+    {
+     "factor": "Power, not chips, caps the 2030-2035 increment",
+     "impact": "-6pp",
+     "detail": "Goldman puts hyperscaler capex at 1.15 trillion dollars across 2025-2027, but over 60 per cent of AI infrastructure spend now goes to power, land, cooling and construction; 67 per cent of the 8,900 MW US pipeline needs new transformers on lead times beyond 36 months; roughly 280bn dollars of committed capex is at risk of delay through 2027; Microsoft has disclosed about 80bn dollars of Azure orders it cannot fill for want of power."
+    },
+    {
+     "factor": "Strict-definition distributions retain long right tails",
+     "impact": "-7pp",
+     "detail": "Goodheart Labs at 28 August reads median 2031 with an 80 per cent interval of 2027-2043, the upper bound one year wider than yesterday. Metaculus 5121 holds January 2033. RAND's forecasting review puts the latest large expert survey at a 2047 HLMI median. Sutskever calls the internet 'the fossil fuel of AI'; annual MMLU gains fell from 16.1 points in 2021 to 3.6 in 2025; ARC-AGI-3 still has Opus 5 at 30.2 per cent."
+    }
+   ],
+   "key_uncertainties": [
+    "Whether Altman's 'internal system I would call AGI by end of 2026' ever converts into a public statement that OpenAI has achieved AGI, or stays permanently hedged as 'not quite yet', 'AGI-like' and 'if you accept his definition' - Arabian Post's finding that OpenAI has set no year-end AGI deadline suggests the company is already managing that distinction",
+    "Whether the strongest research-capable systems are ever released: Field's interviews have only four of 20 lab researchers expecting public launch, and an incentive flip toward withholding would let capability arrive without any announcement to resolve this question",
+    "Whether Pachocki's automated-research-intern claim for Astra survives independent testing, given the 18 August shadow-evaluation result that agents cannot yet do open-ended research; if it does, recursive self-improvement compresses the whole distribution",
+    "Whether power is a delay or a ceiling: 36-month transformer lead times, 67 per cent of the US pipeline needing new transformers and an 80bn dollar unfillable Azure backlog are consistent with either a two-year rightward shift that nine years absorbs, or a structural cap on effective compute growth through the 2030s",
+    "How strictly this tracker's resolver polices 'leading AI researchers' and 'AGI achieved' - Huang, Altman, Brockman, Chen and arguably Amodei have each made statements a lenient resolver could count, and 1,224 lab signatories widen the candidate pool considerably"
+   ],
+   "update_triggers": [
+    "Revise UP sharply if OpenAI publicly states it has achieved AGI rather than that it expects to, if the internal end-2026 system is announced with that word attached, or if the OpenAI-Microsoft expert verification panel is convened",
+    "Revise UP if three or more senior researchers at different frontier labs state within a short window that AGI has been achieved, or if Anthropic's public S-1 or the October Nasdaq roadshow frames a shipped system as AGI rather than as 'powerful AI'",
+    "Revise UP if KXAGICO-COMP - the rules-matched book, currently frozen with near-zero volume - reprices at all, specifically if the 28Q1/28Q2 band breaks above 59 or the 2030 tranche clears 0.85 on genuine trade",
+    "Revise UP if the KXOAIAGI before-2030 line settles above 50 on the resting book rather than a single print, and holds there for several sessions on continued volume",
+    "Revise UP if Astra ships and is independently confirmed to automate multi-day research tasks end-to-end, or if OpenAI resumes its largest frontier RL run and publishes the Astra Critical-cyber evidence",
+    "Revise DOWN if the Metaculus 5121 median slips past 2035, if the Goodheart 80 per cent upper bound moves beyond 2045, if a second frontier lab announces an indefinite training halt, or if 2027 hyperscaler capex guidance is cut on power or memory constraints"
+   ]
+  },
+  {
+   "question": "Will China initiate a military blockade or invasion of Taiwan before 1 January 2030?",
+   "central": 7,
+   "ci_lower": 4,
+   "ci_upper": 12,
+   "key_change": "Move: 8 to 7.\n\nDown one. This is a deliberate unwinding of the 26 August uptick rather than a reaction to today's news flow, plus one genuinely new and mildly deflationary datum out of Taipei.\n\nTrigger by trigger. First, a named large-scale encircling exercise: none. The last remains Justice Mission 2025 in late December 2025, the two days of live-fire blockade rehearsal that Al Jazeera reported on 1 January as the largest ever around Taiwan by geographical area. That is now eight full months, the longest gap since 2022. August's PLA activity has been ordinary: Taiwan's MND issued Joint Combat Readiness Patrol press releases on 4, 15 and 18 August, and the daily tempo ran 18 sorties with 15 median-line crossings in the 12-13 August reporting window, 20 sorties with 15 ADIZ entries on 19 August, and a two-to-four sortie floor across 24-26 August that coincided with Typhoon Saudel and the CWA's rain warnings. That spread is the normal band for 2026, not a ramp.\n\nSecond, navigation warnings. Nothing in August. The last closure was the Zhangzhou MSA notice of 23 July for live-fire on 24-25 July south and east of Dongshan Island, 6am to 6pm, every box inside roughly 12 kilometres of the mainland coast. Nearshore and daylight-limited is the opposite of a sustained, port-denying closure.\n\nThird, interdiction. Still none. The China Coast Guard's law-enforcement operation east of Taiwan, which the State Department called deeply destabilising on 2 August, covered about 1,030 nautical miles and checked 198 vessels by remote verification of navigation equipment and identification codes. No stopping, no boarding, no detention. Taipei's CGA told shipping on 1 July to ignore any boarding demand, and Beijing has not tested that in eight weeks.\n\nFourth, mobilisation. Nothing. No ro-ro requisitioning, no reservist call-ups, no hospital or blood-supply signals, no unusual stockpiling.\n\nFifth, US posture. The carrier gap is real but I over-weighted it on 26 August. USNI News confirmed on 20 August that George Washington is in the Middle East, having transited the Malacca and Singapore Straits on 13 August to relieve Abraham Lincoln, leaving the Indo-Pacific without a carrier. But TWZ's 17 August tracker has Theodore Roosevelt expected out around September, restoring western Pacific coverage inside weeks. A gap of weeks in late 2026 barely touches a hazard spread over 40 months, and a US Navy P-8A transited the strait on 21 August.\n\nSixth, Taipei politics, and this is today's new item. The Legislative Yuan on 27 August passed a drone procurement act allocating NT$240 billion over six years, roughly US$7.6 billion, per Hong Kong Free Press and DigiTimes. Reuters framed it as a rejection, because the opposition threw out the Executive Yuan's NT$210 billion special-budget vehicle that Wellington Koo asked for on 3 August and legislated its own at NT$40 billion a year. I read the substance differently: the headline authorisation is larger than the Cabinet's request, it prioritises Taiwan-made airframes, and the KMT-TPP majority has put its own name on a six-year drone build-out. Set alongside the Cabinet's 20 August approval of a 2027 defence budget of NT$1.1225 trillion at 3.01 per cent of GDP, the 14 August passage of the 2026 budget with NT$63.4 billion of drone money intact after a 266-day delay, and the first two of 66 F-16V Block 70 leaving the United States on 17 August, deterrence-by-denial in Taipei is improving rather than deteriorating. I am retiring the legislative-gridlock factor I have carried since the May T-Dome cut.\n\nThat leaves the market anchor I leaned on when I moved up two days ago. Today's read is instructive. Polymarket's blockade-in-2026 contract prints around 8 per cent while its invasion-by-2027 contract prints 4 per cent on roughly 40 million dollars of volume. An 8 per cent chance of a blockade in the four months left of 2026 is flatly incompatible with my 7 to 8 per cent over the remaining 40 months, and incompatible with the far thicker invasion book sitting beside it. That internal inconsistency is the signature of long-shot bias in a thin market, not private information. It should not have bought a point on 26 August and I am taking that point back.\n\nAgainst all this the slow ratchet continues and I still price it: Tong Ji surveying off Penghu on 20-21 August, a PRC research vessel loitering over the Taiwan-Philippines-US cables from 28 July to 2 August, the first ever PLA Navy exercise with a foreign navy east of Taiwan on 12 August with Indonesia, and Dong Jun's 1 August vow to thwart independence. Groundwork accumulates regardless of intent. Set against ODNI's judgement that Beijing has no fixed timeline and is not planning a 2027 invasion, and a US-China channel still banking tariff relief through November, 7 with an interval of 4 to 12 is where I sit. I would need a named exercise, a genuine closure area or a first boarding to go back up.",
+   "base_rate": "The reference class is deliberate great-power initiation of a blockade or amphibious assault against a defended, US-aligned island. The PRC has never crossed that line in 77 years, including through the 1954-55 and 1958 offshore island crises and the 1995-96 missile crisis, each of which featured live fire without any interdiction of shipping. Interstate wars of choice at this scale run at roughly one to two per cent per dyad-year even in tense dyads, and the blockade or amphibious variant is rarer still because the operational and regime risk is close to existential for the initiator. With about 3.35 years left in the window, a hazard of roughly 2 per cent per year implies a central figure in the high single digits.",
+   "factors_up": [
+    {
+     "factor": "Continuing PLA build-out and the 2027 readiness milestone",
+     "impact": "+1.5pp",
+     "detail": "Amphibious lift, rocket force inventory and joint command integration keep accumulating on a schedule independent of intent, and Dong Jun used the PLA's 99th anniversary on 1 August to vow the force would thwart independence and external interference. Japan's 5 August defence white paper judges the cross-strait balance to be tilting rapidly in Beijing's favour. Capability is not decision, but it lowers the perceived cost of the option each year of the window."
+    },
+    {
+     "factor": "Gray-zone ratchet normalising interdiction-adjacent behaviour",
+     "impact": "+1pp",
+     "detail": "Coast guard law-enforcement patrols east of Taiwan since June, research vessel Tong Ji surveying 0.3nm outside the contiguous zone off Penghu on 20-21 August, a PRC vessel loitering over the Taiwan-Philippines-US cables from 28 July to 2 August, and the first PLA Navy exercise with a foreign navy east of Taiwan on 12 August with Indonesia. This builds the survey base and legal-administrative habits a quarantine would rely on."
+    },
+    {
+     "factor": "Pacific carrier gap",
+     "impact": "+0.5pp",
+     "detail": "USNI confirmed George Washington in the Middle East on 20 August after a 13 August Malacca and Singapore Strait transit, leaving no US carrier in the Indo-Pacific. Theodore Roosevelt is expected out around September, so the window is weeks rather than structural, but it demonstrates that CENTCOM demand can strip the theatre at short notice."
+    },
+    {
+     "factor": "Political flashpoints around Taiwan's 28 November local elections",
+     "impact": "+0.5pp",
+     "detail": "KMT and TPP are weighing referendums to run alongside the nine-in-one elections and Beijing's cognitive-warfare effort is at full tilt, with Lai's approval around 35 per cent against 52 per cent disapproval. A destabilising result or a constitutional manoeuvre in either direction gives Beijing a framing device."
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "ODNI 2026 Annual Threat Assessment",
+     "impact": "-2pp",
+     "detail": "The US intelligence community judges that Chinese leaders do not currently plan an invasion in 2027 and hold no fixed unification timeline, and that 2027 is a readiness milestone rather than a deadline. This is the best-sourced inside view available and it sits well below the prediction-market anchors."
+    },
+    {
+     "factor": "Eight-month gap since the last named exercise",
+     "impact": "-1.5pp",
+     "detail": "No Strait Thunder, Joint Sword or Justice Mission equivalent since late December 2025, the longest such gap since 2022. August activity was routine Joint Combat Readiness Patrols on 4, 15 and 18 August plus a normal daily tempo of roughly 2 to 20 sorties. The coercion campaign is being run at low intensity, not built toward a crescendo."
+    },
+    {
+     "factor": "Stabilised US-China economic channel",
+     "impact": "-1pp",
+     "detail": "The May 2026 Beijing summit was followed by a further 90-day tariff truce extension in early August citing significant steps by Beijing. A leadership actively banking tariff relief through roughly November is not a leadership positioning for a strait crisis this autumn."
+    },
+    {
+     "factor": "Taipei's deterrence-by-denial improving on multiple fronts",
+     "impact": "-1pp",
+     "detail": "The Legislative Yuan passed a NT$240 billion six-year drone procurement act on 27 August, larger in total than the Cabinet's own NT$210 billion request; the Cabinet approved a 2027 defence budget of NT$1.1225 trillion at 3.01 per cent of GDP on 20 August; the 2026 budget passed on 14 August with NT$63.4 billion of drone spending intact; and the first two of 66 F-16V Block 70 left the US on 17 August. Cross-party ownership of the drone build-out is new."
+    },
+    {
+     "factor": "No interdiction precedent despite ample opportunity",
+     "impact": "-0.5pp",
+     "detail": "The June-July coast guard operation checked 198 vessels over 1,030 nautical miles by remote verification only. Taipei publicly told shipping on 1 July to refuse boarding demands and Beijing has not tested it in eight weeks. The PRC keeps stopping short of the act that would start the clock."
+    }
+   ],
+   "key_uncertainties": [
+    "Whether Theodore Roosevelt actually deploys in September and closes the Pacific carrier gap, or whether CENTCOM demand makes routine Indo-Pacific carrier absence a structural feature of US posture through the rest of the window.",
+    "Whether the thin Polymarket blockade book carries any private information at all, given it prices an 8 per cent blockade in four months alongside a 4 per cent invasion over the same period on a far thicker order book.",
+    "The internal state of the PLA after successive Rocket Force and Central Military Commission purges, and whether Xi trusts his own command chain enough to execute a joint operation of this complexity.",
+    "How Beijing reads the 28 November local elections and any KMT-TPP referendum package, and whether a perceived narrowing of the peaceful-unification path before the 2028 presidential race converts long-run pressure into a near-term decision.",
+    "Whether the NT$40 billion annual drone appropriation is actually disbursed at pace, or becomes another line item that stalls in committee as the T-Dome special budget did when it was cut by about 40 per cent in May."
+   ],
+   "update_triggers": [
+    "Announcement of a named large-scale joint exercise of Strait Thunder or Joint Sword class encircling Taiwan, particularly one with declared closure areas rather than notional zones.",
+    "A Fujian or Zhejiang MSA navigation warning closing large sea areas around Taiwan for more than 72 hours, or NOTAMs materially denying access to Taiwan's main ports or airports.",
+    "PLA Navy or China Coast Guard boarding, inspecting or turning back a Taiwan-bound commercial vessel, especially as a repeated pattern rather than a one-off, or a demand that vessels calling at Taiwan report through China's International Trade Single Window.",
+    "Civilian mobilisation indicators: mass requisitioning of ro-ro ferries, reservist call-ups, hospital bed clearance, blood drives, or unusual strategic stockpiling of grain, fuel or semiconductors.",
+    "US force-posture shifts in either direction: Theodore Roosevelt or an amphibious ready group arriving in the western Pacific, or further PACOM assets redeployed to CENTCOM with no replacement assigned.",
+    "A political shock around the 28 November local elections, or a shift in Taiwan Affairs Office, Xi or CMC language from aspiration to a stated deadline."
+   ]
+  },
+  {
+   "question": "Will UK annual CPI inflation fall below 2.0% for at least one month before 1 January 2027?",
+   "central": 0,
+   "ci_lower": 0,
+   "ci_upper": 1,
+   "key_change": "Move: 1 to 0. I am lowering this, and for once it is not noise. Two pieces of hard information have landed since the previous note that between them close the last live economic route to YES, and the honest central estimate is now below half a percentage point rather than just under one.\n\nThe first is Ofgem's announcement of Wednesday 26 August 2026 that the energy price cap will rise by 4% for the period 1 October to 31 December 2026, from £1,663 to £1,723 for a typical direct debit household. Ofgem attributes this to higher wholesale gas prices arising from the ongoing Middle East conflict, notes that wholesale prices have risen 11% over the past three months, and states that gas bills specifically rise 8%. This matters far more than a single 4% number suggests, because it converts the largest remaining source of downside variance from a random variable into a known constant. Domestic gas and electricity prices for October and November 2026 - the reference months behind the last two prints that can be published before 1 January 2027 - are now administratively fixed and fixed higher. My previous note listed \"Ofgem announcing an October cap cut of double-digit percentage size\" as the single most powerful update trigger. It fired, in the opposite direction.\n\nThe second is the removal of VAT from domestic electricity bills from 1 October 2026 to 31 March 2027, confirmed by the Prime Minister ahead of the Budget rather than in it. This is the fiscal shock my previous note identified as the only historically observed mechanism capable of delivering a sub-2% print in this timeframe, and it has arrived - but far too small. Ofgem's own press release quantifies it: without the intervention the cap would have been around £45 higher, so roughly 2.5% of a typical bill, which nets out to something like 0.1 percentage points off headline CPI in October. Electricity bills stay broadly flat while gas rises 8%. A 0.1pp help against a 0.9pp requirement is not a route to resolution. It is also worth noting the Budget itself is on 26 November 2026, after the November price collection window, so no Budget measure can reach a publishable print.\n\nWalking the remaining triggers: Brent is around $88 a barrel on 28 August, down from $95.40 on 20 August but nowhere near the $55 threshold, and the EIA has Q3 averaging about $85. UK unleaded stood at 161.1p per litre on 17 August against roughly 132p in early March, so motor fuels are contributing strongly positively year on year rather than dragging. The HM Treasury comparison of independent forecasts for August 2026 has the panel average for Q4 2026 CPI at 3.4%, unchanged from the July edition. The Bank of England's July 2026 Monetary Policy Report of 30 July has CPI peaking near 3.2% in Q4 with risks tilted to the upside, Bank Rate is 3.75%, the 17 September MPC carries no forecast round and OIS pricing implies a small upward bias, and the next Monetary Policy Report is not until 5 November. No ONS revision or methodology notice has appeared.\n\nThe arithmetic is unchanged and unforgiving. July 2026 CPI was 2.9% (ONS, 19 August), with core at 2.6%, services at 3.4% and CPIH at 3.1%. Only four prints remain: August on 16 September, September on 21 October, October on 18 November and November on 16 December. Each needs a fall of more than 0.9pp from a starting point where energy is locked upward, pay growth is 3.5% on regular earnings and services inflation is still above 3%.\n\nI am therefore moving the central to 0, which in an integer tracker means \"below 0.5%\", not \"impossible\". The residual sits in a statistical revision, a resolution-wording quirk, or an oil collapse of a magnitude that would still not be sufficient on its own. The interval stays [0, 1] to preserve exactly that tail.",
+   "base_rate": "The reference class is 'will a published macro series cross a threshold within a short fixed window, starting roughly 1pp on the wrong side, with the administered component of the index already locked in the wrong direction'. UK annual CPI has fallen more than 0.9pp inside four months only after discrete VAT cuts (2008, 2020) or wholesale energy collapses passing through the price cap (2023). Ordinary month-to-month moves in the annual rate cluster within about plus or minus 0.3pp. Conditioning on the Bank of England projecting a rise to about 3.2% and the HM Treasury panel averaging 3.4% for the same quarter, and on the Ofgem cap for October to December being known and higher, pushes this well below 1%.",
+   "factors_up": [
+    {
+     "factor": "VAT removed from domestic electricity from 1 October",
+     "impact": "+0.1pp",
+     "detail": "Ofgem says the cap would have been around £45 higher without it, worth roughly 0.1pp off headline CPI from the October reference month, and it runs to 31 March 2027."
+    },
+    {
+     "factor": "Oil retracement and possible Hormuz reopening",
+     "impact": "+0.1pp",
+     "detail": "Brent fell from $95.40 on 20 August to about $88 on 28 August. Iran and Oman are reported close to a Hormuz agreement; a genuine reopening would unwind the fuel contribution fast, though not by 0.9pp."
+    },
+    {
+     "factor": "Core, services and food all cooling",
+     "impact": "+0.1pp",
+     "detail": "Core CPI flat at 2.6% in July, services down to 3.4% from 3.6% and 4.4% in January, food at 1.3% and the lowest since August 2024. Pay growth at 3.5% regular shows no second-round pass-through."
+    },
+    {
+     "factor": "Statistical revision or reweighting tail",
+     "impact": "+0.1pp",
+     "detail": "An ONS index recalculation, rebasing or basket reweighting could in principle restate 2026 annual rates, though revisions to headline CPI are rare and small."
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Ofgem fixes the October to December cap 4% higher",
+     "impact": "-0.5pp",
+     "detail": "Announced 26 August 2026, £1,663 to £1,723, with gas bills up 8% and wholesale prices up 11% over three months. The energy component of the October and November prints is now a known constant pointing up."
+    },
+    {
+     "factor": "July 2026 print published at 2.9%",
+     "impact": "-0.4pp",
+     "detail": "ONS, 19 August 2026, up from 2.6% in June and a four-month high, with monthly CPI at +0.3% against +0.1% a year earlier. Seven of the eleven candidate reference months are already dead."
+    },
+    {
+     "factor": "Official and consensus forecasts point up, not down",
+     "impact": "-0.3pp",
+     "detail": "BoE July 2026 MPR has CPI peaking near 3.2% in Q4 with upside risks; the HM Treasury August panel average is 3.4% for Q4 2026, unchanged from July. Next MPR is 5 November."
+    },
+    {
+     "factor": "Motor fuels contributing strongly positively",
+     "impact": "-0.2pp",
+     "detail": "Unleaded at 161.1p per litre on 17 August 2026 against roughly 132p in early March, with the RAC warning of further rises. This is adding to, not subtracting from, the annual rate."
+    },
+    {
+     "factor": "Only four publishable prints remain",
+     "impact": "-0.2pp",
+     "detail": "August on 16 September, September on 21 October, October on 18 November and November on 16 December. The December reference month is published on 20 January 2027 and cannot resolve this question."
+    }
+   ],
+   "key_uncertainties": [
+    "Resolution wording: 'publishes ... for any month before 1 Jan 2027' could be read as reference month rather than publication date, which would add December 2026; under either reading the answer is currently NO, but the tail differs marginally.",
+    "How much of the VAT removal on electricity actually shows up in the ONS October collection, and whether suppliers pass it through cleanly to fixed-tariff customers as Ofgem expects.",
+    "Whether a Hormuz reopening agreement lands quickly enough and large enough to collapse pump prices before the November collection, which is the only fast-moving component left.",
+    "Risk of an ONS statistical revision, rebasing or methodology change that restates published 2026 CPI annual rates.",
+    "Whether the 26 November Budget contains any measure with immediate price effect, noting it falls after the November price collection and so cannot reach a publishable print."
+   ],
+   "update_triggers": [
+    "August 2026 CPI, due 16 September, printing below about 2.4%, which would signal an unwind far faster than any current projection.",
+    "A confirmed Hormuz reopening plus Brent sustained below roughly $55, with UK pump prices falling back towards 130p per litre.",
+    "The 17 September MPC minutes or the 5 November Monetary Policy Report cutting the Q4 2026 CPI projection by more than 1pp from the current ~3.2% path.",
+    "Any government announcement of a further VAT cut, fuel duty cut or levy removal taking effect before the mid-November price collection.",
+    "An ONS notice of methodology change, index recalculation or revision affecting published 2026 CPI annual rates.",
+    "The September HM Treasury comparison of independent forecasts showing the Q4 2026 panel average falling below about 2.5% from 3.4%."
+   ]
+  },
+  {
+   "question": "Will Spider-Man: Brand New Day gross over $1.5B worldwide by 31 December 2026?",
+   "central": 100,
+   "ci_lower": 99,
+   "ci_upper": 100,
+   "key_change": "Move: 100 to 100. Nineteenth consecutive day at the ceiling. The threshold was cleared in week two of release and the buffer widened again today, so this question is effectively resolved YES already - it is not a forecast about future box office, it is a forecast about whether two published numbers get restated by three quarters of a billion dollars.\n\nVerification performed Friday 28 August 2026 at 09:21 UTC by direct raw-HTML fetch, desktop user-agent, compression on, redirects followed. Box Office Mojo (title/tt22084616) returned HTTP 200, 154,015 bytes, MD5 7d5385c629635c6ac431c0d4e4a47c42: Domestic $866,494,421, International $1,366,115,336, Worldwide $2,232,609,757, domestic opening $360,091,572, widest release 4,539 theatres, distributor Sony Pictures Releasing, earliest release 29 July 2026 across six markets. I pulled the separate Box Office Mojo release page (release/rl2299756545, 179,797 bytes) as a third independent path and it carries the identical three lines. The Numbers returned HTTP 200, 140,281 bytes, MD5 4a8ff43ff60293ad235af277ffc9ee12: Domestic $866,494,421, International $1,366,115,336, Worldwide $2,232,609,757, Legs 2.41, domestic share 38.8 per cent, production budget $225,000,000, 4,487 opening theatres and 4,539 maximum. The arithmetic reconciles exactly: 866,494,421 + 1,366,115,336 = 2,232,609,757. Both named resolution sources agree to the dollar on all three lines for a second consecutive day. The buffer over $1.5B is $732,609,757, or 48.8 per cent, up $3,147,879 on yesterday.\n\nTriggers, in order. One, 'lower published worldwide cume below $1.5B': no, it rose from $2,229,461,878. Two, 'nine-figure downward move on both sources persisting 48 hours': none; domestic added $3,147,879 and international held. Three, 'correction, re-audit or restatement notice from Sony, Comscore, Box Office Mojo or The Numbers': a targeted search returned null for a fifth day running. Four, 'sources diverging by more than $50M for over five days': divergence is exactly zero. Five, 'either page frozen with no line moving for seven days': Box Office Mojo's international line is flat for one day at $1,366,115,336, but that is a non-round reconciled figure and international updates run weekly, not daily; domestic moved on both pages. Not fired, but I am now watching the international line. Six, 'both pages unreachable for three days': three clean single-pass retrievals. Seven, wording or resolver change: nothing.\n\nI must log an instrument failure of my own making, because it is the honest lesson of the day. My first fetch used title ID tt31193180, which is Sinners (2025). Box Office Mojo returned HTTP 200 with a complete, plausible film page showing $279,989,632 domestic - no error, no redirect, no warning. Separately, my cached working copies from yesterday could not be overwritten and would have silently re-served yesterday's bytes had I not checksummed. Neither casts any doubt on the figure, since three distinct URLs across two sites agree, but both sharpen my view that the residual risk here is retrieval and adjudication error rather than box office.\n\nExternal corroboration is strong. Deadline reports the film has become the second highest-grossing release ever in the United States, passing Avengers: Endgame's $858.3M, with Star Wars: The Force Awakens at $936.6M the only title above it. Deadline's fourth global weekend report put the domestic cume at $854.9M with overseas at $1.365B on a $109M worldwide frame. Screen Daily has it 'flying past $2.2bn'. Boxoffice Pro projects an $18M to $25M fifth domestic weekend and a fifth consecutive number one. Territory detail on The Numbers shows the United Kingdom at $118,995,424 datestamped 27 August and China at $198,558,994 datestamped 26 August, against trade reporting of roughly $210M in China - a small territory-level lag that, if anything, means the published worldwide figure understates the true cume.\n\nNet adjustment: zero. With 125 days to run on a cumulative-by-then test that can only accrete, a 48.8 per cent margin, and full agreement across two named sources and half a dozen trades, there is no live path to NO through box office. I hold the lower bound at 99 for resolver mechanics and the demonstrated fragility of retrieval, not because I doubt the number.",
+   "base_rate": "The relevant reference class is not 'tentpoles reaching $1.5B worldwide', which would have supported roughly 20 to 40 per cent pre-release in June 2026 and which is now a textbook base-rate error, because it ignores that the event has already happened and is published in exact agreement on both named resolution sources. The governing class today is 'published cumulative grosses on a major aggregator subsequently restated below a milestone already cleared, and kept restated'. At the magnitude required here that rate is effectively zero. This title's published history contains no downward restatements at all, while NO would need a sustained $732,609,757 cut, 32.8 per cent of the published figure, on both sources simultaneously and held for four months. The largest genuine aggregator corrections on record run one to three per cent and reverse within days.",
+   "factors_up": [
+    {
+     "factor": "Threshold cleared by 48.8 per cent on both named sources",
+     "impact": "+0pp (already at ceiling)",
+     "detail": "Box Office Mojo and The Numbers both publish worldwide $2,232,609,757 against $1.5B required, verified 28 Aug 2026 at 09:21 UTC by raw-HTML fetch. Buffer $732,609,757, up $3,147,879 on yesterday."
+    },
+    {
+     "factor": "Three independent retrieval paths agree to the dollar",
+     "impact": "+0.05pp",
+     "detail": "Box Office Mojo's title page (tt22084616), its separate release page (rl2299756545) and The Numbers all return Domestic $866,494,421, International $1,366,115,336 and Worldwide $2,232,609,757, with exact internal arithmetic reconciliation."
+    },
+    {
+     "factor": "Fresh trade corroboration including a new all-time record",
+     "impact": "+0.04pp",
+     "detail": "Deadline reports the film is now second highest-grossing ever in the US, passing Avengers: Endgame's $858.3M; Screen Daily has it past $2.2bn; Boxoffice Pro projects an $18M to $25M fifth domestic frame and a fifth consecutive number one."
+    },
+    {
+     "factor": "Territory data suggests the published cume understates the true figure",
+     "impact": "+0.03pp",
+     "detail": "The Numbers carries China at $198,558,994 datestamped 26 August while Variety and Deadline report roughly $210M, and Japan sits at a stale $10,000,000 from 3 August. Lags of this kind resolve upward."
+    },
+    {
+     "factor": "125 days remain on a cumulative-by-then test with the film still in wide release",
+     "impact": "+0.02pp",
+     "detail": "Still number one domestically in week five across 4,539 theatres, with a Labor Day frame and China, Korea and UK long tails still accruing. The buffer can only widen from here."
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Required reversal has no precedent at any observed magnitude",
+     "impact": "-0.03pp",
+     "detail": "NO requires a sustained downward restatement exceeding $732,609,757, or 32.8 per cent of the published worldwide cume, on both named sources at once and held through 31 December. Real aggregator corrections run one to three per cent and reverse within days."
+    },
+    {
+     "factor": "Demonstrated silent-failure mode in retrieval",
+     "impact": "-0.03pp",
+     "detail": "A wrong title ID (tt31193180) returned a complete, plausible Box Office Mojo page for Sinners with HTTP 200 and no error, and cached local copies could have silently re-served stale bytes. A future check could in principle read a wrong page as a real figure change."
+    },
+    {
+     "factor": "Full three-line convergence weakens the independence test",
+     "impact": "-0.02pp",
+     "detail": "When the two sources diverged, lockstep movement was evidence of genuinely independent reconciliation. With all three lines identical for a second day, that diagnostic is unavailable, so two-source agreement is marginally less informative than during the divergent period."
+    },
+    {
+     "factor": "A named source has previously displayed a wrong nine-figure value",
+     "impact": "-0.02pp",
+     "detail": "On 23 August Box Office Mojo carried a five-day-old international value for a full day with no on-page correction notice. A resolution-day snapshot could catch a stale field with no indication that it is stale."
+    },
+    {
+     "factor": "Resolver-mechanics and administration risk",
+     "impact": "-0.02pp",
+     "detail": "An adjudicator using a third source, applying a different currency or theatrical-versus-total convention, reading the wording as a 31 December snapshot rather than cumulative-by-then, or the question being amended or voided. This remains the largest single component of residual risk and the reason the lower bound stays at 99."
+    }
+   ],
+   "key_uncertainties": [
+    "Whether the exact dollar-for-dollar agreement between Box Office Mojo and The Numbers reflects independent reconciliation against the same Comscore actual or partial feed-mirroring, which would reduce effective corroboration from two sources to one.",
+    "How a resolver would adjudicate if a named source displayed a stale or erroneous value on the specific day of resolution, a failure mode observed once on this title on 23 August with no correction notice issued.",
+    "Whether raw-HTML retrieval stays reliable and correctly targeted through 31 December, given today's demonstration that a wrong title ID returns a complete, plausible film page with HTTP 200 and no error signal.",
+    "How much further the cume runs before 31 December given the China, Korea and UK long tails plus Labor Day and any awards-season re-release, which is immaterial to resolution but determines the final headroom.",
+    "Whether the resolver treats Box Office Mojo's title page, its separate release page, or The Numbers as authoritative if they ever diverge, since all three are currently identical and the question names two sources without specifying precedence."
+   ],
+   "update_triggers": [
+    "Revise DOWN materially if the lower of the two published worldwide cumulative figures falls below $1.5B, that is a sustained restatement exceeding $732,609,757 from today's $2,232,609,757 on both sources.",
+    "Revise DOWN if a nine-figure downward move appears on BOTH named sources simultaneously and persists more than 48 hours; a one-day move on a single source is a known stale-field artefact and warrants no update.",
+    "Revise DOWN if Sony, Comscore, Box Office Mojo or The Numbers issues a public correction, re-audit or restatement notice for previously reported grosses on this title, or a trade outlet reports such a re-audit as pending.",
+    "Revise DOWN if the two sources' worldwide figures diverge by more than $50M and stay divergent for more than five days, signalling a genuine methodological dispute rather than routine reconciliation lag.",
+    "Revise DOWN if Box Office Mojo's international line stays frozen at exactly $1,366,115,336 for more than seven consecutive days while trades continue to report a rising overseas cume, reclassifying it from lagging to abandoned.",
+    "Revise DOWN if the resolution wording is amended, the question voided, or the resolver names a source other than Box Office Mojo or The Numbers. Revise UP is unavailable: the central estimate is at the reporting ceiling."
+   ]
+  },
+  {
+   "question": "Will OpenAI and Anthropic have a combined ARR exceeding $70B by 31 December 2026?",
+   "central": 99,
+   "ci_lower": 98,
+   "ci_upper": 99,
+   "key_change": "Move: 99 to 99.\n\nYesterday I set seven update triggers. One fired, in the YES direction, and it fired harder than I recorded. I wrote yesterday that Nvidia's shares fell after the fiscal Q2 2027 print on ROI scepticism. That was the immediate after-hours move of about -1.5%, and it reversed decisively in Thursday's cash session: Nvidia closed up between 7% and 8.7%, the Nasdaq Composite rose 1.57% to 26,541.35 and the S&P 500 added 0.72% to 7,730.99, with Broadcom up 4.5% and Intel up 4% (CNBC and TheStreet market wraps, 27 Aug 2026; Motley Fool, 27 Aug). The substance was better than the headline too: revenue of $96.2bn against roughly $92bn consensus, up 106% year on year, data centre revenue of $89bn against $85.4bn expected, and guidance to roughly 70% revenue growth in fiscal 2028 against the 44% LSEG consensus. The financing-shock branch that carried most of my residual NO probability is now weaker than it was 48 hours ago, not stronger. I am correcting my own read rather than changing the number, because the number was already at the top of my range.\n\nThe revenue anchors are unchanged and I re-verified both. Anthropic's annualised run rate topped $65bn at end-July (Bloomberg, 17 Aug 2026; CNBC, TechCrunch and Axios same day), from roughly $47bn in May and about $9bn at end-2025, with preliminary Q2 recognised revenue of $11.5-11.6bn against $787m a year earlier and a first positive adjusted operating income. OpenAI's run rate topped $40bn (Bloomberg, 13 Aug), doubled from about $20bn at end-2025, on Q2 recognised revenue of $6.7bn, up 18% sequentially. Combined exit run rate is therefore about $105bn against a $70bn bar. Two forward-looking datapoints arrived that I had not previously logged. SemiAnalysis's IPO financials preview puts Anthropic on track for over $1bn of quarterly operating profit in Q3 2026, with gross margin recovered to the mid-60s. And Anthropic's investors are said to expect it to finish 2026 between $100bn and $120bn of run rate on its own. Independent trackers now put Anthropic's August ARR near $70bn, meaning Anthropic's single leg is at or within touching distance of the entire combined threshold.\n\nOpenAI's leg is also firmer than the Q2 print suggests. The mid-August investor briefing had the overall run rate up 35% quarter to date and enterprise up 50% quarter to date, with enterprise above 40% of revenue and Codex above 2 million weekly users, up fivefold in three months. The \"OpenAI is stalling\" frame that the WSJ and Reuters ran off the 18% sequential figure describes Q2, not the current quarter.\n\nThe tightest adverse arithmetic I can construct is now well specified, and it still fails to bite. The gross-versus-net dispute has been quantified: Anthropic books Bedrock and Vertex consumption gross while OpenAI books Azure-mediated revenue net, and OpenAI CRO Denise Dresser's memo alleged an $8bn overstatement on a then-$30bn base, implying a 20-30% blended partner share. Take the harshest available version and apply a 30% haircut to Anthropic's $65bn, giving $45.5bn, add OpenAI's $40bn unadjusted, and I get $85.5bn, still 22% above the bar. Apply the same 30% cut to both legs, which no analyst actually proposes, and I get $73.5bn, which still clears. To flip the question I would need a haircut above roughly 33% on the combined figure and no growth at all for four months, against a series compounding at roughly 17.5% monthly on the slower leg. The only remaining NO path is a resolver electing trailing-quarter recognised revenue annualised on stale Q2 data, giving $73.2bn, then stacking a net-basis adjustment on top. That compounds two adversarial choices, and Q4 data will not support the first.\n\nOn the debit side, the macro picture has a genuine soft edge. Combined compute commitments are put at roughly $1.1 trillion through 2030; the $600bn of financing trailed in July resolved on 17 August into a signed guarantee of $105bn; and Forrester's Charlie Dai reads infrastructure spending as \"peaking faster than expected\", the monthly increment down to $29bn from a $40bn average earlier in 2026. None of that transmits to a revenue level four months out. Anthropic's public S-1 remains absent from EDGAR as at today, with only unrelated small-cap filings landing this week; CNBC reported on 21 August that the prospectus is expected within weeks and will name AI backlash as a risk factor. That filing remains the single event most likely to move this question, and it has not happened yet.\n\nNet adjustment: roughly +0.2pp from the corrected Nvidia session read and the SemiAnalysis profitability preview, roughly -0.2pp from the quantified 20-30% partner-share haircut being firmer than it was. Central holds at 99, interval [98, 99].",
+   "base_rate": "The governing reference class is persistence, not attainment. The bar is already exceeded by roughly 50% on the dated record four months before measurement, on a monotonically rising series, with no identified mechanism for a one-third reversal. Questions already satisfied by a wide margin with no reversal mechanism resolve YES in the high nineties on public platforms, and cases of a large private technology company's disclosed annualised revenue falling more than 30% within two quarters absent fraud or exogenous collapse are essentially unrepresented. The residual is resolution mechanics, not the world changing: all live conventions clear today, at about $105bn on reported exit run rate, about $85.5bn after a 30% net-basis haircut on Anthropic, and $73.2bn on stale Q2 recognised revenue annualised. A 98-99% persistence anchor against under 1pp for the compound restatement branch yields 98.5-99.",
+   "factors_up": [
+    {
+     "factor": "Threshold exceeded by roughly 50% on the dated record",
+     "impact": "+12pp",
+     "detail": "Anthropic above $65bn annualised at end-July (Bloomberg, CNBC, TechCrunch, Axios, 17 Aug 2026) plus OpenAI above $40bn (Bloomberg, 13 Aug 2026) equals about $105bn against a $70bn bar, with four months of headroom on a rising series."
+    },
+    {
+     "factor": "Nvidia's print landed strongly and the market confirmed it on 27 August",
+     "impact": "+3pp",
+     "detail": "Revenue $96.2bn versus roughly $92bn consensus, data centre $89bn versus $85.4bn, EPS $2.22, fiscal 2028 growth guided near 70% against 44% LSEG consensus. Shares closed up 7-8.7% and the Nasdaq rose 1.57%, reversing my read yesterday that the print had been sold."
+    },
+    {
+     "factor": "Anthropic alone is now at or near the combined threshold",
+     "impact": "+3pp",
+     "detail": "Independent trackers put Anthropic's August ARR near $70bn, and investors reportedly expect it to finish 2026 at $100-120bn. On that basis the question resolves YES even if OpenAI's leg were struck out entirely."
+    },
+    {
+     "factor": "OpenAI's current quarter is reaccelerating, not stalling",
+     "impact": "+2pp",
+     "detail": "Mid-August investor briefing had overall run rate up 35% quarter to date and enterprise run rate up 50% quarter to date, enterprise above 40% of revenue, Codex above 2 million weekly users and up fivefold in three months. The 18% sequential figure describes Q2, not now."
+    },
+    {
+     "factor": "Profitability preview reduces the funding-shock channel",
+     "impact": "+2pp",
+     "detail": "SemiAnalysis (Brookhart, Huang, Patel) puts Anthropic on track for over $1bn of quarterly operating profit in Q3 2026, with gross margin back to the mid-60s and API margin above 80%. A cash-generative Anthropic is far less exposed to a financing squeeze before December."
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "The gross-versus-net haircut is now quantified at 20-30%",
+     "impact": "-0.3pp",
+     "detail": "Anthropic books Bedrock and Vertex consumption gross while OpenAI books net through Azure; Dresser's memo alleged an $8bn overstatement on a $30bn base. Applied at 30% to Anthropic alone the combined figure is $85.5bn, and at 30% to both legs it is $73.5bn. Firmer than yesterday but still clearing."
+    },
+    {
+     "factor": "Deceleration is the consensus frame on both legs",
+     "impact": "-0.3pp",
+     "detail": "Reuters Breakingviews ran on Anthropic's deceleration around 22 August; the May-to-July move from $47bn to $65bn is about 17.5% monthly against roughly 55% earlier in the year, and OpenAI's Q2 was 18% sequential. A growth-rate story, not a level story."
+    },
+    {
+     "factor": "Residual resolution-mechanics ambiguity",
+     "impact": "-0.3pp",
+     "detail": "A resolver using stale Q2 recognised revenue annualised gets $73.2bn, only 4.6% above the bar; stacking a net-basis haircut on that is the single available NO path. OpenAI is expected to list only in 2027, so its leg rests on press-reported run rates."
+    },
+    {
+     "factor": "Compute commitments dwarf revenue and headline financing has slipped",
+     "impact": "-0.2pp",
+     "detail": "Combined commitments are put at roughly $1.1 trillion through 2030; the $600bn of financing trailed in July resolved on 17 August into a signed guarantee of $105bn. A funding accident is the only plausible route to a demand shock inside the window."
+    },
+    {
+     "factor": "Enterprise budget discipline and infrastructure spend cooling",
+     "impact": "-0.2pp",
+     "detail": "Forrester's Charlie Dai reads AI infrastructure spending as peaking faster than expected, with the monthly increment down to $29bn from a $40bn average earlier in 2026, and 95% of enterprise pilots still showing no measurable profit."
+    }
+   ],
+   "key_uncertainties": [
+    "Which ARR convention the resolver applies: exit-month annualised run rate at about $105bn reported and near $115bn on trackers, a 20-30% net-basis haircut on Anthropic at roughly $85.5bn, or trailing-quarter recognised revenue annualised at $73.2bn on stale Q2 data but far higher on Q4 data",
+    "Whether Anthropic's public S-1, expected within weeks but still absent from EDGAR as at 28 August, forces a gross-to-net reclassification larger than the 20-30% partner share implied by the Dresser memo and Bank of America's estimates",
+    "Whether the growth deceleration visible on both legs steepens through Q4, and whether it reflects genuine demand saturation or simply the arithmetic of a much larger base",
+    "Whether the roughly $1.1 trillion of combined compute commitments through 2030 produces a financing accident inside the window, given the July-to-August gap between a $600bn headline and a $105bn signed guarantee",
+    "Whether credible outlets publish specifically Q4 2026 figures for both firms, given OpenAI is expected to list only in 2027 and so will have no audited public disclosure inside the window"
+   ],
+   "update_triggers": [
+    "Revise DOWN if Anthropic's public S-1 discloses audited revenue on a net basis more than about 30% below the reported $65bn run rate, beyond the partner-share haircut implied by the Dresser memo",
+    "Revise DOWN if any credible outlet or tracker reports either company's monthly run rate declining month on month for the first time, rather than merely decelerating",
+    "Revise DOWN if Bloomberg, WSJ, FT or The Information put OpenAI's Q3 revenue below roughly $7.5bn or Anthropic's below roughly $15bn, signalling a genuine stall rather than a slower climb",
+    "Revise DOWN if the resolver clarifies that ARR means trailing-quarter recognised revenue annualised AND that a Q2-dated or net-basis figure will be used",
+    "Revise DOWN if a compute-financing accident becomes visible, such as a failed raise, an Oracle or neocloud contract default, or reported layoffs at either firm tied to demand",
+    "Revise UP if the public S-1 confirms run-rate figures at or near $65bn on an audited basis, or any September or October disclosure puts the combined run rate above $120bn or Anthropic alone above $70bn"
+   ]
+  },
+  {
+   "question": "Will UK average annual real GDP growth exceed 1.5% across the 2030s (2030-2039)?",
+   "central": 35,
+   "ci_lower": 22,
+   "ci_upper": 49,
+   "key_change": "Move: 36 to 35.\n\nYesterday I lifted to 36 on the IFS 1.4 per cent anchor, the CBI manufacturing bounce and the Bank's AI-productivity blog. Today obliges me to give back one of the three points I added on 24 August, because the Bank of England published on 27 August 2026 the most complete synthesis of the UK productivity question I have seen in this window, and its numbers are lower than the ones I had been weighting.\n\nSophie Piton and Fabrizio Cadamagnani, of the Bank's Structural Economics Division, put UK market-sector output per hour at 2.5 per cent a year over 1998-2007, 0.3 per cent over 2008-19 and 0.7 per cent over 2020 to 2025 Q3, against US figures of 2.9, 1.5 and 2.2 and a euro-area average of 1.9, 1.0 and 0.6. The number the Bank's own staff use for the post-Covid UK is 0.7 per cent, not the 1.1 per cent from the Resolution Foundation, the 1.6 per cent from CEP LSE or the 1.8 per cent private-sector figure from Morgan Stanley that I have been leaning on since Monday. On the Bank's accounting the UK is now inside the G7 range rather than an outlier, which is reassuring about the past but says nothing about clearing 1.5 per cent in the future.\n\nThe more important correction is analytical, and it makes me discount a trigger that has technically fired. My second upward trigger was the component-based hours methodology. The Bank's post cites ESCoE work by Cliodhna Taylor from May 2026 suggesting the ONS move from a direct to a component method for hours worked would raise the average annual productivity growth rate over 2008-19 by around 0.4 percentage points. That is a large number and it fires the trigger. But I am declining to take the points, because GDP is measured independently of hours. If hours growth has been overstated, then productivity growth was understated and labour-input growth was overstated by the same amount, and the product - real GDP growth, which is the only thing that resolves this question - is unchanged. The same logic applies to the RTI-versus-LFS dispute: the LSE work has tax records showing employment falling by 133,000 where the official series reports a rise of 377,000. That is a re-split of a given GDP number, not extra output. Reuters on 24 August ran the optimistic framing, but the follow-up coverage on the same evidence carried the honest headline that the productivity gain rests on a shrinking workforce. I have been crediting denominator news as if it were numerator news, and that is worth a point.\n\nAgainst this, the same Bank post contains two things that genuinely help the 2030s specifically. First, Brexit: the Bank's central estimate is that potential productivity will be around 3.25 per cent lower than otherwise by the end of 2028, with the drag weighing on growth during the transition to that lower level. If that is right, the Brexit subtraction is substantially complete before the resolution window opens, so the 2030s inherit a lower level rather than a continuing negative growth contribution. I had not scored that separately and it is decade-specific. Second, the Bank finds the contribution of IT and other information services to productivity growth is larger in the UK than in France, Germany or Italy, notes cross-country evidence putting UK AI adoption just behind the US, and concludes that AI adoption may materially and persistently lift UK productivity growth. That is the bearish institution's staff writing the bullish paragraph.\n\nWalking the remaining triggers. The OBR trigger for 28 October has not fired; nothing new landed today, and the IPPR piece arguing the OBR should hold its nerve turns out to be dated 14 August 2025, so it is not evidence about this autumn. The Bank-extension trigger fired only partially: the generalisation runs to the J62-63 aggregate and the AI-adoption literature, not into large-employment sectors, and EY's observation that construction output per hour is broadly unchanged since 1997 while the wider economy is up 34 per cent is the reminder of how much of the economy is untouched. The CBI trigger fired downward: the Distributive Trades survey for August 2026 has retail sales at minus 48 from minus 26 in July, the sharpest fall in over a year, with sales below seasonal norms at minus 26, though capital-expenditure cutbacks are the smallest since early 2024. The migration trigger did not fire down: ONS has net migration at 171,000 in the year to December 2025, from 331,000, above the 138,000 I had carried, with the 2024-based projections still assuming a long-run 230,000 from 2028. The investment trigger leaned down: EY's August outlook now has business investment flat next year, revised from plus 1.0 per cent, with GDP at 0.9 per cent in 2026 and 1.5 per cent in 2027.\n\nMechanically I take 0.7 to 1.1 per cent as the honest market-sector productivity range, allow for whole-economy composition, add 0.2 to 0.5 points of labour input, and land at a decade mean near 1.28 to 1.35 per cent with a standard deviation around 0.5 points. That gives 34 to 36. I take 35 and shift the interval down a point at each end.",
+   "base_rate": "Seven of seven completed UK decades since the 1950s averaged above 1.5 per cent, but that reference class comes from a regime with a rising working-age share, US catch-up and rising participation, none of which operates in the 2030s. Decomposing instead: ONS 2024-based projections give labour input of roughly 0.2 to 0.5 points a year, so productivity must deliver 1.0 to 1.3 points for a decade. Bank of England staff put UK market-sector output per hour at 0.3 per cent over 2008-19 and 0.7 per cent over 2020-25, against 2.5 per cent pre-crisis. Institutional central cases cluster at 1.25 to 1.5 - NIESR 1.25, IMF 1.4, IFS 1.4, EY 1.5 from 2027, OBR fifty-year baseline around 1.5 - putting the threshold in the upper half of the plausible range and yielding a central estimate in the mid-30s.",
+   "factors_up": [
+    {
+     "factor": "Institutional central cases sit just below the bar, not far below it",
+     "impact": "+6pp",
+     "detail": "The IFS expects annual real GDP growth to average 1.4 per cent from 2026 onwards; EY's August 2026 UK Economic Outlook has 0.9 per cent in 2026 then a return to 1.5 per cent from 2027; the OBR's fifty-year baseline is around 1.5 per cent, the IMF's potential 1.4 per cent, NIESR's trend 1.25 per cent. A distribution centred near 1.4 with a half-point standard deviation clears 1.5 reasonably often."
+    },
+    {
+     "factor": "Bank of England staff endorse the AI channel and the UK's relative position in it",
+     "impact": "+5pp",
+     "detail": "Piton and Cadamagnani, Bank Underground, 27 August 2026, find the contribution of IT and other information services to productivity growth is larger in the UK than in France, Germany or Italy, cite cross-country evidence putting UK AI adoption just behind the US, and conclude AI adoption may materially and persistently lift UK productivity growth. The 6 August post had software and IT consulting contributing 0.1 point in 2023-2025, ten times its pre-Covid contribution."
+    },
+    {
+     "factor": "The Brexit drag is largely complete before the window opens",
+     "impact": "+4pp",
+     "detail": "The Bank's central estimate is that potential productivity will be around 3.25 per cent lower than otherwise by end-2028, with the effect weighing on growth during the transition to that level. On that timing the 2030s inherit a lower level rather than a continuing negative growth contribution, which is decade-specific and works in favour of YES."
+    },
+    {
+     "factor": "Administrative-data and revision evidence still points above the official series",
+     "impact": "+4pp",
+     "detail": "Resolution Foundation has output per hour up 1.1 per cent a year over the two years to June 2026 against an official decline; CEP LSE finds roughly 1.6 per cent annualised from 2024 Q3 to 2026 Q1; Morgan Stanley's Bruna Skarica estimates 1.8 per cent private-sector. Blue Book 2026 confirmed a mean plus 0.06 point upward revision to annual volume growth across 1998-2024."
+    },
+    {
+     "factor": "Supply-side reform with 2030s-dated effects",
+     "impact": "+3pp",
+     "detail": "The August 2026 NPPF brings a more rules-based, plan-led framework with greater weight on infrastructure and station-led development, alongside claims of up to twelve months cut from pre-application time. Data centres designated critical national infrastructure should help from 2027, against a pipeline TechUK valued at about 36.4 billion pounds. Planning is the rare lever whose output effects land inside the window."
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "The Bank's own market-sector numbers are well below the bar",
+     "impact": "-8pp",
+     "detail": "Bank Underground, 27 August 2026: UK market-sector output per hour grew 0.3 per cent a year over 2008-19 and 0.7 per cent over 2020 to 2025 Q3, against 2.5 per cent over 1998-2007 and US rates of 1.5 and 2.2. Adding 0.2 to 0.5 points of labour input to 0.7 per cent leaves the decade mean around 1.0, far short of 1.5."
+    },
+    {
+     "factor": "Much of the productivity good news is denominator, not numerator",
+     "impact": "-7pp",
+     "detail": "ESCoE work cited by the Bank suggests the ONS move to component-based hours would lift measured 2008-19 productivity growth by around 0.4 points, and the RTI dispute has tax records showing employment down 133,000 where the official series reports a rise of 377,000. GDP is measured independently of hours, so these re-split a given output number rather than adding to it."
+    },
+    {
+     "factor": "Demographics cap labour input at 0.2 to 0.5 points a year",
+     "impact": "-7pp",
+     "detail": "ONS 2024-based projections have the population rising from 69.3 million in mid-2024 to 71.0 million by 2034 with all growth from net migration, and the working-age population rising only from 44.3 million to 45.8 million, with deaths exceeding births from 2026. Net migration was 171,000 in the year to December 2025, below the 230,000 long-run assumption."
+    },
+    {
+     "factor": "Investment weak and capital deepening thin",
+     "impact": "-5pp",
+     "detail": "EY's August 2026 outlook now has business investment flat next year, revised down from plus 1.0 per cent. ONS provisional Q2 2026 business investment sits only 0.8 per cent above Q2 2025. The Bank notes the UK business investment-to-GDP ratio has been below other G7 economies since the turn of the century, and Allas and Zenghelis put the capital gap in the trillions, taking decades to bridge."
+    },
+    {
+     "factor": "OBR downgrade risk at the 28 October Budget, and weak domestic demand",
+     "impact": "-5pp",
+     "detail": "The OBR cut its underlying productivity assumption from 1.3 to 1.0 per cent in November 2025 and left it there in March 2026, a one-way revision record since 2010; IPPR's rule of thumb is 8.7 billion pounds of current budget per 0.1 point. The CBI Distributive Trades survey for August 2026 has retail sales at minus 48 from minus 26, the sharpest fall in over a year."
+    }
+   ],
+   "key_uncertainties": [
+    "Which productivity series is right, and how much of the dispersion is a measurement artefact. Estimates for the same economy span 0.7 per cent (Bank market sector, ONS annual) to 1.8 per cent (Morgan Stanley private sector). Because GDP is measured independently of hours, part of that dispersion is informative about the future and part is simply a hours-measurement argument that leaves GDP growth untouched.",
+    "Whether even the optimists' number clears the bar. Taking 1.1 per cent productivity and adding 0.2 to 0.5 points of labour input gives 1.3 to 1.6 per cent, centred near 1.4, exactly where the IFS lands. YES requires the pickup to persist and then accelerate.",
+    "Whether the AI contribution scales beyond IT and information services. The Bank's evidence is a tenth of a point from software and IT consulting and a favourable UK position in J62-63; whether diffusion reaches health, social care, construction and public services is the single biggest swing factor. EY's point that construction output per hour is broadly unchanged since 1997 while the wider economy is up 34 per cent shows the scale of the untouched base.",
+    "Whether a downturn falls before or inside the window. A recession before 2030 with recovery inside 2030-2039 lifts the decade mean by 0.4 to 0.6 points; one inside the window cuts it by a similar amount. Stronger H1 2026 data reduce the slack available to reflate inside the window.",
+    "Whether net migration settles near the ONS long-run assumption of about 230,000 a year or nearer the 171,000 recorded for the year to December 2025. The gap is worth roughly 0.2 points a year on headline GDP growth, a large fraction of the distance to the threshold."
+   ],
+   "update_triggers": [
+    "Revise UP if the OBR at the 28 October 2026 Budget EFO raises, or explicitly declines to cut, its 1.0 per cent underlying productivity assumption and cites the administrative-data evidence, or brings its medium-term path closer to the 1.4 per cent long-run baseline; a move back toward 1.1 to 1.3 per cent would be worth 5 to 8 points.",
+    "Revise UP if evidence emerges that the recent productivity pickup is showing up in output rather than only in lower measured labour input, for example if the ONS Q3 2026 productivity flash on 17 November pairs stronger output per hour with stable or rising hours, or if Q3 GDP surprises above the 0.4 per cent quarterly run rate.",
+    "Revise UP if the Bank of England extends its AI-productivity finding beyond IT and information services into large-employment sectors, or lifts its potential supply estimate in the 5 November 2026 Monetary Policy Report.",
+    "Revise UP if the August 2026 NPPF and the critical national infrastructure designation for data centres produce measurable acceleration in major consents, or if business investment intentions in the CBI and EY surveys turn positive for 2027.",
+    "Revise DOWN if the OBR cuts its trend productivity assumption again on 28 October by the 0.1 to 0.2 points analysts expect, if the Budget package is scored as net contractionary for potential output, or if public capital spending is cut to restore headroom.",
+    "Revise DOWN if net migration settles durably below 150,000 a year, if the ONS revises working-age population growth to 2034 below 0.3 per cent a year, or if further Bank or ONS work confirms the market-sector post-Covid rate near 0.7 per cent once the hours revisions are incorporated."
+   ]
+  }
+ ]
+}
