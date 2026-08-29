@@ -32,3 +32,23 @@
 - UK CPI below 2.0% before 2027 stays at 0. The next print is 16 September and consensus for Q4 is 3.2-3.4%, with too few months left for any plausible path.
 
 _Nine questions re-forecast with web search on 29 August 2026. Full reasoning at https://jonathan-pf.github.io/forecast-tracker/_
+
+---
+
+## Question set changed - 29 August 2026
+
+Two questions retired as settled, three added.
+
+**Retired.** "Spider-Man: Brand New Day over $1.5B" reached $2.235bn worldwide, 49% clear of the bar. "OpenAI + Anthropic combined ARR over $70B by end-2026" reached roughly $105bn against a $70bn bar. Both had sat at 99-100 for weeks and carried no information. History retained in the Settled section of the dashboard.
+
+**Added.**
+
+| New question | Opening estimate | 80% CI |
+|---|---|---|
+| Avengers: Doomsday over $2.5B worldwide by 31 Mar 2027 | 29% | 17-45% |
+| OpenAI + Anthropic combined ARR over $250B by 31 Dec 2027 | 52% | 35-70% |
+| Chainalysis reports over $1.5B ransomware payments for 2027 | 20% | 10-35% |
+
+Doomsday opened below the 40% design assumption: only two films have ever cleared $2.5bn on The Numbers, and the path depends on a China release that is still unlisted, against a three-week domestic IMAX blackout for Dune: Part Three and a 165-minute runtime that caps showings.
+
+The ransomware question is a test of criminal revenue rather than attack volume. Payments fell about 8% to $820m in 2025 while claimed attacks rose 50%, because the victim payment rate hit a record-low 28%. The "as first published" clause means YES needs a true total near $1.65bn, since 2024 was first published at $814m and later revised to $892m.
