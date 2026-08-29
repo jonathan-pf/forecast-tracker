@@ -179,7 +179,8 @@ questions.forEach((q, i) => {
                : diff < 0 ? `\u25BC ${Math.abs(diff)} ${pts} from ${prev.central}%`
                : `Unchanged from ${prev.central}%`;
   }
-  const reasoning = (latest.key_change || '').trim();
+  // The move badge already states 'Move: X to Y', so drop that opening sentence
+  const reasoning = (latest.key_change || '').trim().replace(/^Move:\s*[^.]*\.\s*/, '');
   const card = document.createElement('div');
   card.className = `summary-card color-${i}`;
   card.innerHTML = `
