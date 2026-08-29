@@ -17,10 +17,14 @@
   }
   h1 { font-size: 1.6rem; font-weight: 600; margin-bottom: 0.3rem; color: #fff; }
   .subtitle { color: #888; font-size: 0.9rem; margin-bottom: 2rem; }
-  .summary-bar { display: flex; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+  .summary-bar {
+    display: grid; gap: 1rem; margin-bottom: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    align-items: start;
+  }
   .summary-card {
     background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px;
-    padding: 1.2rem 1.5rem; flex: 1; min-width: 250px;
+    padding: 1.2rem 1.5rem; min-width: 0;
   }
   .summary-card .q-label { font-size: 0.78rem; color: #888; margin-bottom: 0.5rem; line-height: 1.3; }
   .summary-card .estimate { font-size: 2rem; font-weight: 700; color: #fff; }
@@ -30,6 +34,22 @@
   .change-up { background: #14532d; color: #4ade80; }
   .change-down { background: #451a1a; color: #f87171; }
   .change-flat { background: #1e293b; color: #94a3b8; }
+  .reason { margin-top: 0.75rem; }
+  .reason-text {
+    font-size: 0.8rem; color: #8b8f9c; line-height: 1.55;
+    white-space: pre-wrap; word-break: break-word;
+  }
+  .reason-text.collapsed {
+    max-height: 4.65em; overflow: hidden; position: relative;
+    -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+  }
+  .reason-toggle {
+    margin-top: 0.5rem; background: none; border: none; padding: 0;
+    color: #6366f1; font-size: 0.78rem; font-weight: 500; cursor: pointer;
+    font-family: inherit;
+  }
+  .reason-toggle:hover { color: #818cf8; text-decoration: underline; }
   .chart-container {
     background: #1a1d27; border: 1px solid #2a2d3a; border-radius: 10px;
     padding: 1.5rem; margin-bottom: 1.5rem;
@@ -67,6 +87,7 @@
   .forecast-body h4 { font-size: 0.8rem; color: #6366f1; margin: 1rem 0 0.4rem; text-transform: uppercase; letter-spacing: 0.05em; }
   .forecast-body p, .forecast-body li { font-size: 0.85rem; color: #aaa; line-height: 1.6; }
   .forecast-body ul { list-style: none; padding: 0; }
+  .forecast-body p.change-note { white-space: pre-wrap; color: #9aa0ad; }
   .forecast-body li { padding: 0.3rem 0; padding-left: 1rem; position: relative; }
   .forecast-body li::before { content: ''; position: absolute; left: 0; top: 0.7rem; width: 5px; height: 5px; border-radius: 50%; }
   .factor-up li::before { background: #4ade80; }
@@ -133,6 +154,10 @@ const reportManifest = ["2026-03-22", "2026-03-23", "2026-03-24", "2026-03-26", 
 // MANIFEST_INJECT_END
 
 /* ── Summary cards & charts (same as before) ── */
+const esc = s => String(s == null ? '' : s)
+  .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;');
+
 const questions = [];
 const grouped = {};
 forecastData.forEach(d => {
@@ -145,18 +170,41 @@ questions.forEach((q, i) => {
   const entries = grouped[q];
   const latest = entries[entries.length - 1];
   const prev = entries.length > 1 ? entries[entries.length - 2] : null;
-  let changeClass = 'change-initial', changeText = latest.key_change;
+  let changeClass = 'change-initial', changeText = 'Initial forecast';
   if (prev) {
     const diff = latest.central - prev.central;
     changeClass = diff > 0 ? 'change-up' : diff < 0 ? 'change-down' : 'change-flat';
+    const pts = Math.abs(diff) === 1 ? 'pt' : 'pts';
+    changeText = diff > 0 ? `\u25B2 ${diff} ${pts} from ${prev.central}%`
+               : diff < 0 ? `\u25BC ${Math.abs(diff)} ${pts} from ${prev.central}%`
+               : `Unchanged from ${prev.central}%`;
   }
+  const reasoning = (latest.key_change || '').trim();
   const card = document.createElement('div');
   card.className = `summary-card color-${i}`;
   card.innerHTML = `
-    <div class="q-label">${q}</div>
+    <div class="q-label">${esc(q)}</div>
     <div class="estimate">${latest.central}%</div>
     <div class="ci">80% CI: ${latest.ci_lower}% &ndash; ${latest.ci_upper}%</div>
-    <div class="change ${changeClass}">${changeText}</div>`;
+    <div class="change ${changeClass}">${changeText}</div>
+    ${reasoning ? `<div class="reason">
+      <div class="reason-text collapsed">${esc(reasoning)}</div>
+      <button class="reason-toggle" type="button">Show full reasoning</button>
+    </div>` : ''}`;
+  const toggle = card.querySelector('.reason-toggle');
+  if (toggle) {
+    const body = card.querySelector('.reason-text');
+    // Short notes need no toggle at all
+    if (body.scrollHeight <= body.clientHeight + 4 && reasoning.length < 180) {
+      body.classList.remove('collapsed');
+      toggle.remove();
+    } else {
+      toggle.addEventListener('click', () => {
+        const open = body.classList.toggle('collapsed');
+        toggle.textContent = open ? 'Show full reasoning' : 'Show less';
+      });
+    }
+  }
   summaryBar.appendChild(card);
 });
 
@@ -191,7 +239,7 @@ questions.forEach((q, i) => {
         plugins: {
           legend: { display: false },
           tooltip: { backgroundColor: '#1a1d27', borderColor: '#2a2d3a', borderWidth: 1, titleColor: '#fff', bodyColor: '#ccc',
-            callbacks: { afterBody: items => { const c = entries[items[0].dataIndex].key_change; return c ? '\n' + c : ''; } }
+            callbacks: { afterBody: items => { const c = entries[items[0].dataIndex].key_change; if (!c) return ''; const t = c.length > 260 ? c.slice(0, 260).trim() + '\u2026 (open the card below for the full note)' : c; return '\n' + t; } }
           }
         },
         scales: {
@@ -221,6 +269,7 @@ function renderForecastCard(f, idx) {
       <span><span class="q-est">${f.central}%</span> <span class="arrow">&#9654;</span></span>
     </div>
     <div class="forecast-body">
+      ${f.key_change ? `<h4>What Changed Today</h4><p class="change-note">${f.key_change}</p>` : ''}
       <h4>Base Rate</h4>
       <p>${f.base_rate}</p>
       <h4>Factors Pushing Up</h4>
