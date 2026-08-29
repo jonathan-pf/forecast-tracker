@@ -683,6 +683,222 @@
     "Revise DOWN if the OBR cuts its trend productivity assumption again on 28 October by the 0.1 to 0.2 points analysts expect, if the Budget package is scored as net contractionary for potential output, or if public capital spending is cut to restore headroom.",
     "Revise DOWN if net migration settles durably below 150,000 a year, if the ONS revises working-age population growth to 2034 below 0.3 per cent a year, or if the energy shock persists such that NIESR or the OBR cut UK trend growth rather than only the 2026 and 2027 cyclical path."
    ]
+  },
+  {
+   "question": "Will Avengers: Doomsday gross over $2.5B worldwide by 31 March 2027?",
+   "central": 29,
+   "ci_lower": 17,
+   "ci_upper": 45,
+   "key_change": "Initial forecast. I am starting this question at 29%, which is below the 40% that a casual reading of the presale headlines would suggest, and I want to be explicit about why.\n\nStart with the reference class, because the bar here is at the frontier of what the medium has ever done. Per The Numbers, exactly two films have ever grossed over $2.5bn worldwide: Avatar at roughly $2.92bn and Avengers: Endgame at $2,717,503,922. Titanic and Avatar: The Way of Water both stalled in the $2.2-2.35bn band. If I take the population of films that arrived in cinemas over the last decade as the consensus biggest event of their year with record-setting presales - Endgame, Infinity War, The Force Awakens, The Last Jedi, The Rise of Skywalker, No Way Home, Way of Water, Fire and Ash, Barbie, Deadpool and Wolverine, Jurassic World, Furious 7, Black Panther, Spider-Man: Brand New Day - then one of roughly fifteen cleared $2.5bn. That is a 7% base rate, and it is the honest outside view. Narrowing to the four Avengers films gives 1 of 4, but with an N of four I would not lean on it.\n\nThe presale signal is real but I think it is worth less than the aggregator coverage implies. Variety reported $16.5m domestic on the first day of general on-sale in August 2026, roughly double Deadpool and Wolverine's first day, and The Hollywood Reporter had around $19m in premium-format advances from the 20 July window. Those are trade-sourced and I accept them. What I do not accept are the opening-weekend numbers circulating downstream. The $260-300m figure traces to an aggregator called Global Box Office, the $300m to Collider, and the $425-450m to a Twitter tracker, AnthonyJPHer, via TVFandomLounge. None of Deadline, Variety, THR or Box Office Pro has published long-lead tracking yet, and they typically do not until roughly six weeks out, so I should expect that in early November. More importantly, presales are a measure of the hardcore, and the hardcore predicts opening weekend far better than it predicts total. Endgame reached $2.72bn on a 2.7x domestic multiplier off an A+ CinemaScore, not on its presales.\n\nThe China question is where the arithmetic actually breaks. Endgame took $629m from China; Infinity War took $359m. Nothing like that is available now. Spider-Man: Brand New Day, this year's proof of concept, managed only about $209m there on its way to $2.23bn, and China's regulator confirmed in 2025 that it intends to reduce Hollywood imports. As of today The Numbers lists Doomsday's international releases as Italy on 15 December, Serbia and France on 16 December, and Mexico and Russia on 17 December, with no China date at all. Aggregator sites assert a 16 December China opening, but I cannot source that to a trade or to a Chinese distributor announcement, so I am treating China as unresolved with a meaningful chance of a delayed or absent release. In my decomposition China is a $180m central case against a $0-400m range, and the difference between $180m and $400m is most of the gap to the threshold.\n\nMy decomposition runs: domestic around $780m, international excluding China around $1.25bn, China around $180m, giving roughly $2.21bn. To clear $2.5bn I need something close to $850m domestic, $1.4bn international ex-China and $250m from China. Those three are strongly correlated - a genuinely great film lifts all of them together - so this is not a conjunction of independent hurdles, and that correlation is why I end up well above the 7% outside view rather than near it. Treating worldwide gross as roughly lognormal with a median near $2.25bn and a log standard deviation of about 0.22, which gives an 80% band of about $1.7bn to $3.0bn, puts P(above $2.5bn) at around 31%. Multiplying by roughly 0.97 for the void clause, since the film could in principle slip past 31 January 2027 though tickets are already on sale for all theatres, lands me at 29%.\n\nTwo things pull upward and I have given them weight. First, ticket price inflation since 2019 is on the order of 25-30%, so $2.5bn today is a materially softer target in admissions than Endgame's $2.72bn was. Second, 2026 has already produced a $2.23bn film, so the market's capacity is demonstrated rather than hypothetical, and Doomsday only needs to beat Spider-Man by about 12%.\n\nTwo things pull downward hard. Doomsday has no domestic IMAX for at least its first three weeks because Dune: Part Three holds exclusivity through the holidays, and at 165 minutes it will get roughly a fifth fewer daily showings than a two-hour-ten film in exactly the highest-demand fortnight of the year. And the MCU's recent form is poor: Brave New World at $415m, Thunderbolts* at $382m, First Steps at $522m. The first trailer's 503m views in 24 hours was the second-biggest launch ever, but it was behind Spider-Man: Brand New Day's 719m, and that film landed at $2.23bn. The D23 second trailer drew mixed reactions. Fire and Ash finishing at $1.48bn against $2bn-plus expectations is the recent cautionary case.\n\nThe genuine uncertainty sits in three places: whether China opens at all and at what size, what the multiplier looks like once word of mouth lands, and whether trade tracking in November confirms or deflates the aggregator numbers. I expect to move this materially at least twice before December.",
+   "base_rate": "My primary reference class is films arriving as the consensus biggest event of their year with record-setting advance sales, over the last decade. That set includes Endgame, Infinity War, The Force Awakens, The Last Jedi, The Rise of Skywalker, No Way Home, Way of Water, Fire and Ash, Barbie, Deadpool and Wolverine, Jurassic World, Furious 7, Black Panther and Spider-Man: Brand New Day. One of roughly fifteen cleared $2.5bn, giving about 7%. A narrower class of the four Avengers films gives 1 of 4, but with N=4 that is not usable on its own. The all-time picture is starker: per The Numbers only Avatar and Endgame have ever exceeded $2.5bn. The main limitation is that Doomsday sits at the extreme upper tail of that class rather than at its centre, and 2026 ticket prices are 25-30% above 2019 levels, so a straight historical frequency understates the chance.",
+   "factors_up": [
+    {
+     "factor": "2026 market capacity is demonstrated, not hypothetical",
+     "impact": "+12pp",
+     "detail": "The Numbers currently shows Spider-Man: Brand New Day at $2,232,609,757 worldwide ($866.5m domestic, $1,366.1m international) and still in release. That establishes that a 2026 tentpole can clear $2.2bn, which was not obvious after 2023-25. Doomsday needs only about 12% more than that. The Odyssey at $1.48bn and Michael and Super Mario Galaxy each above $1bn confirm a broadly healthy year rather than one freak hit."
+    },
+    {
+     "factor": "Record trade-confirmed presales",
+     "impact": "+8pp",
+     "detail": "Variety reported $16.5m in domestic sales on the first day of general on-sale in August 2026, roughly double Deadpool and Wolverine's first day, and The Hollywood Reporter reported around $19m in premium-format advances from the 20 July window. These are the only presale figures I can trace to a trade. They point to a very large opening, which is a necessary though not sufficient condition."
+    },
+    {
+     "factor": "Ticket price inflation makes the nominal bar softer",
+     "impact": "+7pp",
+     "detail": "Endgame's $2.72bn was set in 2019 at roughly 25-30% lower average ticket prices. In admissions terms, $2.5bn in 2026 is closer to what $1.95-2.0bn represented in 2019, a level Infinity War nearly reached and No Way Home exceeded. This is the single most underrated argument for YES and it is why I am not near the 7% outside view."
+    },
+    {
+     "factor": "Generous resolution window captures the full run",
+     "impact": "+5pp",
+     "detail": "A 18 December 2026 opening measured to 31 March 2027 gives roughly fifteen weeks, which is effectively the entire original theatrical run including the holiday corridor and any February legs. December openers historically post the best multipliers of the calendar. It also leaves room for a late China release or a Chinese New Year window in February 2027 to be counted."
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "China is the missing $300-400m and is unconfirmed",
+     "impact": "-14pp",
+     "detail": "Endgame took $629m from China and Infinity War $359m; Spider-Man: Brand New Day managed only about $209m this year. China's regulator confirmed in 2025 an intention to reduce Hollywood imports. As of 29 August 2026 The Numbers lists Doomsday's international dates as Italy, Serbia, France, Mexico and Russia, with no China entry, and the 16 December China date asserted by aggregators is not traceable to a trade. A China gross near $150m rather than $400m is most of the gap to $2.5bn."
+    },
+    {
+     "factor": "The threshold is at the historical frontier",
+     "impact": "-12pp",
+     "detail": "Only two films in history have exceeded $2.5bn per The Numbers. Doomsday must beat this year's Spider-Man by 12% and reach 92% of Endgame's total. Recent precedent cuts against: Avatar: Fire and Ash finished at roughly $1.48bn against widespread pre-release expectations above $2bn, which is exactly the failure mode where an enormous pre-release consensus does not convert."
+    },
+    {
+     "factor": "No domestic IMAX for three weeks plus a 165-minute runtime",
+     "impact": "-8pp",
+     "detail": "Dune: Part Three opens the same day and holds domestic IMAX exclusivity through the holidays, so Doomsday is without the format for at least its first three weeks in the largest market. At 165 minutes it also gets roughly a fifth fewer daily showings than a two-hour-ten film, and that capacity constraint bites hardest in the two highest-demand weeks of the year. ScreenX and Dolby only partially substitute."
+    },
+    {
+     "factor": "MCU brand equity is materially weaker than 2019",
+     "impact": "-8pp",
+     "detail": "Captain America: Brave New World finished at $415m, Thunderbolts* at $382m and Fantastic Four: First Steps at $522m, so the casual audience that carried Endgame's second and third weekends has thinned. The first Doomsday trailer's 503m views in 24 hours was second-biggest ever but trailed Spider-Man: Brand New Day's 719m, and that film landed at $2.23bn. The D23 second trailer drew notably mixed fan reaction."
+    },
+    {
+     "factor": "Multiplier risk on an unknown-quality film",
+     "impact": "-6pp",
+     "detail": "Endgame's total depended on an A+ CinemaScore and a 2.7x domestic multiplier off a record opening. A merely good Doomsday with a huge opening and a 2.2x multiplier lands around $2.0-2.2bn. Reported production costs near $400m trace to John Campea rather than a trade, but if roughly right they signal heavy reshoots, which historically correlates with a compromised final cut."
+    }
+   ],
+   "key_uncertainties": [
+    "Whether Avengers: Doomsday gets a China release at all, when, and at what size - The Numbers currently lists no China date, and the difference between $150m and $400m there is most of the gap to the threshold.",
+    "The word-of-mouth multiplier. A 2.7x domestic multiplier on a $300m opening clears the bar; a 2.2x multiplier does not, and I have no information on the film's quality.",
+    "What Deadline, Variety, THR and Box Office Pro publish when long-lead tracking begins in early November, versus the untraceable aggregator figures currently circulating.",
+    "How much the loss of domestic IMAX for three weeks and the 165-minute runtime actually cost in the peak holiday corridor, where screen capacity rather than demand is often the binding constraint.",
+    "Whether Spider-Man: Brand New Day's $2.23bn represents the current ceiling of the market or a level Doomsday can comfortably exceed, given Doomsday trailed it on trailer views."
+   ],
+   "update_triggers": [
+    "Revise UP if Disney or a Chinese distributor confirms a China release date for Doomsday within two weeks of 18 December 2026, reported by Deadline, Variety or THR - a confirmed day-and-date China opening would move me to roughly 38%.",
+    "Revise UP if Deadline, Variety, THR or Box Office Pro publishes long-lead tracking showing a domestic opening above $325m, or a worldwide opening above $800m - that would put me near 42%.",
+    "Revise UP if Doomsday opens above $850m worldwide in its first weekend as reported by Deadline's global box office column, which would make $2.5bn roughly a coin flip and push me above 50%.",
+    "Revise DOWN if no China release date is confirmed by any trade by 30 November 2026, which would cap the realistic ceiling near $2.3bn and take me to roughly 18%.",
+    "Revise DOWN if the film opens with a CinemaScore below A- or a Rotten Tomatoes audience score below 80%, either of which implies a multiplier under 2.4x and would take me below 15%.",
+    "Revise DOWN if Doomsday's second domestic weekend drops more than 62% per The Numbers weekend chart, since Endgame dropped 58.7% and anything steeper is inconsistent with a $2.5bn trajectory."
+   ]
+  },
+  {
+   "question": "Will OpenAI and Anthropic have a combined ARR exceeding $250B by 31 December 2027?",
+   "central": 52,
+   "ci_lower": 35,
+   "ci_upper": 70,
+   "key_change": "Initial forecast. The question asks whether OpenAI and Anthropic together will be reported at more than $250bn of annualised revenue run-rate on 31 December 2027. The starting point is roughly $105bn. Bloomberg reported on 13 August 2026 that OpenAI's run rate had topped $40bn, about double the $20bn that CFO Sarah Friar cited for end-2025, with Greg Brockman telling staff the monthly run rate grew more than 20 per cent in July alone. Bloomberg reported on 17 August 2026 that Anthropic passed $65bn at the end of July, up from $47bn in May and about $9bn at the end of 2025. The same reporting, carried by Axios, TechCrunch and Fortune, put second-quarter revenue at more than $11.5bn against $4.73bn in the first quarter and $787m a year earlier, with positive adjusted operating income. So the pair need roughly 2.4x over sixteen months on a naive run-rate basis, about 5.6 per cent a month compounded. Both are currently growing much faster than that: Anthropic at roughly 17 per cent a month between May and July, OpenAI at roughly 10 per cent a month since December.\n\nThat comparison makes the question look easy, and it is why I do not go below the low forties. Two things pull hard the other way.\n\nThe first is the measurement basis. The resolution says that if a company is publicly listed we use its most recent reported quarterly revenue multiplied by four. Anthropic filed a confidential draft S-1 on 1 June 2026 and, on FT and Fortune reporting of 13 August, is targeting an October 2026 listing at $2tn or more, with Goldman Sachs, Morgan Stanley and JPMorgan leading. OpenAI filed confidentially in early June and is reported to be leaning towards 2027. If Anthropic is public and reporting, the figure available on 31 December 2027 is third-quarter 2027 revenue multiplied by four, which sits well below the exit run rate for a fast-growing company. The observed gap is large: Anthropic's Q2 2026 revenue of $11.5bn annualises to $46bn against the $65bn run rate reported for end-July, a discount of about 29 per cent. By late 2027 growth should be slower and the discount narrower, perhaps 12 to 18 per cent, but it is still a real haircut. Blending across whether each company is listed, and across whether a resolver reaches for the third or the fourth quarter, I assume an effective factor of about 0.90. That means the combined exit run rate needs to be roughly $275bn to $280bn rather than $250bn, or about 2.65x from here.\n\nThe second is that current growth cannot be extrapolated. Anthropic went from $9bn to $65bn in seven months and grew more than 140 per cent sequentially in the second quarter. Some of that is lumpy enterprise contracting and a strong model cycle around Opus 4.8. Anthropic's own investors, per the FT, model $100bn to $120bn by end-2026, which is fast but already implies deceleration from roughly 17 per cent a month to about 11. Extending that decay, a central path has Anthropic exiting 2026 near $108bn and OpenAI near $55bn, a combined $163bn, and then requires the pair to grow about 1.7x through 2027 to clear the adjusted bar. My median for combined 2027 growth is roughly 1.75x, which lands almost exactly on the threshold. That is why I am close to even money rather than confidently on either side.\n\nSupply is the constraint I find most informative. Revenue here is close to a linear function of deployed inference capacity times realised price. Reported plans have OpenAI in the mid single-digit gigawatts at end-2026 and above ten in 2027, and Anthropic at seven to eight gigawatts by end-2027 on the back of a compute programme reported at around $200bn. That is broadly consistent with capacity doubling to tripling across 2027, which supports the required revenue growth without leaving much slack. Working against it, price per unit of useful work is falling as Gemini Flash and cheap open-weight models compete, and both labs are pushing token efficiency, which helps margins but not necessarily headline revenue.\n\nThere is also a reporting risk specific to listing. Coverage of Anthropic's S-1 review notes that gross-versus-net accounting is the item taking the most reviewer attention. If revenue routed through AWS Bedrock, Google Vertex or other resellers has to be reported net, the audited figure could land materially below the run-rate numbers briefed privately to investors, and the question would then resolve against the lower number. CNBC reported on 21 August 2026 that the prospectus will list AI backlash as a risk factor, which matters less for the arithmetic but signals a harder public-market environment.\n\nOn the downside I take seriously that 2027 could bring an AI capex or credit correction. Revenue is more resilient than capex over a twelve-month horizon, because contracted capacity arrives with a lag, so a financing shock in mid-2027 would show up in 2028 numbers more than 2027 ones. A genuine demand shock, with enterprises pausing renewals and cutting seats, would bite faster. I put roughly a tenth of the probability mass on combined run-rate being flat or falling by the end of 2027.\n\nPutting it together, my median combined exit run-rate is around $280bn against an effective threshold of about $278bn, so I land just above even at 52 per cent. I hold this loosely. The distribution is wide and right-skewed, and the resolution mechanics alone could move the answer by ten points.",
+   "base_rate": "There is no clean reference class: no pair of companies has ever gone from roughly $30bn to a possible $250bn of combined run-rate in two years. The nearest outside view is the growth-persistence literature on scaled software companies, where annual growth rates typically decay to 60 to 85 per cent of the prior year's rate. Applied naively that would clear the bar easily, but persistence ratios are estimated on firms growing 50 to 100 per cent a year, not 600 per cent, and they break down at this extreme. A second class is the record of ambitious private-company revenue projections reported in the press, which historically land at roughly 60 to 80 per cent of plan at a two-year horizon. Anthropic's investor case of $100bn to $120bn for end-2026 plus a doubling in 2027, and Altman's suggestion of $100bn of OpenAI revenue in 2027, taken at 70 per cent of plan, would sit close to the threshold. Both classes point to something near a coin flip, which is where I start.",
+   "factors_up": [
+    {
+     "factor": "Required growth is far below current run-rate growth",
+     "impact": "+18pp",
+     "detail": "The bar needs about 5.6 per cent a month compounded on a raw run-rate basis. Anthropic grew at roughly 17 per cent a month between May and July 2026 per Bloomberg, and OpenAI at roughly 10 per cent a month since December, with Brockman citing more than 20 per cent in July alone. Even fairly aggressive deceleration leaves the front months of the window contributing a large share of the needed multiple."
+    },
+    {
+     "factor": "Anthropic's investor base already models $100bn to $120bn by end-2026",
+     "impact": "+12pp",
+     "detail": "The Financial Times reported on 13 August 2026 that around half a dozen investors cited $100bn to $120bn of annualised revenue by year end as the basis for a $2tn IPO valuation. If that lands, one company delivers close to half the combined target before 2027 even starts, and the pair only need roughly 1.7x across 2027 on an adjusted basis."
+    },
+    {
+     "factor": "Contracted compute capacity supports a large 2027 supply increase",
+     "impact": "+8pp",
+     "detail": "Reported plans put OpenAI in the mid single-digit gigawatts at end-2026 rising above ten in 2027, and Anthropic at seven to eight gigawatts by end-2027 behind a compute programme reported at around $200bn. Since revenue tracks deployed inference capacity closely, a doubling or tripling of capacity is roughly what the threshold requires. Capacity is contracted rather than hoped for, which makes it more reliable than demand forecasts."
+    },
+    {
+     "factor": "New revenue lines are still early and additive",
+     "impact": "+6pp",
+     "detail": "OpenAI's advertising business is nascent, and Axios reported it is on track for more than half its revenue from enterprise by end-2026. Coding agents, government contracts and per-seat enterprise deployments are all still scaling. These are additive to the API and consumer subscription base rather than substitutes for it, which supports growth continuing even as the core matures."
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "The quarterly-revenue-times-four measurement basis imposes a haircut",
+     "impact": "-14pp",
+     "detail": "The resolution switches to most recent reported quarterly revenue times four once a company is listed. Anthropic is targeting an October 2026 listing, so the figure available on 31 December 2027 is likely third-quarter 2027 revenue annualised. Anthropic's Q2 2026 of $11.5bn annualises to $46bn against a $65bn end-July run rate, a 29 per cent discount. Even at slower 2027 growth this raises the effective bar to roughly $275bn to $280bn of exit run-rate."
+    },
+    {
+     "factor": "Deceleration from an extraordinary base is close to certain",
+     "impact": "-10pp",
+     "detail": "Anthropic's second quarter grew more than 140 per cent sequentially, helped by lumpy enterprise contracting and a strong Opus 4.8 cycle. Sustaining anything near that is implausible at $65bn of scale. Anthropic's own investor case already assumes deceleration to about 11 per cent a month, and my central 2027 path assumes a further halving of that rate."
+    },
+    {
+     "factor": "Gross-versus-net accounting could cut reported revenue",
+     "impact": "-7pp",
+     "detail": "Reporting on Anthropic's S-1 review says gross-versus-net treatment is the item taking the most SEC reviewer attention. Revenue routed through AWS Bedrock, Google Vertex and similar channels may have to be reported net of partner economics. Audited figures could therefore come in materially below the private run-rate numbers, and the question resolves against the audited number once listed."
+    },
+    {
+     "factor": "Price competition and token-efficiency gains compress revenue per unit of work",
+     "impact": "-6pp",
+     "detail": "Gemini Flash and cheap open-weight models are pushing down price per token, and Google's TPU cost base is hard for either lab to match. Buyers are shifting from raw token consumption to cost per completed task. Efficiency gains that make Claude or GPT cheaper per useful output are good for margins but reduce the revenue captured per unit of underlying demand."
+    },
+    {
+     "factor": "Risk of an AI capex or demand correction during 2027",
+     "impact": "-6pp",
+     "detail": "There has already been a large single-day selloff in 2026 tied to AI capital spending concerns, and commentators put the gap between hyperscaler AI capex and ecosystem revenue at several hundred billion dollars a year. Anthropic also carries a fixed compute commitment of roughly $1.25bn a month to May 2029, so a demand pause is financially painful. A genuine enterprise pullback in 2027 would hit run-rate quickly, unlike a pure financing shock."
+    }
+   ],
+   "key_uncertainties": [
+    "Whether the resolver uses Q3 2027 revenue times four or waits for Q4 2027 results, which is worth roughly ten percentage points on its own",
+    "Whether Anthropic's audited GAAP revenue is reported gross or net of reseller channels such as AWS Bedrock and Google Vertex, and how far that diverges from the private run-rate figures",
+    "How quickly Anthropic's monthly growth decays from roughly 17 per cent, and whether the second-quarter surge reflected repeatable demand or one-off enterprise contracting",
+    "Whether OpenAI lists before the end of Q3 2027, which determines whether its figure is measured on a run-rate or a quarterly-times-four basis",
+    "Whether inference capacity, power and chip supply actually arrive on the announced 2027 schedule, since revenue is close to capacity-bound for both firms"
+   ],
+   "update_triggers": [
+    "Revise UP if Bloomberg, the FT or The Information report Anthropic exiting 2026 at or above $115bn of annualised run-rate, at the top of the $100bn to $120bn investor range reported by the FT on 13 August 2026",
+    "Revise UP if OpenAI's run-rate is credibly reported above $60bn before 31 December 2026, implying it held better than 8 per cent monthly growth through the autumn",
+    "Revise UP if Anthropic's first two public quarters after listing show sequential revenue growth above 35 per cent each, since the quarterly-times-four haircut then matters much less",
+    "Revise DOWN if Anthropic's public S-1 or first 10-Q shows audited revenue more than 20 per cent below the privately briefed run-rate figures because of net rather than gross recognition",
+    "Revise DOWN if either company reports a quarter with sequential revenue growth below 15 per cent during 2027, or if Bloomberg or Reuters report a combined run-rate below $200bn as at mid-2027",
+    "Revise DOWN if hyperscaler 2027 AI capital expenditure guidance is cut by more than 20 per cent, or if OpenAI or Anthropic publicly defers or renegotiates a contracted compute commitment of $10bn or more"
+   ]
+  },
+  {
+   "question": "Will Chainalysis report over $1.5B in ransomware payments for calendar 2027?",
+   "central": 20,
+   "ci_lower": 10,
+   "ci_upper": 35,
+   "key_change": "Initial forecast. This question asks whether a series that has printed roughly $820 million for two consecutive years will nearly double, and be seen to nearly double at the moment of first publication. I put that at 20%.\n\nStart with what the series actually is. Chainalysis measures criminal revenue, not criminal activity, and revenue decomposes into three things: the number of attacks, the share of victims who pay, and the size of the average payment. The 2026 Crypto Crime Report, published 26 February 2026, reported $820 million for 2025, down about 8% on the revised 2024 figure of $892 million, while eCrime.ch counted a 50% rise in claimed victims and the estimated payment share fell to an all-time low of 28%. The median payment rose 368% to $59,556. So all three components moved hard, in opposite directions, and cancelled almost exactly. Chainalysis titled the post \"Total Ransomware Payments Stagnate for Second Consecutive Year\". That is the structure I have to forecast forward two years.\n\nTaking the components in turn. Attack volume is rising but the growth is decelerating, not accelerating. Black Kite counted 7,551 disclosed victims for the twelve months to March 2026, up 24.9%, and is pacing 2026 at roughly 8,100, an 11% rise on 2025 rather than the 50% seen last year. Agentic tooling is a genuine new input here. Sysdig documented JADEPUFFER in July 2026 as the first end-to-end autonomous ransomware operation, running from initial compromise through extortion without human instruction, and NCC Group logged 894 cases in a single month. The Anthropic GTG-1002 campaign in November 2025 pointed the same way. I take seriously that this removes the operator bottleneck that has historically capped volume. What I do not accept is that it flows through proportionally to revenue. Revenue in this series is dominated by a small number of large payments, and AI mostly industrialises the cheap end: automated compromise of small and medium enterprises, the very victims Corsin Camichel describes attackers pivoting to, and precisely the victims least likely to pay a large sum. Darkweb IQ's own data shows average access prices falling from $1,427 to $439 between Q1 2023 and Q1 2026, which is what an oversupplied, commoditised market looks like, not a lucrative one.\n\nThe payment rate is the component that decides this question, and it is in secular decline with no visible floor. Chainalysis put it at 28% for 2025. Coveware by Veeam reported a fresh record low in Q2 2026 with the exfiltration-only rate at 15%. Cowbell's 2026 claims report found 86% of targeted businesses refused to pay. These declines are driven by things that do not reverse: better backups, endpoint detection, board-level policy, insurer negotiation protocols and sanctions exposure. On top of that sits regulation. The UK's Cyber Security and Resilience Bill carries a payment ban for the public sector and critical national infrastructure, with mandatory reporting, and is likely to bite during 2027. If the rate falls from 28% to around 20%, that alone is a 29% cut to revenue that volume and ticket size must overcome before growth even begins.\n\nAverage payment size is the one component pointing strongly up, and it is fat-tailed. Coveware's Q2 2026 average jumped 176% to $1.88 million on a handful of lumpy exfiltration-only payments, largely Silent Ransom against law firms. The largest confirmed single payment remains $75 million to Dark Angels in 2024. The 2023 record of $1.1 billion as first published was itself built on big-game hunting. So there is a real mechanism by which a dozen eight-figure payments in 2027 lift the total sharply, and that mechanism is why I cannot push this below about 15%.\n\nNow run the arithmetic. To clear $1.5 billion as first published from a first-published base of $820 million requires 83% growth over two years, roughly 35% compounded. My central path is attacks up perhaps 30% by 2027, payment rate down 25%, average payment up 50%, which multiplies to about 1.45 and lands near $1.15 billion. The threshold sits about 0.23 log units above that, against a two-year standard deviation of roughly 0.55 taken from the year-on-year swings in the series. That gives something in the high twenties. I then take money off for the resolution wording.\n\nThe \"as first published\" clause matters more than it looks. The first-published figure has run about 10% below the eventual one every year: 2024 was first published at $813 million and revised to $892 million, and Chainalysis expects 2025's $820 million to approach $900 million. So YES requires a true 2027 total near $1.65 billion, which is 32% above the all-time revised record and 36% above the highest figure ever printed on first publication. That is not an incremental record, it is a step change.\n\nThere is also a missing intermediate step. For 2027 to clear $1.5 billion, I would expect the 2026 figure, published around February 2027, to arrive comfortably above $1 billion first. Nothing in the year to date suggests it will. Record-low payment rates, single-digit-to-low-teens attack growth and a flat Chainalysis print two years running all point to a third flat year. Structural tension resolved: volume is winning the headline war and the payment rate is winning the revenue war, and the revenue war is what this question scores.",
+   "base_rate": "The Chainalysis series as first published runs roughly: 2019 $174m, 2020 $765m, 2021 $602m, 2022 $457m, 2023 $1.1bn, 2024 $813m, 2025 $820m. Revised figures run higher throughout: 2021 to $983m, 2022 to $567m, 2023 to $1.25bn, 2024 to $892m. Two reference classes apply. On growth, two of the three overlapping two-year first-published windows delivered the roughly 80% growth this question needs (2021 to 2023 gave +83%, 2022 to 2024 gave +78%), which naively suggests something near 50-65%. On levels, only one of seven years set a record at all, and no year has ever printed a first-published figure above $1.1bn. Blending the two, and noting that both growth windows rebounded from suppressed bases rather than breaking new ground, I take a base rate near 28%.",
+   "factors_up": [
+    {
+     "factor": "Fat-tailed mega-payments driven by exfiltration-only extortion",
+     "impact": "+8pp",
+     "detail": "Coveware by Veeam reported the average ransom payment jumping 176% to $1.88m in Q2 2026, driven by a handful of very large exfiltration-only payments, notably Silent Ransom targeting law firms. Chainalysis's own 2023 record of $1.1bn was built the same way, on big-game hunting rather than volume. The total is dominated by the right tail, so a dozen additional eight-figure payments in 2027 could move it by hundreds of millions. The largest confirmed single payment on record remains $75m to Dark Angels in 2024, so there is clear headroom above current ticket sizes."
+    },
+    {
+     "factor": "Agentic AI removing the operator bottleneck on attack volume",
+     "impact": "+6pp",
+     "detail": "Sysdig documented JADEPUFFER in July 2026 as the first end-to-end autonomous agentic ransomware operation, running from initial compromise through extortion without human instruction. Anthropic's GTG-1002 campaign in November 2025 showed roughly 30 targets with 80-90% of the operation AI-executed. If this industrialises during 2027 the historic ceiling on how many intrusions a given number of skilled operators can run simply disappears. NCC Group already logged 894 cases in a single month in 2026, a peak for the year."
+    },
+    {
+     "factor": "Ransom demands and median payments rising steeply",
+     "impact": "+4pp",
+     "detail": "Chainalysis recorded the median payment rising 368% from $12,738 in 2024 to $59,556 in 2025, and Cowbell found initial demands up 47% year on year. Attackers are responding to lower payment rates by demanding more from those who do pay and by negotiating more aggressively, including contacting employees and customers directly. Arete told Chainalysis that groups are now analysing exfiltrated data to make more specific and credible threats. Higher conversion value per payer partly offsets fewer payers."
+    },
+    {
+     "factor": "Series volatility and a two-year forecast horizon",
+     "impact": "+3pp",
+     "detail": "The underlying series is genuinely volatile: on a revised basis it fell 42% in 2022, then rose 120% in 2023, then fell 29% in 2024. A single doubling year has already happened once in this dataset. Forecasting sixteen months before the measurement period even begins, and eighteen months before publication, leaves a lot of room for a regime change I cannot currently see."
+    }
+   ],
+   "factors_down": [
+    {
+     "factor": "Secular collapse in the victim payment rate",
+     "impact": "-10pp",
+     "detail": "Chainalysis put the share of victims paying at an all-time low of 28% for 2025, and Coveware by Veeam reported a fresh record low in Q2 2026 with the exfiltration-only rate down to 15%. Cowbell's 2026 claims report found 86% of targeted businesses refused to pay. The drivers are structural and one-directional: better backups, endpoint detection and response, board-level refusal policies, insurer negotiation protocols and sanctions exposure. A fall from 28% to roughly 20% by 2027 is a 29% headwind to revenue before any other factor is counted."
+    },
+    {
+     "factor": "The 'as first published' clause imposes a systematic haircut",
+     "impact": "-7pp",
+     "detail": "Chainalysis's first-published figure has run about 10% below the eventual revised one every year. 2024 was first published at $813m in February 2025 and later revised to $892m, and Chainalysis expects 2025's $820m to approach or exceed $900m. Because later upward revisions do not count for resolution, YES requires a true 2027 total near $1.65bn, not $1.5bn. That is 32% above the all-time revised record of $1.25bn."
+    },
+    {
+     "factor": "No plausible intermediate step in 2026",
+     "impact": "-6pp",
+     "detail": "For 2027 to clear $1.5bn I would expect the 2026 figure, published around February 2027, to land comfortably above $1bn first. The year-to-date evidence points the other way: Black Kite is pacing 2026 at around 8,100 victims, an 11% rise rather than 2025's 50%, and payment rates are hitting fresh record lows. A third consecutive flat print near $850m-950m looks more likely than a breakout, and that would leave 2027 needing an 60-80% single-year jump."
+    },
+    {
+     "factor": "Regulatory payment bans coming into force",
+     "impact": "-4pp",
+     "detail": "The UK Cyber Security and Resilience Bill carries a full payment prohibition for public sector bodies and critical national infrastructure operators in energy, water, healthcare, transport and telecoms, plus a 72-hour mandatory reporting regime, and is likely to bite during 2027. Several US states already bar public entities from paying. This removes a slice of the payer base outright and normalises refusal elsewhere, on top of insurers requiring law enforcement involvement before authorising payment."
+    },
+    {
+     "factor": "AI-driven volume growth concentrated in low-value victims",
+     "impact": "-3pp",
+     "detail": "eCrime.ch's Corsin Camichel describes a structural shift towards smaller and medium enterprises rather than headline intrusions, and Darkweb IQ shows average network access prices falling from $1,427 in Q1 2023 to $439 in Q1 2026. That is an oversupplied, commoditised market. Automated attacks at the cheap end add leak-site posts far faster than they add revenue, which is exactly the divergence Chainalysis observed in 2025. More attacks does not mechanically mean more money."
+    }
+   ],
+   "key_uncertainties": [
+    "Whether agentic ransomware tooling scales from a handful of documented cases in 2026 into a general capability in 2027, and whether it lifts high-value compromises or only automated low-value ones.",
+    "Where the victim payment rate bottoms out: whether it stabilises near 20% or continues falling into the low teens as Coveware's exfiltration-only figure already has.",
+    "How many eight-figure payments land in 2027, since the total is dominated by a right tail of a few dozen incidents and a single $50-100m payment moves the aggregate materially.",
+    "Chainalysis's own attribution completeness at the moment of first publication, which has consistently understated the eventual figure by roughly 10% and could vary either way.",
+    "Whether the UK Cyber Security and Resilience Bill payment ban is actually in force for a material part of 2027, and whether any comparable US federal or EU measure follows."
+   ],
+   "update_triggers": [
+    "Revise UP if the Chainalysis 2027 Crypto Crime Report, expected February 2027, first publishes a 2026 ransomware total above $1.1bn, which would put the series back at a record and make an 83% two-year climb only a 36% one-year climb.",
+    "Revise UP if Coveware by Veeam reports an overall payment rate above 25% in any quarter of 2027, reversing the record lows of 28% (Chainalysis, 2025) and the Q2 2026 exfiltration-only figure of 15%.",
+    "Revise UP if two or more individually confirmed ransom payments above $50m are documented during 2026 or 2027 by Chainalysis, Coveware or credible reporting, exceeding the $75m Dark Angels payment as the only known precedent.",
+    "Revise UP if leak-site trackers such as Black Kite or eCrime.ch record annualised 2027 victim counts above 12,000, roughly 50% above the 8,100 pace for 2026, indicating agentic tooling has genuinely industrialised attack volume.",
+    "Revise DOWN if the Chainalysis 2027 report first publishes a 2026 total below $800m, marking a third consecutive flat or declining year and requiring an unprecedented near-doubling in a single year.",
+    "Revise DOWN if the UK Cyber Security and Resilience Bill payment ban for public sector and critical national infrastructure receives Royal Assent and commences before 1 January 2027, or if any US federal or EU-wide payment prohibition is enacted on a similar timetable."
+   ]
   }
  ]
 }
